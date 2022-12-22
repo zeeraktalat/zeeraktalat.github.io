@@ -67,7 +67,7 @@ I spend a lot of my time on doing service work for my professional & scientific 
 
 #### Conferences
 - Workshop Chair EACL 2023
-- Area Chair: ACL 2022, COLING 2022
+- Area Chair: ACL 2022, COLING 2022, ACL 2023
 
 #### Roundtables
 - Assessing Social Impact of General Purpose AI Systems with [Irene Solaiman](https://www.irenesolaiman.com/). 2022.
