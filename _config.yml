@@ -29,7 +29,7 @@ github_username:  zeeraktalat
 remote_theme: pages-themes/minimal@v0.2.0
 #theme: minima
 plugins:
-  #- jekyll-feed
+  - jekyll-feed
   - jekyll-remote-theme
 
 # Exclude from processing.
