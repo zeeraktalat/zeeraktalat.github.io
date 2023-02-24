@@ -1,79 +1,17 @@
 ---
-layout: page
-title: Service
-permalink: /service/
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+permalink: /
 ---
-## Service
 
-I spend a lot of my time on doing service work for my professional & scientific community. Bulletpointed are the things I've been doing up until 2022 (inclusive).
+My name is Zeerak Talat  and I'm an academic researcher (who used to go by Zeerak Waseem).
+I work on the intersection between machine learning, science and technology studies, and media studies.
+My research seeks to examine how machine learning systems interact with our societies and the downstream effects of introducing machine learning to our society.
+I'm currently a post-doctoral fellow at Simon Fraser University, but heading around the world visiting different departments (so get in touch if you wanna host)!
+I did my undergrad in Computer Science and the University of Copenhagen, and my master's in IT & Cognition (with [Dirk Hovy](dirkhovy.com)), and recently finished my Ph.D. (with [Kalina Bontcheva](https://www.sheffield.ac.uk/dcs/people/academic/kalina-bontcheva)). 
+You can find me raising issues with machine learning on [Twitter](https://twitter.com/ZeerakTalat) and [Mastodon](https://mastodon.social/@zeerak).
+I'm always looking for interesting people to work, so do send me an e-mail at zeerak_talat[at]sfu[dot]ca.
 
-### Organizing
-
-#### Workshops & Tutorials
-- Workshop: The [Workshop on Online Abuse and Harms (WOAH)](https://workshopononlineharms.org). 2017 - present.
-- Workshop: The [Widening NLP (WiNLP)](https://winlp.org) Workshop. 2018 & 2019.
-- Advisory Board: WiNLP Advisory Board. 2020 - present.
-- Tutorial: Two computer scientists and a cultural scientist get hit by a driver-less car: a method for situating knowledge in the cross-disciplinary study of FAT in ML. FAccT. 2020. With [Maya Indira Ganesh](https://bodyofwork.in/) and [Francien Deschene](https://www.universiteitleiden.nl/en/staffmembers/francien-dechesne).
-
-#### Special Sessions:
-- Special Session: Safety for E2E Conversational AI. SIGDIAL. 2021.
-- Special Session: "You Just Don’t Understand Me! From Prediction to Understanding in Machine Learning". REAL-ML. 2020.
-
-#### Panels
-- Online Platforms and Automated Content Moderation. Privacy Camp. 2019. With [Joris van Hoboken](https://lsts.research.vub.be/en/joris-van-hoboken).
-- Tackling online abuse: bridging the gap between human rights and computer science. RightsCon. 2020.
-- The Challenge of Online Hate. Davos Labs Dialogues. 2021.
-- The Challenge of Online Harms: Can AI moderate Hate Speech UN. Internet Governance Forum. 2021.
-
-#### Conferences
-- Workshop Chair EACL 2023
-- Area Chair: ACL 2022, COLING 2022, ACL 2023
-
-#### Roundtables
-- Assessing Social Impact of General Purpose AI Systems with [Irene Solaiman](https://www.irenesolaiman.com/). 2022.
-
-#### ACL Rolling Review
-- Communication co-chair (2021 - present)
-- Action Editor (2021 - present)
-- Ethics Reviewer (2022 - present)
-- Scientific Reviewer (2021 - present)
-
-### Reviewing
-I serve as regular reviewer for a number of conferences, workshops and journals.
-
-#### Journals
-- Minds and Machines
-- First Monday
-- International Journal for Cyberbullying
-- Language Resources and Evaluation
-- Language In Society
-- Journal of Information Processing and Management
-- JCLC Special Issue on Hate Speech
-- Big Data and Society; Transactions on Asian and Low-Resource Language Information Processing
-- Transactions on the Web
-- Transactions on Social Computing
-- GeoJournal
-
-#### Conferences
-
-- EMNLP 2016, 2018–2022
-- ACL 2018–2023
-- EACL 2021, 2023
-- NAACL 2018,2019, 2021
-- COLING 2020
-- WebScience 2020;
-- The Web Conference 2023
-- ICWSM 2019–2022
-- CoNLL 2017
-
-#### Workshops
-- WNUT 2019, 2021
-- TRAC 2018, 2020
-- TA-COS 2018
-- NLP+CSS 2016–2017, 2019
-- NLP4PI 2021, 2022, 2023
-- FEVER 2018–2020
-- EACL Student Research Workshop 2021
-- ACL Student Research Workshop 2019, 2021
-- CI+NLP 2021
-- CRAFT 2020
+Google scholar hates name changes so looking for my publications page is not gonna be helpful. This is a large issue that particular affects trans scholars. You can [sign a petition here](https://scholar.hasfailed.us/). If you want to find citation counts and so on, you can find them on my [Google Scholar page](https://scholar.google.com/citations?user=3M3WdvkAAAAJ) or my [Semantic Scholar Page](https://www.semanticscholar.org/author/Zeerak-Talat/2138053020).
