@@ -26,11 +26,11 @@ twitter_username: zeeraktalat
 github_username:  zeeraktalat
 
 # Build settings
-#remote_theme: pages-themes/minimal@v0.2.0
-theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
+#theme: minima
 plugins:
-  - jekyll-feed
-    #- jekyll-remote-theme
+  #- jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
