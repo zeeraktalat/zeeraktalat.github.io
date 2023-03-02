@@ -30,7 +30,7 @@ github_username:  zeeraktalat
 theme: academic-jekyll-theme
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+    #- jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.

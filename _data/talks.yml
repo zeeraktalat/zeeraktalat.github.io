@@ -1,0 +1,7 @@
+{name: "Talk 1",
+ day: "01",
+ month: "01",
+ year: "2000",
+ slides: "/assets/slides/talks/talk_1.pdf",
+ type: "Keynote"
+}

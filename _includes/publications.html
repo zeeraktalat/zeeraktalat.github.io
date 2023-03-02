@@ -1,0 +1,75 @@
+<div class="row g-5 mb-5">
+  <div>
+    <!-- <center> -->
+    <!-- <h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Publications</h3> -->
+    <!-- </center> -->
+
+    {% if page.title == "Home" %}
+      <h3 class="fw-bold">Recent Publications</h3>
+      {% for item in site.data.publications.featured %}
+      <p>{{ item.name }} <i>{{item.authors}}</i> ({{item.date}}). {{item.shortvenue}} </p>
+      {% endfor %}
+    {% else %}
+
+    <center><h4 class="pub-type">Forthcoming</h4></center>
+      {% assign pubs = site.data.publications.index | where: "date", "Forthcoming" %}
+      <ul>
+      {% for pub in pubs %}
+      <p>
+        <li>
+        {% if pub.type %}
+          [<b>{{ pub.type }}</b>]
+        {% else %}
+          [<b>Conference Paper</b>]
+        {% endif %}
+        {{ pub.name }} <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
+          {% if pub.preprint %}
+          <a href="{{pub.preprint}}">[Preprint]</a>
+          {% endif %}
+        </li>
+      </p>
+      {% endfor %}
+      </ul>
+
+    {% for year in (2016..2022) reversed%}
+    <center><h4 class="pub-type">{{ year }}</h4></center>
+      {% assign pubs = site.data.publications.index | where: "date", year  %}
+      <ul>
+      {% for pub in pubs %}
+      <p>
+        <li>[<b>{{ pub.type }}</b>] {{ pub.name }} <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
+          {% if pub.doi %}
+          <a href="{{ pub.doi }}" target="_blank"><img src="/assets/img/doi.png" style="width:20px;height:20px;"></a>
+          {% endif %}
+          {% if pub.github %}
+          <a href="{{ pub.github }}" target="_blank"><img src="/assets/img/github.png" style="width:20px;height:20px"></a>
+          {% endif %}
+          {% if pub.zenodo %}
+          <a href="{{ pub.zenodo }}" target="_blank"><img src="/assets/img/zenodo.jpg" style="width:50px;height:20px"></a>
+          {% endif %}
+          <a href="{{ pub.bibtex }}" target="_blank"><img src="/assets/img/bibtex.png" style="width:61px;height:20px"></a>
+          {% if pub.url %}
+          {% unless pub.doi %}
+          <a href="{{ pub.url }}" target="_blank"> [Published Paper]</a>
+          {% endunless %}
+          {% endif %}
+          {% if pub.preprint %}
+          <a href="{{ pub.preprint }}" target="_blank">[Preprint]</a>
+          {% endif %}
+          {% if pub.video%}
+          <a href="{{ pub.video }}" target="_blank">[Video Presentation]</a>
+          {% endif %}
+      </p>
+      {% endfor %}
+      </ul>
+      {% endfor %}
+
+      <!-- {% for item in site.data.publications.index %} -->
+      <!-- <p> -->
+      <!--   {{ item.name }} <i>{{ item.authors }}</i> {{item.date}}. {{item.publication}} {{item.publisher}} <br /> -->
+      <!--   <a href="{{ item.url }}"> [Published]</a> <a href="{{ item.preprint }}">[Preprint]</a> -->
+      <!-- </p> -->
+      <!-- {% endfor %} -->
+    {% endif %}
+  </div>
+</div>
