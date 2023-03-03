@@ -316,6 +316,15 @@ index:
     type: "Workshop Proceedings",
     url: "https://aclanthology.org/2020.alw-1.0",
     bibtex: "/assets/bibtex/woah4.bib"}
+  - {name: 'Proceedings of the 2019 Workshop on Widening NLP.',
+    authors: "Amittai Axelrod, Diyi Yang, Rossana Cunha, Samira Shaikh, <b>Zeerak Talat</b>.",
+    publication: "Proceedings of the 3th Workshop on Abusive Language Online.",
+    publisher: "Association of Computational Linguistics.",
+    shortvenue: "WiNLP.",
+    date: "2019",
+    type: "Workshop Proceedings",
+    url: "https://aclanthology.org/W19-3600/",
+    bibtex: "/assets/bibtex/winlp2019.bib"}
   - {name: 'Proceedings of the 3rd Workshop on Abusive Language Online.',
     authors: "Sarah T. Roberts, Joel Tetreault, Vinodkumar Prabhakaran, <b>Zeerak Talat</b>.",
     publication: "Proceedings of the 3th Workshop on Abusive Language Online.",
@@ -344,7 +353,7 @@ index:
     type: "Book Chapter",
     doi: "https://doi.org/10.1007/978-3-319-78583-7_3",
     url: "https://link.springer.com/chapter/10.1007/978-3-319-78583-7_3",
-    bibtex: "/assets/bibtex/detecting.bib"}
+    bibtex: "/assets/bibtex/bridging.bib"}
   - {name: 'Understanding Abuse: A Typology of Abusive Language Detection Subtasks.',
     authors: "<b>Zeerak Talat</b>, Thomas Davidson, Dana Warmsley and Ingmar Weber.",
     publication: "Proceedings of the First Workshop on Abusive Language Online.",
@@ -354,7 +363,7 @@ index:
     type: "Workshop Paper",
     doi: "https://doi.org/10.18653/v1/W17-3012",
     url: "https://aclanthology.org/W17-3012/",
-    bibtex: "bibtex/understanding_abuse.bib"}
+    bibtex: "/assets/bibtex/understanding_abuse.bib"}
   - {name: 'Proceedings of the 1st Workshop on Abusive Language Online',
     authors: "<b>Zeerak Talat</b>, Wendy Hui Kyong Chung, Dirk Hovy, and Joel Tetreault.",
     publication: "Proceedings of the First Workshop on Abusive Language Online.",
@@ -375,7 +384,7 @@ index:
     type: "Workshop Paper",
     doi: "https://doi.org/10.18653/v1/W16-5618",
     url: "https://aclanthology.org/W16-5618/",
-    bibtex: "assets/bibtex/racis_seeing.bib"}
+    bibtex: "/assets/bibtex/racist_seeing.bib"}
   - {name: 'Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter.',
     authors: "<b>Zeerak Talat</b>, Dirk Hovy.",
     publication: "Proceedings of the NAACL Student Research Workshop.",
