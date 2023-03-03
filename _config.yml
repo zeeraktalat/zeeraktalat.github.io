@@ -26,12 +26,12 @@ twitter_username: zeeraktalat
 github_username:  zeeraktalat
 
 # Build settings
-#remote_theme: pages-themes/minimal@v0.2.0
-theme: academic-jekyll-theme
 plugins:
   - jekyll-feed
-    #- jekyll-remote-theme
+  - jekyll-remote-theme
 
+#remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: academic-jekyll-theme
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
