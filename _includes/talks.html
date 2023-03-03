@@ -3,7 +3,7 @@
     <!-- <center> -->
     <!-- <h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Publications</h3> -->
     <!-- </center> -->
-    {% for year in (2016..2023) reversed %}
+    {% for year in (2017..2023) reversed %}
       <center><h4 class="pub-type">{{ year }}</h4></center>
       {% assign talks = site.data.talks.index | where: "year", year %}
       <ul>
