@@ -23,3 +23,149 @@ index:
      slides: "/assets/slides/talks/cam_2022.pdf",
      type: "Invited Talk"
     }
+  - {name: "That's just your opinion, man! On Annotating and Evaluating Subjective Data, Objectively",
+     host: "Workshop on Novel Evaluation Approaches for Text Classification Systems",
+     day: "01",
+     month: "06",
+     year: "2022",
+     slides: "/assets/slides/talks/neatclass_2022.pdf",
+     type: "Keynote"
+    }
+  - {name: "The Limit Does Exist! On the Limitations of Online Abuse Detection",
+     host: "Texas A & M University",
+     day: "01",
+     month: "03",
+     year: "2022",
+     slides: "/assets/slides/talks/tamu_2022.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "Paving the Road to Hell with Machine Learning: On Ethics, Bias, and Machine Learning",
+     host: "UW RAISE",
+     day: "01",
+     month: "03",
+     year: "2022",
+     slides: "/assets/slides/talks/raise_2022.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "On a Highway to Hell: On the Consequences of Futuring Machine Learning and NLP",
+     host: "UW Treehouse",
+     day: "01",
+     month: "03",
+     year: "2022",
+     slides: "/assets/slides/talks/treehouse_2022.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "“It ain’t all Good”: Machinic Abuse Detection and Marginalization in Machine Learning.",
+     host: "NLP with Friends",
+     day: "01",
+     month: "06",
+     year: "2021",
+     slides: "/assets/slides/talks/with_friends_2021.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "Machine Learning from Nowhere: The illusion of objectivity and the harms of machine learning and NLP.",
+     host: "Cardiff University",
+     day: "01",
+     month: "01",
+     year: "2021",
+     slides: "/assets/slides/talks/cardiff_2021.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "“Yeah well, that’s just your opinion man”: The fallouts of abusive language detection",
+     host: "Center for Informed Democracy and Social Cybersecurity, CMU",
+     day: "01",
+     month: "10",
+     year: "2020",
+     slides: "/assets/slides/talks/cmu_2020.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "On the Margins of Abuse Detection Technologies",
+     note: "Co-presented with Nanna Bonde Thylstrup",
+     host: "Critical Interfaces Seminar",
+     day: "01",
+     month: "08",
+     year: "2020",
+     slides: "/assets/slides/talks/critical_2020.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "On the Margins of Abuse Detection",
+     host: "IT University of Cepenhagen",
+     day: "01",
+     month: "02",
+     year: "2020",
+     slides: "/assets/slides/talks/itu_2020.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "Points of Failure - The Promises of Abusive Language Technology",
+     note: "Workshop on Free Speech Regulation and the Politics of Hate",
+     host: "Hertie School of Governance",
+     day: "01",
+     month: "02",
+     year: "2020",
+     slides: "/assets/slides/talks/hertie_2020.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "Abuse Detection at the Flip of a Coin",
+     host: "The Alan Turing Institute",
+     day: "01",
+     month: "11",
+     year: "2019",
+     slides: "/assets/slides/talks/ati_2019.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "‘It ain’t all good” - Marginalisation in the Name of Protection",
+     host: "ElementAI & South England NLP Meetup",
+     day: "01",
+     month: "09",
+     year: "2019",
+     slides: "/assets/slides/talks/elementai_2019.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "Progress in Hate Speech Detection and the Things we Lost in the Fire.",
+     host: "Ca’ Foscare for Hate Speech Conference",
+     day: "01",
+     month: "10",
+     year: "2018",
+     slides: "/assets/slides/talks/cafoscare_2019.pdf",
+     type: "Keynote"
+    }
+  - {name: "Hate Speech, Abusive Language, and Things we Lose in the Fire",
+     host: "The Alan Turing Institute",
+     day: "01",
+     month: "05",
+     year: "2018",
+     slides: "/assets/slides/talks/ati_2018.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "Detecting Hate Speech Using Natural Language Processing",
+     host: "Lorentz Workshop on Intersectionality and Algorithmic Discrimination",
+     day: "01",
+     month: "12",
+     year: "2017",
+     slides: "/assets/slides/talks/lorentz_2017.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "What Did You Just Call Me? Computers versus Abusive Language",
+     host: "Sapienza University of Rome & Heidelberg University",
+     day: "01",
+     month: "12",
+     year: "2017",
+     slides: "/assets/slides/talks/sapienza_heidelberg_2017.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "Gaps in Understanding: Algorithmic Discrimination in Natural Language Processing",
+     host: "Leuphana University",
+     day: "01",
+     month: "11",
+     year: "2017",
+     slides: "/assets/slides/talks/leuphana_2017.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "How do we Hate? Defining and Detecting Hate Speech (on Twitter)",
+     host: "University of Potsdam",
+     day: "01",
+     month: "05",
+     year: "2017",
+     slides: "/assets/slides/talks/potsdam_2017.pdf",
+     type: "Invited Talk"
+    }
