@@ -1,0 +1,4 @@
+---
+layout: teaching
+title: "Teaching"
+---
