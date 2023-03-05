@@ -1,0 +1,231 @@
+reviewing:
+  - {venue: "Minds and Machines",
+     type: "Journal"
+     }
+  - {venue: "First Monday",
+     type: "Journal"
+     }
+  - {venue: "International Journal for Cyberbullying",
+     type: "Journal"
+     }
+  - {venue: "Language Resources and Evaluation",
+     type: "Journal"
+     }
+  - {venue: "Language in Society",
+     type: "Journal"
+     }
+  - {venue: "Journal of Information Processing and Management",
+     type: "Journal"
+     }
+  - {venue: "JCLC Special Issue on Hate Speech",
+     type: "Journal"
+     }
+  - {venue: "Big Data and Society",
+     type: "Journal"
+     }
+  - {venue: "Transactions on Asian and Low-Resource Language Information Processing",
+     type: "Journal"
+     }
+  - {venue: "Transactions on the Web",
+     type: "Journal"
+     }
+  - {venue: "Transactions on Social Computing",
+     type: "Journal"
+     }
+  - {venue: "GeoJournal",
+     type: "Journal"
+     }
+  - {venue: "Conference on Fairness, Accountability, and Transparancy",
+    abbrev: 'FAccT',
+    years: "2023",
+    type: "Conference"
+    }
+  - {venue: "Conference on Empirical Methods in Natural Language Processing",
+    abbrev: 'EMNLP',
+    years: "2016, 2018-2022",
+    type: "Conference"
+    }
+  - {venue: "Annual Meeting of the Association of Computational Linguistics",
+    abbrev: "ACL",
+    years: "2018-2022",
+    type: "Conference"
+    }
+  - {venue: "Meeting of the European Chapter of the Association of Computational Linguistics",
+    abbrev: "EACL",
+    years: "2021-2023",
+    type: "Conference"
+    }
+  - {venue: "International Joint Conference on Natural Language Processing",
+    abbrev: "IJCNLP",
+    years: "2022",
+    type: "Conference"
+    }
+  - {venue: "Meeting of the Americas Chapter of the Association of Computational Linguistics",
+    abbrev: "NAACL",
+    years: "2018-2023",
+    type: "Conference"
+    }
+  - {venue: "International Conference on Computational Linguistics",
+    abbrev: "COLING",
+    years: "2020-2022",
+    type: "Conference"
+    }
+  - {venue: "ACM Web Science Conference",
+    abbrev: "WebScience",
+    years: "2020-2022",
+    type: "Conference"
+    }
+  - {venue: "International AAAI Conference on Web and Social Media",
+    abbrev: "ICWSM",
+    years: "2019-2022",
+    type: "Conference"
+    }
+  - {venue: "Conference on Computational Natural Language Learning",
+    abbrev: "CoNLL",
+    years: "2017",
+    type: "Conference"
+    }
+  - {venue: "Neural Information Processing Systems",
+    abbrev: "NeurIPS",
+    years: "2021-2022",
+    type: "Ethics Review"
+    }
+  - {venue: "Conference on Empirical Methods in Natural Language Processing",
+    abbrev: "EMNLP",
+    years: "2021-2022",
+    type: "Ethics Review"
+    }
+  - {venue: "ACL Rolling Review",
+    abbrev: "ARR",
+    years: "2022-2023",
+    type: "Ethics Review"
+    }
+  - {venue: "Workshop on Novel Evaluation Approaches for Text Classification Systems",
+    abbrev: "NEATClass",
+    years: "2022-2023",
+    type: "Workshop"
+    }
+  - {venue: "Perspectivist Approaches to Natural Language Processing",
+    abbrev: "NLPerspectives",
+    years: "2022",
+    type: "Workshop"
+    }
+  - {venue: "User-centered Natural Language Processing Workshop",
+    abbrev: "UserNLP",
+    years: "2022",
+    type: "Workshop"
+    }
+  - {venue: "Natural Legal Language Processing",
+    abbrev: "NLLP",
+    years: "2021-2022",
+    type: "Workshop"
+    }
+  - {venue: "Queer in AI Workshop",
+    years: "2022",
+    type: "Workshop"
+    }
+  - {venue: "Workshop on Multi-Word Expressions",
+    abbev: "MWE",
+    years: "2020-2022",
+    type: "Workshop"
+    }
+  - {venue: "Workshop on Noisy User-Generated Text",
+    abbrev: "W-NUT",
+    years: "2019-2022",
+    type: "Workshop"
+    }
+  - {venue: "Workshop on Trolling, Aggression, and Cyberbullying",
+    abbrev: "TRAC",
+    years: "2018-2022",
+    type: "Workshop"
+    }
+  - {venue: "Text Analytics for Cybersecurity and Online Safety",
+    abbrev: "TA-COS",
+    years: "2018",
+    type: "Workshop"
+    }
+  - {venue: "Natural Language Processing and Computational Social Science",
+    abbrev: "NLP+CSS",
+    years: "2016, 2017, 2019",
+    type: "Workshop"
+    }
+  - {venue: "Natural Language Processing for Positive Impact",
+    abbrev: "NLP4PI",
+    years: "2021-2023",
+    type: "Workshop"
+    }
+  - {venue: "Workshop on Fact Extraction and Verification",
+    abbrev: "FEVER",
+    years: "2018-2020",
+    type: "Workshop"
+    }
+  - {venue: "EACL Student Research Workshop",
+    abbrev: "EACL-SRW",
+    years: "2021",
+    type: "Workshop"
+    }
+  - {venue: "ACL Student Research Workshop",
+    abbrev: "ACL-SRW",
+    years: "2019,2021",
+    type: "Workshop"
+    }
+  - {venue: "Workshop on Causal Inference & Natural Language Processing",
+    abbrev: "CI+NLP",
+    years: "2021",
+    type: "Workshop"
+    }
+organisation:
+  - {title: "Assessing Social Impact of General Purpose AI Systems",
+     year: "2022",
+     type: "Roundtable",
+     venue: "Independent"
+     }
+  - {title: "The Workshop on Online Abuse and Harms",
+     abbrev: "WOAH",
+     year: "2017-2023",
+     type: "Workshop",
+     venue: "Co-located with ACL conferences",
+     webpage: "https://www.workshopononlineabuse.com/"
+     }
+  - {title: "Safety for E2E Conversational AI",
+     year: "2021",
+     type: "Special Session"
+     venue: "SIGDIAL"
+     }
+  - {title: "You Just Don’t Understand Me! From Prediction to Understanding in Machine Learning",
+     year: "2020",
+     type: "Tutorial",
+     venue: "REAL-ML"
+     }
+  - {title: "Two computer scientists and a cultural scientist get hit by a driver-less car: a method for situating knowledge in the cross-disciplinary study of FAT in ML",
+     year: "2020",
+     type: "Tutorial",
+     venue: "Conference on Fairness, Accountability, and Transparancy"
+     }
+  - {title: "The Workshop on Widening NLP",
+     abbrev: "WiNLP",
+     year: "2018-2019",
+     type: "Workshop",
+     venue: "Co-located with ACL conferences",
+     webpage: "https://www.winlp.org/"
+     }
+  - {title: "The Challenge of Online Hate",
+     year: "2021",
+     type: "Panel",
+     venue: "Davos Labs Dialogues"
+     }
+  - {title: "The Challenge of Online Harms: Can AI moderate Hate Speech",
+     year: "2021",
+     type: "Panel",
+     venue: "UN, Internet Governance Forum"
+     }
+  - {title: "Tackling Online Abuse: Bridging the Gap Between Human Rights and Computer Science",
+     year: "2020",
+     type: "Panel",
+     venue: "RightsCon"
+     }
+  - {title: "Online Platforms and Automated Content Moderation",
+     year: "2019",
+     type: "Panel",
+     venue: "Privacy Camp"
+     }
