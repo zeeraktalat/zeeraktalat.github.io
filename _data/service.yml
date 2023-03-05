@@ -189,7 +189,7 @@ organisation:
      }
   - {title: "Safety for E2E Conversational AI",
      year: "2021",
-     type: "Special Session"
+     type: "Special Session",
      venue: "SIGDIAL"
      }
   - {title: "You Just Don’t Understand Me! From Prediction to Understanding in Machine Learning",
