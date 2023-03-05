@@ -229,3 +229,59 @@ organisation:
      type: "Panel",
      venue: "Privacy Camp"
      }
+elected:
+  - {venue: "ACL",
+     year: "2022, 2023",
+     area: "Ethics and NLP",
+     position: "Area Chair"
+  }
+  - {venue: "COLING",
+     year: "2022",
+     area: "Offensive and non-inclusive language detection and analysis",
+     position: "Area Chair"
+  }
+  - {venue: "COLING",
+     year: "2022",
+     area: "Offensive and non-inclusive language detection and analysis",
+     position: "Area Chair"
+  }
+  - {venue: "EACL",
+     year: "2023",
+     position: "Ethics Chair"
+  }
+  - {venue: "ARR",
+     year: "2021-2022",
+     position: "Action Editor"
+  }
+  - {venue: "Widening NLP Advisory Board",
+     year: "2019-2023",
+     position: "Board Member"
+  }
+  - {venue: "Equity, Diversity, and Inclusion Board, Department of Computer Science, University of Sheffield",
+     year: "2019-2020",
+     position: "Board Member"
+  }
+  - {venue: "University Research Ethics Committee, University of Sheffield",
+     year: "2018-2020",
+     position: "Committee Member"
+  }
+  - {venue: "NAACL Diversity & Inclusion Committee",
+     year: "2018",
+     position: "Committee Member"
+  }
+awards:
+  - {title: "Best Reviewer",
+     venue: "ICWSM",
+     year: "2019",
+     type: "Award"
+     }
+  - {title: "Named Researcher: Responsible AI for Inclusive, Democratic Societies: A Cross-disciplinary Approach to Detecting and Countering Abusive Language Online.",
+     venue: "UKRC-SSHRC",
+     year: "2020",
+     type: "Grant"
+     }
+  - {title: "Named Researcher: The Data Fluencies Project",
+     venue: "Mellon Foundation",
+     year: "2022",
+     type: "Grant"
+     }
