@@ -1,0 +1,61 @@
+index:
+  - {type: "Lecture",
+     institution: "HPLT & NLPL",
+     course: "Winter School",
+     year: "2023",
+     month: "Feb",
+     title: "NLP and Futuring the Past",
+     slides: "/assets/teaching/oneoff/hplt_nlpl.pdf"
+  }
+  - {type: "Lecture",
+     institution: "Queen's University",
+     course: "Social, Ethical and Legal Issues in Computing",
+     year: "2023",
+     month: "Jan",
+     title: "The Problem with Automated Content Moderation",
+     slides: "/assets/teaching/oneoff/queens.pdf"
+  }
+  - {type: "Lecture",
+     institution: "University of Cambridge",
+     course: "M.St. in AI, Ethics & Society",
+     year: "2022",
+     month: "Jun",
+     title: "Justice, Ethics, and NLP: The Case of Delphi AI",
+     slides: "/assets/teaching/oneoff/cam.pdf"
+  }
+  - {type: "Practicals",
+     institution: "Simon Fraser University",
+     course: "Summer School",
+     year: "2021",
+     month: "Jun",
+     title: "Towards Responsible Machine Learning"
+  }
+  - {type: "Teaching Assistant",
+     institution: "University of Sheffield",
+     course: "M.Sc. in Data Science",
+     year: "2019 & 2020",
+     month: "Spring",
+     title: "Natural Language Processing"
+  }
+  - {type: "Lecture",
+     institution: "IT University of Copenhagen",
+     course: "B.Sc. in Data Science",
+     year: "2019",
+     month: "Mar",
+     title: "Data science, Natural Language Processing, and Unsinkable Ships",
+     slides: "/assets/teaching/oneoff/itu.pdf"
+  }
+  - {type: "Teaching Assistant",
+     institution: "University of Copenhagen",
+     course: "B.A. in IT & Communication",
+     year: "2013 & 2014",
+     month: "Fall",
+     title: "Introduction to Computer Science"
+  }
+  - {type: "Teaching Assistant",
+     institution: "University of Copenhagen",
+     course: "B.Sc. in Computer Science",
+     year: "2014",
+     month: "Spring",
+     title: "IT Project Management"
+  }

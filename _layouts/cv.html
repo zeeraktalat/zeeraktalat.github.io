@@ -13,8 +13,11 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+        <p class="fw-bold"><b>{{ section.degree }} {{section.course }}</b> </p>
+          <p>{{ section.university }}, {{section.gradyear}}</p>
+          {% if section.thesis  %}
+          <p>Thesis: <a href="{{ section.thesis }}">{{section.title }}</a></p>
+          {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -23,9 +26,10 @@ layout: default
         <h4>Academic Experience</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+        {% for section in site.data.cv.work %}
+          <p class="fw-bold">{{ section.position}} | {{section.institution }}</p>
+          <p><i>{{ section.start }} - {{ section.end }}</i></p>
+          <p>{{ section.loc }}</p>
         {% endfor %}
       </div>
     </div>

@@ -1,4 +1,4 @@
 ---
 layout: talks
-title: "talks"
+title: "Talks"
 ---

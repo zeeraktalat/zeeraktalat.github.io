@@ -1,0 +1,39 @@
+education:
+  - {degree: "Ph.D.",
+     university: "University of Sheffield",
+     course: "Computer Science",
+     gradyear: "2022",
+     thesis: "https://etheses.whiterose.ac.uk/30950/",
+     title: '“It ain’t all good:" Machinic abuse detection and marginalisation in machine learning'
+     }
+  - {degree: "M.Sc",
+     university: "University of Copenhagen",
+     course: "IT & Cognition",
+     gradyear: "2016",
+     }
+  - {degree: "B.Sc",
+     university: "University of Copenhagen",
+     course: "Computer Science",
+     gradyear: "2014",
+     }
+work:
+  - {position: "Visiting Researcher",
+     start: "Jan, 2023",
+     end: "Feb, 2023",
+     institution: "Heriot-Watt University",
+     loc: "Edinburgh, Scotland"}
+  - {position: "Visiting Researcher",
+     start: "Nov, 2022",
+     end: "Dec, 2022",
+     institution: "Mohamed Bin Zayed University of Artifical Intelligence",
+     loc: "Abu Dhabi, UAE"}
+  - {position: "Visiting Researcher",
+     start: "Oct, 2022",
+     end: "Nov, 2022",
+     institution: "MilaNLP, Bocconi University",
+     loc: "Milan, Italy"}
+  - {position: "Post-doctoral Fellow",
+     start: "Aug, 2020",
+     end: "Nov, 2022",
+     institution: "Digital Democracies Institute, Simon Fraser University",
+     loc: "Vancouver, B.C., Canada"}

@@ -2,9 +2,8 @@ menu:
   - {name: 'Publications', url: '/publications'}
   - {name: 'Service', url: '/service'}
   - {name: 'Talks', url: '/talks'}
-  - {name: 'courses', url: '/courses'}
-  - {name: 'cv', url: '/cv'}
-  - {name: 'contact', url: '/contact'}
+  - {name: 'Teaching', url: '/teaching'}
+  - {name: 'CV', url: '/cv'}
 
 # people:
 # - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
@@ -22,10 +21,10 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/zeeraktalat/'}
 
 contacts:
-- {name: 'Dr. Zeerak Talat', 
-  title: 'Post-doctoral Fellow', 
+- {name: 'Dr. Zeerak Talat',
+  title: 'Independent Scholar',
   department: 'Physics & Astronomy',
-  institution: 'Some University', 
+  institution: 'Independent Scholar',
   institution_address: '1 Main Street, Canada',
   email: 'zeerak_talat@sfu.ca',
   office: 'Science Building 505',
