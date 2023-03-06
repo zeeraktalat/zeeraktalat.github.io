@@ -17,12 +17,12 @@
       {% for pub in pubs %}
       <p>
         <li>
+        {{ pub.name }} <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
         {% if pub.type %}
           [<b>{{ pub.type }}</b>]
         {% else %}
           [<b>Conference Paper</b>]
         {% endif %}
-        {{ pub.name }} <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
           {% if pub.preprint %}
           <a href="{{pub.preprint}}">[Preprint]</a>
           {% endif %}
@@ -37,7 +37,8 @@
       <ul>
       {% for pub in pubs %}
       <p>
-        <li>[<b>{{ pub.type }}</b>] {{ pub.name }} <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
+        <li>{{ pub.name }} <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
+          [<b>{{ pub.type }}</b>]
           {% if pub.doi %}
           <a href="{{ pub.doi }}" target="_blank"><img src="/assets/img/doi.png" style="width:20px;height:20px;"></a>
           {% endif %}

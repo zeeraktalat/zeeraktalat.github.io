@@ -9,12 +9,12 @@
       <ul>
       {% for talk in talks %}
       <p>
-        <li>[<b>{{ talk.type }}</b>] {{talk.name}}
+        <li>{{talk.name}}
           {% if talk.note %}
           {{talk.note}}
           {% endif %}
           | <i>{{ talk.host }}</i> | {{ talk.month }}, {{ talk.year }} <br>
-          <a href=" {{talk.slides }} ">[Slides]</a>
+          [<b>{{ talk.type }}</b>] <a href=" {{talk.slides }} ">[Slides]</a>
         </li>
         </p>
       {% endfor %}
