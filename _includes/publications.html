@@ -24,7 +24,7 @@
           [<b>Conference Paper</b>]
         {% endif %}
           {% if pub.preprint %}
-          <a href="{{pub.preprint}}">[Preprint]</a>
+          <br /> <a href="{{pub.preprint}}">[Preprint]</a>
           {% endif %}
         </li>
       </p>
@@ -38,7 +38,7 @@
       {% for pub in pubs %}
       <p>
         <li>{{ pub.name }} <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
-          [<b>{{ pub.type }}</b>]
+          [<b>{{ pub.type }}</b>] <br />
           {% if pub.doi %}
           <a href="{{ pub.doi }}" target="_blank"><img src="/assets/img/doi.png" style="width:20px;height:20px;"></a>
           {% endif %}
