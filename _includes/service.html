@@ -19,9 +19,9 @@
             {% endif %}
           {% else %}
             {% if forloop.first %}
-              {{ review.venue }} ({{ review.abbrev }}, {{ review.years }})
+            {{ review.venue }} (<b>{{ review.abbrev }}</b>, {{ review.years }})
             {% else %}
-               &#183; {{ review.venue }} ({{ review.abbrev }}, {{ review.years }})
+            &#183; {{ review.venue }} (<b>{{ review.abbrev }}</b>, {{ review.years }})
             {% endif %}
           {% endif %}
         {% endfor %}
