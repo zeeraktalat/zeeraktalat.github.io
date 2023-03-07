@@ -2,7 +2,11 @@
   <div>
     {% assign types = "Lecture,Teaching Assistant,Practicals" | split: "," %}
     {% for type in types  %}
-      <center><h4 class="pub-type">{{ type }}</h4></center>
+      {% if type == "Lecture" %}
+        <center><h4 class="pub-type">Lectures</h4></center>
+      {% else %}
+        <center><h4 class="pub-type">{{ type }}</h4></center>
+      {% endif %}
       <ul>
       {% assign courses = site.data.teaching.index | where: "type", type %}
       {% for course in courses %}

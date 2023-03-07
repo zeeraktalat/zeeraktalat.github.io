@@ -4,7 +4,7 @@
     <p>
     {% for event in  site.data.service.organisation %}
     <p>
-      {{ event.title }} ({{ event.year }}) | {{ event.venue }}
+      {{ event.title }} ({{ event.year }}) | {{ event.venue }} <br />
       [<b>{{ event.type }}</b>]
       {% if event.webpage %}
         <a href=" {{event.webpage }}">{{ event.abbrev }}</a>
