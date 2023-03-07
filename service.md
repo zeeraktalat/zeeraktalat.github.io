@@ -1,4 +1,4 @@
 ---
-layout: services
+layout: service
 title: "Service"
 ---
