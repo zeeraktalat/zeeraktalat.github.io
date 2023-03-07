@@ -125,7 +125,7 @@ reviewing:
     type: "Workshop"
     }
   - {venue: "Workshop on Multi-Word Expressions",
-    abbev: "MWE",
+    abbrev: "MWE",
     years: "2020-2022",
     type: "Workshop"
     }
