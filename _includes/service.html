@@ -1,10 +1,28 @@
 <div class="row g-5 mb-5">
   <div>
+    <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Events Organised</h3></center>
+    <p>
+    {% for event in  site.data.service.organisation %}
+    <p>
+      {{ event.title }} ({{ event.year }}) | {{ event.venue }}
+    </p>
+    <p>
+      [<b>{{ event.type }}</b>]
+      {% if event.webpage %}
+        <a href=" {{event.webpage }}">{{ event.abbrev }}</a>
+      {% endif %}
+    </p>
+    {% endfor %}
+  </div>
+  <div>
     <!-- <center> -->
     <!-- <h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Publications</h3> -->
     <!-- </center> -->
       <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Reviewing</h3></center>
       {% assign types = "Journal,Conference,Workshop,Ethics Review" | split: "," %}
+      <p>
+        I have reviewed for a number of venues, and I am the standing reviewer for premier conferences on natural language processing and computational social science.
+      </p>
       {% for type in types %}
       <div class="review">
         <h4 class="pub-type">{{ type }}</h4>
@@ -32,9 +50,5 @@
         </p>
       </div>
       {% endfor %}
-  </div>
-  <div>
-    <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Organisation</h3></center>
-
   </div>
 </div>
