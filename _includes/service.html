@@ -1,0 +1,24 @@
+<div class="row g-5 mb-5">
+  <div>
+    <!-- <center> -->
+    <!-- <h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Publications</h3> -->
+    <!-- </center> -->
+      <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Reviewing</h3></center>
+      {% assign types = "Journal,Conference,Workshop,Ethics Review" | split: "," %}
+      {% for type in types %}
+      <div class="review">
+        <h4 class="pub-type">{{ type }}</h4>
+        {% assign reviews = site.data.service.reviewing | where: "type", type %}
+        <p>
+        {% for review in reviews %}
+          {{ review.venue }} &#183;
+        {% endfor %}
+        </p>
+      </div>
+      {% endfor %}
+  </div>
+  <div>
+    <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Organisation</h3></center>
+
+  </div>
+</div>
