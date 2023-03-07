@@ -11,7 +11,10 @@
         {% assign reviews = site.data.service.reviewing | where: "type", type %}
         <p>
         {% for review in reviews %}
-          {{ review.venue }} &#183;
+          {% unless forloop.last %}
+            {{ review.venue }} &#183;
+          {% endunless %}
+          {{ review.venue }}
         {% endfor %}
         </p>
       </div>
