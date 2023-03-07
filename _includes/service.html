@@ -11,11 +11,18 @@
         {% assign reviews = site.data.service.reviewing | where: "type", type %}
         <p>
         {% for review in reviews %}
-          {% if forloop.first %}
-            {{ review.venue }}
+          {% if type == 'Journal' %}
+            {% if forloop.first %}
+              {{ review.venue }}
+            {% else %}
+               &#183; {{ review.venue }}
+            {% endif %}
           {% else %}
-             &#183; {{ review.venue }}
-          {% endif %}
+            {% if forloop.first %}
+            {{ review.venue }} ({{ review.abbrev }}, {{ review.years }})
+            {% else %}
+               &#183; {{ review.venue }} ({{ review.abbrev }}, {{ review.years }})
+            {% endif %}
         {% endfor %}
         </p>
       </div>
