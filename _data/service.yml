@@ -277,7 +277,7 @@ awards:
      year: "2020-2022",
      type: "Grant"
      }
-  - {title: "Named Researcher" 
+  - {title: "Named Researcher",
      grant_title: "The Data Fluencies Project",
      venue: "Mellon Foundation",
      year: "2022-2025",
