@@ -2,12 +2,20 @@
   <div>
       <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Community & Professional Service</h3></center>
       <p>
-        {% for event in site.data.service.elected %}
-          {{ event.position }} @ {{ event.venue }} ({{ event.year }}) <br />
-          {% if event.webpage %}
-            <a href=" {{event.webpage }}">{{ event.abbrev }}</a>
-          {% endif %}
+        <ul>
+        {% for position in site.data.service.elected %}
+          <li>
+            {{ position.position }},
+            {% if position.area %}
+              ({{ position.area }})
+            {% endif %}
+            {{ position.venue }} ({{ position.year }}) <br />
+            {% if event.webpage %}
+              <a href=" {{event.webpage }}">{{ event.abbrev }}</a>
+            {% endif %}
+          </li>
         {% endfor %}
+        </ul>
       </p>
   </div>
   <div>
@@ -58,17 +66,17 @@
   </div>
   <div>
       <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Awards & Grants</h3></center>
-      <p>
     {% for award in site.data.service.awards%}
-      <b>{{ award.title }}</b> |
-      {% if award.type == "Grant" %}
-        {{ award.grant_title }}, {{ award.year}}
-      {% else %}
-        {{award.year}}
-      {% endif %}
-      <br />
-      <i>{{ award.venue }}</i>
-    {% endfor %}
+      <p>
+        <b>{{ award.title }}</b> |
+        {% if award.type == "Grant" %}
+          {{ award.grant_title }}, {{ award.year}}
+        {% else %}
+          {{award.year}}
+        {% endif %}
+        <br />
+        <i>{{ award.venue }}</i>
       </p>
+    {% endfor %}
   </div>
 </div>
