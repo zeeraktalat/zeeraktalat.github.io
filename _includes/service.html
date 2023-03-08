@@ -55,4 +55,18 @@
       </div>
       {% endfor %}
   </div>
+  <div>
+      <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Awards & Grants</h3></center>
+      <p>
+    {% for award in site.data.service.awards%}
+      <b>{{ award.title }}</b> |
+      {% if award.type == "Grant" %}
+        {{ award.grant_title }}, {{ award.year}}
+      {% else %}
+        {{award.year}}
+      {% endif %}
+      <br />
+      <i>{{ award.venue }}</i>
+      </p>
+  </div>
 </div>
