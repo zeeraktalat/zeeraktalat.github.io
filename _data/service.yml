@@ -233,37 +233,45 @@ elected:
   - {venue: "ACL",
      year: "2022, 2023",
      area: "Ethics and NLP",
-     position: "Area Chair"
+     position: "Area Chair",
+     type: "AC",
   }
   - {venue: "COLING",
      year: "2022",
      area: "Offensive and non-inclusive language detection and analysis",
-     position: "Area Chair"
+     position: "Area Chair",
+     type: "AC",
   }
   - {venue: "EACL",
      year: "2023",
-     position: "Ethics Chair"
+     position: "Ethics Chair",
+     type: "AC",
   }
   - {venue: "ARR",
      year: "2021-2022",
-     position: "Action Editor"
+     position: "Action Editor",
+     type: "AC",
   }
   - {venue: "Widening NLP Advisory Board",
      year: "2019-2023",
      position: "Board Member",
-     website: "https://www.winlp.org/organization/"
+     website: "https://www.winlp.org/organization/",
+     type: "Board"
   }
   - {venue: "Equity, Diversity, and Inclusion Board, Department of Computer Science, University of Sheffield",
      year: "2019-2020",
-     position: "Board Member"
+     position: "Board Member",
+     type: "Board"
   }
   - {venue: "University Research Ethics Committee, University of Sheffield",
      year: "2018-2020",
-     position: "Committee Member"
+     position: "Committee Member",
+     type: "Board"
   }
   - {venue: "NAACL Diversity & Inclusion Committee",
      year: "2018",
-     position: "Committee Member"
+     position: "Committee Member",
+     type: "Board"
   }
 awards:
   - {title: "Best Reviewer",

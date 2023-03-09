@@ -1,17 +1,37 @@
 <div class="row g-5 mb-5">
-  <div>
+  <div float="left">
       <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Community & Professional Service</h3></center>
       <p>
         <ul>
-        {% for position in site.data.service.elected %}
+          {% assign positions = site.data.service.elected | where: type, "AC" %}
+          {% for position in positions %}
           <li>
-            {{ position.position }},
+            {{ position.position }}
             {% if position.area %}
-              ({{ position.area }})
+              ({{ position.area }}),
             {% endif %}
-            {{ position.venue }} ({{ position.year }}) <br />
+            | {{ position.venue }} ({{ position.year }}) <br />
             {% if event.webpage %}
-              <a href=" {{event.webpage }}">{{ event.abbrev }}</a>
+              <a href=" {{event.website }}">{{ event.abbrev }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </p>
+  </div>
+  <div float="left">
+      <p>
+        <ul>
+          {% assign positions = site.data.service.elected | where: type, "Board" %}
+          {% for position in positions %}
+          <li>
+            {{ position.position }}
+            {% if position.area %}
+              ({{ position.area }}),
+            {% endif %}
+            | {{ position.venue }} ({{ position.year }}) <br />
+            {% if event.webpage %}
+              <a href=" {{event.website }}">{{ event.abbrev }}</a>
             {% endif %}
           </li>
         {% endfor %}
