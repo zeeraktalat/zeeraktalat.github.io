@@ -7,11 +7,10 @@
           {% assign positions = site.data.service.elected | where: "type", "AC" %}
           {% for position in positions %}
           <li>
-            {{ position.position }}
             {% if position.area %}
-              ({{ position.area }}),
+              {{ position.position }} ({{ position.area }}),
             {% else %}
-              ,
+              {{ position.position }},
             {% endif %}
             <i>{{ position.venue }}</i> ({{ position.year }}) <br />
           </li>
