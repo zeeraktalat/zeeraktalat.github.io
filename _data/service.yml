@@ -234,23 +234,23 @@ elected:
      year: "2022, 2023",
      area: "Ethics and NLP",
      position: "Area Chair",
-     type: "AC",
+     type: "AC"
   }
   - {venue: "COLING",
      year: "2022",
      area: "Offensive and non-inclusive language detection and analysis",
      position: "Area Chair",
-     type: "AC",
+     type: "AC"
   }
   - {venue: "EACL",
      year: "2023",
      position: "Ethics Chair",
-     type: "AC",
+     type: "AC"
   }
   - {venue: "ARR",
      year: "2021-2022",
      position: "Action Editor",
-     type: "AC",
+     type: "AC"
   }
   - {venue: "Widening NLP Advisory Board",
      year: "2019-2023",

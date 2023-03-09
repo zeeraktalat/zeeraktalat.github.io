@@ -1,9 +1,9 @@
 <div class="row g-5 mb-5">
-  <div class="col-md-6">
+  <div style="width: 50%; float: left;">
       <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Community & Professional Service</h3></center>
       <p>
         <ul>
-          {% assign positions = site.data.service.elected | where: type, "AC" %}
+          {% assign positions = site.data.service.elected | where: "type", "AC" %}
           {% for position in positions %}
           <li>
             {{ position.position }}
@@ -19,10 +19,10 @@
         </ul>
       </p>
   </div>
-  <div class="col-md-6">
+  <div style="width: 50%; float: left;">
       <p>
         <ul>
-          {% assign positions = site.data.service.elected | where: type, "Board" %}
+          {% assign positions = site.data.service.elected | where: "type", "Board" %}
           {% for position in positions %}
           <li>
             {{ position.position }}
