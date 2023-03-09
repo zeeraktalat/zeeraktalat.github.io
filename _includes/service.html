@@ -37,14 +37,16 @@
   <div>
     <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Events Organised</h3></center>
     <p>
-    {% for event in  site.data.service.organisation %}
-      {{ event.title }} ({{ event.year }}) | {{ event.venue }} <br />
-      [<b>{{ event.type }}</b>]
-      {% if event.webpage %}
+      <ul>
+        <li>{% for event in  site.data.service.organisation %}
+        [<b>{{ event.type }}</b>] {{ event.title }} ({{ event.year }}) | {{ event.venue }}
+        {% if event.webpage %}
         <a href=" {{event.webpage }}">{{ event.abbrev }}</a>
-      {% endif %}
+        {% endif %}
+        </li>
+        {% endfor %}
     </p>
-    {% endfor %}
+    </ul>
   </div>
   <div>
     <!-- <center> -->
