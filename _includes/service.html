@@ -1,6 +1,7 @@
 <div class="row g-5 mb-5">
-  <div>
       <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Community & Professional Service</h3></center>
+  <div style="width: 50%; float: left;">
+      <center><h4 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Area Chairing</h3></center>
       <p>
         <ul>
           {% assign positions = site.data.service.elected | where: "type", "AC" %}
@@ -19,7 +20,8 @@
         </ul>
       </p>
   </div>
-  <div>
+  <div style="width: 50%; float: left;">
+      <center><h4 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Board & Committees</h3></center>
       <p>
         <ul>
           {% assign positions = site.data.service.elected | where: "type", "Board" %}
