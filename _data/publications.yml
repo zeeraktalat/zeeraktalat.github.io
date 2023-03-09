@@ -308,7 +308,7 @@ index:
     url: "https://aclanthology.org/2020.alw-1.1",
     bibtex: "/assets/bibtex/rightscon.bib"}
   - {name: 'Proceedings of the 4th Workshop on Online Abuse and Harms (WOAH 2020).',
-    authors: "Seyi Akiwowo, Bertie Vidgen, Vinodkumar Prabhakaran,<b>Zeerak Talat</b>.",
+    authors: "Seyi Akiwowo, Bertie Vidgen, Vinodkumar Prabhakaran, <b>Zeerak Talat</b>.",
     publication: "Proceedings of the 4th Workshop on Online Abuse and Harms.",
     publisher: "Association of Computational Linguistics.",
     shortvenue: "WOAH.",
