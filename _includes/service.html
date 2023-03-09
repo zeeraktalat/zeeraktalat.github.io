@@ -11,10 +11,7 @@
             {% if position.area %}
               ({{ position.area }})
             {% endif %}
-            | {{ position.venue }} ({{ position.year }}) <br />
-            {% if event.webpage %}
-              <a href=" {{event.website }}">{{ event.abbrev }}</a>
-            {% endif %}
+            , <i>{{ position.venue }}</i> ({{ position.year }}) <br />
           </li>
         {% endfor %}
         </ul>
@@ -28,7 +25,7 @@
           {% for position in positions %}
           <li>
             {{ position.position }}
-            | {{ position.venue }} ({{ position.year }}) <br />
+            , <i>{{ position.venue }}</i> ({{ position.year }}) <br />
             {% if event.webpage %}
               <a href=" {{event.website }}">{{ event.abbrev }}</a>
             {% endif %}
