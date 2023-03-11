@@ -1,58 +1,66 @@
 index:
   - {name: "Privacy and Surveillance in Content Moderation",
      host: "Edinburgh University",
-     day: "06",
-     month: "Jan",
+     day: "03",
+     month: "Feb",
      year: "2023",
-     slides: "/assets/slides/talks/edinburgh_2023.pdf",
+     slides: "/_data/slides/talks/edinburgh_2023.pdf",
      type: "Invited Talk"
     }
   - {name: "Moderating Future Pasts",
      host: "Heriott-Watt University",
-     day: "06",
+     day: "18",
      month: "Jan",
      year: "2023",
-     slides: "/assets/slides/talks/hw_2023.pdf",
+     slides: "/_data/slides/talks/hw_2023.pdf",
      type: "Invited Talk"
     }
   - {name: "(Modeling) Morality? On Machine Learning and Phrenology",
      host: "University of Cambridge",
-     day: "01",
+     day: "13",
      month: "Jun",
      year: "2022",
-     slides: "/assets/slides/talks/cam_2022.pdf",
+     slides: "/_data/slides/talks/cam_2022.pdf",
      type: "Invited Talk"
     }
   - {name: "That's just your opinion, man! On Annotating and Evaluating Subjective Data, Objectively",
      host: "Workshop on Novel Evaluation Approaches for Text Classification Systems",
-     day: "01",
+     day: "06",
      month: "Jun",
      year: "2022",
-     slides: "/assets/slides/talks/neatclass_2022.pdf",
+     slides: "/_data/slides/talks/neatclass_2022.pdf",
      type: "Keynote"
     }
   - {name: "The Limit Does Exist! On the Limitations of Online Abuse Detection",
      host: "Texas A & M University",
-     day: "01",
+     day: "11",
      month: "Mar",
      year: "2022",
-     slides: "/assets/slides/talks/tamu_2022.pdf",
+     slides: "/_data/slides/talks/tamu_2022.pdf",
      type: "Invited Talk"
     }
   - {name: "Paving the Road to Hell with Machine Learning: On Ethics, Bias, and Machine Learning",
      host: "UW RAISE",
-     day: "01",
+     day: "11",
      month: "Mar",
      year: "2022",
-     slides: "/assets/slides/talks/raise_2022.pdf",
+     slides: "/_data/slides/talks/raise_2022.pdf",
      type: "Invited Talk"
     }
   - {name: "On a Highway to Hell: On the Consequences of Futuring Machine Learning and NLP",
      host: "UW Treehouse",
-     day: "01",
+     day: "11",
      month: "Mar",
      year: "2022",
-     slides: "/assets/slides/talks/treehouse_2022.pdf",
+     slides: "/_data/slides/talks/treehouse_2022.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "On Uncertain Ground: On Ethics, Bias, and Machine Learning",
+     host: "Bocconi University",
+     day: "11",
+     month: "Feb",
+     year: "2022",
+     slides: "/_data/slides/talks/bocconi_2022.pdf",
      type: "Invited Talk"
     }
   - {name: "“It ain’t all Good”: Machinic Abuse Detection and Marginalization in Machine Learning",
@@ -60,7 +68,7 @@ index:
      day: "01",
      month: "Jun",
      year: "2021",
-     slides: "/assets/slides/talks/with_friends_2021.pdf",
+     slides: "/_data/slides/talks/with_friends_2021.pdf",
      type: "Invited Talk"
     }
   - {name: "Machine Learning from Nowhere: The illusion of objectivity and the harms of machine learning and NLP",
@@ -68,32 +76,32 @@ index:
      day: "01",
      month: "Jan",
      year: "2021",
-     slides: "/assets/slides/talks/cardiff_2021.pdf",
+     slides: "/_data/slides/talks/cardiff_2021.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "Disembodied Machine Learning: The Lives of Data in the Machine Learning Pipeline",
+     note: "Co-presented with Nanna Bonde Thylstrup",
+     host: "Critical Interfaces Seminar",
+     day: "03",
+     month: "Nov",
+     year: "2020",
+     slides: "/_data/slides/talks/critical_2020.pdf",
      type: "Invited Talk"
     }
   - {name: "“Yeah well, that’s just your opinion man”: The fallouts of abusive language detection",
      host: "Center for Informed Democracy and Social Cybersecurity, CMU",
-     day: "01",
+     day: "27",
      month: "Oct",
      year: "2020",
-     slides: "/assets/slides/talks/cmu_2020.pdf",
-     type: "Invited Talk"
-    }
-  - {name: "On the Margins of Abuse Detection Technologies",
-     note: "Co-presented with Nanna Bonde Thylstrup",
-     host: "Critical Interfaces Seminar",
-     day: "01",
-     month: "Aug",
-     year: "2020",
-     slides: "/assets/slides/talks/critical_2020.pdf",
+     slides: "/_data/slides/talks/cmu_2020.pdf",
      type: "Invited Talk"
     }
   - {name: "On the Margins of Abuse Detection",
      host: "IT University of Cepenhagen",
-     day: "01",
+     day: "26",
      month: "Feb",
      year: "2020",
-     slides: "/assets/slides/talks/itu_2020.pdf",
+     slides: "/_data/slides/talks/itu_2020.pdf",
      type: "Invited Talk"
     }
   - {name: "Points of Failure - The Promises of Abusive Language Technology",
@@ -102,23 +110,23 @@ index:
      day: "01",
      month: "Feb",
      year: "2020",
-     slides: "/assets/slides/talks/hertie_2020.pdf",
+     slides: "/_data/slides/talks/hertie_2020.pdf",
      type: "Invited Talk"
     }
   - {name: "Abuse Detection at the Flip of a Coin",
      host: "The Alan Turing Institute",
-     day: "01",
+     day: "27",
      month: "Nov",
      year: "2019",
-     slides: "/assets/slides/talks/ati_2019.pdf",
+     slides: "/_data/slides/talks/ati_2019.pdf",
      type: "Invited Talk"
     }
   - {name: "‘It ain’t all good” - Marginalisation in the Name of Protection",
      host: "ElementAI & South England NLP Meetup",
-     day: "01",
+     day: "03",
      month: "Sep",
      year: "2019",
-     slides: "/assets/slides/talks/elementai_2019.pdf",
+     slides: "/_data/slides/talks/elementai_2019.pdf",
      type: "Invited Talk"
     }
   - {name: "Progress in Hate Speech Detection and the Things we Lost in the Fire",
@@ -126,7 +134,7 @@ index:
      day: "01",
      month: "Oct",
      year: "2018",
-     slides: "/assets/slides/talks/cafoscare_2019.pdf",
+     slides: "/_data/slides/talks/cafoscare_2019.pdf",
      type: "Keynote"
     }
   - {name: "Hate Speech, Abusive Language, and Things we Lose in the Fire",
@@ -134,7 +142,7 @@ index:
      day: "01",
      month: "May",
      year: "2018",
-     slides: "/assets/slides/talks/ati_2018.pdf",
+     slides: "/_data/slides/talks/ati_2018.pdf",
      type: "Invited Talk"
     }
   - {name: "Detecting Hate Speech Using Natural Language Processing",
@@ -142,7 +150,7 @@ index:
      day: "01",
      month: "Dec",
      year: "2017",
-     slides: "/assets/slides/talks/lorentz_2017.pdf",
+     slides: "/_data/slides/talks/lorentz_2017.pdf",
      type: "Invited Talk"
     }
   - {name: "What Did You Just Call Me? Computers versus Abusive Language",
@@ -150,15 +158,15 @@ index:
      day: "01",
      month: "Dec",
      year: "2017",
-     slides: "/assets/slides/talks/sapienza_heidelberg_2017.pdf",
+     slides: "/_data/slides/talks/sapienza_heidelberg_2017.pdf",
      type: "Invited Talk"
     }
   - {name: "Gaps in Understanding: Algorithmic Discrimination in Natural Language Processing",
      host: "Leuphana University",
-     day: "01",
+     day: "23",
      month: "Nov",
      year: "2017",
-     slides: "/assets/slides/talks/leuphana_2017.pdf",
+     slides: "/_data/slides/talks/leuphana_2017.pdf",
      type: "Invited Talk"
     }
   - {name: "How do we Hate? Defining and Detecting Hate Speech (on Twitter)",
@@ -166,6 +174,6 @@ index:
      day: "01",
      month: "May",
      year: "2017",
-     slides: "/assets/slides/talks/potsdam_2017.pdf",
+     slides: "/_data/slides/talks/potsdam_2017.pdf",
      type: "Invited Talk"
     }
