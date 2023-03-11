@@ -5,7 +5,7 @@ index:
      year: "2023",
      month: "Feb",
      title: "NLP and Futuring the Past",
-     slides: "/assets/teaching/oneoff/hplt_nlpl.pdf"
+     slides: "/slides/teaching/guest/hplt_nlpl.pdf"
   }
   - {type: "Lecture",
      institution: "Queen's University",
@@ -13,7 +13,7 @@ index:
      year: "2023",
      month: "Jan",
      title: "The Problem with Automated Content Moderation",
-     slides: "/assets/teaching/oneoff/queens.pdf"
+     slides: "/slides/teaching/guest/queens.pdf"
   }
   - {type: "Lecture",
      institution: "University of Cambridge",
@@ -21,7 +21,7 @@ index:
      year: "2022",
      month: "Jun",
      title: "Justice, Ethics, and NLP: The Case of Delphi AI",
-     slides: "/assets/teaching/oneoff/cam.pdf"
+     slides: "/slides/teaching/guest/cam.pdf"
   }
   - {type: "Practicals",
      institution: "Simon Fraser University",
@@ -43,7 +43,7 @@ index:
      year: "2019",
      month: "Mar",
      title: "Data science, Natural Language Processing, and Unsinkable Ships",
-     slides: "/assets/teaching/oneoff/itu.pdf"
+     slides: "/slides/teaching/guest/itu.pdf"
   }
   - {type: "Teaching Assistant",
      institution: "University of Copenhagen",
