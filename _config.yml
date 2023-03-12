@@ -31,7 +31,8 @@ plugins:
   - jekyll-remote-theme
 
 #remote_theme: pages-themes/minimal@v0.2.0
-remote_theme: academic-jekyll-theme
+# remote_theme: leNPaul/academic-jekyll-theme
+theme: academic-jekyll-theme
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
