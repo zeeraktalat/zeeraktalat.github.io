@@ -17,7 +17,7 @@ menu:
 
 social:
 - {icon: 'fab fa-github fa-3x', link: 'https://github.com/zeeraktalat'}
-- {icon: 'fab twitter', link: 'https://twitter.com/zeeraktalat'}
+- {icon: 'twitter', link: 'https://twitter.com/zeeraktalat'}
 - {icon: 'fab fa-linkedin fa-3x', link: 'https://www.linkedin.com/in/zeeraktalat/'}
 
 contacts:
