@@ -17,10 +17,10 @@ layout: default
     <ul>
     {% for post in site.data.news.items %}
     <li>
-      {{ post.date }} | {{ post.headline }}
+      <u>{{ post.date }}</u> | {{ post.headline }}
       {% if post.title %}
         {% if post.link %}
-          <a href="{{ post.link }}">{{ post.title }}</a>
+          <a href="{{ post.link }}">{{ post.title }}</a>.
         {% else %}
           {{ post.title }}
         {% endif %}
