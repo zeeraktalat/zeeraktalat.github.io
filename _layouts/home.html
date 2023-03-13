@@ -19,12 +19,13 @@ layout: default
     <li>
       <u>{{ post.date }}</u> | {{ post.headline }}
       {% if post.title %}
-        {% if post.link %}.
-          <a href="{{ post.link }}">{{ post.title }}</a>. <br />
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ post.title }}</a>
         {% else %}
-          {{ post.title }}.<br />
+          {{ post.title }}
         {% endif %}
       {% endif %}
+      .<br />
     </li>
     {% endfor %}
     </ul>
