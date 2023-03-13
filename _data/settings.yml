@@ -17,10 +17,10 @@ menu:
 
 social:
 - {icon: 'fab fa-github fa-3x', link: 'https://github.com/zeeraktalat'}
-- {icon: 'fa-brands fa-twitter', link: 'https://twitter.com/zeeraktalat'}
 - {icon: 'fab fa-linkedin fa-3x', link: 'https://www.linkedin.com/in/zeeraktalat/'}
 - {icon: 'ai ai-semantic-scholar fa-3x', link: 'https://www.semanticscholar.org/author/Zeerak-Talat/2138053020'}
 - {icon: 'ai ai-google-scholar fa-3x', link: 'https://scholar.google.com/citations?user=3M3WdvkAAAAJ'}
+- {icon: 'fa-brands fa-twitter', link: 'https://twitter.com/zeeraktalat'}
 
 contacts:
 - {name: 'Dr. Zeerak Talat',
