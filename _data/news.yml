@@ -1,0 +1,17 @@
+posts:
+  - {title: "I gave a lecture on the politics of NLP at the <a href='http://wiki.nlpl.eu/Community/training'>HPLT & NLPL Winter School</a>.",
+     date: "08 Feb, 2023",
+     title: "NLP and Futuring the Past",
+     link: "/slides/teaching/guest/hplt_nlpl.pdf"
+  }
+  - {title: "I gave an invited talk at the University of Edinburgh titled",
+     date: "03 Feb, 2023",
+     title: "Privacy and Surveillance in Content Moderation",
+     link: "/slides/talks/edinburgh_2023.pdf"
+  }
+  - {title: "New paper accepted to EACL 2023 on Federated Learning and hate speech detection! Read the <a href='https://arxiv.org/abs/2302.09243'>preprint here</a>",
+     date: "22 Jan, 2023"
+  }
+  - {title: "I am visiting Heriot-Watt University till February to work with Verena Rieser",
+     date: "15 Jan, 2023",
+  }
