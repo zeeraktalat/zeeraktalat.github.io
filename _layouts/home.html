@@ -14,7 +14,9 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
+    <ul>
     {% for post in site.data.news.items %}
+    <li>
       {{ post.date }} | {{ post.headline }}
       {% if post.title %}
         {% if post.link %}
@@ -23,6 +25,8 @@ layout: default
           {{ post.title }}
         {% endif %}
       {% endif %}
+    </li>
     {% endfor %}
+    </ul>
   </div>
 </div>
