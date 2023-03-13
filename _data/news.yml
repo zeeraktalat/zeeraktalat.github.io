@@ -12,6 +12,14 @@ items:
   - {headline: "New paper accepted to EACL 2023 on Federated Learning and hate speech detection! Read the <a href='https://arxiv.org/abs/2302.09243'>preprint here</a>",
      date: "22 Jan, 2023"
   }
-  - {headline: "I am visiting Heriot-Watt University till February to work with Verena Rieser :)",
+  - {headline: "I am visiting Heriot-Watt University until February to work with Verena Rieser :)",
      date: "15 Jan, 2023",
+  }
+  - {headline: "I am visiting Mohamed Bin Zayed University of AI until December to work with Tim Baldwin:)",
+     date: "20 Nov, 2023",
+  }
+
+past:
+  - {headline: "I am visiting Bocconi University until November to work with Dirk Hovy :)",
+     date: "10 Oct, 2023",
   }
