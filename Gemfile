@@ -10,10 +10,6 @@ group :jekyll_plugins do
   gem "github-pages"
 end
 
-# plugins:
-#   - jekyll-remote-theme
-# remote_theme: LeNPaul/academic;
-
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
