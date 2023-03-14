@@ -273,6 +273,10 @@ elected:
      position: "Committee Member",
      type: "Board"
   }
+  - {venue: "ACL Rolling Review",
+     year: "2021-present",
+     position: "ARR Communication Committee",
+     type: "Board"}
 awards:
   - {title: "Best Reviewer",
      venue: "ICWSM",
