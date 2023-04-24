@@ -15,7 +15,9 @@ featured:
     publication: "Challenges and Perspectives of Hate Speech Analysis.",
     publisher: "Digital Communication Research.",
     shortvenue: "Challenges and Perspectives of Hate Speech.",
-    date: "Forthcoming",
+    date: "2023",
+    doi: "https://doi.org/10.48541/dcr.v12.27",
+    url: "https://www.ssoar.info/ssoar/handle/document/86419",
     type: "Book Chapter",
     bibtex: "/assets/bibtex/futures.bib"}
   - {name: 'Detecting "Dirt" and "Toxicity": Rethinking Content Moderation as Pollution Behaviour.',
@@ -88,7 +90,9 @@ index:
     publication: "Challenges and Perspectives of Hate Speech Analysis.",
     publisher: "Digital Communication Research.",
     shortvenue: "Challenges and Perspectives of Hate Speech.",
-    date: "Forthcoming",
+    date: "2023",
+    doi: "https://doi.org/10.48541/dcr.v12.27",
+    url: "https://www.ssoar.info/ssoar/handle/document/86419",
     type: "Book Chapter",
     bibtex: "/assets/bibtex/futures.bib"}
   - {name: 'Federated Learning for Hate Speech Detection.',
