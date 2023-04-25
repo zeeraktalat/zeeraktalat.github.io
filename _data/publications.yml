@@ -57,21 +57,52 @@ featured:
     date: "Forthcoming",
     type: "Conference Paper",
     bibtex: "/assets/bibtex/hue.bib"}
+  - {name: "Documenting Geographically and Contextually Diverse Language Data Sources",
+    authors: "Angelina McMillan-Major, Zaid Alyafeai, Stella Biderman, Kimbo Chen, Francesco De Toni, G\'{e}rard Dupont, Hady Elsahar, Chris Emezue, Alham Fikri Aji,Suzana Ili\'{c}, Nurulaqilla Khamis, Colin Leong, Maraim Masoud, Aitor Soroa, Pedro Ortiz Suarez, <b>Zeerak Talat</b>, Daniel van Strien, Yacine Jernite",
+    type: "Journal Paper",
+    publication: "In Review.",
+    date: "Forthcoming",
+    preprint: "",
+    bibtex: "/assets/bibtex/data_catalogue.bib"}
+  - {name: "Queer in AI Bias Bounty CRAFT session",
+    authors: "Queer in AI",
+    date: "Forthcoming",
+    publication: "In Review.",
+    type: "Conference Paper",
+    bibtex: "/assets/bibtex/craft_bias.bib"}
 
 ongoing:
   - {name: "Mirages: On the Dangers of Anthropomorphism in Dialogue Systems.",
     authors: "Gavin Abercrombie, Tanvi Anand, Amanda Cercas Curry, <b>Zeerak Talat</b>",
     publication: "Ongoing",
-    type: "Conference Paper"}
+    type: "Conference Paper",
+    status: "Writing"}
   - {name: "It Takes One to Know One: Mis-recognition of class in NLP.",
     authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy",
     publication: "Ongoing.",
     type: "Conference Paper",
+    status: "Experiments",
     bibtex: "/assets/bibtex/xppp.bib"}
   - {name: "Constructing the Panopticon: On the Social Web, Content Moderation, and Surveillance",
     authors: "<b>Zeerak Talat</b>",
     publication: "Ongoing.",
-    type: "Conference Paper"}
+    type: "Conference Paper",
+    status: "Researching"}
+  - {name: "Invariably Invariant: On the assumption of Invariance in Fairness Literature.",
+    authors: "Su Lin Blodgett, <b>Zeerak Talat</b>, Hal Daumé, Solon Borocas, Hanna Wallach",
+    publication: "Ongoing.",
+    type: "Conference Paper",
+    status: "Researching"}
+  - {name: "Participatory Exclusion: On the State of Participation in NLP.",
+    authors: "Michael Madaio, Su Lin Blodgett, <b>Zeerak Talat</b>, Christina Harrington, Solon Borocas",
+    publication: "Ongoing.",
+    type: "Conference Paper",
+    status: "Researching"}
+  - {name: "Intrinsic or Extrinsic: On the Appropriatness of Bias Estimation Methods.",
+    authors: "Giuseppe Attanasio, <b>Zeerak Talat</b>, Su Lin Blodgett, Debora Nozza",
+    publication: "Ongoing.",
+    type: "Conference Paper",
+    status: "Researching"}
   - {name: "Reinforcement Learning for Core NLP tasks",
     authors: "Tianyu Liu, Giuseppe Attanasio, <b>Zeerak Talat</b>, Ryan Cotterell, Dirk Hovy",
     publication: "Ongoing.",
@@ -110,6 +141,10 @@ ongoing:
     type: "Conference Paper"}
   - {name: "Agreeing to Disagree: On Paradoxical Annotation Agreements",
     authors: "Gavin Abercrombie, <b>Zeerak Talat</b>, Reuben Binns",
+    publication: "Ongoing.",
+    type: "Conference Paper"}
+  - {name: "AI and Democratic Publics",
+    authors: "Arjun Subramonian, Skyler Wang, <b>Zeerak Talat</b>",
     publication: "Ongoing.",
     type: "Conference Paper"}
 
