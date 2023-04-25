@@ -10,6 +10,26 @@ featured:
     url: "https://www.ssoar.info/ssoar/handle/document/86419",
     type: "Book Chapter",
     bibtex: "/assets/bibtex/futures.bib"}
+  - {name: "Queer In AI: A Case Study in Community-Led Participatory AI",
+    authors: "Organisers of Queer in AI",
+    publication: "FAccT '23: 2023 ACM Conference on Fairness, Accountability, and Transparency.",
+    publisher: "Association of Computing Machinery.",
+    shortvenue: "FAccT.",
+    date: "2023",
+    type: "Conference Paper",
+    preprint: "https://arxiv.org/abs/2303.16972",
+    bibtex: "/assets/bibtex/participatory_ai"
+  }
+  - {name: "Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing",
+    authors: "Lucie-Aimée Kaffee, Arnav Arora, Zeerak Talat, Isabelle Augenstein",
+    publisher: "",
+    shortvenue: "",
+    date: "In Review.",
+    type: "Conference Paper",
+    preprint: "https://arxiv.org/abs/2211.05100",
+    url: "https://arxiv.org/abs/2211.05100",
+    bibtex: "/assets/bibtex/bloom.bib"}
+    }
   - {name: "It's Incomprehensible: On Machine Learning and Decoloniality.",
     authors: "Abeba Birhane, <b>Zeerak Talat</b>.",
     editors: "Simon Lindgren.",
@@ -106,6 +126,26 @@ index:
     preprint: "https://arxiv.org/abs/2302.09243",
     # url: "https://arxiv.org/abs/2302.09243",
     github: "https://github.com/jaygala24/fed-hate-speech"}
+  - {name: "Queer In AI: A Case Study in Community-Led Participatory AI",
+    authors: "Organisers of Queer in AI",
+    publication: "FAccT '23: 2023 ACM Conference on Fairness, Accountability, and Transparency.",
+    publisher: "Association of Computing Machinery.",
+    shortvenue: "FAccT.",
+    date: "2023",
+    type: "Conference Paper",
+    preprint: "https://arxiv.org/abs/2303.16972",
+    bibtex: "/assets/bibtex/participatory_ai"
+  }
+  - {name: "Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing",
+    authors: "Lucie-Aimée Kaffee, Arnav Arora, Zeerak Talat, Isabelle Augenstein",
+    publisher: "",
+    shortvenue: "",
+    date: "In Review.",
+    type: "Conference Paper",
+    preprint: "https://arxiv.org/abs/2211.05100",
+    url: "https://arxiv.org/abs/2211.05100",
+    bibtex: "/assets/bibtex/bloom.bib"}
+    }
   - {name: 'BLOOM: A 176B-Parameter Open-Access Multilingual Language Model.',
     authors: "Teven Le Scao, et al.",
     publication: "In Review.",
