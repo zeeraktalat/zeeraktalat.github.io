@@ -1,4 +1,7 @@
 items:
+  - {headline: "My new co-authored (with my illustrious co-author <a href='https://jaimekirtz.com/'>Jaime Lee Kirtz</a>) on future directions for hate speech detection. Read the <a href='https://doi.org/10.48541/dcr.v12.27'>paper here</a>.",
+    date: "25 Apr, 2023"
+  }
   - {headline: "I gave a lecture on the politics of NLP at the <a href='http://wiki.nlpl.eu/Community/training'>HPLT & NLPL Winter School</a>. Title: ",
      date: "08 Feb, 2023",
      title: "NLP and Futuring the Past",
@@ -15,11 +18,11 @@ items:
   - {headline: "I am visiting Heriot-Watt University until February to work with Verena Rieser :)",
      date: "15 Jan, 2023",
   }
+
+past:
   - {headline: "I am visiting Mohamed Bin Zayed University of AI until December to work with Tim Baldwin",
      date: "20 Nov, 2023",
   }
-
-past:
   - {headline: "I am visiting Bocconi University until November to work with Dirk Hovy :)",
      date: "10 Oct, 2023",
   }
