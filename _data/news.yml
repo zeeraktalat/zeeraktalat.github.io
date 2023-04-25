@@ -1,5 +1,5 @@
 items:
-  - {headline: "A new book chapter (co-author with the illustrious <a href='https://jaimekirtz.com/'>Jaime Lee Kirtz</a>) on future directions for hate speech detection. Read it <a href='https://doi.org/10.48541/dcr.v12.27'>paper here</a>.",
+  - {headline: "A new book chapter (co-author with <a href='https://jaimekirtz.com/'>Jaime Lee Kirtz</a>) on future directions for hate speech detection. Read <a href='https://doi.org/10.48541/dcr.v12.27'>it here</a>.",
     date: "25 Apr, 2023"
   }
   - {headline: "I gave a lecture on the politics of NLP at the <a href='http://wiki.nlpl.eu/Community/training'>HPLT & NLPL Winter School</a>. Title: ",
