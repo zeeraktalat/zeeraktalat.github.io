@@ -31,7 +31,7 @@
       {% endfor %}
       </ul>
 
-    {% for year in (2016..2022) reversed%}
+    {% for year in (2016..2023) reversed%}
     <center><h4 class="pub-type">{{ year }}</h4></center>
       {% assign pubs = site.data.publications.index | where: "date", year  %}
       <ul>
@@ -51,7 +51,7 @@
           <a href="{{ pub.bibtex }}" target="_blank"><img src="/assets/img/bibtex.png" style="width:61px;height:20px"></a>
           {% if pub.url %}
           {% unless pub.doi %}
-          <a href="{{ pub.url }}" target="_blank"> [Published Paper]</a>
+          <a href="{{ pub.url }}" target="_blank">[Published Paper]</a>
           {% endunless %}
           {% endif %}
           {% if pub.preprint %}

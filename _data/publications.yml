@@ -1,14 +1,4 @@
 featured:
-  - {name: "It's Incomprehensible: On Machine Learning and Decoloniality.",
-    authors: "Abeba Birhane, <b>Zeerak Talat</b>.",
-    editors: "Simon Lindgren.",
-    publication: "Handbook of Critical Studies of Artificial Intelligence.",
-    shortvenue: "Handbook of Critical Studies of AI.",
-    publisher: "Edward Elgar Publishers.",
-    date: "Forthcoming",
-    type: "Book Chapter",
-    url: "",
-    bibtex: "/assets/bibtex/incomprehensible.bib"}
   - {name: 'Futures for Research on Hate Speech in Online Social Media Platforms.',
     authors: "Jaime Lee Kirtz, <b>Zeerak Talat</b>.",
     editors: "C. Strippel, S. Paasch-Colberg, M. Emmer & J. Trebbe.",
@@ -20,6 +10,16 @@ featured:
     url: "https://www.ssoar.info/ssoar/handle/document/86419",
     type: "Book Chapter",
     bibtex: "/assets/bibtex/futures.bib"}
+  - {name: "It's Incomprehensible: On Machine Learning and Decoloniality.",
+    authors: "Abeba Birhane, <b>Zeerak Talat</b>.",
+    editors: "Simon Lindgren.",
+    publication: "Handbook of Critical Studies of Artificial Intelligence.",
+    shortvenue: "Handbook of Critical Studies of AI.",
+    publisher: "Edward Elgar Publishers.",
+    date: "Forthcoming",
+    type: "Book Chapter",
+    url: "",
+    bibtex: "/assets/bibtex/incomprehensible.bib"}
   - {name: 'Detecting "Dirt" and "Toxicity": Rethinking Content Moderation as Pollution Behaviour.',
     authors: "Nanna Bonde Thylstrup, <b>Zeerak Talat</b>.",
     publication: "First Monday.",
@@ -91,8 +91,8 @@ index:
     publisher: "Digital Communication Research.",
     shortvenue: "Challenges and Perspectives of Hate Speech.",
     date: "2023",
-    doi: "https://doi.org/10.48541/dcr.v12.27",
     url: "https://www.ssoar.info/ssoar/handle/document/86419",
+    doi: "https://doi.org/10.48541/dcr.v12.27",
     type: "Book Chapter",
     bibtex: "/assets/bibtex/futures.bib"}
   - {name: 'Federated Learning for Hate Speech Detection.',
