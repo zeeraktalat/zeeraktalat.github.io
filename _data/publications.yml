@@ -67,6 +67,17 @@ index:
     preprint: "https://Papers.ssrn.com/sol3/Papers.cfm?abstract_id=3709719",
     url: "https://Papers.ssrn.com/sol3/Papers.cfm?abstract_id=3709719",
     bibtex: "/assets/bibtex/detecting.bib"}
+  - {name: 'Futures for Research on Hate Speech in Online Social Media Platforms.',
+    authors: "Jaime Lee Kirtz, <b>Zeerak Talat</b>.",
+    editors: "C. Strippel, S. Paasch-Colberg, M. Emmer & J. Trebbe.",
+    publication: "Challenges and Perspectives of Hate Speech Analysis.",
+    publisher: "Digital Communication Research.",
+    shortvenue: "Challenges and Perspectives of Hate Speech.",
+    date: "2023",
+    url: "https://www.ssoar.info/ssoar/handle/document/86419",
+    doi: "https://doi.org/10.48541/dcr.v12.27",
+    type: "Book Chapter",
+    bibtex: "/assets/bibtex/futures.bib"}
   - {name: 'BLOOM: A 176B-Parameter Open-Access Multilingual Language Model.',
     authors: "Teven Le Scao, et al.",
     publication: "In Review.",
