@@ -18,18 +18,16 @@ featured:
     date: "2023",
     type: "Conference Paper",
     preprint: "https://arxiv.org/abs/2303.16972",
-    bibtex: "/assets/bibtex/participatory_ai"
-  }
+    bibtex: "/assets/bibtex/participatory_ai"}
   - {name: "Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing",
     authors: "Lucie-Aimée Kaffee, Arnav Arora, Zeerak Talat, Isabelle Augenstein",
     publisher: "",
     shortvenue: "",
     date: "In Review.",
     type: "Conference Paper",
-    preprint: "https://arxiv.org/abs/2211.05100",
-    url: "https://arxiv.org/abs/2211.05100",
-    bibtex: "/assets/bibtex/bloom.bib"}
-    }
+    preprint: "https://arxiv.org/abs/2304.08315",
+    # url: "https://arxiv.org/abs/2211.05100",
+    bibtex: "/assets/bibtex/thorny.bib"}
   - {name: "It's Incomprehensible: On Machine Learning and Decoloniality.",
     authors: "Abeba Birhane, <b>Zeerak Talat</b>.",
     editors: "Simon Lindgren.",
