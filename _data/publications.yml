@@ -72,6 +72,11 @@ featured:
     bibtex: "/assets/bibtex/craft_bias.bib"}
 
 ongoing:
+  - {name: "Multi-Modal Emotion Recognition and Humour Classification.",
+    authors: "Anuj Sood, Giuseppe Attanasio, <b>Zeerak Talat</b>",
+    publication: "Ongoing.",
+    type: "Conference Paper",
+    status: "Experimenting"}
   - {name: "Mirages: On the Dangers of Anthropomorphism in Dialogue Systems.",
     authors: "Gavin Abercrombie, Tanvi Anand, Amanda Cercas Curry, <b>Zeerak Talat</b>",
     publication: "Ongoing",
@@ -83,6 +88,21 @@ ongoing:
     type: "Conference Paper",
     status: "Experiments",
     bibtex: "/assets/bibtex/xppp.bib"}
+  - {name: "Drs. Frankenstein and Our Monster: On the Harms of the Distributional Hypothesis.",
+    authors: "<b>Zeerak Talat</b>, Nikita Nangia",
+    publication: "Ongoing.",
+    type: "Conference Paper",
+    status: "Researching"}
+  - {name: "Agreeing to Disagree: On Paradoxical Annotation Agreements",
+    authors: "Gavin Abercrombie, <b>Zeerak Talat</b>, Reuben Binns",
+    publication: "Ongoing.",
+    type: "Conference Paper",
+    status: "Researching"}
+  - {name: "AI and Democratic Publics",
+    authors: "Arjun Subramonian, Skyler Wang, <b>Zeerak Talat</b>",
+    publication: "Ongoing.",
+    type: "Conference Paper",
+    status: "Researching"}
   - {name: "Constructing the Panopticon: On the Social Web, Content Moderation, and Surveillance",
     authors: "<b>Zeerak Talat</b>",
     publication: "Ongoing.",
@@ -106,47 +126,38 @@ ongoing:
   - {name: "Reinforcement Learning for Core NLP tasks",
     authors: "Tianyu Liu, Giuseppe Attanasio, <b>Zeerak Talat</b>, Ryan Cotterell, Dirk Hovy",
     publication: "Ongoing.",
-    type: "Journal Paper"}
+    type: "Journal Paper",
+    status: "On Hold"}
   - {name: "Moral Values in Conversational Agents",
     authors: "Amanda Cercas Curry, Federico Bianco, <b>Zeerak Talat</b>",
     publication: "Ongoing.",
-    type: "Conference Paper"}
+    type: "Conference Paper",
+    status: "Writing"}
   - {name: "Subjectivity and Morality in NLP systems",
     authors: "Amanda Cercas Curry, Federico Bianco, <b>Zeerak Talat</b>",
     publication: "Ongoing.",
-    type: "Conference Paper"}
+    type: "Conference Paper",
+    status: "Writing"}
   - {name: "“Can we Write a Script for it?”: A Critical Position on Addressing AI-driven Community Harms",
     authors: "Anaelia Ovalle, <b>Zeerak Talat</b>",
     publication: "Ongoing.",
-    type: "Conference Paper"}
-  - {name: "Multi-Modal Emotion Recognition and Humour Classification.",
-    authors: "Anuj Sood, Giuseppe Attanasio, <b>Zeerak Talat</b>",
-    publication: "Ongoing.",
-    type: "Conference Paper"}
+    type: "Conference Paper",
+    status: "On Hold"}
   - {name: "Demographic-aware Fine-Tuned Language Models",
     authors: "Giuseppe Attanasio, <b>Zeerak Talat</b>, Dirk Hovy",
     publication: "Ongoing.",
-    type: "Conference paper"}
+    type: "Conference paper",
+    status: "On Hold"}
   - {name: "Machine Learning and the Conservatism of Past Data",
     authors: "<b>Zeerak Talat</b>, Anne Lauscher",
     publication: "Ongoing.",
-    type: "Conference Paper"}
+    type: "Conference Paper",
+    status: "On hold"}
   - {name: "Collective Desire for Possibility: Desire Lines and Content Moderation AI",
     authors: "Prem Sylvester, Gillian Russel, <b>Zeerak Talat</b>",
     publication: "Ongoing.",
-    type: "Conference Paper"}
-  - {name: "Drs. Frankenstein and Our Monster: On the Harms of the Distributional Hypothesis.",
-    authors: "<b>Zeerak Talat</b>, Nikita Nangia",
-    publication: "Ongoing.",
-    type: "Conference Paper"}
-  - {name: "Agreeing to Disagree: On Paradoxical Annotation Agreements",
-    authors: "Gavin Abercrombie, <b>Zeerak Talat</b>, Reuben Binns",
-    publication: "Ongoing.",
-    type: "Conference Paper"}
-  - {name: "AI and Democratic Publics",
-    authors: "Arjun Subramonian, Skyler Wang, <b>Zeerak Talat</b>",
-    publication: "Ongoing.",
-    type: "Conference Paper"}
+    type: "Conference Paper",
+    status: "On hold"}
 
 index:
   - {name: "It's Incomprehensible: On Machine Learning and Decoloniality.",

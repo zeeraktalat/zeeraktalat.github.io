@@ -1,4 +1,9 @@
 items:
+  - {headline: "I gave an invited talk at <a href='https://mbzuai.ac.ae>MBZUAI</a> on NLP, Machine Learning, and Power. Title: ",
+     date: "27 Apr, 2023",
+     title: "All that Glitters ain't Gold: Examining Machine Learning as Socio-technical Infrastructure",
+     link: "/slides/talks/mbzuai_2023.pdf"
+  }
   - {headline: "A new book chapter (co-author with <a href='https://jaimekirtz.com/'>Jaime Lee Kirtz</a>) on future directions for hate speech detection. Read <a href='https://doi.org/10.48541/dcr.v12.27'>it here</a>.",
     date: "25 Apr, 2023"
   }
@@ -15,11 +20,11 @@ items:
   - {headline: "New paper accepted to EACL 2023 on Federated Learning and hate speech detection! Read the <a href='https://arxiv.org/abs/2302.09243'>preprint here</a>",
      date: "22 Jan, 2023"
   }
+
+past:
   - {headline: "I am visiting Heriot-Watt University until February to work with Verena Rieser :)",
      date: "15 Jan, 2023",
   }
-
-past:
   - {headline: "I am visiting Mohamed Bin Zayed University of AI until December to work with Tim Baldwin",
      date: "20 Nov, 2023",
   }

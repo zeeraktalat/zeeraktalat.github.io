@@ -1,4 +1,12 @@
 index:
+  - {name: "All that Glitters ain't Gold: Examining Machine Learning as Socio-technical Infrastructure",
+     host: "Mohamed Bin Zayed University of AI",
+     day: "27",
+     month: "Apb",
+     year: "2023",
+     slides: "/slides/talks/mbzuai_2023.pdf",
+     type: "Invited Talk"
+    }
   - {name: "Privacy and Surveillance in Content Moderation",
      host: "Edinburgh University",
      day: "03",
