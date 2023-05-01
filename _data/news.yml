@@ -1,5 +1,5 @@
 items:
-  - {headline: "I gave an invited talk at <a href='https://mbzuai.ac.ae>MBZUAI</a> on NLP, Machine Learning, and Power. Title: ",
+  - {headline: "I gave an invited talk at <a href='https://mbzuai.ac.ae'>MBZUAI</a> on NLP, Machine Learning, and Power. Title: ",
      date: "27 Apr, 2023",
      title: "All that Glitters ain't Gold: Examining Machine Learning as Socio-technical Infrastructure",
      link: "/slides/talks/mbzuai_2023.pdf"
