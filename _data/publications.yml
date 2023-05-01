@@ -45,6 +45,12 @@ featured:
     preprint: "https://arxiv.org/abs/2211.05100",
     url: "https://arxiv.org/abs/2211.05100",
     bibtex: "/assets/bibtex/bloom.bib"}
+  - {name: "Hybrid Uncertainty Estimation for Selective Text Classification in Ambiguous Tasks.",
+    authors: "Artem Vazhentsev, Akim Tsvigun, Gleb Kuzmin, <b>Zeerak Talat</b>, Alexander Panchenko, Maxim Panov, Mikhail Burtsev and Artem Shelmanov.",
+    publication: "In Review.",
+    date: "Forthcoming",
+    type: "Conference Paper",
+    bibtex: "/assets/bibtex/hue.bib"}
   - {name: 'Class Warfare: A Systematic Review of Class in NLP.',
     authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy.",
     publication: "In Review.",
@@ -56,7 +62,6 @@ featured:
     type: "Journal Paper",
     publication: "In Review.",
     date: "Forthcoming",
-    preprint: "",
     bibtex: "/assets/bibtex/data_catalogue.bib"}
   - {name: "Queer in AI Bias Bounty CRAFT session",
     authors: "Queer in AI",
