@@ -58,7 +58,7 @@ featured:
     type: "Conference Paper",
     bibtex: "/assets/bibtex/class.bib"}
   - {name: "Documenting Geographically and Contextually Diverse Language Data Sources",
-    authors: "Angelina McMillan-Major, Zaid Alyafeai, Stella Biderman, Kimbo Chen, Francesco De Toni, G\'{e}rard Dupont, Hady Elsahar, Chris Emezue, Alham Fikri Aji,Suzana Ili\'{c}, Nurulaqilla Khamis, Colin Leong, Maraim Masoud, Aitor Soroa, Pedro Ortiz Suarez, <b>Zeerak Talat</b>, Daniel van Strien, Yacine Jernite",
+    authors: "Angelina McMillan-Major, Zaid Alyafeai, Stella Biderman, Kimbo Chen, Francesco De Toni, Gérard Dupont, Hady Elsahar, Chris Emezue, Alham Fikri Aji,Suzana Ilic, Nurulaqilla Khamis, Colin Leong, Maraim Masoud, Aitor Soroa, Pedro Ortiz Suarez, <b>Zeerak Talat</b>, Daniel van Strien, Yacine Jernite",
     type: "Journal Paper",
     publication: "In Review.",
     date: "Forthcoming",
