@@ -51,12 +51,6 @@ featured:
     date: "Forthcoming",
     type: "Conference Paper",
     bibtex: "/assets/bibtex/class.bib"}
-  - {name: "Hybrid Uncertainty Estimation for Selective Text Classification in Ambiguous Tasks.",
-    authors: "Artem Vazhentsev, Akim Tsvigun, Gleb Kuzmin, <b>Zeerak Talat</b>, Alexander Panchenko, Maxim Panov, Mikhail Burtsev and Artem Shelmanov.",
-    publication: "In Review."
-    date: "Forthcoming",
-    type: "Conference Paper",
-    bibtex: "/assets/bibtex/hue.bib"}
   - {name: "Documenting Geographically and Contextually Diverse Language Data Sources",
     authors: "Angelina McMillan-Major, Zaid Alyafeai, Stella Biderman, Kimbo Chen, Francesco De Toni, G\'{e}rard Dupont, Hady Elsahar, Chris Emezue, Alham Fikri Aji,Suzana Ili\'{c}, Nurulaqilla Khamis, Colin Leong, Maraim Masoud, Aitor Soroa, Pedro Ortiz Suarez, <b>Zeerak Talat</b>, Daniel van Strien, Yacine Jernite",
     type: "Journal Paper",
