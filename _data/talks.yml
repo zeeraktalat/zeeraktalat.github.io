@@ -4,7 +4,8 @@ index:
     day: "28",
     month: "Apr",
     year: "2023",
-    type: "Panel"
+    type: "Panel",
+    recording: "https://www.facebook.com/watch/?v=924994765477528",
     }
   - {name: "All that Glitters ain't Gold: Examining Machine Learning as Socio-technical Infrastructure",
      host: "MBZUAI",

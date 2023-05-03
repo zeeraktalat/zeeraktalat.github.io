@@ -14,7 +14,13 @@
           {{talk.note}}
           {% endif %}
           | <i>{{ talk.host }}</i> | {{ talk.month }}, {{ talk.year }} <br>
-          [<b>{{ talk.type }}</b>] <a href=" {{talk.slides }} ">[Slides]</a>
+          [<b>{{ talk.type }}</b>] 
+          {% if talk.slides %}
+          <a href=" {{talk.slides }} ">[Slides]</a>
+          {% endif %}
+          {% if talk.recording %}
+          | <a href=" {{talk.recording }}">[Recording]</a>
+          {% endif %}
         </li>
         </p>
       {% endfor %}
