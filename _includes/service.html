@@ -7,11 +7,11 @@
           {% for position in positions %}
           <li>
             {% if position.area %}
-              {{ position.position }} ({{ position.area }}),
+              {{ position.position }} ({{ position.area }}) |
             {% else %}
-              {{ position.position }},
+              {{ position.position }} |
             {% endif %}
-            <i>{{ position.venue }}</i> ({{ position.year }}) <br />
+             <i>{{ position.venue }}</i> ({{ position.year }}) <br />
           </li>
         {% endfor %}
         </ul>
