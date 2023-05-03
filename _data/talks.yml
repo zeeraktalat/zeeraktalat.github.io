@@ -1,4 +1,11 @@
 index:
+  - {name: "Panel on Democracy, Misinformation, and Content Moderation on Social Media with <a href='https://www.humanrights.dk/staff/rikke-frank-jorgensen'>Rikke Frank Jørgensen</a>, <a href='https://www.cbs.dk/en/research/departments-and-centres/department-of-management-society-and-communication/staff/nbtmsc'>Nanna Bonde Thylstrup</a>, and moderated by <a href='https://killjoy.dk/p/maia'>Maia Kalke Lorentzen</a>",
+    host: "Union Copenhagen and Infonauterne",
+    day: "28",
+    month: "Apr",
+    year: "2023",
+    type: "Panel"
+    }
   - {name: "All that Glitters ain't Gold: Examining Machine Learning as Socio-technical Infrastructure",
      host: "MBZUAI",
      day: "27",
