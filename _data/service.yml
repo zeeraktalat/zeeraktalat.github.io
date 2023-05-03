@@ -247,6 +247,11 @@ elected:
      position: "Ethics Chair",
      type: "AC"
   }
+  - {venues: "EACL",
+     year: "2023",
+     position: "Workshop Chair",
+     type: "PC"
+  }
   - {venue: "ARR",
      year: "2021-2022",
      position: "Action Editor",
