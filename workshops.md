@@ -7,6 +7,8 @@
 
 #### Reviewing
 
+Typically between 14-30 days is enough time for reviewing. It is useful to ask some reviewers to be emergency reviewers designated before the review process begins, as there are always reviewers who do not finish their reviews and you will therefore need to do it.
+
 #### Camera Ready
 
 #### Proceedings
@@ -27,10 +29,11 @@ We use [ACLPUB2](https://github.com/rycolab/aclpub2). Using ACLPUB that is built
 - A schedule: Manually defined in program.yml
 - A list of papers: Automatically generated (from the script fetching data) and stored in papers.yml.
 - A description of the workshop: Manually defined in description.yml.
+- A list of organizers: Manually defined  in organizing\_committee.yml
+- A list of prefaces: Manually defined in prefaces.yml
 
 ##### Notes
 The only date format that is accepted is: YYYY-MM-DD HH:MM:SS
-This is the format and no other.
 
 ###### Schedule: program.yml
 
@@ -58,7 +61,60 @@ Should contain:
 - url: Webpage for the workshop
 - abstract: A brief description of the workshop (2-3 sentences).
 
+###### Prefaces: prefaces.yml
+The format of the file is:
+
+- title: <Section Heading>
+- file: <Path to file>
+
+All files will be included in the proceedings.tex file, so there is no need for begin/end document or a preamble. Simply have the content in the file.
+
+##### Automatically populating files
+
+1. Create webservices on softconf for reviewer and submission information (softconf output should be CSV files).
+2. Copy the `softconf` directory over to the workshop repository.
+3. Edit the config.json files with the appropriate information.
+4. Run `softconf2aclpub.py`.
+
+##### Manually steps
+
+1. Populate program.yml.
+2. Populate prefaces.yml and create the appropriate tex files.
+3. Add the flag `archival: false` to all papers that are non-archival
+4. Remove all references to `attachments` where the attachment is `<submission number>.txt`.
+5. Add all findings papers to be presented, set the ID to `F<number>`.
+6. Ensure all ID numbers in `id` are strings.
+7. Verify the contents of all generated files.
+8. Check that `organizing_committee.yml' is generated with the organizers' information.
+9. Remove 'chairs' from `program_committee.yml`.
+10. Check all files for unicode issues (search for `\x`).
+
+##### Compiling the Proceedings
+
+Clone the [ACLPUB2](https://github.com/rycolab/aclpub2) repository and the workshop Github repository into the same root directory. The structure should look like this:
+
+| Root directory
+| | aclpub2
+| | <workshop repo>
+
+Create a virtual environment for building the proceedings and installing python packages.
+Personally, I use virtualenv, so my instructions are for that but use any you like.
+
+Go to the aclpub2 directory (and subdirectories) and install all packages.
+Add: `export PYTHONPATH="/path/to/aclpub2"` to your virtual environment definition file (e.g., for virtualenv, the file is `venv_dir/bin/activate`)
+
+Steps:
+
+1. Make sure to be in the workshop directory's root.
+2. Run `/path/to/aclpub2/bin/generate . --proceedings --overwrite`
+3. ??? (bugfix)
+4. Profit.
+
+
 #### Reviewer Management Guide
+
+- Invite reviewers via softconf
+-
 
 
 #### For Workshop Chairs & Conference Organisers
