@@ -26,46 +26,59 @@ I have a preferance for softconf, but regardless of choice, make sure to add the
 We use [ACLPUB2](https://github.com/rycolab/aclpub2). Using ACLPUB that is built into softconf has been deprecated. While ACLPUB2 is still very new and currently in active development and has some bugs, this is the process that will be used moving forward. Do report bugs as you find them, and ideally, create pull requests for any bugs that you fix.
 
 ##### Required items:
-- A schedule: Manually defined in program.yml
-- A list of papers: Automatically generated (from the script fetching data) and stored in papers.yml.
-- A description of the workshop: Manually defined in description.yml.
-- A list of organizers: Manually defined  in organizing\_committee.yml
+- A schedule: Manually defined in `program.yml`
+- A list of papers: Automatically generated (from the script fetching data) and stored in `papers.yml`.
+- A description of the workshop: Manually defined in `description.yml`.
+- A list of organizers: Manually defined  in `organizing_committee.yml`
 - A list of prefaces: Manually defined in prefaces.yml
 
 ##### Notes
-The only date format that is accepted is: YYYY-MM-DD HH:MM:SS
+The only date format that is accepted is: `YYYY-MM-DD HH:MM:SS`
 
-###### Schedule: program.yml
+###### Schedule: `program.yml`
 
 Should contain:
 - Different sessions
 - Start/End times of each session
-- IF papers are already assigned to a session, include them but if not, simply do not include them.
--
-- IDs need to be in text quotes
+- IF papers are already assigned to a session, include them but if not, simply do not list them.
+- IDs need to be in text quotes to match up with the IDs in `papers.yml`.
 
-###### Papers: papers.yml
+###### Papers: `papers.yml`
 Tasks:
 - Manually go over each paper and make sure that no formatting issues (e.g., all characters are displayed correctly).
-- IDs need to be in text quotes
-- Unarchived papers should be flagged with 'archived: False'
+- IDs need to be in text quotes.
+- Unarchived papers should be flagged with 'archived: False'.
+  - This includes Findings papers to be presented.
+
+####### Findings Papers
+All findings papers presented at the workshop need to be added to `papers.yml` to be included.
+
+Recommendation: As all papers in `papers.yml` need to have an ID, I would recommend giving each finding paper alphanumeric IDs, starting with `F1` to `F[n]`.
 
 
-###### Description: description.yml
+###### Description: `description.yml`
 Should contain:
 - date & start time of the workshop.
 - title of the workshop (including Workshop number).
 - chair: Name of each chair without affiliation.
 - location: Filled in by workshop chairs.
-- id: workshop\_<workshop\_ number> (e.g., workshop\_1)
+- id: `workshop_<workshop_[number]>` (e.g., `workshop_1`)
 - url: Webpage for the workshop
 - abstract: A brief description of the workshop (2-3 sentences).
 
-###### Prefaces: prefaces.yml
+###### Prefaces: `prefaces.yml`
 The format of the file is:
-
+```
 - title: <Section Heading>
 - file: <Path to file>
+```
+
+The title will be used as the section heading in the compiled proceedings, so if you would a sectioned titled  "Introduction" that is defined in `introduction.tex` located in the `prefaces/` directory. Your `prefaces.yml` should look like this:
+
+```
+- title: "Introduction"
+- file: "prefaces/introduction.tex"
+```
 
 All files will be included in the proceedings.tex file, so there is no need for begin/end document or a preamble. Simply have the content in the file.
 
@@ -76,7 +89,7 @@ All files will be included in the proceedings.tex file, so there is no need for 
 3. Edit the config.json files with the appropriate information.
 4. Run `softconf2aclpub.py`.
 
-##### Manually steps
+##### Manual steps
 
 1. Populate program.yml.
 2. Populate prefaces.yml and create the appropriate tex files.
