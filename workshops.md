@@ -98,7 +98,7 @@ All files will be included in the proceedings.tex file, so there is no need for 
 5. Add all findings papers to be presented, set the ID to `F<number>`.
 6. Ensure all ID numbers in `id` are strings.
 7. Verify the contents of all generated files.
-8. Check that `organizing_committee.yml' is generated with the organizers' information.
+8. Check that `organizing_committee.yml` is generated with the organizers' information.
 9. Remove 'chairs' from `program_committee.yml`.
 10. Check all files for unicode issues (search for `\x`).
 
