@@ -1,41 +1,38 @@
-# Workshop handbook
+# Timelines
 
+## For Workshop Organisers
 
-## Timelines
-
-### For Workshop Organisers
-
-#### Reviewing
+### Reviewing
 
 Typically between 14-30 days is enough time for reviewing. It is useful to ask some reviewers to be emergency reviewers designated before the review process begins, as there are always reviewers who do not finish their reviews and you will therefore need to do it.
 
-#### Camera Ready
+### Camera Ready
 
-#### Proceedings
+### Proceedings
 
-#### Uploading videos/papers
+### Uploading videos/papers
 
-#### Proceedings
+### Proceedings
 
 Softconf vs. Openreview
 
 I have a preferance for softconf, but regardless of choice, make sure to add the workshop chairs as admins of the workshop submission site. This will help if there are any time-sensitive issues.
 
-#### Software
+### Software
 
 We use [ACLPUB2](https://github.com/rycolab/aclpub2). Using ACLPUB that is built into softconf has been deprecated. While ACLPUB2 is still very new and currently in active development and has some bugs, this is the process that will be used moving forward. Do report bugs as you find them, and ideally, create pull requests for any bugs that you fix.
 
-##### Required items:
+#### Required items:
 - A schedule: Manually defined in `program.yml`
 - A list of papers: Automatically generated (from the script fetching data) and stored in `papers.yml`.
 - A description of the workshop: Manually defined in `description.yml`.
 - A list of organizers: Manually defined  in `organizing_committee.yml`
 - A list of prefaces: Manually defined in prefaces.yml
 
-##### Notes
+#### Notes
 The only date format that is accepted is: `YYYY-MM-DD HH:MM:SS`
 
-###### Schedule: `program.yml`
+##### Schedule: `program.yml`
 
 Should contain:
 - Different sessions
@@ -43,20 +40,20 @@ Should contain:
 - IF papers are already assigned to a session, include them but if not, simply do not list them.
 - IDs need to be in text quotes to match up with the IDs in `papers.yml`.
 
-###### Papers: `papers.yml`
+##### Papers: `papers.yml`
 Tasks:
 - Manually go over each paper and make sure that no formatting issues (e.g., all characters are displayed correctly).
 - IDs need to be in text quotes.
 - Unarchived papers should be flagged with 'archived: False'.
   - This includes Findings papers to be presented.
 
-####### Findings Papers
+###### Findings Papers
 All findings papers presented at the workshop need to be added to `papers.yml` to be included.
 
 Recommendation: As all papers in `papers.yml` need to have an ID, I would recommend giving each finding paper alphanumeric IDs, starting with `F1` to `F[n]`.
 
 
-###### Description: `description.yml`
+##### Description: `description.yml`
 Should contain:
 - date & start time of the workshop.
 - title of the workshop (including Workshop number).
@@ -66,7 +63,7 @@ Should contain:
 - url: Webpage for the workshop
 - abstract: A brief description of the workshop (2-3 sentences).
 
-###### Prefaces: `prefaces.yml`
+##### Prefaces: `prefaces.yml`
 The format of the file is:
 ```
 - title: <Section Heading>
@@ -82,14 +79,14 @@ The title will be used as the section heading in the compiled proceedings, so if
 
 All files will be included in the proceedings.tex file, so there is no need for begin/end document or a preamble. Simply have the content in the file.
 
-##### Automatically populating files
+#### Automatically populating files
 
 1. Create webservices on softconf for reviewer and submission information (softconf output should be CSV files).
 2. Copy the `softconf` directory over to the workshop repository.
 3. Edit the config.json files with the appropriate information.
 4. Run `softconf2aclpub.py`.
 
-##### Manual steps
+#### Manual steps
 
 1. Populate program.yml.
 2. Populate prefaces.yml and create the appropriate tex files.
@@ -102,7 +99,7 @@ All files will be included in the proceedings.tex file, so there is no need for 
 9. Remove 'chairs' from `program_committee.yml`.
 10. Check all files for unicode issues (search for `\x`).
 
-##### Compiling the Proceedings
+#### Compiling the Proceedings
 
 Clone the [ACLPUB2](https://github.com/rycolab/aclpub2) repository and the workshop Github repository into the same root directory. The structure should look like this:
 
@@ -126,18 +123,25 @@ Steps:
 4. Profit.
 
 
-#### Reviewer Management Guide
+### Reviewer Management Guide
 
 - Invite reviewers via softconf
 -
 
 
-#### For Workshop Chairs & Conference Organisers
+### For Workshop Chairs & Conference Organisers
 
-##### Deadlines
+#### Deadlines
 
-##### ISBN
+There are some deadlines that are soft and others are hard. It is usually helpful to workshop organizers if the proceedings & video upload deadlines are pushed back, since these are often what influences submission and camera ready deadlines.
 
-##### Proceedings
+- Proceedings deadline: There's a whole project here with getting
+- Paper & Video upload
 
-#####
+#### ISBN
+
+The information needed to generate ISBNs is incredibly simple: The title of the proceedings for each workshop. This can be obtained quite early on, so that once main conference proceedings ISBNs are ready to be requested, the workshop ones can be ready. I would suggest creating a spreadsheet
+
+#### Proceedings
+
+####
