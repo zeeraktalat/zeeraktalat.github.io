@@ -1,3 +1,9 @@
+---
+layout: workshop
+title: Workshop Guide
+permalink: /workshops
+---
+
 # Timelines
 
 ## For Workshop Organisers
@@ -20,7 +26,7 @@ Some years, there are not a lot of spaces for workshops and it is the smallest t
 
 #### New Workshops
 
-#### Workshop series
+#### Recurring Workshops
 
 When you're at this point you should know how to write a workshop proposal, but here are helpful areas to focus on:
 
