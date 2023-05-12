@@ -106,9 +106,11 @@ All files will be included in the proceedings.tex file, so there is no need for 
 
 Clone the [ACLPUB2](https://github.com/rycolab/aclpub2) repository and the workshop Github repository into the same root directory. The structure should look like this:
 
-| Root directory
-| | aclpub2
-| | <workshop repo>
+```bash
+├── root_folder (e.g., ~/Documents)
+| ├── aclpub2
+| ├── workshop_repo
+```
 
 Create a virtual environment for building the proceedings and installing python packages.
 Personally, I use virtualenv, so my instructions are for that but use any you like.
