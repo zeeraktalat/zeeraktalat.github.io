@@ -2,19 +2,71 @@
 
 ## For Workshop Organisers
 
+### Submitting Your Proposal
+
+#### Note for all workshops: **Diversity**
+
+Simply stating that the reviewing pool is diverse is not enough.
+When we are talking about diversity, we do not mean diversity between academia and industry.
+In particular, focus on diversity in the invited speakers (past and planned) and the organising committee.
+
+If you are only able to show diversity along parameters of academia & industry and seniority, you're a step behind workshops that take the diversity question seriously.
+
+Having said that *do* highlight topics of diversity that are inherent to the topic or focus of the workshop (that year). e.g., A workshop on summarisation that is focusing on summarisation and simplification for people with reading comprehension difficulties should absolutely highlight that the topic of the workshop is intrinsically linked to diversity in the field (back this up by inviting experts to speak on the topic).
+
+#### Note for all workshops: **Unsettled Topics**
+
+Some years, there are not a lot of spaces for workshops and it is the smallest things that make the difference. So for that reason, I would recommend *not* describing things that are not settled. For instance, if you are planning a shared task, but do not have a chair to organise the shared task, it would be better simply not to list it. The exception to this rule are speakers and panels: Do note who you have reached out to, whether they have responded or not.
+
+#### New Workshops
+
+#### Workshop series
+
+When you're at this point you should know how to write a workshop proposal, but here are helpful areas to focus on:
+
+- Were your past workshops a success (how many submissions/accepted papers)?
+- Why is the workshop still relevant?
+- How is the proposed workshop edition innovating on past editions (e.g., focus, topic, new initiative like a shared task, etc.)
+- How have you addressed the issue of diversity in the field before? [See some guidance here.](#note-for-all-workshops:-**Diversity**)
+- Is your program committee more or less settled?
+- Is your timeline (with any new additions) realistic? How can you make it realistic if it is not?
+
 ### Reviewing
 
 Typically between 14-30 days is enough time for reviewing. It is useful to ask some reviewers to be emergency reviewers designated before the review process begins, as there are always reviewers who do not finish their reviews and you will therefore need to do it.
 
 ### Camera Ready
 
+It is typically a good idea to give authors ~10 days to address reviews. Decisions are also useful to make on the basis of whether the issues raised in the review can be addressed in that span of time.
+After authors have uploaded their camera ready versions, you should check them to make sure that they adhere to the ACL style. If they do not, help the authors address the issues for compliance.
+
+### Uploading videos/papers to Underline/Conference Platform
+
+The folks who are running the virtual platform will need to know the submission ID for each paper that you accept. This will typically you will be requested the following information in a spreadsheet for each paper:
+
+- [Mandatory] Submission ID: The Softconf/OpenReview submission ID.
+- [Mandatory] Title: Title of each papers.
+- [Mandatory] Type: Talk/Poster.
+- [Optional] Chair: First name, Second name (if different from organizer): Can leave this blank.
+- [Mandatory] Do you need a virtual space in GatherTown (Yes/No): If it's a poster and will be presented virtually, the answer is most likely 'Yes'.
+- [Mandatory] Requires Zoom link (Yes/No): Default answer is "Yes" for all in-person talks and virtual talks. The Zoom is managed and recorded by the conference provider.
+- [Optional] Self-provided zoom link: If you are using your own Zoom link, provide it here.
+
+For the Gathertown and Zoom questions, only one link will be produced for each but *do* answer in all rows, to make sure that all papers are correctly assigned by the virtual conference platform.
+
+#### Uploading videos, posters, and/or slides
+
+The virtual conference provider will set a deadline for uploading the content. This is a hard deadline that *must* be taken into account when planning the workshop schedule.
+
+**Recommendation**
+
+I would recommend that you have every presenter create a poster *and* a video presentation. This is more work for the authors before the conference, but it means that both talks and posters are treated equally after the workshop has concluded.
+
 ### Proceedings
 
-### Uploading videos/papers
+It is important that workshop organizers know one single thing: Any delay from one workshop delays the proceedings for the main conference and all other workshops. For this particular thing, delays are unacceptable.
 
-### Proceedings
-
-Softconf vs. Openreview
+#### Softconf vs. Openreview
 
 I have a preferance for softconf, but regardless of choice, make sure to add the workshop chairs as admins of the workshop submission site. This will help if there are any time-sensitive issues.
 
