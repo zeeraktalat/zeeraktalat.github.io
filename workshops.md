@@ -10,7 +10,8 @@ permalink: /workshops
 
 ### Submitting Your Proposal
 
-#### Note for all workshops: **Diversity**
+#### Notes for All Workshops
+##### Diversity
 
 Simply stating that the reviewing pool is diverse is not enough.
 When we are talking about diversity, we do not mean diversity between academia and industry.
@@ -20,7 +21,7 @@ If you are only able to show diversity along parameters of academia & industry a
 
 Having said that *do* highlight topics of diversity that are inherent to the topic or focus of the workshop (that year). e.g., A workshop on summarisation that is focusing on summarisation and simplification for people with reading comprehension difficulties should absolutely highlight that the topic of the workshop is intrinsically linked to diversity in the field (back this up by inviting experts to speak on the topic).
 
-#### Note for all workshops: **Unsettled Topics**
+##### Unsettled Topics
 
 Some years, there are not a lot of spaces for workshops and it is the smallest things that make the difference. So for that reason, I would recommend *not* describing things that are not settled. For instance, if you are planning a shared task, but do not have a chair to organise the shared task, it would be better simply not to list it. The exception to this rule are speakers and panels: Do note who you have reached out to, whether they have responded or not.
 
