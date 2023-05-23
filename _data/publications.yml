@@ -1,4 +1,13 @@
 featured:
+  - {name: "Mirages: On Anthropomorphism in Dialogue Systems",
+     authors: "Gavin Abercrombie, Amanda Cercas Curry, Tanvi Dinkar, Zeerak Talat",
+     type: "Conference Paper",
+     preprint: "https://arxiv.org/abs/2305.09800",
+     date: "In Review.",
+     publisher: "",
+     shortvenue: "",
+     bibtex: "/assets/bibtex/mirages.bib"
+     }
   - {name: "It's Incomprehensible: On Machine Learning and Decoloniality.",
     authors: "Abeba Birhane, <b>Zeerak Talat</b>.",
     editors: "Simon Lindgren.",
@@ -45,12 +54,6 @@ featured:
     preprint: "https://arxiv.org/abs/2211.05100",
     url: "https://arxiv.org/abs/2211.05100",
     bibtex: "/assets/bibtex/bloom.bib"}
-  - {name: "Hybrid Uncertainty Estimation for Selective Text Classification in Ambiguous Tasks.",
-    authors: "Artem Vazhentsev, Akim Tsvigun, Gleb Kuzmin, <b>Zeerak Talat</b>, Alexander Panchenko, Maxim Panov, Mikhail Burtsev and Artem Shelmanov.",
-    publication: "In Review.",
-    date: "Forthcoming",
-    type: "Conference Paper",
-    bibtex: "/assets/bibtex/hue.bib"}
   - {name: 'Class Warfare: A Systematic Review of Class in NLP.',
     authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy.",
     publication: "In Review.",
