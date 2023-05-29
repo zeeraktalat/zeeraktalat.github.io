@@ -1,6 +1,6 @@
 featured:
   - {name: "Mirages: On Anthropomorphism in Dialogue Systems",
-     authors: "Gavin Abercrombie, Amanda Cercas Curry, Tanvi Dinkar, Zeerak Talat",
+     authors: "Gavin Abercrombie, Amanda Cercas Curry, Tanvi Dinkar, Verena Rieser, Zeerak Talat",
      type: "Conference Paper",
      preprint: "https://arxiv.org/abs/2305.09800",
      date: "In Review.",
@@ -162,6 +162,22 @@ ongoing:
     status: "On hold"}
 
 index:
+  - {name: "Mirages: On Anthropomorphism in Dialogue Systems",
+     authors: "Gavin Abercrombie, Amanda Cercas Curry, Tanvi Dinkar, Zeerak Talat",
+     type: "Conference Paper",
+     preprint: "https://arxiv.org/abs/2305.09800",
+     date: "In Review.",
+     publisher: "",
+     shortvenue: "",
+     bibtex: "/assets/bibtex/mirages.bib"}
+  - {name: "Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing.",
+    authors: "Lucie-Aimée Kaffee, Arnav Arora, <b>Zeerak Talat</b>, Isabelle Augenstein.",
+    publisher: "",
+    shortvenue: "",
+    date: "In Review.",
+    type: "Conference Paper",
+    preprint: "https://arxiv.org/abs/2304.08315",
+    bibtex: "/assets/bibtex/thorny.bib"}
   - {name: "It's Incomprehensible: On Machine Learning and Decoloniality.",
     authors: "Abeba Birhane, <b>Zeerak Talat</b>.",
     editors: "Simon Lindgren.",
