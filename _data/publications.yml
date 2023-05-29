@@ -1,13 +1,4 @@
 featured:
-  - {name: "Mirages: On Anthropomorphism in Dialogue Systems",
-     authors: "Gavin Abercrombie, Amanda Cercas Curry, Tanvi Dinkar, Verena Rieser, Zeerak Talat",
-     type: "Conference Paper",
-     preprint: "https://arxiv.org/abs/2305.09800",
-     date: "In Review.",
-     publisher: "",
-     shortvenue: "",
-     bibtex: "/assets/bibtex/mirages.bib"
-     }
   - {name: "It's Incomprehensible: On Machine Learning and Decoloniality.",
     authors: "Abeba Birhane, <b>Zeerak Talat</b>.",
     editors: "Simon Lindgren.",
@@ -79,11 +70,6 @@ ongoing:
     publication: "Ongoing.",
     type: "Conference Paper",
     status: "Experimenting"}
-  - {name: "Mirages: On the Dangers of Anthropomorphism in Dialogue Systems.",
-    authors: "Gavin Abercrombie, Tanvi Anand, Amanda Cercas Curry, <b>Zeerak Talat</b>",
-    publication: "Ongoing",
-    type: "Conference Paper",
-    status: "Writing"}
   - {name: "It Takes One to Know One: Mis-recognition of class in NLP.",
     authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy",
     publication: "Ongoing.",
@@ -163,10 +149,10 @@ ongoing:
 
 index:
   - {name: "Mirages: On Anthropomorphism in Dialogue Systems",
-     authors: "Gavin Abercrombie, Amanda Cercas Curry, Tanvi Dinkar, Zeerak Talat",
+     authors: "Gavin Abercrombie, Amanda Cercas Curry, Tanvi Dinkar, <b>Zeerak Talat</b>",
      type: "Conference Paper",
      preprint: "https://arxiv.org/abs/2305.09800",
-     date: "In Review.",
+     date: "Forthcoming",
      publisher: "",
      shortvenue: "",
      bibtex: "/assets/bibtex/mirages.bib"}
