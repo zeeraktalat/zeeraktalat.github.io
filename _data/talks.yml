@@ -1,4 +1,12 @@
 index:
+  - {name: "Ouroboros: On the Distributional Hypothesis",
+     host: "FAIR",
+     day: "06",
+     month: "May",
+     year: "2023",
+     slides: "/slides/talks/fair_2023.pdf",
+     type: "Invited Talk"
+    }
   - {name: "Panel on Democracy, Misinformation, and Content Moderation on Social Media with <a href='https://www.humanrights.dk/staff/rikke-frank-jorgensen'>Rikke Frank Jørgensen</a>, <a href='https://www.cbs.dk/en/research/departments-and-centres/department-of-management-society-and-communication/staff/nbtmsc'>Nanna Bonde Thylstrup</a>, and moderated by <a href='https://killjoy.dk/p/maia'>Maia Kalke Lorentzen</a>",
     host: "Union Copenhagen and Infonauterne",
     day: "28",

@@ -1,4 +1,9 @@
 items:
+  - {headline: "I gave an invited talk at FAIR on the Distributional Hypothesis and political challenges for machine learning. Title: ",
+     date: "27 Apr, 2023",
+     title: "Ouroboros: On the Distributional Hypothesis",
+     link: "/slides/talks/fair_2023.pdf"
+  }
   - {headline: "I was invited to participate on a panel on content moderation and the decentralised internet [in Danish] at Union, Copenhagen. <a href='https://www.facebook.com/unionKBH/videos/924994765477528/'>Catch the recording here</a>",
     date: "28 Apr, 2023"}
   - {headline: "I gave an invited talk at <a href='https://mbzuai.ac.ae'>MBZUAI</a> on NLP, Machine Learning, and Power. Title: ",
@@ -19,11 +24,11 @@ items:
      title: "Privacy and Surveillance in Content Moderation",
      link: "/slides/talks/edinburgh_2023.pdf"
   }
+
+past:
   - {headline: "New paper accepted to EACL 2023 on Federated Learning and hate speech detection! Read the <a href='https://arxiv.org/abs/2302.09243'>preprint here</a>",
      date: "22 Jan, 2023"
   }
-
-past:
   - {headline: "I am visiting Heriot-Watt University until February to work with Verena Rieser :)",
      date: "15 Jan, 2023",
   }
