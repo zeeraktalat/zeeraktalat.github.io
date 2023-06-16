@@ -184,7 +184,6 @@ Steps:
 - Invite reviewers via softconf
 - E-mail them with reminders to review: Typically 7 days and 3 days before the deadline is enough, though sometimes you also need to remind on the review deadline.
 
-
 ## For Workshop Chairs & Conference Organisers
 
 The very first bit of advice that I can offer is: Create a google group for all communication with workshop chairs. It streamlines information a lot and it makes it a lot easier. I *cannot* recommend this enough.
@@ -204,4 +203,5 @@ The information needed to generate ISBNs is incredibly simple: The title of the 
 ### Proceedings
 
 Developing the proceedings and dealing with workshops can be a time-consuming and error prone task. Make sure to suggest that workshop chairs dedicate time *at least* 1 week in advanced of submission. This also means that the camera ready deadline needs to be at least 8 days before the proceedings deadline.
+Proceedings cannot be generated until workshop chairs create the github repositories, so create these early and give access to all workshop chairs.
 

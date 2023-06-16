@@ -122,7 +122,7 @@ index:
     bibtex: "/assets/bibtex/federated_hate_speech.bib",
     preprint: "https://arxiv.org/abs/2302.09243",
     github: "https://github.com/jaygala24/fed-hate-speech"}
-  - {name: "Queer In AI: A Case Study in Community-Led Participatory AI",
+  - {name: "<b>[Best Paper]</b> Queer In AI: A Case Study in Community-Led Participatory AI",
     authors: "Organisers of Queer in AI",
     publication: "FAccT '23: 2023 ACM Conference on Fairness, Accountability, and Transparency.",
     publisher: "Association of Computing Machinery.",
