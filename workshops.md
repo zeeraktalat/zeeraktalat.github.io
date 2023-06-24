@@ -4,6 +4,7 @@ title: Workshop Guide
 permalink: /workshops
 ---
 
+# Table of Contents
 * TOC
 {:toc}
 
