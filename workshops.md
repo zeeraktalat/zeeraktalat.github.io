@@ -109,7 +109,6 @@ All findings papers presented at the workshop need to be added to `papers.yml` t
 
 Recommendation: As all papers in `papers.yml` need to have an ID, I would recommend giving each finding paper alphanumeric IDs, starting with `F1` to `F[n]`.
 
-
 #### Description: `description.yml`
 Should contain:
 - date & start time of the workshop.
@@ -155,6 +154,7 @@ All files will be included in the proceedings.tex file, so there is no need for 
 8. Check that `organizing_committee.yml` is generated with the organizers' information.
 9. Remove 'chairs' from `program_committee.yml`.
 10. Check all files for unicode issues (search for `\x`).
+11. Fill in the `description.yml` file.
 
 ### Compiling the Proceedings
 
