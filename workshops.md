@@ -4,11 +4,8 @@ title: Workshop Guide
 permalink: /workshops
 ---
 
-# Table of Contents
-1. [Submitting a Workshop Proposal](##submitting-your-proposal)
-2. [Organising Workshops](##organising-workshops)
-3. [Att. Building Proceedings](##building-proceedings)
-3. [For Workshop Chairs and Conference Organisers](##for-workshop-chairs-and-conference-organisers)
+* TOC
+{:toc}
 
 
 # For Workshop Organisers
