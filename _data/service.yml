@@ -175,17 +175,25 @@ reviewing:
     type: "Workshop"
     }
 organisation:
+  - {title: "Assessing the Impacts of Generative AI Systems Across Modalities and Society",
+     year: "2023",
+     type: "CRAFT Session",
+     venue: "Conference on Fairness, Accountability, and Transparancy",
+     collabs: "Irene Solaiman, Willie Agnew, Marie-Therese Png"
+     }
   - {title: "Assessing Social Impact of General Purpose AI Systems",
      year: "2022",
      type: "Roundtable",
-     venue: "Independent"
+     venue: "Independent",
+     collabs: "Irene Solaiman"
      }
   - {title: "The Workshop on Online Abuse and Harms",
      abbrev: "WOAH",
      year: "2017-2023",
      type: "Workshop",
      venue: "Co-located with ACL conferences",
-     webpage: "https://www.workshopononlineabuse.com/"
+     webpage: "https://www.workshopononlineabuse.com/",
+     collabs: "Many over the years"
      }
   - {title: "Safety for E2E Conversational AI",
      year: "2021",
@@ -195,12 +203,14 @@ organisation:
   - {title: "You Just Don’t Understand Me! From Prediction to Understanding in Machine Learning",
      year: "2020",
      type: "Tutorial",
-     venue: "REAL-ML"
+     venue: "REAL-ML",
+     collabs: "Abeba Birhane"
      }
   - {title: "Two computer scientists and a cultural scientist get hit by a driver-less car: a method for situating knowledge in the cross-disciplinary study of FAT in ML",
      year: "2020",
      type: "Tutorial",
-     venue: "Conference on Fairness, Accountability, and Transparancy"
+     venue: "Conference on Fairness, Accountability, and Transparancy",
+     collabs: "Maya Indira Ganesh, Francien Deschene"
      }
   - {title: "The Workshop on Widening NLP",
      abbrev: "WiNLP",
@@ -227,7 +237,8 @@ organisation:
   - {title: "Online Platforms and Automated Content Moderation",
      year: "2019",
      type: "Panel",
-     venue: "Privacy Camp"
+     venue: "Privacy Camp",
+     collabs: "Joris van Hoboken"
      }
 elected:
   - {venue: "ACL",
@@ -248,7 +259,7 @@ elected:
      type: "AC"
   }
   - {venues: "EACL",
-     year: "2023",
+     year: "2023 & 2024",
      position: "Workshop Chair",
      type: "PC"
   }
