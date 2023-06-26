@@ -198,7 +198,8 @@ organisation:
   - {title: "Safety for E2E Conversational AI",
      year: "2021",
      type: "Special Session",
-     venue: "SIGDIAL"
+     venue: "SIGDIAL",
+     collabs: "Emily Dinan, Gavin Abercrombie, Verena Rieser, ..."
      }
   - {title: "You Just Don’t Understand Me! From Prediction to Understanding in Machine Learning",
      year: "2020",
@@ -217,22 +218,26 @@ organisation:
      year: "2018-2019",
      type: "Workshop",
      venue: "Co-located with ACL conferences",
-     webpage: "https://www.winlp.org/"
+     webpage: "https://www.winlp.org/",
+     collabs: "Many over the years"
      }
   - {title: "The Challenge of Online Hate",
      year: "2021",
      type: "Panel",
-     venue: "Davos Labs Dialogues"
+     venue: "Davos Labs Dialogues",
+     collabs: "Bertie Vidgen ..."
      }
   - {title: "The Challenge of Online Harms: Can AI moderate Hate Speech",
      year: "2021",
      type: "Panel",
-     venue: "UN, Internet Governance Forum"
+     venue: "UN, Internet Governance Forum",
+     collabs: "Bertie Vidgen ..."
      }
   - {title: "Tackling Online Abuse: Bridging the Gap Between Human Rights and Computer Science",
      year: "2020",
      type: "Panel",
-     venue: "RightsCon"
+     venue: "RightsCon",
+     collabs: "Seyi Akiwowo, Bertie Vidgen, Vinodkumar Prabhakaran"
      }
   - {title: "Online Platforms and Automated Content Moderation",
      year: "2019",
