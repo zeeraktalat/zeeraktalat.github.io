@@ -47,6 +47,11 @@ When you're at this point you should know how to write a workshop proposal, but 
 
 Typically between 14-30 days is enough time for reviewing. It is useful to ask some reviewers to be emergency reviewers designated before the review process begins, as there are always reviewers who do not finish their reviews and you will therefore need to do it.
 
+### Reviewer Management Guide
+
+- Invite reviewers via softconf
+- E-mail them with reminders to review: Typically 7 days and 3 days before the deadline is enough, though sometimes you also need to remind on the review deadline.
+
 ### Camera Ready
 
 It is typically a good idea to give authors ~10 days to address reviews. Decisions are also useful to make on the basis of whether the issues raised in the review can be addressed in that span of time.
@@ -185,11 +190,6 @@ Steps:
 2. Run `/path/to/aclpub2/bin/generate . --proceedings --overwrite`
 3. ??? (bugfix)
 4. Profit.
-
-## Reviewer Management Guide
-
-- Invite reviewers via softconf
-- E-mail them with reminders to review: Typically 7 days and 3 days before the deadline is enough, though sometimes you also need to remind on the review deadline.
 
 ## For Workshop Chairs and Conference Organisers
 

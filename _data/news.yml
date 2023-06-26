@@ -1,4 +1,7 @@
 items:
+  - {headline: "I was a panelist on the Theories of Change panel @ FAccT 2023",
+     date: "14 Jun, 2023",
+  }
   - {headline: "I gave an invited talk at FAIR on the Distributional Hypothesis and political challenges for machine learning. Title: ",
      date: "27 Apr, 2023",
      title: "Ouroboros: On the Distributional Hypothesis",
