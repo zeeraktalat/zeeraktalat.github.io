@@ -1,4 +1,9 @@
 items:
+  - {headline: "I gave an invited talk at the Laboratory of Multiscale Studies in Building Physics, at the Swiss Federal Laboratories for Materials Science and Technology. Titled: ",
+     date: "27 Apr, 2023",
+     title: "Fallouts of the Frequentist Assumption in Machine Learning",
+     link: "/slides/talks/empa_2023.pdf"
+  }
   - {headline: "I was a panelist on the Theories of Change panel @ FAccT 2023",
      date: "14 Jun, 2023",
   }
@@ -22,13 +27,13 @@ items:
      title: "NLP and Futuring the Past",
      link: "/slides/teaching/guest/hplt_nlpl.pdf"
   }
+
+past:
   - {headline: "I gave an invited talk at the University of Edinburgh titled",
      date: "03 Feb, 2023",
      title: "Privacy and Surveillance in Content Moderation",
      link: "/slides/talks/edinburgh_2023.pdf"
   }
-
-past:
   - {headline: "New paper accepted to EACL 2023 on Federated Learning and hate speech detection! Read the <a href='https://arxiv.org/abs/2302.09243'>preprint here</a>",
      date: "22 Jan, 2023"
   }

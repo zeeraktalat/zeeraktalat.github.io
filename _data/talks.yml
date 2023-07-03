@@ -1,4 +1,12 @@
 index:
+  - {name: "Fallouts of the Frequentist Assumption in Machine Learning",
+     host: "Laboratory of Multiscale Studies in Building Physics",
+     day: "28",
+     month: "Jun",
+     year: "2023",
+     slides: "/slides/talks/empa_2023.pdf",
+     type: "Invited Talk"
+    }
   - {name: "Theories of Change panel with <a href='https://www.irenesolaiman.com/'>Irene Solaiman</a>, <a href='https://mariadearteaga.com/'>Maria De-Arteaga</a>, <a href='https://sociology.princeton.edu/people/samantha-jaroszewski-19'>Sam Jaroszweski</a>, <a href='https://wsisaac.com/'>William Isaac</a>, and <a href='https://ranjitsingh.me/'>Ranjit Singh</a>, moderated by <a href='https://www.aolteanu.com/'>Alexandra Olteanu</a> and <a href='https://md.ekstrandom.net/'>Michael Ekstrand</a>. The panel organised by <a href='https://www.dariciawilkinson.com/'>Darcia Wilkinson</a>, <a href='https://md.ekstrandom.net/'>Michael Ekstrand</a>, <a href='https://janet.vertesi.com/'>Janet A. Vertesi</a>, and <a href='https://www.aolteanu.com/'>Alexandra Olteanu</a>",
     host: "FAccT",
     day: "14",
