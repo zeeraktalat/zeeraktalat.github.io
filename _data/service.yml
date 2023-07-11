@@ -199,7 +199,7 @@ organisation:
      year: "2021",
      type: "Special Session",
      venue: "SIGDIAL",
-     collabs: "Emily Dinan, Gavin Abercrombie, Verena Rieser, ..."
+     collabs: "Gavin Abercrombie, Y-Lan Boureau, Emily Dinan, Saadia Gabriel, Alborz Geramifard, Verena Rieser, Yulia Tsvetkov, Zeerak Talat"
      }
   - {title: "You Just Don’t Understand Me! From Prediction to Understanding in Machine Learning",
      year: "2020",
@@ -225,13 +225,13 @@ organisation:
      year: "2021",
      type: "Panel",
      venue: "Davos Labs Dialogues",
-     collabs: "Bertie Vidgen ..."
+     collabs: "Bertie Vidgen, Safra Anver & Raashi Saxena"
      }
   - {title: "The Challenge of Online Harms: Can AI moderate Hate Speech",
      year: "2021",
      type: "Panel",
      venue: "UN, Internet Governance Forum",
-     collabs: "Bertie Vidgen ..."
+     collabs: "Bertie Vidgen, Safra Anver & Raashi Saxena"
      }
   - {title: "Tackling Online Abuse: Bridging the Gap Between Human Rights and Computer Science",
      year: "2020",
@@ -299,6 +299,7 @@ elected:
      position: "ARR Communication Committee",
      type: "Board"}
 awards:
+  - {title: "Best Paper: Queer In AI: A Case Study in Community-Led Participatory AI at FAccT 2023."}
   - {title: "Best Reviewer",
      venue: "ICWSM",
      year: "2019",

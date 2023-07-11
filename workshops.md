@@ -13,14 +13,18 @@ permalink: /workshops
 
 ## Submitting Your Proposal
 
+For \*ACL workshop and LREC-COLING there are now templates to follow. Please use these as it makes it easier to ensure that all information has been filled in when submitting a proposal, and for the reviewers it makes it easier to compare submissions with one another. Please refer to the respective calls for workshops to find the templates.
+
 ### Notes for All Workshops
 #### Diversity
 
 Simply stating that the reviewing pool is diverse is not enough.
 When we are talking about diversity, we do not mean diversity between academia and industry.
-In particular, focus on diversity in the invited speakers (past and planned) and the organising committee.
+In particular, focus on diversity in the invited speakers (past and planned), the organising committee, the fields that are covered e.g. also having social scientists or linguists submit.
+Certain workshop topics are inherently diversity focused which should be highlighted.
+For instance, when workshops are addressing questions such as low-resource languages or creating a space for different fields/disciplines to meet, the topic of the workshop itself is focused on a form of diversity.
 
-If you are only able to show diversity along parameters of academia & industry and seniority, you're a step behind workshops that take the diversity question seriously.
+If you are only able to show diversity along parameters of academia & industry and seniority, you're a step behind workshops that take the diversity question seriously. The point here isn't that industry/academia diversity isn't important, simply that in my opinion, it is not at all enough compared to what many workshops are doing now.
 
 Having said that *do* highlight topics of diversity that are inherent to the topic or focus of the workshop (that year). e.g., A workshop on summarisation that is focusing on summarisation and simplification for people with reading comprehension difficulties should absolutely highlight that the topic of the workshop is intrinsically linked to diversity in the field (back this up by inviting experts to speak on the topic).
 
@@ -28,7 +32,18 @@ Having said that *do* highlight topics of diversity that are inherent to the top
 
 Some years, there are not a lot of spaces for workshops and it is the smallest things that make the difference. So for that reason, I would recommend *not* describing things that are not settled. For instance, if you are planning a shared task, but do not have a chair to organise the shared task, it would be better simply not to list it. The exception to this rule are speakers and panels: Do note who you have reached out to, whether they have responded or not.
 
+#### Developments/Unique Proposal
+
+One thing that is highly considered is whether a workshop is bringing a new perspective - this goes for new and recurring workshops in slightly different ways.
+
+*New Workshops:* For new workshops, an emphasis of the proposal should be what topics/space the workshop offers that hasn't been addressed thus far.
+
+*Recurring Workshops:* For recurring workshops, they should emphasise how they innovate over previous iterations. This can be in terms of the theme of the workshop, the topics addressed, etc.
+
 ### New Workshops
+
+For new workshops, finding out exactly what is being looked for in workshop proposals, and in my experience it is useful to focus on what gaps the workshop seeks to close.
+If there are competing workshops, then what isn't being offered in them or why it's necessary with multiple workshops in the area (i.e., the area is so popular/has so many nuances that a single workshop isn't enough).
 
 ### Recurring Workshops
 
@@ -43,14 +58,37 @@ When you're at this point you should know how to write a workshop proposal, but 
 
 ## Organising Workshops
 
+Organising a workshop can be roughly split into N large tasks:
+
+1. Recruiting/Organising reviewers
+2. Getting submissions
+3. Decision-making for accepted/rejected papers
+3. Obtaining Sponsorships
+4. Preparing the proceedings.
+
 ### Reviewing
+#### Recruiting Reviewers
+
+This step should be taken *early* and reviewers are generally a trustworthy bunch in terms of getting reviews in, but collecting a large enough program committee that can address all of the submissions can be a time consuming tasks, so it should be started early, and there should be plans for emergency reviewers.
+
+#### Review Timeline
 
 Typically between 14-30 days is enough time for reviewing. It is useful to ask some reviewers to be emergency reviewers designated before the review process begins, as there are always reviewers who do not finish their reviews and you will therefore need to do it.
 
-### Reviewer Management Guide
+#### Reviewer Management Guide
 
 - Invite reviewers via softconf
-- E-mail them with reminders to review: Typically 7 days and 3 days before the deadline is enough, though sometimes you also need to remind on the review deadline.
+- E-mail them with reminders to review: Typically 7 days and 3 days before the deadline is enough, though sometimes you also need to remind on the day of the review deadline.
+- For people who have not responded or left a review by the day before the deadline: E-mail them individually and ask for whether they can complete the reviews. 
+- On the day before the submission deadline, start reaching out to your emergency reviewers.
+
+### Getting Submissions
+
+Obtaining submissions is in large effects a matter of how much the community is aware of the workshop. To this end, make sure to announce the workshop and submission dates are publicised across social media (Twitter being the primary one) and mailing list.
+
+An incomplete list of mailing lists (please e-mail me if any list is missing): Corpora, Linglist (AKA Linguist List), ACL Mailing list (automated after making an event on the ACL portal), SIG\* (many of the special interest groups have mailing lists that it's worth posting in). For more social science-y workshops it can also make sense to send a call to the Association of Internet Research (AOIR) mailing list.
+
+Make sure to send out several calls, and highlight any changed information (e.g., deadline extensions).
 
 ### Camera Ready
 
@@ -115,6 +153,7 @@ Tasks:
 - IDs need to be in text quotes.
 - Unarchived papers should be flagged with 'archived: False'.
   - This includes Findings papers to be presented.
+- Authors can be tricky people to deal with: So make sure that all author lists in `papers.yml` reflects the author lists in the PDF. A reasonable person would expect that authors would make sure that their own information was correct. A reasonable person would also be wrong.
 
 ###### Findings Papers
 All findings papers presented at the workshop need to be added to `papers.yml` to be included.
