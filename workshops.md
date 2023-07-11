@@ -265,11 +265,12 @@ There are some deadlines that are soft and others are hard. It is usually helpfu
 
 - Proceedings deadline: There's a whole project here with getting
 - Paper & Video upload (e.g. on Underline)
+  - This includes a spreadsheet with paper information for each paper and each workshop.
 - Submitted papers deadline
 
 ### ISBN
 
-The information needed to generate ISBNs is incredibly simple: The title of the proceedings for each workshop. This can be obtained quite early on, so that once main conference proceedings ISBNs are ready to be requested, the workshop ones can be ready. I would suggest creating a spreadsheet
+The information needed to generate ISBNs is incredibly simple: The title of the proceedings for each workshop. This can be obtained quite early on, so that once main conference proceedings ISBNs are ready to be requested, the workshop ones can be ready. I would suggest creating a spreadsheet early and sending it out, the titles of proceedings should be checked against this spreadsheet.
 
 ### Proceedings
 
