@@ -139,6 +139,29 @@ We use [ACLPUB2](https://github.com/rycolab/aclpub2). Using ACLPUB that is built
 #### Notes
 The only date format that is accepted is: `YYYY-MM-DD HH:MM:SS`
 
+A common source of errors in the proceedings is missing or incorrect syntax. For instance, I spent an entire day only to find out that in `program.yml`, if you specify the paper IDs that go into each session, then the format is:
+
+```
+papers:
+  - id: <ID>
+```
+
+NOT
+```
+papers:
+  id: <ID>
+```
+
+And sadly, the error messages are not always super helpful. 
+
+I would use the typical debugging process:
+- Identify a minimal working set
+- Keep adding information to it until it breaks
+- Fix the break
+- Add the rest of the information.
+
+If a bug appears, or something could be improved, submit a bug report and create pull requests once you've fixed it.
+
 ##### Schedule: `program.yml`
 
 Should contain:
@@ -222,6 +245,8 @@ Personally, I use virtualenv, so my instructions are for that but use any you li
 
 Go to the aclpub2 directory (and subdirectories) and install all packages.
 Add: `export PYTHONPATH="/path/to/aclpub2"` to your virtual environment definition file (e.g., for virtualenv, the file is `venv_dir/bin/activate`)
+
+Sometimes, the proceedings scripts or `softconf2aclpub.py` will fail because of different field names, this should be manually addressed in the appropriate tool.
 
 Steps:
 
