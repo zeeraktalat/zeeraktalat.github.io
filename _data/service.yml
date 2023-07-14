@@ -246,6 +246,12 @@ organisation:
      collabs: "Joris van Hoboken"
      }
 elected:
+  - {venue: "EMNLP",
+     year: "2023",
+     area: "Ethics",
+     position: "Area Chair",
+     type: "AC"
+  }
   - {venue: "ACL",
      year: "2022, 2023",
      area: "Ethics and NLP",
