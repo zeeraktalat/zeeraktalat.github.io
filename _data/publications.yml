@@ -4,7 +4,7 @@ featured:
     date: "2023",
     publication: "Proceedings of the Conference on Artificial Intelligence, Ethics, and Society",
     type: "Conference Paper",
-    preprint: "https://arxiv.org/abs/2307.10223"
+    preprint: "https://arxiv.org/abs/2307.10223",
     bibtex: "/assets/bibtex/craft_bias.bib"}
   - {name: "It's Incomprehensible: On Machine Learning and Decoloniality.",
     authors: "Abeba Birhane, <b>Zeerak Talat</b>.",
@@ -71,7 +71,7 @@ index:
     date: "2023",
     publication: "Proceedings of the Conference on Artificial Intelligence, Ethics, and Society",
     type: "Conference Paper",
-    preprint: "https://arxiv.org/abs/2307.10223"
+    preprint: "https://arxiv.org/abs/2307.10223",
     bibtex: "/assets/bibtex/craft_bias.bib"}
   - {name: "Mirages: On Anthropomorphism in Dialogue Systems",
      authors: "Gavin Abercrombie, Amanda Cercas Curry, Tanvi Dinkar, Verena Rieser, <b>Zeerak Talat</b>.",
