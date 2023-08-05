@@ -15,6 +15,9 @@ featured:
     date: "Forthcoming",
     type: "Book Chapter",
     bibtex: "/assets/bibtex/incomprehensible.bib"}
+  - {name: "Subjectivigty bla bla bla"
+     authors: "Amanda Cercas Curry, Gavin Abercrombie, <b>Zeerak Talat</b>"
+    }
   - {name: 'Detecting "Dirt" and "Toxicity": Rethinking Content Moderation as Pollution Behaviour.',
     authors: "Nanna Bonde Thylstrup, <b>Zeerak Talat</b>.",
     publication: "First Monday.",
