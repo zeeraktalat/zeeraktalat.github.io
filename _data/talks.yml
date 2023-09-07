@@ -1,4 +1,11 @@
 index:
+  - {name: "Ethics and Legal Perspectives with Cristoph Sorge, Kevin Baum, and Thomas Giegerich, moderated by Rosa Navarette",
+     host: "Interdisciplinary Institute for Societal Computing (I2SC)",
+     day: "07",
+     month: "Sep",
+     year: "2023",
+     type: "Panel"
+    }
   - {name: "Fallouts of the Frequentist Assumption in Machine Learning",
      host: "Laboratory of Multiscale Studies in Building Physics",
      day: "28",
@@ -14,7 +21,7 @@ index:
      year: "2023",
      type: "Fireside Chat"
      }
-  - {name: "Anthropomorphism in AI with Marta Halina and Jonnie Penn, modearted by Henry Shevlin",
+  - {name: "Anthropomorphism in AI with Marta Halina and Jonnie Penn, moderated by Henry Shevlin",
      host: "University of Cambridge",
      day: "19",
      month: "Jun",

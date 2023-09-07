@@ -1,4 +1,7 @@
 reviewing:
+  - {venue: "Springer Nature",
+     type: "Journal"
+     }
   - {venue: "Minds and Machines",
      type: "Journal"
      }
