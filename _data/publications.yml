@@ -42,16 +42,6 @@ featured:
     preprint: "https://arxiv.org/abs/2210.06245",
     url: "https://arxiv.org/abs/2211.05100",
     bibtex: "/assets/bibtex/backttfuture.bib"}
-  - {name: 'BLOOM: A 176B-Parameter Open-Access Multilingual Language Model.',
-    authors: "Teven Le Scao, et al.",
-    publication: "Journal of Machine Learning Research.",
-    publisher: "Microtome Publishing",
-    shortvenue: "JMLR",
-    date: "Forthcoming",
-    type: "Journal Paper",
-    preprint: "https://arxiv.org/abs/2211.05100",
-    url: "https://arxiv.org/abs/2211.05100",
-    bibtex: "/assets/bibtex/bloom.bib"}
   - {name: 'Class Warfare: A Systematic Review of Class in NLP.',
     authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy.",
     publication: "In Review.",
@@ -168,6 +158,13 @@ index:
     preprint: "https://arxiv.org/abs/2210.06245",
     url: "https://arxiv.org/abs/2210.06245",
     bibtex: "/assets/bibtex/backttfuture.bib"}
+  - {name: 'BLOOM: A 176B-Parameter Open-Access Multilingual Language Model.',
+    authors: "Teven Le Scao, et al.",
+    type: "Journal Paper",
+    date: "2022",
+    preprint: "https://arxiv.org/abs/2211.05100",
+    url: "https://arxiv.org/abs/2211.05100",
+    bibtex: "/assets/bibtex/bloom.bib"}
   - {name: 'A Federated Approach to Predicting Emojis in Hindi Tweets.',
     authors: "Deep Gandhi, Jash Mehta, Nirali Parekh, Karan Waghela, Lynette D'Mello, <b>Zeerak Talat</b>.",
     publication: "The Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing.",
