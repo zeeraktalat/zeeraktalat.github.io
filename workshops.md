@@ -20,13 +20,21 @@ For \*ACL workshop and LREC-COLING there are now templates to follow. Please use
 
 Simply stating that the reviewing pool is diverse is not enough.
 When we are talking about diversity, we do not mean diversity between academia and industry.
-In particular, focus on diversity in the invited speakers (past and planned), the organising committee, the fields that are covered e.g. also having social scientists or linguists submit.
+In particular when talking about diversity, we mean that there is a focus on diversity in the invited speakers (past and planned), the organising committee, the fields that are covered e.g. also having social scientists or linguists submit. 
+This is in addition to diversity between academia and industry and the reviewing pool. 
+The point here is that simply highlighting on area does not cover what we understand by diversity.
 Certain workshop topics are inherently diversity focused which should be highlighted.
 For instance, when workshops are addressing questions such as low-resource languages or creating a space for different fields/disciplines to meet, the topic of the workshop itself is focused on a form of diversity.
 
 If you are only able to show diversity along parameters of academia & industry and seniority, you're a step behind workshops that take the diversity question seriously. The point here isn't that industry/academia diversity isn't important, simply that in my opinion, it is not at all enough compared to what many workshops are doing now.
 
 Having said that *do* highlight topics of diversity that are inherent to the topic or focus of the workshop (that year). e.g., A workshop on summarisation that is focusing on summarisation and simplification for people with reading comprehension difficulties should absolutely highlight that the topic of the workshop is intrinsically linked to diversity in the field (back this up by inviting experts to speak on the topic).
+
+#### Description of Workshop Organizers' Experience
+
+The description of each workshop organizer should seek to answer two questions: 1) How does the organizer's research experience relate to the workshop (e.g., listing areas of research) and 2) what organizational experience does an organizer have (e.g., academic service, organizing academic events, public events such as NLP meetups, etc.).
+
+An organizer's academic history (i.e., where they got their degrees or where they have held positions) is less relevant information.
 
 #### Unsettled Topics
 
