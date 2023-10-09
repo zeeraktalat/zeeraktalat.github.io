@@ -16,6 +16,11 @@ permalink: /workshops
 For \*ACL workshop and LREC-COLING there are now templates to follow. Please use these as it makes it easier to ensure that all information has been filled in when submitting a proposal, and for the reviewers it makes it easier to compare submissions with one another. Please refer to the respective calls for workshops to find the templates.
 
 ### Notes for All Workshops
+
+#### Colocation
+
+Note that when you submit a workshop proposal, you can order your preference in which conferences you wish to be colocated with. This however, is simply a request and you should not expect that it is necessarily held. However, there may be particular reasons that your workshop *cannot* be colocated with a conference, and you should specify this. *Without this information, you may have your workshop assigned to a conference that you are unable to host a workshop at (for whatever reason)*.
+
 #### Diversity
 
 Simply stating that the reviewing pool is diverse is not enough.
