@@ -1,4 +1,14 @@
 items:
+  - {headline: "I gave a guest lecture for te research methods course at Mohamed Bin Zayed University of Artificial Intelligence titled: ",
+     date: "17 Oct, 2023",
+     title: "Ethics, Fairness, and Bias in Machine Learning",
+     link: "/slides/teaching/guest/mbzuai.pdf"
+  }
+  - {headline: "I gave an invited talk with Gavin Abercrombie at Google Deepmind titled: ",
+     date: "12 Oct, 2023",
+     title: "Mirages, Disagreement, and the Futures of NLP",
+     link: "/slides/talks/deepmind_2023.pdf"
+  }
   - {headline: "I was invited to participate on a panel on the legal and ethical challenges of AI for the opening of the <a href='https://www.i2sc.net/i2sc-kick-off-event'>Interdisciplinary Institute for Societal Computing</a>.",
     date: "07 Sep, 2023"}
   - {headline: "I gave an invited talk at the Laboratory of Multiscale Studies in Building Physics, at the Swiss Federal Laboratories for Materials Science and Technology. Titled: ",
@@ -16,6 +26,8 @@ items:
   }
   - {headline: "I was invited to participate on a panel on content moderation and the decentralised internet [in Danish] at Union, Copenhagen. <a href='https://www.facebook.com/unionKBH/videos/924994765477528/'>Catch the recording here</a>",
     date: "28 Apr, 2023"}
+
+past:
   - {headline: "I gave an invited talk at <a href='https://mbzuai.ac.ae'>MBZUAI</a> on NLP, Machine Learning, and Power. Title: ",
      date: "27 Apr, 2023",
      title: "All that Glitters ain't Gold: Examining Machine Learning as Socio-technical Infrastructure",
@@ -24,8 +36,6 @@ items:
   - {headline: "A new book chapter (co-author with <a href='https://jaimekirtz.com/'>Jaime Lee Kirtz</a>) on future directions for hate speech detection. Read <a href='https://doi.org/10.48541/dcr.v12.27'>it here</a>",
     date: "25 Apr, 2023"
   }
-
-past:
   - {headline: "I gave a lecture on the politics of NLP at the <a href='http://wiki.nlpl.eu/Community/training'>HPLT & NLPL Winter School</a>. Title: ",
      date: "08 Feb, 2023",
      title: "NLP and Futuring the Past",

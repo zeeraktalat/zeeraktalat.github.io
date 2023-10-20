@@ -1,4 +1,13 @@
 index:
+  - {name: "Mirages, Disagreement, and the Futures of NLP",
+     note: "Co-presented with Gavin Abercrombe.",
+     host: "Google Deepmind",
+     day: "12",
+     month: "Oct",
+     year: "2023",
+     slides: "/slides/talks/deepmind_2023.pdf",
+     type: "Invited Talk"
+    }
   - {name: "Ethics and Legal Perspectives with Cristoph Sorge, Kevin Baum, and Thomas Giegerich, moderated by Rosa Navarette",
      host: "Interdisciplinary Institute for Societal Computing (I2SC)",
      day: "07",

@@ -1,5 +1,13 @@
 index:
   - {type: "Lecture",
+     institution: "Mohamed Bin Zayed University of Artificial Intelligence",
+     course: "Research Training",
+     year: "2023",
+     month: "Oct",
+     title: "Ethics, Fairness, and Bias in Machine Learning",
+     slides: "/slides/teaching/guest/mbzuai.pdf"
+  }
+  - {type: "Lecture",
      institution: "HPLT & NLPL",
      course: "Winter School",
      year: "2023",
