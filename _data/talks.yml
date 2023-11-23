@@ -1,4 +1,20 @@
 index:
+  - {name: "The Modern Prometheuses: Machine Learning in a Society",
+     host: "AI GAP",
+     day: "21",
+     month: "Nov",
+     year: "2023",
+     slides: "/slides/talks/aigap_2023.pdf",
+     type: "Invited Talk"
+    }
+  - {name: "Using Digital Tools to Tackle Online Harms and Extremism",
+     host: "The Hate Crime Conference 2023",
+     day: "23",
+     month: "Nov",
+     year: "2023",
+     slides: "/slides/talks/hatecrime_2023.pdf",
+     type: "Invited Talk"
+    }
   - {name: "Mirages, Disagreement, and the Futures of NLP",
      note: "Co-presented with Gavin Abercrombe.",
      host: "Google Deepmind",
