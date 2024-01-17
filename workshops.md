@@ -26,7 +26,7 @@ Note that when you submit a workshop proposal, you can order your preference in 
 Simply stating that the reviewing pool is diverse is not enough.
 When we are talking about diversity, we do not mean diversity between academia and industry.
 In particular when talking about diversity, we mean that there is a focus on diversity in the invited speakers (past and planned), the organising committee, the fields that are covered e.g. also having social scientists or linguists submit. 
-This is in addition to diversity between academia and industry and the reviewing pool. 
+This is in addition to diversity between academia and industry and the reviewing pool.
 The point here is that simply highlighting on area does not cover what we understand by diversity.
 Certain workshop topics are inherently diversity focused which should be highlighted.
 For instance, when workshops are addressing questions such as low-resource languages or creating a space for different fields/disciplines to meet, the topic of the workshop itself is focused on a form of diversity.
@@ -165,7 +165,7 @@ papers:
   id: <ID>
 ```
 
-And sadly, the error messages are not always super helpful. 
+And sadly, the error messages are not always super helpful.
 
 I would use the typical debugging process:
 - Identify a minimal working set
@@ -266,7 +266,19 @@ Steps:
 1. Make sure to be in the workshop directory's root.
 2. Run `/path/to/aclpub2/bin/generate . --proceedings --overwrite`
 3. ??? (bugfix)
-4. Profit.
+4. Check the compiled proceedings for (certain) issues using [ACLPubCheck](https://github.com/acl-org/aclpubcheck)
+5. Profit.
+
+##### ACLPubCheck
+
+[ACLPubCheck](https://github.com/acl-org/aclpubcheck) is a tool is developed to identify issues with the submitted camera ready PDFs once the proceedings have compiled.
+What this tool checks for is things like formatting issues and font issues. This means that it is run after the proceedings have been compiled and compilation issues will therefore not be caught by it.
+Moreover, this does not capture issues like: Missing metadata (e.g., not all authors being listed in the YAML file), missing papers in the proceedings PDF, or accidentally added papers in the proceedings PDF (e.g., Findings papers that are accidentally included in the proceedings rather than just the program).
+This is a super helpful tool and the person building the proceedings absolutely should use it.
+
+##### Delivering the proceedings
+Each workshop will get a Github repository where all files (PDFs and metadata) are to be uploaded to. These repositories will be created by the conference and each workshop will be provided access to the github users that they provide to the workshop chairs for their conference.
+An example repository will be made available for viewing soon.
 
 ## For Workshop Chairs and Conference Organisers
 
