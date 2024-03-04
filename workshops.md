@@ -280,6 +280,26 @@ This is a super helpful tool and the person building the proceedings absolutely 
 Each workshop will get a Github repository where all files (PDFs and metadata) are to be uploaded to. These repositories will be created by the conference and each workshop will be provided access to the github users that they provide to the workshop chairs for their conference.
 An example repository will be made available for viewing soon.
 
+
+##### Generating Information for Underline
+
+Once all YAML files have been created, you can then pull out the information needed Underline (with the exception of type of talk and paper ID) using the following script (courtesy of Rob van der Goot) to add to the spreadsheet:
+
+```
+data = yaml.safe_load(open('WNUT_data.yml'))
+
+for paper in data:
+    abstract = paper['abstract']
+    title = paper['title']
+    output = [title, abstract]
+    for author in paper['authors']:
+        first_name = author['first_name']
+        second_name = author['last_name']
+        email = ' ' if 'emails' not in author else author['emails']
+        output.extend([first_name, second_name, email])
+    print('\t'.join(output))
+```
+
 ## For Workshop Chairs and Conference Organisers
 
 The very first bit of advice that I can offer is: Create a google group for all communication with workshop chairs. It streamlines information a lot and it makes it a lot easier. I *cannot* recommend this enough.
@@ -301,4 +321,3 @@ The information needed to generate ISBNs is incredibly simple: The title of the 
 
 Developing the proceedings and dealing with workshops can be a time-consuming and error prone task. Make sure to suggest that workshop chairs dedicate time *at least* 1 week in advanced of submission. This also means that the camera ready deadline needs to be at least 8 days before the proceedings deadline.
 Proceedings cannot be generated until workshop chairs create the github repositories, so create these early and give access to all workshop chairs.
-
