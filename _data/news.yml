@@ -17,8 +17,11 @@ items:
      title: "Mirages, Disagreement, and the Futures of NLP",
      link: "/slides/talks/deepmind_2023.pdf"
   }
+
+past:
   - {headline: "I was invited to participate on a panel on the legal and ethical challenges of AI for the opening of the <a href='https://www.i2sc.net/i2sc-kick-off-event'>Interdisciplinary Institute for Societal Computing</a>.",
-    date: "07 Sep, 2023"}
+    date: "07 Sep, 2023",
+  }
   - {headline: "I gave an invited talk at the Laboratory of Multiscale Studies in Building Physics, at the Swiss Federal Laboratories for Materials Science and Technology. Titled: ",
      date: "27 Apr, 2023",
      title: "Fallouts of the Frequentist Assumption in Machine Learning",
