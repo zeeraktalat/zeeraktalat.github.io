@@ -1,4 +1,10 @@
 items:
+  - {headline: "2 new papers with a lovely set of co-authors on <a href='https://arxiv.org/abs/2402.02113'>class in NLP (to appear at COLING-LREC)</a> and on <a href='https://arxiv.org/abs/2403.02268'>subjectivity and hate speech</a>!",
+     date: "07 Mar, 2024",
+  }
+  - {headline: "A new paper has been accepted at EACL! A preprint is available at: https://arxiv.org/abs/2402.02113",
+     date: "07 Mar, 2024",
+  }
   - {headline: "I gave a guest lecture for te research methods course at Mohamed Bin Zayed University of Artificial Intelligence titled: ",
      date: "17 Oct, 2023",
      title: "Ethics, Fairness, and Bias in Machine Learning",
