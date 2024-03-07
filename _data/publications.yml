@@ -51,6 +51,23 @@ featured:
   }
 
 index:
+  - {name: 'Zero-shot Sentiment Analysis in Low-Resource Languages Using a Multilingual Sentiment Lexicon.',
+     authors: "Fajri Koto, Tilman Beck, Zeerak Talat, Iryna Gurevych, Timothy Baldwin.",
+     publication: "The Proceedings of the 18th Conference of the European Chapter of the Association of Computational Linguistics.",
+     publisher: "Association of Computational Linguistics.",
+     shortvenue: "EACL.",
+     date: "2024",
+     # type: "Conference Paper",
+     bibtex: "/assets/bibtex/zeroshot.bib",
+     preprint: "https://arxiv.org/abs/2402.02113",
+     github: "https://github.com/fajri91/ZeroShotMultilingualSentiment"}
+  - {name: 'Impoverished Language Technology: The Lack of (Social) Class in NLP.',
+     authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy.",
+     publication: "Proceedings of LREC-COLING.",
+     date: "2024",
+     type: "Conference Paper",
+     preprint: "https://arxiv.org/abs/2403.03874",
+     bibtex: "/assets/bibtex/class.bib"}
   - {name: "Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing.",
      authors: "Lucie-Aimée Kaffee, Arnav Arora, <b>Zeerak Talat</b>, Isabelle Augenstein.",
      publication: "Findings of the Association for Computational Linguistics: EMNLP 2023.",
