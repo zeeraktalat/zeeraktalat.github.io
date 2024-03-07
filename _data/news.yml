@@ -5,6 +5,8 @@ items:
   - {headline: "A new paper has been accepted at EACL! A preprint is available at: https://arxiv.org/abs/2402.02113",
      date: "07 Mar, 2024",
   }
+  - {headline: "I am lucky to have been selected as one of the 2024 visiting researchers at the <a href='https://hiig.de'>Alexander von Humbold Institut Für Internet und Gesellschaft</a> in Berlin!",
+     date: "14 Nov, 2024"}
   - {headline: "I gave a guest lecture for te research methods course at Mohamed Bin Zayed University of Artificial Intelligence titled: ",
      date: "17 Oct, 2023",
      title: "Ethics, Fairness, and Bias in Machine Learning",
