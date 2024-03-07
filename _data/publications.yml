@@ -25,16 +25,6 @@ featured:
      type: "Journal Paper",
      preprint: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3709719",
      bibtex: "/assets/bibtex/detecting.bib"}
-  - {name: "Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing.",
-     authors: "Lucie-Aimée Kaffee, Arnav Arora, <b>Zeerak Talat</b>, Isabelle Augenstein.",
-     publication: "Findings of the Association for Computational Linguistics: EMNLP 2023.",
-     publisher: "Association of Computational Linguistics.",
-     shortvenue: "EMNLP Findings",
-     date: "2023",
-     publisher: "Association of Computational Linguistics.",
-     type: "Conference Paper",
-     preprint: "https://arxiv.org/abs/2304.08315",
-     bibtex: "/assets/bibtex/thorny.bib"}
   - {name: "Back to the Future: On Potential Histories in NLP.",
      authors: "<b>Zeerak Talat</b>, Anne Lauscher.",
      publication: "In Review.",
@@ -45,12 +35,6 @@ featured:
      preprint: "https://arxiv.org/abs/2210.06245",
      url: "https://arxiv.org/abs/2211.05100",
      bibtex: "/assets/bibtex/backttfuture.bib"}
-  - {name: 'Class Warfare: A Systematic Review of Class in NLP.',
-     authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy.",
-     publication: "In Review.",
-     date: "Forthcoming",
-     type: "Conference Paper",
-     bibtex: "/assets/bibtex/class.bib"}
   - {name: "Documenting Geographically and Contextually Diverse Language Data Sources",
      authors: "Angelina McMillan-Major, Zaid Alyafeai, Stella Biderman, Kimbo Chen, Francesco De Toni, Gérard Dupont, Hady Elsahar, Chris Emezue, Alham Fikri Aji,Suzana Ilic, Nurulaqilla Khamis, Colin Leong, Maraim Masoud, Aitor Soroa, Pedro Ortiz Suarez, <b>Zeerak Talat</b>, Daniel van Strien, Yacine Jernite",
      type: "Journal Paper",
@@ -66,7 +50,7 @@ index:
      publisher: "Association of Computational Linguistics.",
      shortvenue: "EACL.",
      date: "2024",
-     # type: "Conference Paper",
+     type: "Conference Paper",
      bibtex: "/assets/bibtex/zeroshot.bib",
      preprint: "https://arxiv.org/abs/2402.02113",
      github: "https://github.com/fajri91/ZeroShotMultilingualSentiment"}
@@ -457,12 +441,6 @@ ongoing:
     publication: "Ongoing.",
     type: "Conference Paper",
     status: "Experimenting"}
-  - {name: "It Takes One to Know One: Mis-recognition of class in NLP.",
-    authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy",
-    publication: "Ongoing.",
-    type: "Conference Paper",
-    status: "Experiments",
-    bibtex: "/assets/bibtex/xppp.bib"}
   - {name: "Drs. Frankenstein and Our Monster: On the Harms of the Distributional Hypothesis.",
     authors: "<b>Zeerak Talat</b>, Nikita Nangia",
     publication: "Ongoing.",
