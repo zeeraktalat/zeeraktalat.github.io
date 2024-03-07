@@ -18,6 +18,14 @@ education:
      }
 work:
   - {position: "Visiting Researcher",
+     start: " 2024",
+     institution: "Alexander von Humbold Institut für Internet und Gesellschaft.",
+     loc: "Berlin, Germany"}
+  - {position: "Research Fellow",
+     start: "Jul, 2023",
+     institution: "Mohamed Bin Zayed University of Artificial Intelligence",
+     loc: "Abu Dhabi, UAE"}
+  - {position: "Visiting Researcher",
      start: "Jan, 2023",
      end: "Feb, 2023",
      institution: "Heriot-Watt University",
