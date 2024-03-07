@@ -2,11 +2,12 @@ items:
   - {headline: "2 new papers with a lovely set of co-authors on <a href='https://arxiv.org/abs/2402.02113'>class in NLP (to appear at COLING-LREC)</a> and on <a href='https://arxiv.org/abs/2403.02268'>subjectivity and hate speech</a>!",
      date: "07 Mar, 2024",
   }
-  - {headline: "A new paper has been accepted at EACL! A preprint is available at: https://arxiv.org/abs/2402.02113",
+  - {headline: "A new paper on <a href='https://arxiv.org/abs/2402.02113'>multilingual sentiment analysis</a> has been accepted to appear at EACL.",
      date: "07 Mar, 2024",
   }
   - {headline: "I am lucky to have been selected as one of the 2024 visiting researchers at the <a href='https://hiig.de'>Alexander von Humbold Institut Für Internet und Gesellschaft</a> in Berlin!",
-     date: "14 Nov, 2024"}
+     date: "14 Nov, 2024",
+  }
   - {headline: "I gave a guest lecture for te research methods course at Mohamed Bin Zayed University of Artificial Intelligence titled: ",
      date: "17 Oct, 2023",
      title: "Ethics, Fairness, and Bias in Machine Learning",
@@ -37,8 +38,6 @@ past:
   }
   - {headline: "I was invited to participate on a panel on content moderation and the decentralised internet [in Danish] at Union, Copenhagen. <a href='https://www.facebook.com/unionKBH/videos/924994765477528/'>Catch the recording here</a>",
     date: "28 Apr, 2023"}
-
-past:
   - {headline: "I gave an invited talk at <a href='https://mbzuai.ac.ae'>MBZUAI</a> on NLP, Machine Learning, and Power. Title: ",
      date: "27 Apr, 2023",
      title: "All that Glitters ain't Gold: Examining Machine Learning as Socio-technical Infrastructure",

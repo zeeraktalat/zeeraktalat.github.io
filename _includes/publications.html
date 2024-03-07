@@ -12,7 +12,7 @@
     {% else %}
 
     <center><h4 class="pub-type">Forthcoming</h4></center>
-      {% assign pubs = site.data.publications.index | where: "date", "Forthcoming" %}
+      {% assign pubs = site.data.publications.forthcoming | where: "date", "Forthcoming" %}
       <ul>
       {% for pub in pubs %}
       <p>
@@ -31,13 +31,13 @@
       {% endfor %}
       </ul>
 
-    {% for year in (2016..2023) reversed%}
+    {% for year in (2016..2024) reversed %}
     <center><h4 class="pub-type">{{ year }}</h4></center>
       {% assign pubs = site.data.publications.index | where: "date", year  %}
       <ul>
       {% for pub in pubs %}
       <p>
-        <li>{{ pub.name }} <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
+        <li>{{ pub.name }} <i>{{ pub.authors }}</i> {{ pub.date }}. {{ pub.publication }} {{ pub.publisher }} <br />
           [<b>{{ pub.type }}</b>] <br />
           {% if pub.doi %}
           <a href="{{ pub.doi }}" target="_blank"><img src="/assets/img/doi.png" style="width:20px;height:20px;"></a>
