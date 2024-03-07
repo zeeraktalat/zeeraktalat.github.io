@@ -1,12 +1,21 @@
 featured:
-  - {name: "Bound by the Bounty: Collaboratively Shaping Evaluation Processes for Queer AI Harms",
-     authors: "Organizers of Queer in AI, Nathan Dennler, Anaelia Ovalle, Ashwin Singh, Luca Soldaini, Arjun Subramonian, Huy Tu, William Agnew, Avijit Ghosh, Kyra Yee, Irene Font Peradejordi, <b>Zeerak Talat</b>, Mayra Russo, Jess de Jesus de Pinho Pinhal.",
-     date: "2023",
-     publication: "Proceedings of the Conference on Artificial Intelligence, Ethics, and Society",
-     type: "Conference Paper",
-     preprint: "https://arxiv.org/abs/2307.10223",
-     doi: "https://doi.org/10.1145/3600211.3604682",
-     bibtex: "/assets/bibtex/craft_bias.bib"}
+  - {name: "Content Moderation.",
+     authors: "<b>Zeerak Talat</b>.",
+     type: "Book Chapter",
+     date: "Forthcoming",
+     publication: "In Review.",
+     publisher: "",
+     shortvenue: "",
+     }
+  - {name: 'Subjective <i>Isms</i>? On the Danger of Conflating Hate and Offence in Abusive Language Detection.',
+     authors: "Amanda Cercas Curry, Gavin Abercrombie, <b>Zeerak Talat</b>.",
+     date: "Forthcoming",
+     publication: "In Review.",
+     type: "Conference Paper"
+     publisher: "",
+     shortvenue: "",
+     preprint: "https://arxiv.org/abs/2403.02268",
+     bibtex: "/assets/bibtex/class.bib"}
   - {name: 'Detecting "Dirt" and "Toxicity": Rethinking Content Moderation as Pollution Behaviour.',
      authors: "Nanna Bonde Thylstrup, <b>Zeerak Talat</b>.",
      publication: "First Monday.",
