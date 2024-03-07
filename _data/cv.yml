@@ -2,7 +2,7 @@ education:
   - {degree: "Ph.D.",
      university: "University of Sheffield",
      course: "Computer Science",
-     gradyear: "2022",
+     gradyear: "2021",
      thesis: "https://etheses.whiterose.ac.uk/30950/",
      title: '“It ain’t all good:" Machinic abuse detection and marginalisation in machine learning'
      }
