@@ -7,6 +7,15 @@ forthcoming:
      publisher: "",
      shortvenue: "",
      }
+  - {name: 'Classist Tools: Social Class Correlates with Performance in NLP',
+     authors: "Amanda Cercas Curry, Giuseppe Attanasio, <b>Zeerak Talat</b>, Dirk Hovy.",
+     date: "Forthcoming",
+     publication: "In Review.",
+     type: "Conference Paper",
+     publisher: "",
+     shortvenue: "",
+     preprint: "https://arxiv.org/abs/2403.04445v1",
+     bibtex: "/assets/bibtex/class.bib"}
   - {name: 'Subjective <i>Isms</i>? On the Danger of Conflating Hate and Offence in Abusive Language Detection.',
      authors: "Amanda Cercas Curry, Gavin Abercrombie, <b>Zeerak Talat</b>.",
      date: "Forthcoming",
