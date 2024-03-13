@@ -7,6 +7,15 @@ forthcoming:
      publisher: "",
      shortvenue: "",
      }
+  - {name: 'Impoverished Language Technology: The Lack of (Social) Class in NLP',
+     authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy.",
+     date: "Forthcoming",
+     publication: "In Review.",
+     type: "Conference Paper",
+     publisher: "",
+     shortvenue: "",
+     preprint: "https://arxiv.org/abs/2403.03874",
+     bibtex: "/assets/bibtex/impoverished.bib"}
   - {name: 'Classist Tools: Social Class Correlates with Performance in NLP',
      authors: "Amanda Cercas Curry, Giuseppe Attanasio, <b>Zeerak Talat</b>, Dirk Hovy.",
      date: "Forthcoming",
@@ -15,7 +24,7 @@ forthcoming:
      publisher: "",
      shortvenue: "",
      preprint: "https://arxiv.org/abs/2403.04445v1",
-     bibtex: "/assets/bibtex/class.bib"}
+     bibtex: "/assets/bibtex/classist.bib"}
   - {name: 'Subjective <i>Isms</i>? On the Danger of Conflating Hate and Offence in Abusive Language Detection.',
      authors: "Amanda Cercas Curry, Gavin Abercrombie, <b>Zeerak Talat</b>.",
      date: "Forthcoming",
@@ -24,7 +33,7 @@ forthcoming:
      publisher: "",
      shortvenue: "",
      preprint: "https://arxiv.org/abs/2403.02268",
-     bibtex: "/assets/bibtex/class.bib"}
+     bibtex: "/assets/bibtex/isms.bib"}
   - {name: 'Detecting "Dirt" and "Toxicity": Rethinking Content Moderation as Pollution Behaviour.',
      authors: "Nanna Bonde Thylstrup, <b>Zeerak Talat</b>.",
      publication: "First Monday.",
@@ -49,7 +58,7 @@ forthcoming:
      type: "Journal Paper",
      publication: "In Review.",
      date: "Forthcoming",
-     bibtex: "/assets/bibtex/data_catalogue.bib"
+     bibtex: "/assets/bibtex/catalogue.bib"
   }
 
 index:
@@ -69,7 +78,7 @@ index:
      date: "2024",
      type: "Conference Paper",
      preprint: "https://arxiv.org/abs/2403.03874",
-     bibtex: "/assets/bibtex/class.bib"}
+     bibtex: "/assets/bibtex/impoverished.bib"}
   - {name: "Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing.",
      authors: "Lucie-Aimée Kaffee, Arnav Arora, <b>Zeerak Talat</b>, Isabelle Augenstein.",
      publication: "Findings of the Association for Computational Linguistics: EMNLP 2023.",
@@ -159,7 +168,7 @@ index:
      type: "Conference Paper",
      doi: "https://dl.acm.org/doi/abs/10.1145/3593013.3594134",
      preprint: "https://arxiv.org/abs/2303.16972",
-     bibtex: "/assets/bibtex/participatory_ai"}
+     bibtex: "/assets/bibtex/participatory.bib"}
   - {name: "Back to the Future: On Potential Histories in NLP.",
      authors: "<b>Zeerak Talat</b>, Anne Lauscher.",
      publication: "In Review.",
@@ -212,7 +221,7 @@ index:
      preprint: "https://arxiv.org/abs/2206.09917",
      github: "https://github.com/rewire-online/multilingual-hatecheck",
      video: "https://aclanthology.org/2022.woah-1.15.mp4",
-     bibtex: "/assets/bibtex/multilingualhatecheck.bib"}
+     bibtex: "/assets/bibtex/multilingualhc.bib"}
   - {name: 'Data Governance in the Age of Large-Scale Data-Driven Language Technology.',
      authors: "Yacine Jernite, Huu Nguyen, Stella Biderman, Anna Rogers, Maraim Masoud, Valentin Danchev, Samson Tan, Alexandra Sasha Luccioni, Nishant Subramani, Isaac Johnson, Gérard Dupont, Jesse Dodge, Kyle Lo, <b>Zeerak Talat</b>, Dragomir Radev, Aaron Gokaslan, Somaieh Nikpoor, Peter Henderson, Rishi Bommasani and Margaret Mitchell.",
      publication: "FAccT '22: 2022 ACM Conference on Fairness, Accountability, and Transparency.",
@@ -223,7 +232,7 @@ index:
      doi: "https://doi.org/10.1145/3531146.3534637",
      url: "https://dl.acm.org/doi/abs/10.1145/3531146.3534637",
      preprint: "https://arxiv.org/abs/2206.03216",
-     bibtex: "/assets/bibtex/data_governance.bib"}
+     bibtex: "/assets/bibtex/governance.bib"}
   - {name: 'On the Machine Learning of Ethical Judgments from Natural Language.',
      authors: "<b>Zeerak Talat</b>, Hagen Blix, Josef Valvoda, Maya Indira Ganesh, Ryan Cotterell, Adina Williams.",
      publication: "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.",
@@ -235,7 +244,7 @@ index:
      url: "https://aclanthology.org/2022.naacl-main.56/",
      preprint: "https://arxiv.org/abs/2111.04158",
      video: "https://aclanthology.org/2022.naacl-main.56.mp4",
-     bibtex: "/assets/bibtex/ethical_judgements.bib"}
+     bibtex: "/assets/bibtex/morality.bib"}
   - {name: 'You Reap What You Sow: On the Challenges of Bias Evaluation Under Multilingual Settings.',
      authors: "<b>Zeerak Talat</b>, Aurélie Névéol, Stella Biderman, Miruna~Clinciu, Manan Dey, Shayne Longpre, Alexandra Sasha Luccioni, Maraim Masoud, Margaret Mitchell, Dragomir Radev, Shanya Sharma, Arjun Subramonian, Jaesung Tae, Samson Tan, Deepak Tunuguntla, Oskar van der Wal.",
      publication: "Proceedings of BigScience Episode #5 -- Workshop on Challenges & Perspectives in Creating Large Language Models.",
@@ -247,7 +256,7 @@ index:
      url: "https://aclanthology.org/2022.bigscience-1.3/",
      preprint: "https://arxiv.org/abs/2206.09917",
      video: "https://aclanthology.org/2022.bigscience-1.3.mp4",
-     bibtex: "/assets/bibtex/reap_what_you_sow.bib"}
+     bibtex: "/assets/bibtex/reap.bib"}
   - {name: 'Proceedings of the 6th Workshop on Online Abuse and Harms (WOAH 2022).',
      editors: "Kanika Narang, Aida Mostafazadeh Davani, Mathias Lambert, Bertie Vidgen, <b>Zeerak Talat</b>.",
      publication: "Proceedings of the 6th Workshop on Online Abuse and Harms.",
@@ -267,7 +276,7 @@ index:
      doi: "https://doi.org/10.18653/v1/2021.acl-long.149",
      url: "https://aclanthology.org/2021.acl-long.149",
      video: "https://aclanthology.org/2021.acl-long.149.mp4",
-     bibtex: "/assets/bibtex/survey_race.bib"}
+     bibtex: "/assets/bibtex/race.bib"}
   - {name: 'HateCheck: Functional Tests for Hate Speech Detection Models.',
      authors: "Paul Röttger, Bertie Vidgen, Dong Nguyen, <b>Zeerak Talat</b>, Helen Margetts, Janet Pierrehumbert.",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers).",
@@ -420,7 +429,7 @@ index:
      type: "Workshop Paper",
      doi: "https://doi.org/10.18653/v1/W17-3012",
      url: "https://aclanthology.org/W17-3012/",
-     bibtex: "/assets/bibtex/understanding_abuse.bib"}
+     bibtex: "/assets/bibtex/understanding.bib"}
   - {name: 'Proceedings of the 1st Workshop on Abusive Language Online',
      authors: "<b>Zeerak Talat</b>, Wendy Hui Kyong Chung, Dirk Hovy, and Joel Tetreault.",
      publication: "Proceedings of the First Workshop on Abusive Language Online.",
@@ -441,7 +450,7 @@ index:
      type: "Workshop Paper",
      doi: "https://doi.org/10.18653/v1/W16-5618",
      url: "https://aclanthology.org/W16-5618/",
-     bibtex: "/assets/bibtex/racist_seeing.bib"}
+     bibtex: "/assets/bibtex/racist.bib"}
   - {name: 'Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter.',
      authors: "<b>Zeerak Talat</b>, Dirk Hovy.",
      publication: "Proceedings of the NAACL Student Research Workshop.",
@@ -453,7 +462,7 @@ index:
      type: "Workshop Paper",
      doi: "https://doi.org/10.18653/v1/N16-2013",
      url: "https://aclanthology.org/N16-2013",
-     bibtex: "/assets/bibtex/hateful_symbols.bib"}
+     bibtex: "/assets/bibtex/hateful.bib"}
 
 ongoing:
   - {name: "Multi-Modal Emotion Recognition and Humour Classification.",
