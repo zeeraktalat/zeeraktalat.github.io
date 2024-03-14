@@ -40,13 +40,16 @@
         <li>{{ pub.name }} <i>{{ pub.authors }}</i> {{ pub.date }}. {{ pub.publication }} {{ pub.publisher }} <br />
           [<b>{{ pub.type }}</b>] <br />
           {% if pub.doi %}
-          <a href="{{ pub.doi }}" target="_blank"><button type='button'><img src="/assets/img/doi.png" style="width:20px;height:20px;">Paper</button></a>
+          <a href="{{ pub.doi }}" target="_blank"><button type='button'><img src="/assets/img/doi.png" style="width:20px;height:20px;"> Paper</button></a>
           {% endif %}
           {% if pub.github %}
-          <a href="{{ pub.github }}" target="_blank"><button type='button'><img src="/assets/img/github.png" style="width:20px;height:20px">Code</button></a>
+          <a href="{{ pub.github }}" target="_blank"><button type='button'><img src="/assets/img/github.png" style="width:20px;height:20px"> Code</button></a>
           {% endif %}
           {% if pub.zenodo %}
-          <a href="{{ pub.zenodo }}" target="_blank"><button type='button'><img src="/assets/img/zenodo.jpg" style="width:50px;height:20px"></button></a>
+          <a href="{{ pub.zenodo }}" target="_blank"><button type='button'>
+              <!-- <img src="/assets/img/zenodo.jpg" style="width:50px;height:20px"> -->
+              Data
+            </button></a>
           {% endif %}
           <a href="{{ pub.bibtex }}" target="_blank"><button type='button'><img src="/assets/img/bibtex.png" style="width:61px;height:20px"></button></a>
           {% if pub.url %}
