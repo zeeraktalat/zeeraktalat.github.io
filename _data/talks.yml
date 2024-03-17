@@ -1,5 +1,13 @@
 index:
   - {name: "The Modern Prometheuses: Machine Learning in a Society",
+     host: "BigPicture Workshop",
+     day: "07",
+     month: "Dec",
+     year: "2023",
+     slides: "/slides/talks/bigpicture.pdf",
+     type: "Keynote"
+    }
+  - {name: "The Modern Prometheuses: Machine Learning in a Society",
      host: "AI GAP",
      day: "21",
      month: "Nov",
