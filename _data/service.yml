@@ -249,10 +249,25 @@ organisation:
      collabs: "Joris van Hoboken"
      }
 elected:
+  - {venue: "EACL",
+     year: "2024",
+     position: "Workshop Chair",
+     type: "AC"
+  }
   - {venue: "EMNLP",
      year: "2023",
      area: "Ethics",
      position: "Area Chair",
+     type: "AC"
+  }
+  - {venue: "EACL",
+     year: "2023",
+     position: "Ethics Chair",
+     type: "AC"
+  }
+  - {venue: "EACL",
+     year: "2023",
+     position: "Workshop Chair",
      type: "AC"
   }
   - {venue: "ACL",
@@ -265,11 +280,6 @@ elected:
      year: "2022",
      area: "Offensive and non-inclusive language detection and analysis",
      position: "Area Chair",
-     type: "AC"
-  }
-  - {venue: "EACL",
-     year: "2023",
-     position: "Ethics Chair",
      type: "AC"
   }
   - {venues: "EACL",
