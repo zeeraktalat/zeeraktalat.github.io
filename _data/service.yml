@@ -250,7 +250,7 @@ organisation:
      }
 elected:
   - {venue: "EACL",
-     year: "2024",
+     year: "2023 & 2024",
      position: "Workshop Chair",
      type: "AC"
   }
@@ -263,11 +263,6 @@ elected:
   - {venue: "EACL",
      year: "2023",
      position: "Ethics Chair",
-     type: "AC"
-  }
-  - {venue: "EACL",
-     year: "2023",
-     position: "Workshop Chair",
      type: "AC"
   }
   - {venue: "ACL",
@@ -288,7 +283,7 @@ elected:
      type: "PC"
   }
   - {venue: "ARR",
-     year: "2021-2022",
+     year: "2021--",
      position: "Action Editor",
      type: "AC"
   }
