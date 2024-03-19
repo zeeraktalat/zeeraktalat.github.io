@@ -335,3 +335,9 @@ awards:
      year: "2022-2025",
      type: "Grant"
      }
+  - {title: "Co-PI",
+     grant_title: "Dynamically Generated Datasets to Improve Online Hate Detection",
+     venue: "Facebook Inc.",
+     year: "2020",
+     type: "Grant"
+     }
