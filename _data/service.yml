@@ -313,7 +313,11 @@ elected:
      position: "ARR Communication Committee",
      type: "Board"}
 awards:
-  - {title: "Best Paper: Queer In AI: A Case Study in Community-Led Participatory AI at FAccT 2023."}
+  - {title: "Best Paper: Queer In AI: A Case Study in Community-Led Participatory AI",
+     venue: "FAccT",
+     year: "2023",
+     type: "Award"
+  }
   - {title: "Best Reviewer",
      venue: "ICWSM",
      year: "2019",
