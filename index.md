@@ -4,6 +4,8 @@ title: Home
 permalink: /
 ---
 
+News: I will be joining the [Centre for Technomoral Futures](https://www.technomoralfutures.uk) at the [Edinburgh Futures Institute](https://efi.ed.ac.uk) and the [Institute for Language, Cognition, and Computation](https://web.inf.ed.ac.uk/ilcc) at Edinburgh University as a Chancellor's Fellow in Responsible ML and AI in November 2024. I am recruiting students to start in 2025 on topics surrounding hate speech, ethical machine learning, and/or privacy preservation.
+
 My name is Zeerak Talat (I used to go by Zeerak Waseem), a Research Fellow at Mohamed Bin Zayed University of Artificial Intelligence and one of the 2024 visiting researcher fellows at [HIIG](https://hiig.de/).
 I work on the intersection between machine learning, science and technology studies, and media studies.
 My research seeks to examine how machine learning systems interact with our societies and the downstream effects of introducing machine learning to our society.
