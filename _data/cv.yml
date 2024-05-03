@@ -17,6 +17,10 @@ education:
      gradyear: "2014",
      }
 work:
+  - {position: "Chancellor's Fellow in Responsible ML and AI ",
+     start: "Nov, 2024",
+     institution: "University of Edinburgh",
+     loc: "Edinburgh, Scotland"}
   - {position: "Visiting Researcher",
      start: " 2024",
      institution: "Alexander von Humbold Institut für Internet und Gesellschaft.",
