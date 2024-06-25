@@ -1,4 +1,13 @@
 forthcoming:
+  - {name: 'SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models',
+     authors: "Margaret Mitchell, Khalid Almubarak, Giuseppe Attanasio,  Ioana Baldini, Miruna Clinciu, Jordan Clive, Pieter Delobelle, Manan Dey, Kaustubh Dhole, Timm Dill, Amirbek Djanibekov, Jad Doughman, Jessica Zosa Forde, Avijit Ghosh, Carolin Holtermann, Lucie-Aimée Kaffee, Tanmay Laud, Anne Lauscher, Shayne Longpre, Roberto Luis López, Maraim Masoud, Nikita Nangia, Anaelia Ovalle, Giada Pistilli, Dragomir Radev, Vipul Raheja, Shanya Sharma, Xudong Shen, Arjun Subramonian, Kaiser Sun, Eliza Szczechla, Tiago Timponi Torrent, Deepak Tunuguntla, Oskar van der Wal, Adina Yakefu, Sydney Zink, Aurélie Névéol, <b>Zeerak Talat</b>.",
+     date: "Forthcoming",
+     publication: "In Review.",
+     type: "Conference Paper",
+     publisher: "",
+     shortvenue: "",
+     preprint: "",
+     bibtex: ""}
   - {name: 'Exploring the Limitations of Detecting Machine-Generated Text',
      authors: "Jad Doughman, Osama Mohammed Afsal, Hawau Olamine Toyin, Shady Shehata, Preslav Nakov, <b>Zeerak Talat</b>.",
      date: "Forthcoming",
