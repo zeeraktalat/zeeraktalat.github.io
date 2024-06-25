@@ -82,6 +82,15 @@ forthcoming:
   }
 
 index:
+  - {name: 'ARAOFFENSE: Detecting Offensive Speech Across Dialects in Arabic Media',
+     authors: "Youssef Nafea, Shady Shehata, <b>Zeerak Talat</b>, Ahmed Aboeitta, Ahmed Sharshar, Preslav Nakov.",
+     date: "2024",
+     type: "Conference Paper",
+     publication: "Proceedings of Interspeech 2023.",
+     publisher: "ISCA",
+     shortvenue: "Interspeech",
+     preprint: "",
+     bibtex: ""}
   - {name: 'The Perspectivist Paradigm Shift: Assumptions and Challenges of Capturing Human Labels',
      authors: "Eve Fleisig, Su Lin Blodgett, Dan Klein, <b>Zeerak Talat</b>.",
      date: "2024",
