@@ -1,33 +1,6 @@
 forthcoming:
-  - {name: 'SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models',
-     authors: "Margaret Mitchell, Khalid Almubarak, Giuseppe Attanasio,  Ioana Baldini, Miruna Clinciu, Jordan Clive, Pieter Delobelle, Manan Dey, Kaustubh Dhole, Timm Dill, Amirbek Djanibekov, Jad Doughman, Jessica Zosa Forde, Avijit Ghosh, Carolin Holtermann, Lucie-Aimée Kaffee, Tanmay Laud, Anne Lauscher, Shayne Longpre, Roberto Luis López, Maraim Masoud, Nikita Nangia, Anaelia Ovalle, Giada Pistilli, Dragomir Radev, Vipul Raheja, Shanya Sharma, Xudong Shen, Arjun Subramonian, Kaiser Sun, Eliza Szczechla, Tiago Timponi Torrent, Deepak Tunuguntla, Oskar van der Wal, Adina Yakefu, Sydney Zink, Aurélie Névéol, <b>Zeerak Talat</b>.",
-     date: "Forthcoming",
-     publication: "In Review.",
-     type: "Conference Paper",
-     publisher: "",
-     shortvenue: "",
-     preprint: "",
-     bibtex: ""}
-  - {name: 'Exploring the Limitations of Detecting Machine-Generated Text',
-     authors: "Jad Doughman, Osama Mohammed Afsal, Hawau Olamine Toyin, Shady Shehata, Preslav Nakov, <b>Zeerak Talat</b>.",
-     date: "Forthcoming",
-     publication: "In Review.",
-     type: "Conference Paper",
-     publisher: "",
-     shortvenue: "",
-     preprint: "https://arxiv.org/abs/2406.11073",
-     bibtex: ""}
-  - {name: 'Understanding" Democratization" in NLP and ML Research',
-     authors: "Arjun Subramonian, Vagrant Gautam, Dietrich Klakow, <b>Zeerak Talat</b>.",
-     date: "Forthcoming",
-     publication: "In Review.",
-     type: "Conference Paper",
-     publisher: "",
-     shortvenue: "",
-     preprint: "https://arxiv.org/abs/2406.11598",
-     bibtex: ""}
-  - {name: "Evaluating the Social Impact of Generative AI Systems in Systems and Society",
-     authors: "Irene Solaiman, <b>Zeerak Talat</b>, William Agnew, Lama Ahmad, Dylan Baker, Su Lin Blodgett, Canyu Chen, Hal Daumé III, Jesse Dodge, Isabella Duan, Ellie Evans, Felix Friedrich, Avijit Ghosh, Usman Gohar, Sara Hooker, Yacine Jernite, Ria Kalluri, Alberto Lusoli, Alina Leidinger, Michelle Lin, Xiuzhu Lin, Sasha Luccioni, Jennifer Mickel, Margaret Mitchell, Jessica Newman, Anaelia Ovalle, Marie-Therese Png, Shubham Singh, Andrew Strait, Lukas Struppek, Arjun Subramonian.",
+  - {name: "Evaluating the Social Impact of Generative AI Systems in Systems and Society.",
+     authors: "Irene Solaiman, Zeerak Talat, William Agnew, Lama Ahmad, Dylan Baker, Su Lin Blodgett, Canyu Chen, Hal Daumé III, Jesse Dodge, Isabella Duan, Felix Friedrich, Avijit Ghosh, Usman Gohar, Sara Hooker, Yacine Jernite, Ria Kalluri, Alberto Lusoli, Alina Leidinger, Michelle Lin, Xiuzhu Lin, Sasha Luccioni, Jennifer Mickel, Margaret Mitchell, Jessica Newman, Anaelia Ovalle, Marie-Therese Png, Shubham Singh, Andrew Strait, Lukas Struppek, Arjun Subramonian.",
      type: "Book Chapter",
      editors: "Philip Hacker, Andreas Engel, Sarah Hammer, Brent Mittelstadt.",
      publication: "Handbook of Generative AI.",
@@ -35,6 +8,7 @@ forthcoming:
      publisher: "Oxford University Press.",
      type: "Book Chapter",
      date: "Forthcoming",
+     preprint: "https://arxiv.org/abs/2306.05949",
      bibtex: ""
      }
   - {name: "Content Moderation.",
@@ -45,15 +19,6 @@ forthcoming:
      publisher: "",
      shortvenue: "",
      }
-  - {name: 'Classist Tools: Social Class Correlates with Performance in NLP',
-     authors: "Amanda Cercas Curry, Giuseppe Attanasio, <b>Zeerak Talat</b>, Dirk Hovy.",
-     date: "Forthcoming",
-     publication: "In Review.",
-     type: "Conference Paper",
-     publisher: "",
-     shortvenue: "",
-     preprint: "https://arxiv.org/abs/2403.04445v1",
-     bibtex: "/assets/bibtex/classist.bib"}
   - {name: 'Detecting "Dirt" and "Toxicity": Rethinking Content Moderation as Pollution Behaviour.',
      authors: "Nanna Bonde Thylstrup, <b>Zeerak Talat</b>.",
      publication: "First Monday.",
@@ -73,15 +38,57 @@ forthcoming:
      preprint: "https://arxiv.org/abs/2210.06245",
      url: "https://arxiv.org/abs/2211.05100",
      bibtex: "/assets/bibtex/backttfuture.bib"}
-  - {name: "Documenting Geographically and Contextually Diverse Language Data Sources",
-     authors: "Angelina McMillan-Major, Zaid Alyafeai, Stella Biderman, Kimbo Chen, Francesco De Toni, Gérard Dupont, Hady Elsahar, Chris Emezue, Alham Fikri Aji,Suzana Ilic, Nurulaqilla Khamis, Colin Leong, Maraim Masoud, Aitor Soroa, Pedro Ortiz Suarez, <b>Zeerak Talat</b>, Daniel van Strien, Yacine Jernite",
-     type: "Journal Paper",
-     publication: "In Review.",
+  - {name: 'SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models.',
+     authors: "Margaret Mitchell, Hamdan Al-Ali, Giuseppe Attanasio, Ioana Baldini, Miruna Clinciu, Jordan Clive, Pieter Delobelle, Manan Dey, Kaustubh Dhole, Timm Dill, Amirbek Djanibekov, Tair Djanibekov, Jad Doughman, Ritam Dutt, Jessica Zosa Forde, Jay Gala, Avijit Ghosh, Sil Hamilton, Carolin Holtermann, Jerry Huang, Lucie-Aimée Kaffee, Janavi Kasera, Tanmay Laud, Anne Lauscher, Roberto L Lopez-Davila, Maraim Masoud, Sagnik Mukherjee, Nikita Nangia, Shangrui Nie, Anaelia Ovalle, Giada Pistilli, Esther Ploeger, Jeremy Qin, Dragomir Radev, Vipul Raheja, Beatrice Savoldi, Shanya Sharma, Xudong Shen, Karolina Stanczak, Arjun Subramonian, Kaiser Sun, Eliza Szczechla, Tiago Timponi Torrent, Deepak Tunuguntla, Emilio Villa Cueva, Marcelo Viridiano, Oskar van der Wal, Adina Yakefu, Kayo Yin, Mike Zhang, Sydney Zink, Aurélie Névéol, <b>Zeerak Talat</b>.",
      date: "Forthcoming",
-     bibtex: "/assets/bibtex/catalogue.bib"
-  }
+     publication: "In Review.",
+     type: "Conference Paper",
+     publisher: "",
+     shortvenue: "",
+     preprint: "",
+     bibtex: ""}
+  - {name: 'Exploring the Limitations of Detecting Machine-Generated Text.',
+     authors: "Jad Doughman, Osama Mohammed Afsal, Hawau Olamine Toyin, Shady Shehata, Preslav Nakov, <b>Zeerak Talat</b>.",
+     date: "Forthcoming",
+     publication: "In Review.",
+     type: "Conference Paper",
+     publisher: "",
+     shortvenue: "",
+     preprint: "https://arxiv.org/abs/2406.11073",
+     bibtex: ""}
 
 index:
+  - {name: 'Understanding" Democratization" in NLP and ML Research.',
+     authors: "Arjun Subramonian, Vagrant Gautam, Dietrich Klakow, <b>Zeerak Talat</b>.",
+     date: "2024",
+     publication: "The Proceedings of the 2024 Conference on Empircal Methods in Natural Language Processing.",
+     type: "Conference Paper",
+     publisher: "Association of Computational Linguistics.",
+     shortvenue: "EMNLP",
+     preprint: "https://arxiv.org/abs/2406.11598",
+     bibtex: ""}
+  - {name: 'Classist Tools: Social Class Correlates with Performance in NLP.',
+     authors: "Amanda Cercas Curry, Giuseppe Attanasio, <b>Zeerak Talat</b>, Dirk Hovy.",
+     date: "2024",
+     type: "Conference Paper",
+     publication: "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics.",
+     publisher: "Association of Computational Linguistics.",
+     shortvenue: "NAACL",
+     preprint: "https://arxiv.org/abs/2403.04445v1",
+     bibtex: "/assets/bibtex/classist.bib",
+     doi: "10.18653/v1/2024.acl-long.682"
+  }
+  - {name: "Documenting Geographically and Contextually Diverse Language Data Sources.",
+     authors: "Angelina McMillan-Major, Francesco De Toni, Zaid Alyafeai, Stella Biderman, Kimbo Chen, Gérard Dupont, Hady Elsahar, Chris Emezue, Alham Fikri Aji, Suzana Ilić, Nurulaqilla Khamis, Colin Leong, Maraim Masoud, Aitor Soroa, Pedro Ortiz Suarez, Daniel van Strien, <b>Zeerak Talat</b>, Yacine Jernite",
+     type: "Journal Paper",
+     volume: "10.",
+     issue: "1.",
+     publication: "Northern European Journal of Language Technology.",
+     shortvenue: "NEJLT.",
+     doi: "https://doi.org/10.3384/nejlt.2000-1533.2024.5217",
+     date: "2024",
+     bibtex: "/assets/bibtex/catalogue.bib"
+  }
   - {name: 'ARAOFFENSE: Detecting Offensive Speech Across Dialects in Arabic Media',
      authors: "Youssef Nafea, Shady Shehata, <b>Zeerak Talat</b>, Ahmed Aboeitta, Ahmed Sharshar, Preslav Nakov.",
      date: "2024",
@@ -89,7 +96,7 @@ index:
      publication: "Proceedings of Interspeech 2023.",
      publisher: "ISCA",
      shortvenue: "Interspeech",
-     preprint: "",
+     doi: "https://doi.org/10.21437/Interspeech.2024-2077",
      bibtex: ""}
   - {name: 'The Perspectivist Paradigm Shift: Assumptions and Challenges of Capturing Human Labels',
      authors: "Eve Fleisig, Su Lin Blodgett, Dan Klein, <b>Zeerak Talat</b>.",
@@ -99,6 +106,7 @@ index:
      publisher: "Association of Computational Linguistics.",
      shortvenue: "NAACL",
      preprint: "https://arxiv.org/abs/2405.05860",
+     doi: "https://doi.org/10.18653/v1/2024.naacl-long.126",
      bibtex: ""}
   - {name: 'Impoverished Language Technology: The Lack of (Social) Class in NLP',
      authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy.",
@@ -118,6 +126,7 @@ index:
      shortvenue: "WOAH.",
      type: "Conference Paper",
      preprint: "https://arxiv.org/abs/2403.02268",
+     doi: "https://doi.org/10.18653/v1/2024.woah-1.22",
      bibtex: "/assets/bibtex/isms.bib"}
   - {name: 'Zero-shot Sentiment Analysis in Low-Resource Languages Using a Multilingual Sentiment Lexicon.',
      authors: "Fajri Koto, Tilman Beck, Zeerak Talat, Iryna Gurevych, Timothy Baldwin.",
@@ -129,13 +138,6 @@ index:
      bibtex: "/assets/bibtex/zeroshot.bib",
      preprint: "https://arxiv.org/abs/2402.02113",
      github: "https://github.com/fajri91/ZeroShotMultilingualSentiment"}
-  - {name: 'Impoverished Language Technology: The Lack of (Social) Class in NLP.',
-     authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy.",
-     publication: "Proceedings of LREC-COLING.",
-     date: "2024",
-     type: "Conference Paper",
-     preprint: "https://arxiv.org/abs/2403.03874",
-     bibtex: "/assets/bibtex/impoverished.bib"}
   - {name: "Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing.",
      authors: "Lucie-Aimée Kaffee, Arnav Arora, <b>Zeerak Talat</b>, Isabelle Augenstein.",
      publication: "Findings of the Association for Computational Linguistics: EMNLP 2023.",
