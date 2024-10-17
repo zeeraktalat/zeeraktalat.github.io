@@ -41,6 +41,18 @@ The description of each workshop organizer should seek to answer two questions: 
 
 An organizer's academic history (i.e., where they got their degrees or where they have held positions) is less relevant information.
 
+#### Invited Speakers
+
+Please, for the love of God, provide short bios of the invited speakers. This allows the reviewing committee to evaluate whether the invited speakers indeed are a good match or not. _This is actually important_.
+
+#### Accuracy of information
+
+Provide accurate information. This should go without saying, but give the number of submissions that were received in previous years (this is an evaluation criteria but the evaluators are the community). 
+Tell us how many people were physically in the room (this is *not* an evaluation criteria, but it is important to allocate appropriately sized rooms for workshops).
+
+Workshops are not a popularity contest. Workshops focusing on genuinely far-from-the-norm topics are evaluated equally with other workshops, whether 5 or 50 submissions were received. But if you have a workshop on a topic that sees a steady decrease in submissions, or have a workshop that focuses on a popular topic but very few submissions, then I would personally count that against the workshop (I.e., do some work to address this for instance by expanding the scope or having a particular theme of the workshop). But please provide accurate information, without which there is no basis for evaluation and no basis always provides room for negative evaluation.
+
+
 #### Unsettled Topics
 
 Some years, there are not a lot of spaces for workshops and it is the smallest things that make the difference. So for that reason, I would recommend *not* describing things that are not settled. For instance, if you are planning a shared task, but do not have a chair to organise the shared task, it would be better simply not to list it. The exception to this rule are speakers and panels: Do note who you have reached out to, whether they have responded or not.
