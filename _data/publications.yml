@@ -80,7 +80,8 @@ index:
      publisher: "Association of Computational Linguistics.",
      shortvenue: "EMNLP",
      preprint: "https://arxiv.org/abs/2406.11598",
-     bibtex: ""}
+     bibtex: ""
+  }
   - {name: 'Classist Tools: Social Class Correlates with Performance in NLP.',
      authors: "Amanda Cercas Curry, Giuseppe Attanasio, <b>Zeerak Talat</b>, Dirk Hovy.",
      date: "2024",
