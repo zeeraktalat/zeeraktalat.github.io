@@ -1,4 +1,43 @@
 index:
+  - {name: "On the promise of equitable machine learning technologies",
+     host: "New Perspectives on Bias and Discrimination in Language Technology",
+     day: "05",
+     month: "Nov",
+     year: "2023",
+     slides: "",
+     type: "keynote"
+  }
+  - {name: "Imagining the Unimaginable Impacts of AI",
+     host: "Alexander von Humbold Institut für Internet und Gesellschaft",
+     day: "8",
+     month: "Oct",
+     year: "2024",
+     slides: "",
+     type: "Invited Talk"
+    }
+  - {name: "Diagnosing NLP: Sources of Social Harms of NLP",
+     host: "University of Bonn",
+     day: "24",
+     month: "Jul",
+     year: "2024",
+     slides: "",
+     type: "Invited Talk"
+    }
+  - {name: "Roundtable on GenAI for and by our communities in Africa, the Middle East, and Turkey",
+     host: "Meta",
+     day: "2",
+     month: "Jul",
+     year: "2024",
+     type: "Roundtable"
+  }
+  - {name: "Fireside Chat with Arjun Subramonian on ‘Queer-Inclusive’ AI: Contesting the Power Structures and Logics of Machine Learning.",
+     host: "IBM",
+     day: "16",
+     month: "Jun",
+     year: "2024",
+     slides: "",
+     type: "Fireside Chat"
+  }
   - {name: "On the Outcomes of Scientific Disagreements of Machine Morality. Co-presented with Liwei Jiang.",
      host: "BigPicture Workshop",
      day: "07",
@@ -230,6 +269,13 @@ index:
      slides: "/slides/talks/cafoscare_2019.pdf",
      type: "Keynote"
     }
+  - {name: "Roundtable on Machine Learning, Inequality and Bias.",
+     host: "AINow & Robert Bosch Academy",
+     day: "4",
+     month: "Jul",
+     year: "2018",
+     type: "Roundtable"
+  }
   - {name: "Hate Speech, Abusive Language, and Things we Lose in the Fire",
      host: "The Alan Turing Institute",
      day: "01",
