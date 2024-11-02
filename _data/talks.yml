@@ -52,7 +52,7 @@ index:
      month: "Nov",
      year: "2023",
      slides: "/slides/talks/aigap_2023.pdf",
-     type: "Invited Talk"
+     type: "Keynote"
     }
   - {name: "Using Digital Tools to Tackle Online Harms and Extremism",
      host: "The Hate Crime Conference 2023",
