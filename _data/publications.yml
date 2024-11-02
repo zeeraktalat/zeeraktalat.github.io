@@ -27,7 +27,8 @@ forthcoming:
      date: "Forthcoming",
      type: "Journal Paper",
      preprint: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3709719",
-     bibtex: "/assets/bibtex/detecting.bib"}
+     bibtex: "/assets/bibtex/detecting.bib"
+  }
   - {name: "Back to the Future: On Potential Histories in NLP.",
      authors: "<b>Zeerak Talat</b>, Anne Lauscher.",
      publication: "In Review.",
@@ -37,7 +38,8 @@ forthcoming:
      type: "Conference Paper",
      preprint: "https://arxiv.org/abs/2210.06245",
      url: "https://arxiv.org/abs/2211.05100",
-     bibtex: "/assets/bibtex/backttfuture.bib"}
+     bibtex: "/assets/bibtex/backttfuture.bib"
+  }
   - {name: 'SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models.',
      authors: "Margaret Mitchell, Hamdan Al-Ali, Giuseppe Attanasio, Ioana Baldini, Miruna Clinciu, Jordan Clive, Pieter Delobelle, Manan Dey, Kaustubh Dhole, Timm Dill, Amirbek Djanibekov, Tair Djanibekov, Jad Doughman, Ritam Dutt, Jessica Zosa Forde, Jay Gala, Avijit Ghosh, Sil Hamilton, Carolin Holtermann, Jerry Huang, Lucie-Aimée Kaffee, Janavi Kasera, Tanmay Laud, Anne Lauscher, Roberto L Lopez-Davila, Maraim Masoud, Sagnik Mukherjee, Nikita Nangia, Shangrui Nie, Anaelia Ovalle, Giada Pistilli, Esther Ploeger, Jeremy Qin, Dragomir Radev, Vipul Raheja, Beatrice Savoldi, Shanya Sharma, Xudong Shen, Karolina Stanczak, Arjun Subramonian, Kaiser Sun, Eliza Szczechla, Tiago Timponi Torrent, Deepak Tunuguntla, Emilio Villa Cueva, Marcelo Viridiano, Oskar van der Wal, Adina Yakefu, Kayo Yin, Mike Zhang, Sydney Zink, Aurélie Névéol, <b>Zeerak Talat</b>.",
      date: "Forthcoming",
@@ -46,7 +48,8 @@ forthcoming:
      publisher: "",
      shortvenue: "",
      preprint: "",
-     bibtex: ""}
+     bibtex: ""
+  }
   - {name: 'Exploring the Limitations of Detecting Machine-Generated Text.',
      authors: "Jad Doughman, Osama Mohammed Afsal, Hawau Olamine Toyin, Shady Shehata, Preslav Nakov, <b>Zeerak Talat</b>.",
      date: "Forthcoming",
@@ -55,7 +58,18 @@ forthcoming:
      publisher: "",
      shortvenue: "",
      preprint: "https://arxiv.org/abs/2406.11073",
-     bibtex: ""}
+     bibtex: ""
+  }
+  - {name: 'Ethics Whitepaper: Whitepaper on Ethical Research into Large Language Models',
+     authors: "Eddie L. Ungless, Nikolas Vitsakis, <b>Zeerak Talat</b>, James Garforth, Björn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
+     date: "Forthcoming",
+     publication: "In Review.",
+     type: "Conference Paper",
+     publisher: "",
+     shortvenue: "",
+     preprint: "https://arxiv.org/abs/2410.19812",
+     bibtex: ""
+  }
 
 index:
   - {name: 'Understanding" Democratization" in NLP and ML Research.',
