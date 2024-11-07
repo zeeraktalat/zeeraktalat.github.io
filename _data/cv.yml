@@ -27,6 +27,7 @@ work:
      loc: "Berlin, Germany"}
   - {position: "Research Fellow",
      start: "Jul, 2023",
+     end: "Oct, 2024",
      institution: "Mohamed Bin Zayed University of Artificial Intelligence",
      loc: "Abu Dhabi, UAE"}
   - {position: "Visiting Researcher",
