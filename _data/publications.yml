@@ -34,7 +34,7 @@ forthcoming:
      publisher: "ArXiv",
      shortvenue: "",
      date: "2023",
-     type: "Permaprint",
+     type: "Conference Paper",
      preprint: "https://arxiv.org/abs/2210.06245",
      url: "https://arxiv.org/abs/2211.05100",
      bibtex: "/assets/bibtex/backttfuture.bib"
@@ -60,9 +60,9 @@ forthcoming:
      bibtex: ""
   }
   - {name: "The Only Way is Ethics: A Guide to Ethical Research with Large Language Models",
-     authors: "Eddie Ungless, Nikolas Vitsakis,  <b>Zeerak Talat</b>, James Garforth, Bj{\"o}rn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
+     authors: "Eddie Ungless, Nikolas Vitsakis,  <b>Zeerak Talat</b>, James Garforth, Björn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
      date: "2024",
-     publication: "In Review."
+     publication: "In Review.",
      type: "Conference Paper",
      shortvenue: "",
      doi: "https://doi.org/10.1038/d41586-024-02527-x",
