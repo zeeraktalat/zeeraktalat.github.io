@@ -4,7 +4,7 @@ index:
      day: "05",
      month: "Nov",
      year: "2024",
-     slides: "",
+     slides: "/slides/talks/wai_2024.pdf",
      type: "keynote"
   }
   - {name: "Imagining the Unimaginable Impacts of AI",
@@ -12,7 +12,6 @@ index:
      day: "8",
      month: "Oct",
      year: "2024",
-     slides: "",
      type: "Invited Talk"
     }
   - {name: "Diagnosing NLP: Sources of Social Harms of NLP",
@@ -20,7 +19,7 @@ index:
      day: "24",
      month: "Jul",
      year: "2024",
-     slides: "",
+     slides: "/slides/talks/Bonn_2024.pdf",
      type: "Invited Talk"
     }
   - {name: "Roundtable on GenAI for and by our communities in Africa, the Middle East, and Turkey",
@@ -35,7 +34,6 @@ index:
      day: "16",
      month: "Jun",
      year: "2024",
-     slides: "",
      type: "Fireside Chat"
   }
   - {name: "On the Outcomes of Scientific Disagreements of Machine Morality. Co-presented with Liwei Jiang.",
