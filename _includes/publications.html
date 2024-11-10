@@ -11,13 +11,27 @@
       {% endfor %}
     {% else %}
 
+    <center><h4 class="pub-type">Permaprints</h4></center>
+      {% assign pubs = site.data.publications.permaprints | where: "type", "permaprint" %}
+      <ul>
+      {% for pub in pubs %}
+      <p>
+        <li>
+          <b>{{ pub.name }}.</b> <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}}. {{pub.publisher}}. <br />
+          [<b>{{ pub.type }}</b>]
+          <br /> <a href="{{pub.preprint}}"><button class='button' type='button'>Preprint</button></a>
+        </li>
+      </p>
+      {% endfor %}
+      </ul>
+
     <center><h4 class="pub-type">Forthcoming</h4></center>
       {% assign pubs = site.data.publications.forthcoming | where: "date", "Forthcoming" %}
       <ul>
       {% for pub in pubs %}
       <p>
         <li>
-        {{ pub.name }} <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
+          <b>{{ pub.name }}.</b> <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}}. {{pub.publisher}}. <br />
         {% if pub.type %}
           [<b>{{ pub.type }}</b>]
         {% else %}
