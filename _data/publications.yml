@@ -31,11 +31,10 @@ forthcoming:
   }
   - {name: "Back to the Future: On Potential Histories in NLP.",
      authors: "<b>Zeerak Talat</b>, Anne Lauscher.",
-     publication: "In Review.",
-     publisher: "",
+     publisher: "ArXiv",
      shortvenue: "",
-     date: "Forthcoming",
-     type: "Conference Paper",
+     date: "2023",
+     type: "Permaprint",
      preprint: "https://arxiv.org/abs/2210.06245",
      url: "https://arxiv.org/abs/2211.05100",
      bibtex: "/assets/bibtex/backttfuture.bib"
@@ -60,18 +59,52 @@ forthcoming:
      preprint: "https://arxiv.org/abs/2406.11073",
      bibtex: ""
   }
+  - {name: "The Only Way is Ethics: A Guide to Ethical Research with Large Language Models",
+     authors: "Eddie Ungless, Nikolas Vitsakis,  <b>Zeerak Talat</b>, James Garforth, Bj{\"o}rn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
+     date: "2024",
+     publication: "In Review."
+     type: "Conference Paper",
+     shortvenue: "",
+     doi: "https://doi.org/10.1038/d41586-024-02527-x",
+  }
+
+index:
+  - {name: 'Proceedings of the 8th Workshop on Online Abuse and Harms (WOAH 2024).',
+     editors: "Yi-ling Chung, <b>Zeerak Talat</b>, Debora Nozza, Flor Miriam Plaza-del-Arco, Paul Röttger, Aida Mostafazadeh Davani.",
+     publication: "Proceedings of the 8th Workshop on Online Abuse and Harms.",
+     publisher: "Association of Computational Linguistics.",
+     shortvenue: "WOAH.",
+     date: "2023",
+     type: "Workshop Proceedings",
+     url: "https://aclanthology.org/volumes/2024.woah-1/",
+     bibtex: "/assets/bibtex/woah8.bib"
+  }
   - {name: 'Ethics Whitepaper: Whitepaper on Ethical Research into Large Language Models',
      authors: "Eddie L. Ungless, Nikolas Vitsakis, <b>Zeerak Talat</b>, James Garforth, Björn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
-     date: "Forthcoming",
-     publication: "In Review.",
-     type: "Conference Paper",
+     date: "2024",
      publisher: "",
+     type: "Permaprint",
      shortvenue: "",
      preprint: "https://arxiv.org/abs/2410.19812",
      bibtex: ""
   }
-
-index:
+  - {name: "LLMs produce racist output when prompted in African American English",
+     authors: "Su Lin Blodgett, <b>Zeerak Talat</b>",
+     date: "2024",
+     publication: "Nature",
+     shortvenue: "",
+     type: "Public Dissemination",
+     doi: "https://doi.org/10.1038/d41586-024-02527-x",
+  }
+  - {name: 'Metrics for What, Metrics for Whom: Assessing Actionability of Bias Evaluation Metrics in NLP',
+     authors: "Pieter Delebolle, Giuseppe Attanasio, Debora Nozza, Su Lin Blodgett, <b>Zeerak Talat</b>.",
+     date: "2024",
+     publication: "The Proceedings of the 2024 Conference on Empircal Methods in Natural Language Processing.",
+     type: "Conference Paper",
+     publisher: "Association of Computational Linguistics.",
+     shortvenue: "EMNLP",
+     bibtex: ""
+  }
   - {name: 'Understanding" Democratization" in NLP and ML Research.',
      authors: "Arjun Subramonian, Vagrant Gautam, Dietrich Klakow, <b>Zeerak Talat</b>.",
      date: "2024",
