@@ -1,6 +1,19 @@
+# template:
+# - {name:
+#    authors:
+#    editors: 
+#    publication:
+#    publisher:
+#    shortvenue:
+#    date:
+#    preprint:
+#    doi:
+#    bibtex:
+# }
+#
 forthcoming:
   - {name: "Evaluating the Social Impact of Generative AI Systems in Systems and Society.",
-     authors: "Irene Solaiman*, <b>Zeerak Talat*</b>, William Agnew, Lama Ahmad, Dylan Baker, Su Lin Blodgett, Canyu Chen, Hal Daumé III, Jesse Dodge, Isabella Duan, Felix Friedrich, Avijit Ghosh, Usman Gohar, Sara Hooker, Yacine Jernite, Ria Kalluri, Alberto Lusoli, Alina Leidinger, Michelle Lin, Xiuzhu Lin, Sasha Luccioni, Jennifer Mickel, Margaret Mitchell, Jessica Newman, Anaelia Ovalle, Marie-Therese Png, Shubham Singh, Andrew Strait, Lukas Struppek, Arjun Subramonian.",
+     authors: "Irene Solaiman*, <b>Zeerak Talat</b>*, William Agnew, Lama Ahmad, Dylan Baker, Su Lin Blodgett, Canyu Chen, Hal Daumé III, Jesse Dodge, Isabella Duan, Felix Friedrich, Avijit Ghosh, Usman Gohar, Sara Hooker, Yacine Jernite, Ria Kalluri, Alberto Lusoli, Alina Leidinger, Michelle Lin, Xiuzhu Lin, Sasha Luccioni, Jennifer Mickel, Margaret Mitchell, Jessica Newman, Anaelia Ovalle, Marie-Therese Png, Shubham Singh, Andrew Strait, Lukas Struppek, Arjun Subramonian.",
      type: "Book Chapter",
      editors: "Philip Hacker, Andreas Engel, Sarah Hammer, Brent Mittelstadt.",
      publication: "Handbook of Generative AI.",
@@ -9,7 +22,8 @@ forthcoming:
      type: "Book Chapter",
      date: "Forthcoming",
      preprint: "https://arxiv.org/abs/2306.05949",
-     bibtex: ""
+     bibtex: "",
+     doi: false
      }
   - {name: "Content Moderation.",
      authors: "<b>Zeerak Talat</b>.",
@@ -18,17 +32,8 @@ forthcoming:
      publication: "In Review.",
      publisher: "",
      shortvenue: "",
+     doi: false
      }
-  - {name: 'Detecting "Dirt" and "Toxicity": Rethinking Content Moderation as Pollution Behaviour.',
-     authors: "Nanna Bonde Thylstrup, <b>Zeerak Talat</b>.",
-     publication: "First Monday.",
-     publisher: "First Monday.",
-     shortvenue: "First Monday.",
-     date: "Forthcoming",
-     type: "Journal Paper",
-     preprint: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3709719",
-     bibtex: "/assets/bibtex/detecting.bib"
-  }
   - {name: 'SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models.',
      authors: "Margaret Mitchell, Hamdan Al-Ali, Giuseppe Attanasio, Ioana Baldini, Miruna Clinciu, Jordan Clive, Pieter Delobelle, Manan Dey, Kaustubh Dhole, Timm Dill, Amirbek Djanibekov, Tair Djanibekov, Jad Doughman, Ritam Dutt, Jessica Zosa Forde, Jay Gala, Avijit Ghosh, Sil Hamilton, Carolin Holtermann, Jerry Huang, Lucie-Aimée Kaffee, Janavi Kasera, Tanmay Laud, Anne Lauscher, Roberto L Lopez-Davila, Maraim Masoud, Sagnik Mukherjee, Nikita Nangia, Shangrui Nie, Anaelia Ovalle, Giada Pistilli, Esther Ploeger, Jeremy Qin, Dragomir Radev, Vipul Raheja, Beatrice Savoldi, Shanya Sharma, Xudong Shen, Karolina Stanczak, Arjun Subramonian, Kaiser Sun, Eliza Szczechla, Tiago Timponi Torrent, Deepak Tunuguntla, Emilio Villa Cueva, Marcelo Viridiano, Oskar van der Wal, Adina Yakefu, Kayo Yin, Mike Zhang, Sydney Zink, Aurélie Névéol, <b>Zeerak Talat</b>.",
      date: "Forthcoming",
@@ -37,29 +42,51 @@ forthcoming:
      publisher: "",
      shortvenue: "",
      preprint: "",
-     bibtex: ""
+     bibtex: "",
+     doi: false
   }
-  - {name: 'Exploring the Limitations of Detecting Machine-Generated Text.',
-     authors: "Jad Doughman, Osama Mohammed Afsal, Hawau Olamine Toyin, Shady Shehata, Preslav Nakov, <b>Zeerak Talat</b>.",
-     date: "Forthcoming",
-     publication: "In Review.",
-     type: "Conference Paper",
-     publisher: "",
-     shortvenue: "",
-     preprint: "https://arxiv.org/abs/2406.11073",
-     bibtex: ""
-  }
-  - {name: "The Only Way is Ethics: A Guide to Ethical Research with Large Language Models",
-     authors: "Eddie Ungless, Nikolas Vitsakis,  <b>Zeerak Talat</b>, James Garforth, Björn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
-     date: "2024",
-     publication: "In Review.",
-     type: "Conference Paper",
-     shortvenue: "",
-  }
-
-permaprints:
 
 index:
+  - {name: 'Exploring the Limitations of Detecting Machine-Generated Text.',
+     authors: "Jad Doughman, Osama Mohammed Afsal, Hawau Olamine Toyin, Shady Shehata, Preslav Nakov, <b>Zeerak Talat</b>.",
+     date: "2025",
+     publication: "Proceedings of the 2025 International Conference on Computational Linguistics (COLING 2025)",
+     publisher: "Association of Computational Linguistics.",
+     type: "Conference Paper",
+     shortvenue: "COLING",
+     preprint: "https://arxiv.org/abs/2406.11073",
+     bibtex: ""
+     doi: false
+  }
+  - {name: "The Only Way is Ethics: A Guide to Ethical Research with Large Language Models",
+     authors: "Eddie Ungless, Nikolas Vitsakis, <b>Zeerak Talat</b>, James Garforth, Björn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
+     date: "2025",
+     publication: "Proceedings of the 2025 International Conference on Computational Linguistics (COLING 2025)",
+     publisher: "Association of Computational Linguistics.",
+     type: "Conference Paper",
+     shortvenue: "COLING",
+     preprint: "",
+     doi: "",
+     bibtex: ""
+  }
+  - {name: "A Capabilities Approach to Studying Bias and Harm in Language Technologies",
+     authors: "Hellina Hailu Nigatu, <b>Zeerak Talat</b>",
+     date: "2024",
+     publisher: "",
+     type: "Extended Abstract",
+     shortvenue: "Workshop on New Perspectives on Bias and Discrimination in Language Technology",
+     preprint: "",
+     bibtex: ""
+  }
+  - {name: "Exploitation All the Way Down: Calling out the Root Cause of Bad Online Experiences for Users of the Majority World ",
+     authors: "Hellina Hailu Nigatu, <b>Zeerak Talat</b>",
+     date: "2024",
+     publisher: "",
+     type: "Extended Abstract",
+     shortvenue: "Workshop on New Perspectives on Bias and Discrimination in Language Technology",
+     preprint: "",
+     bibtex: ""
+  }
   - {name: 'Ethics Whitepaper: Whitepaper on Ethical Research into Large Language Models',
      authors: "Eddie L. Ungless, Nikolas Vitsakis, <b>Zeerak Talat</b>, James Garforth, Björn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
      date: "2024",
@@ -157,7 +184,8 @@ index:
      publisher: "Association of Computational Linguistics.",
      shortvenue: "LREC-COLING",
      preprint: "https://arxiv.org/abs/2403.03874",
-     bibtex: "/assets/bibtex/impoverished.bib"
+     bibtex: "/assets/bibtex/impoverished.bib",
+     doi: false
   }
   - {name: 'Subjective <i>Isms</i>? On the Danger of Conflating Hate and Offence in Abusive Language Detection.',
      authors: "Amanda Cercas Curry, Gavin Abercrombie, <b>Zeerak Talat</b>.",
@@ -180,7 +208,8 @@ index:
      type: "Conference Paper",
      bibtex: "/assets/bibtex/zeroshot.bib",
      preprint: "https://arxiv.org/abs/2402.02113",
-     github: "https://github.com/fajri91/ZeroShotMultilingualSentiment"
+     github: "https://github.com/fajri91/ZeroShotMultilingualSentiment",
+     doi: false,
   }
   - {name: "Back to the Future: On Potential Histories in NLP",
      authors: "<b>Zeerak Talat</b>, Anne Lauscher",
@@ -234,17 +263,6 @@ index:
      type: "Book Chapter",
      doi: "https://doi.org/10.4337/9781803928562.00016",
      bibtex: "/assets/bibtex/incomprehensible.bib"
-  }
-  - {name: 'Detecting "Dirt" and "Toxicity": Rethinking Content Moderation as Pollution Behaviour.',
-     authors: "Nanna Bonde Thylstrup, <b>Zeerak Talat</b>.",
-     publication: "First Monday.",
-     publisher: "First Monday.",
-     shortvenue: "First Monday.",
-     date: "Forthcoming",
-     type: "Journal Paper",
-     preprint: "https://Papers.ssrn.com/sol3/Papers.cfm?abstract_id=3709719",
-     url: "https://Papers.ssrn.com/sol3/Papers.cfm?abstract_id=3709719",
-     bibtex: "/assets/bibtex/detecting.bib"
   }
   - {name: 'Proceedings of the 7th Workshop on Online Abuse and Harms (WOAH 2023).',
      editors: "Yi-ling Chung, Paul Röttger, Debora Nozza, <b>Zeerak Talat</b>, Aida Mostafazadeh Davani.",
@@ -532,6 +550,17 @@ index:
      type: "Workshop Proceedings",
      url: "https://aclanthology.org/2020.alw-1.0",
      bibtex: "/assets/bibtex/woah4.bib"
+  }
+  - {name: 'Detecting "Dirt" and "Toxicity": Rethinking Content Moderation as Pollution Behaviour.',
+     authors: "Nanna Bonde Thylstrup, <b>Zeerak Talat</b>.",
+     publication: "First Monday.",
+     publisher: "First Monday.",
+     shortvenue: "First Monday.",
+     date: "2019",
+     type: "Permaprint",
+     preprint: "https://Papers.ssrn.com/sol3/Papers.cfm?abstract_id=3709719",
+     url: "https://Papers.ssrn.com/sol3/Papers.cfm?abstract_id=3709719",
+     bibtex: "/assets/bibtex/detecting.bib"
   }
   - {name: 'Proceedings of the 2019 Workshop on Widening NLP.',
      authors: "Amittai Axelrod, Diyi Yang, Rossana Cunha, Samira Shaikh, <b>Zeerak Talat</b>.",
