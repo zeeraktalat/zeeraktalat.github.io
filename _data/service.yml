@@ -255,6 +255,11 @@ organisation:
      collabs: "Joris van Hoboken"
      }
 elected:
+  - {venue: "Equity in ACL (EquiCL)",
+     year: "2024--2026",
+     position: "President",
+     type: "Board"
+  }
   - {venue: "Association for Computational Linguistics",
      year: "2024--2027",
      position: "Workshop Officer",
