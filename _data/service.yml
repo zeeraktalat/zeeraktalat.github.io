@@ -255,6 +255,16 @@ organisation:
      collabs: "Joris van Hoboken"
      }
 elected:
+  - {venue: "Association for Computational Linguistics",
+     year: "2024--2027",
+     position: "Workshop Officer",
+     type: "Board"
+  }
+  - {venue: "COLING",
+     year: "2025",
+     position: "Ethics Chair",
+     type: "AC"
+  }
   - {venue: "EACL",
      year: "2023 & 2024",
      position: "Workshop Chair",
