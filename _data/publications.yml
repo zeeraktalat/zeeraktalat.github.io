@@ -76,7 +76,7 @@ index:
      authors: "Hellina Hailu Nigatu, <b>Zeerak Talat</b>.",
      publication: "Workshop on New Perspectives on Bias and Discrimination in Language Technology.",
      publisher: "",
-     shortvenue: "WAI Amsterdam."
+     shortvenue: "WAI Amsterdam.",
      type: "Extended Abstract",
      date: "2024",
      preprint: false
@@ -154,7 +154,7 @@ index:
      type: "Conference Paper",
      date: "2024",
      preprint: "https://arxiv.org/abs/2403.04445v1",
-     doi: "10.18653/v1/2024.acl-long.682"
+     doi: "10.18653/v1/2024.acl-long.682",
      bibtex: false,
   }
   - {name: "Documenting Geographically and Contextually Diverse Language Data Sources.",
