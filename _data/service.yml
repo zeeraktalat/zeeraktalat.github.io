@@ -178,6 +178,12 @@ reviewing:
     type: "Workshop"
     }
 organisation:
+  - {title: "Evaluating Evaluations: Examining Best Practices for Measuring Broader Impacts of Generative AI",
+     year: "2024",
+     type: "Workshop",
+     venue: "The Annual Conference on Neural Information Processing Systems",
+     collabs: "Avijit Ghosh, Irene Solaiman, Zeerak Talat, Yacine Jernite, Usman Gohar, Lucie-Aimée Kaffee, Alberto Lusoli, Jennifer Mickel, Arjun Subramonian, Felix Friedrich, Cedric Whitney, Michelle Lin"
+     }
   - {title: "Assessing the Impacts of Generative AI Systems Across Modalities and Society",
      year: "2023",
      type: "CRAFT Session",
@@ -192,7 +198,7 @@ organisation:
      }
   - {title: "The Workshop on Online Abuse and Harms",
      abbrev: "WOAH",
-     year: "2017-2023",
+     year: "2017-2025",
      type: "Workshop",
      venue: "Co-located with ACL conferences",
      webpage: "https://www.workshopononlineabuse.com/",
