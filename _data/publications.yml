@@ -34,7 +34,7 @@ forthcoming:
      type: "Book Chapter",
      date: "Forthcoming",
      preprint: false,
-     doi: false
+     doi: false,
      bibtex: false,
      }
   - {name: "SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models.",
@@ -68,8 +68,8 @@ index:
      shortvenue: "COLING",
      type: "Conference Paper",
      date: "2025",
-     preprint: false
-     doi: false
+     preprint: false,
+     doi: false,
      bibtex: false,
   }
   - {name: "A Capabilities Approach to Studying Bias and Harm in Language Technologies.",
@@ -79,8 +79,8 @@ index:
      shortvenue: "WAI Amsterdam.",
      type: "Extended Abstract",
      date: "2024",
-     preprint: false
-     doi: false
+     preprint: false,
+     doi: false,
      bibtex: false,
   }
   - {name: "Exploitation All the Way Down: Calling out the Root Cause of Bad Online Experiences for Users of the Majority World.",
@@ -90,8 +90,8 @@ index:
      shortvenue: "DAIG @ IGF",
      type: "Extended Abstract",
      date: "2024",
-     preprint: false
-     doi: false
+     preprint: false,
+     doi: false,
      bibtex: false,
   }
   - {name: "Ethics Whitepaper: Whitepaper on Ethical Research into Large Language Models.",
@@ -100,7 +100,7 @@ index:
      date: "2024",
      preprint: "https://arxiv.org/abs/2410.19812",
      bibtex: false,
-     doi: false
+     doi: false,
   }
   - {name: "Proceedings of the 8th Workshop on Online Abuse and Harms (WOAH 2024).",
      editors: "Yi-ling Chung, <b>Zeerak Talat</b>, Debora Nozza, Flor Miriam Plaza-del-Arco, Paul Röttger, Aida Mostafazadeh Davani.",
@@ -215,7 +215,7 @@ index:
      shortvenue: "LREC-COLING",
      preprint: "https://arxiv.org/abs/2403.03874",
      bibtex: false,
-     doi: false
+     doi: false,
   }
   - {name: "Subjective <i>Isms</i>? On the Danger of Conflating Hate and Offence in Abusive Language Detection.",
      authors: "Amanda Cercas Curry, Gavin Abercrombie, <b>Zeerak Talat</b>.",
