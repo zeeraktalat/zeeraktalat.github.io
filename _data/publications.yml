@@ -131,7 +131,7 @@ index:
      shortvenue: "EMNLP",
      type: "Conference Paper",
      date: "2024",
-     url: "https://aclanthology.org/volumes/2024.woah-1/",
+     url: "https://aclanthology.org/2024.emnlp-main.1207/",
      doi: false,
      bibtex: false,
   }
