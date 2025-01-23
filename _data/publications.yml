@@ -37,13 +37,15 @@ forthcoming:
      doi: false,
      bibtex: false,
      }
+
+index:
   - {name: "SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models.",
      authors: "Margaret Mitchell, Hamdan Al-Ali, Giuseppe Attanasio, Ioana Baldini, Miruna Clinciu, Jordan Clive, Pieter Delobelle, Manan Dey, Kaustubh Dhole, Timm Dill, Amirbek Djanibekov, Tair Djanibekov, Jad Doughman, Ritam Dutt, Jessica Zosa Forde, Jay Gala, Avijit Ghosh, Sil Hamilton, Carolin Holtermann, Jerry Huang, Lucie-Aimée Kaffee, Janavi Kasera, Tanmay Laud, Anne Lauscher, Roberto L Lopez-Davila, Maraim Masoud, Sagnik Mukherjee, Nikita Nangia, Shangrui Nie, Anaelia Ovalle, Giada Pistilli, Esther Ploeger, Jeremy Qin, Dragomir Radev, Vipul Raheja, Beatrice Savoldi, Shanya Sharma, Xudong Shen, Karolina Stanczak, Arjun Subramonian, Kaiser Sun, Eliza Szczechla, Tiago Timponi Torrent, Deepak Tunuguntla, Emilio Villa Cueva, Marcelo Viridiano, Oskar van der Wal, Adina Yakefu, Kayo Yin, Mike Zhang, Sydney Zink, Aurélie Névéol, <b>Zeerak Talat</b>.",
-     publication: "In Review.",
-     publisher: "",
-     shortvenue: "",
+     publication: "Proceedings of the 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies",
+     publisher: "Association of Computational Linguistics",
+     shortvenue: "NAACL",
      type: "Conference Paper",
-     date: "Forthcoming",
+     date: "2025",
      preprint: "",
      doi: false,
      bibtex: false,
