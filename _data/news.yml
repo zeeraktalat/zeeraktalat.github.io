@@ -1,4 +1,7 @@
 items:
+  - {headline: "News update after a long time: I have 2 new papers presented at COLING 2025, and one paper accepted for presentation at NAACL 2025.",
+     date: "23 Jan, 2025",
+  }
   - {headline: "2 new papers with a lovely set of co-authors on <a href='https://arxiv.org/abs/2402.02113'>class in NLP (to appear at COLING-LREC)</a> and on <a href='https://arxiv.org/abs/2403.02268'>subjectivity and hate speech</a>!",
      date: "07 Mar, 2024",
   }
@@ -8,18 +11,18 @@ items:
   - {headline: "I am lucky to have been selected as one of the 2024 visiting researchers at the <a href='https://hiig.de'>Alexander von Humbold Institut Für Internet und Gesellschaft</a> in Berlin!",
      date: "14 Nov, 2024",
   }
-  - {headline: "I gave a guest lecture for te research methods course at Mohamed Bin Zayed University of Artificial Intelligence titled: ",
+  - {headline: "I gave a guest lecture for the research methods course at Mohamed Bin Zayed University of Artificial Intelligence titled: ",
      date: "17 Oct, 2023",
      title: "Ethics, Fairness, and Bias in Machine Learning",
      link: "/slides/teaching/guest/mbzuai.pdf"
   }
+
+past:
   - {headline: "I gave an invited talk with Gavin Abercrombie at Google Deepmind titled: ",
      date: "12 Oct, 2023",
      title: "Mirages, Disagreement, and the Futures of NLP",
      link: "/slides/talks/deepmind_2023.pdf"
   }
-
-past:
   - {headline: "I was invited to participate on a panel on the legal and ethical challenges of AI for the opening of the <a href='https://www.i2sc.net/i2sc-kick-off-event'>Interdisciplinary Institute for Societal Computing</a>.",
     date: "07 Sep, 2023",
   }
