@@ -17,7 +17,16 @@ education:
      gradyear: "2014",
      }
 work:
-  - {position: "Chancellor's Fellow in Responsible ML and AI ",
+  - {position: "Faculty Fellow",
+     start: "Dec, 2024",
+     institution: "Distributed AI Research Institute",
+     }
+  - {position: "GAIL Fellow",
+     start: "Jan, 2025",
+     institution: "Edinburgh Generative AI Lab",
+     loc: "Edinburgh, Scotland",
+     }
+  - {position: "Chancellor's Fellow in Responsible ML and AI",
      start: "Nov, 2024",
      institution: "University of Edinburgh",
      loc: "Edinburgh, Scotland"}

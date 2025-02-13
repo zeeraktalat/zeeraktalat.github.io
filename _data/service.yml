@@ -255,6 +255,11 @@ organisation:
      collabs: "Joris van Hoboken"
      }
 elected:
+  - {venue: "Edinburgh University Information Services Group Ethics Board",
+     year: "2025--",
+     position: "Board member",
+     type: "Board"
+  }
   - {venue: "Equity in ACL (EquiCL)",
      year: "2024--2026",
      position: "President",
