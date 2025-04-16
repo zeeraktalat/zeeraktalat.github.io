@@ -14,6 +14,17 @@
 #    bibtex:
 # }
 forthcoming:
+  - {name: "The Role of Expertise in Effectively Moderating Harmful Social Media Content",
+     authors: "Nuredin Ali Abdelkadir, Tianling Yang, Shivani Kapania, Meron Estefanos, Fasica Berhane Gebrekidan, Zecharias Zelalem, Messai Ali, Rishan Berhe, Dylan Baker, <b>Zeerak Talat</b>, Milagros Miceli, Alex Hanna, Timnit Gebru",
+     publication: "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+     publisher: "Association of Computing Machinary",
+     shortvenue: "CHI",
+     type: "Conference",
+     date: "2025",
+     preprint: false,
+     doi: false,
+     bibtex: false,
+     }
   - {name: "Evaluating the Social Impact of Generative AI Systems in Systems and Society.",
      authors: "Irene Solaiman*, <b>Zeerak Talat</b>*, William Agnew, Lama Ahmad, Dylan Baker, Su Lin Blodgett, Canyu Chen, Hal Daumé III, Jesse Dodge, Isabella Duan, Felix Friedrich, Avijit Ghosh, Usman Gohar, Sara Hooker, Yacine Jernite, Ria Kalluri, Alberto Lusoli, Alina Leidinger, Michelle Lin, Xiuzhu Lin, Sasha Luccioni, Jennifer Mickel, Margaret Mitchell, Jessica Newman, Anaelia Ovalle, Marie-Therese Png, Shubham Singh, Andrew Strait, Lukas Struppek, Arjun Subramonian.",
      editors: "Philip Hacker, Andreas Engel, Sarah Hammer, Brent Mittelstadt.",
