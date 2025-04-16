@@ -14,17 +14,8 @@
 #    bibtex:
 # }
 forthcoming:
-  - {name: "The Role of Expertise in Effectively Moderating Harmful Social Media Content",
-     authors: "Nuredin Ali Abdelkadir, Tianling Yang, Shivani Kapania, Meron Estefanos, Fasica Berhane Gebrekidan, Zecharias Zelalem, Messai Ali, Rishan Berhe, Dylan Baker, <b>Zeerak Talat</b>, Milagros Miceli, Alex Hanna, Timnit Gebru",
-     publication: "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
-     publisher: "Association of Computing Machinary",
-     shortvenue: "CHI",
-     type: "Conference",
-     date: "2025",
-     preprint: false,
-     doi: false,
-     bibtex: false,
-     }
+
+index:
   - {name: "Evaluating the Social Impact of Generative AI Systems in Systems and Society.",
      authors: "Irene Solaiman*, <b>Zeerak Talat</b>*, William Agnew, Lama Ahmad, Dylan Baker, Su Lin Blodgett, Canyu Chen, Hal Daumé III, Jesse Dodge, Isabella Duan, Felix Friedrich, Avijit Ghosh, Usman Gohar, Sara Hooker, Yacine Jernite, Ria Kalluri, Alberto Lusoli, Alina Leidinger, Michelle Lin, Xiuzhu Lin, Sasha Luccioni, Jennifer Mickel, Margaret Mitchell, Jessica Newman, Anaelia Ovalle, Marie-Therese Png, Shubham Singh, Andrew Strait, Lukas Struppek, Arjun Subramonian.",
      editors: "Philip Hacker, Andreas Engel, Sarah Hammer, Brent Mittelstadt.",
@@ -48,8 +39,17 @@ forthcoming:
      doi: false,
      bibtex: false,
      }
-
-index:
+  - {name: "The Role of Expertise in Effectively Moderating Harmful Social Media Content",
+     authors: "Nuredin Ali Abdelkadir, Tianling Yang, Shivani Kapania, Meron Estefanos, Fasica Berhane Gebrekidan, Zecharias Zelalem, Messai Ali, Rishan Berhe, Dylan Baker, <b>Zeerak Talat</b>, Milagros Miceli, Alex Hanna, Timnit Gebru",
+     publication: "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+     publisher: "Association of Computing Machinary",
+     shortvenue: "CHI",
+     type: "Conference",
+     date: "2025",
+     preprint: false,
+     doi: false,
+     bibtex: false,
+     }
   - {name: "SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models.",
      authors: "Margaret Mitchell, Giuseppe Attanasio, Ioana Baldini, Miruna Clinciu, Jordan Clive, Pieter Delobelle, Manan Dey, Sil Hamilton, Timm Dill, Jad Doughman, Ritam Dutt, Avijit Ghosh, Jessica Zosa Forde, Carolin Holtermann, Lucie-Aimée Kaffee, Tanmay Laud, Anne Lauscher, Roberto L Lopez-Davila, Maraim Masoud, Nikita Nangia, Anaelia Ovalle, Giada Pistilli, Dragomir Radev, Beatrice Savoldi, Vipul Raheja, Jeremy Qin, Esther Ploeger, Arjun Subramonian, Kaustubh Dhole, Kaiser Sun, Amirbek Djanibekov, Jonibek Mansurov, Kayo Yin, Emilio Villa Cueva, Sagnik Mukherjee, Jerry Huang, Xudong Shen, Jay Gala, Hamdan Al-Ali, Tair Djanibekov, Nurdaulet Mukhituly, Shangrui Nie, Shanya Sharma, Karolina Stanczak, Eliza Szczechla, Tiago Timponi Torrent, Deepak Tunuguntla, Marcelo Viridiano, Oskar van der Wal, Adina Yakefu, Aurélie Névéol, Mike Zhang, Sydney Zink, <b>Zeerak Talat</b>.",
      publication: "Proceedings of the 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies.",
