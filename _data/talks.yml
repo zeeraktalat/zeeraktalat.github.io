@@ -1,4 +1,12 @@
 index:
+  - {name: "On the Promise of Equitable Machine Learning Technologies",
+     host: "New Perspectives on Bias and Discrimination in Language Technology",
+     day: "05",
+     month: "Nov",
+     year: "2024",
+     slides: "/slides/talks/wai_2024.pdf",
+     type: "keynote"
+  }
   - {name: "Fireside Chat with Abeba Birhane and Roel Dobbe on What Accountability Means in the Current AI Climate.",
      host: "AI Accountability Lab",
      day: "28",
