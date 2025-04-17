@@ -68,10 +68,6 @@
             </button></a>
           {% endif %}
           {% if pub.bibtex %}
-          <a href="{{ pub.bibtex }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/bibtex.png" style="width:48px;height:14px"></button></a>&nbsp;&nbsp;
-
-          {% endif %}
-          {% if pub.bibtex %}
           <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
           <span class="bibtex-box" >{{pub.bibtex}}
           </span>
