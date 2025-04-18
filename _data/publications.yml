@@ -457,7 +457,7 @@ index:
      bibtex: false,
   }
   - {name: "A Survey of Race, Racism, and Anti-Racism in NLP.",
-     authors: "Anjalie Field, Su Lin Blodgett, <b>Zeerak Talat</b>,  Yulia Tsvetkov.",
+     authors: "Anjalie Field, Su Lin Blodgett, <b>Zeerak Waseem</b>,  Yulia Tsvetkov.",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers).",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "ACL.",
@@ -469,7 +469,7 @@ index:
      bibtex: false,
   }
   - {name: "HateCheck: Functional Tests for Hate Speech Detection Models.",
-     authors: "Paul Röttger, Bertie Vidgen, Dong Nguyen, <b>Zeerak Talat</b>, Helen Margetts, Janet Pierrehumbert.",
+     authors: "Paul Röttger, Bertie Vidgen, Dong Nguyen, <b>Zeerak Waseem</b>, Helen Margetts, Janet Pierrehumbert.",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers).",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "ACL.",
@@ -482,7 +482,7 @@ index:
      bibtex: false,
   }
   - {name: "Learning from the Worst: Dynamically Generated Datasets to Improve Online Hate Detection.",
-     authors: "Bertie Vidgen, Tristan Thrush, <b>Zeerak Talat</b>, Douwe Kiela.",
+     authors: "Bertie Vidgen, Tristan Thrush, <b>Zeerak Waseem</b>, Douwe Kiela.",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers).",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "ACL.",
@@ -495,7 +495,7 @@ index:
      bibtex: false,
   }
   - {name: "Dynabench: Rethinking Benchmarking in NLP.",
-     authors: "Douwe Kiela, Max Bartolo, Yixin Nie, Divyansh Kaushik, Atticus Geiger, Zhengxuan Wu, Bertie Vidgen, Grusha Prasad, Amanpreet Singh, Pratik Ringshia, Zhiyi Ma, Tristan Thrush, Sebastian Riedel, <b>Zeerak Talat</b>, Pontus Stenetorp, Robin Jia, Mohit Bansal, Christopher Potts, Adina Williams.",
+     authors: "Douwe Kiela, Max Bartolo, Yixin Nie, Divyansh Kaushik, Atticus Geiger, Zhengxuan Wu, Bertie Vidgen, Grusha Prasad, Amanpreet Singh, Pratik Ringshia, Zhiyi Ma, Tristan Thrush, Sebastian Riedel, <b>Zeerak Waseem</b>, Pontus Stenetorp, Robin Jia, Mohit Bansal, Christopher Potts, Adina Williams.",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers).",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "ACL.",
@@ -507,7 +507,7 @@ index:
      bibtex: false,
   }
   - {name: "Findings of the WOAH 5 Shared Task on Fine Grained Hateful Memes Detection.",
-     authors: "Lambert Mathias, Shaoliang Nie, Aida Mostafazadeh Davani, Douwe Kiela, Vinodkumar Prabhakaran, Bertie Vidgen, <b>Zeerak Talat</b>.",
+     authors: "Lambert Mathias, Shaoliang Nie, Aida Mostafazadeh Davani, Douwe Kiela, Vinodkumar Prabhakaran, Bertie Vidgen, <b>Zeerak Wsaeem</b>.",
      publication: "Proceedings of the 5th Workshop on Online Abuse and Harms.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "WOAH.",
@@ -518,7 +518,7 @@ index:
      bibtex: false,
   }
   - {name: "'Hold on honey, men at work': A semi-supervised approach to detecting sexism in sitcoms.",
-     authors: "Smriti Singh, Tanvi Anand, Arijit Ghosh Chowdhury, <b>Zeerak Talat</b>.",
+     authors: "Smriti Singh, Tanvi Anand, Arijit Ghosh Chowdhury, <b>Zeerak Waseem</b>.",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "ACL SRW.",
@@ -529,7 +529,7 @@ index:
      bibtex: false,
   }
   - {name: "Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 2021).",
-     authors: "Aida Mostafazadeh Davani, Douwe Kiela, Mathias Lambert, Bertie Vidgen, Vinodkumar Prabhakaran, <b>Zeerak Talat</b>.",
+     authors: "Aida Mostafazadeh Davani, Douwe Kiela, Mathias Lambert, Bertie Vidgen, Vinodkumar Prabhakaran, <b>Zeerak Waseem</b>.",
      publication: "Proceedings of the 5th Workshop on Online Abuse and Harms.",
      publisher: "Association of Computational Linguistics.",
      shortvenue:"WOAH.",
@@ -539,7 +539,7 @@ index:
      bibtex: false,
   }
   - {name: "Leaky academia: digital intimacy and open secrets in times of COVID-19.",
-     authors: "Nanna Thylstrup, <b>Zeerak Talat</b>, Daniela Agostinho.",
+     authors: "Nanna Thylstrup, <b>Zeerak Waseem</b>, Daniela Agostinho.",
      publication: "Identities - Global Studies in Culture and Power.",
      publisher: "Taylor and Francis.",
      shortvenue: "Identities.",
@@ -550,7 +550,7 @@ index:
      bibtex: false,
   }
   - {name: "Detecting East Asian Prejudice on Social Media.",
-     authors: "Bertie Vidgen, Austin Botelho, David Broniatowski, Ella Guest, Matthew Hall, Helen Margetts, Rebekah Tromble, <b>Zeerak Talat</b>, Scott Hale.",
+     authors: "Bertie Vidgen, Austin Botelho, David Broniatowski, Ella Guest, Matthew Hall, Helen Margetts, Rebekah Tromble, <b>Zeerak Waseem</b>, Scott Hale.",
      publication: "Proceedings of the 4th Workshop on Online Abuse and Harms.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "WOAH.",
@@ -563,7 +563,7 @@ index:
      bibtex: false,
   }
   - {name: "Online Abuse and Human Rights: WOAH Satellite Session at RightsCon 2020.",
-     authors: "Vinodkumar Prabhakaran, <b>Zeerak Talat</b>, Seyi Akiwowo, Bertie Vidgen.",
+     authors: "Vinodkumar Prabhakaran, <b>Zeerak Waseem</b>, Seyi Akiwowo, Bertie Vidgen.",
      publication: "Proceedings of the 4th Workshop on Online Abuse and Harms.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "WOAH.",
@@ -574,7 +574,7 @@ index:
      bibtex: false,
   }
   - {name: "Proceedings of the 4th Workshop on Online Abuse and Harms (WOAH 2020).",
-     authors: "Seyi Akiwowo, Bertie Vidgen, Vinodkumar Prabhakaran, <b>Zeerak Talat</b>.",
+     authors: "Seyi Akiwowo, Bertie Vidgen, Vinodkumar Prabhakaran, <b>Zeerak Waseem</b>.",
      publication: "Proceedings of the 4th Workshop on Online Abuse and Harms.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "WOAH.",
@@ -592,7 +592,7 @@ index:
      bibtex: false,
   }
   - {name: "Proceedings of the 2019 Workshop on Widening NLP.",
-     authors: "Amittai Axelrod, Diyi Yang, Rossana Cunha, Samira Shaikh, <b>Zeerak Talat</b>.",
+     authors: "Amittai Axelrod, Diyi Yang, Rossana Cunha, Samira Shaikh, <b>Zeerak Waseem</b>.",
      publication: "Proceedings of the 3th Workshop on Abusive Language Online.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "WiNLP.",
@@ -602,7 +602,7 @@ index:
      bibtex: false,
   }
   - {name: "Proceedings of the 3rd Workshop on Abusive Language Online.",
-     authors: "Sarah T. Roberts, Joel Tetreault, Vinodkumar Prabhakaran, <b>Zeerak Talat</b>.",
+     authors: "Sarah T. Roberts, Joel Tetreault, Vinodkumar Prabhakaran, <b>Zeerak Waseem</b>.",
      publication: "Proceedings of the 3th Workshop on Abusive Language Online.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "WOAH.",
@@ -612,7 +612,7 @@ index:
      bibtex: false,
   }
   - {name: "Proceedings of the 2nd Workshop on Abusive Language Online.",
-     authors: "*Darja Fišer, Ruihong Huang, Vinodkumar Prabhakaran, Rob Voigt, <b>Zeerak Talat</b>, Jacqueline Wernimont.",
+     authors: "*Darja Fišer, Ruihong Huang, Vinodkumar Prabhakaran, Rob Voigt, <b>Zeerak Waseem</b>, Jacqueline Wernimont.",
      publication: "Proceedings of the 2nd Workshop on Abusive Language Online.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "WOAH.",
@@ -634,7 +634,7 @@ index:
      bibtex: false,
   }
   - {name: "Understanding Abuse: A Typology of Abusive Language Detection Subtasks.",
-     authors: "<b>Zeerak Talat</b>, Thomas Davidson, Dana Warmsley and Ingmar Weber.",
+     authors: "<b>Zeerak Waseem</b>, Thomas Davidson, Dana Warmsley and Ingmar Weber.",
      publication: "Proceedings of the First Workshop on Abusive Language Online.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "WOAH.",
@@ -642,7 +642,7 @@ index:
      type: "Workshop Paper",
      doi: "https://doi.org/10.18653/v1/W17-3012",
      url: "https://aclanthology.org/W17-3012/",
-     bibtex: false,
+     bibtex: "@inproceedings{waseem-etal-2017-understanding,\n    title = 'Understanding Abuse: A Typology of Abusive Language Detection Subtasks',\n    author = 'Waseem, Zeerak  and\n      Davidson, Thomas  and\n      Warmsley, Dana  and\n      Weber, Ingmar',\n    editor = 'Waseem, Zeerak  and\n      Chung, Wendy Hui Kyong  and\n      Hovy, Dirk  and\n      Tetreault, Joel',\n    booktitle = 'Proceedings of the First Workshop on Abusive Language Online',\n    month = aug,\n    year = '2017',\n    address = 'Vancouver, BC, Canada',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/W17-3012/',\n    doi = '10.18653/v1/W17-3012',\n    pages = '78--84'\n}",
   }
   - {name: "Proceedings of the 1st Workshop on Abusive Language Online.",
      authors: "<b>Zeerak Talat</b>, Wendy Hui Kyong Chung, Dirk Hovy, and Joel Tetreault.",
@@ -652,10 +652,10 @@ index:
      date: "2017",
      type: "Workshop Proceedings",
      url: "https://aclanthology.org/W17-3000/",
-     bibtex: false,
+     bibtex: "@proceedings{ws-2017-abusive,\n    title = 'Proceedings of the First Workshop on Abusive Language Online',\n    editor = 'Waseem, Zeerak  and\n      Chung, Wendy Hui Kyong  and\n      Hovy, Dirk  and\n      Tetreault, Joel',\n    month = aug,\n    year = '2017',\n    address = 'Vancouver, BC, Canada',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/W17-3000/'\n}",
   }
   - {name: "Are You a Racist or Am I Seeing Things? Annotator Influence on Hate Speech Detection on Twitter.",
-     authors: "<b>Zeerak Talat</b>.",
+     authors: "<b>Zeerak Waseem</b>.",
      publication: "Proceedings of the First Workshop on NLP and Computational Social Science.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "NLP+CSS.",
@@ -665,10 +665,10 @@ index:
      type: "Workshop Paper",
      doi: "https://doi.org/10.18653/v1/W16-5618",
      url: "https://aclanthology.org/W16-5618/",
-     bibtex: false,
+     bibtex: "@inproceedings{waseem-2016-racist,\n    title = 'Are You a Racist or Am {I} Seeing Things? Annotator Influence on Hate Speech Detection on {T}witter',\n    author = 'Waseem, Zeerak',\n    editor = {Bamman, David  and\n      Doğruöz, A. Seza  and\n      Eisenstein, Jacob  and\n      Hovy, Dirk  and\n      Jurgens, David  and\n      O{'}Connor, Brendan  and\n      Oh, Alice  and\n      Tsur, Oren  and\n      Volkova, Svitlana},\n    booktitle = 'Proceedings of the First Workshop on {NLP} and Computational Social Science',\n    month = nov,\n    year = '2016',\n    address = 'Austin, Texas',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/W16-5618/',\n    doi = '10.18653/v1/W16-5618',\n    pages = '138--142'\n}",
   }
   - {name: "Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter.",
-     authors: "<b>Zeerak Talat</b>, Dirk Hovy.",
+     authors: "<b>Zeerak Waseem</b>, Dirk Hovy.",
      publication: "Proceedings of the NAACL Student Research Workshop.",
      publisher: "Association of Computational Linguistics.",
      shortvenue: "NAACL SRW.",
@@ -678,7 +678,7 @@ index:
      type: "Workshop Paper",
      doi: "https://doi.org/10.18653/v1/N16-2013",
      url: "https://aclanthology.org/N16-2013",
-     bibtex: false,
+     bibtex: "@inproceedings{waseem-hovy-2016-hateful,\n    title = 'Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on {T}witter',\n    author = 'Waseem, Zeerak  and\n      Hovy, Dirk',\n    editor = 'Andreas, Jacob  and\n      Choi, Eunsol  and\n      Lazaridou, Angeliki',\n    booktitle = 'Proceedings of the {NAACL} Student Research Workshop',\n    month = jun,\n    year = '2016',\n    address = 'San Diego, California',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/N16-2013/',\n    doi = '10.18653/v1/N16-2013',\n    pages = '88--93'\n}"
   }
 
 ongoing:
