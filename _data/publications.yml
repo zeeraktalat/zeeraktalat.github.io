@@ -44,7 +44,7 @@ index:
      publication: "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
      publisher: "Association of Computing Machinary",
      shortvenue: "CHI",
-     type: "Conference",
+     type: "Conference paper",
      date: "2025",
      preprint: false,
      doi: false,
@@ -57,7 +57,8 @@ index:
      shortvenue: "NAACL",
      type: "Conference Paper",
      date: "2025",
-     preprint: "",
+     preprint: false,
+     url: "https://aclanthology.org/2025.naacl-long.600/"
      doi: false,
      bibtex: false,
   }
