@@ -35,6 +35,24 @@ If you are only able to show diversity along parameters of academia & industry a
 
 Having said that *do* highlight topics of diversity that are inherent to the topic or focus of the workshop (that year). e.g., A workshop on summarisation that is focusing on summarisation and simplification for people with reading comprehension difficulties should absolutely highlight that the topic of the workshop is intrinsically linked to diversity in the field (back this up by inviting experts to speak on the topic).
 
+##### Do not have an organising committee that is entirely homogenous
+
+That is, try to diversity the committee along all possible lines: Make sure not everyone is from industry (all academic is better IMHO), make sure it's not all men or all women (the latter being better IMHO), or that every organiser is not based on the same continent (tbf this is only a US issue – basically all workshops with organisers from any other continent have organisers in multiple continents). The organising committee is the number one place where you can show that you're doing things for diversity.
+
+##### Some really cool examples of diversity initiatives I've seen in proposals
+
+These are all shared with permission of course and noting here where I first saw it.
+
+- Inviting local junior academics (assistant profs) working on the topic as keynote speakers - First seen at BioNLP.
+- Using the (SIGACCESS)[http://www.sigaccess.org] guidelines for considering access - First seen at XXXX.
+- Mentorship of junior researchers from under-represented groups - First seen at WiNLP.
+- Breakout groups between junior and senior researchers from industry and academia - First seen at WiNLP.
+- Building relationships at HBCUs in the US for disseminating calls - First seen at WOAH.
+- Making workshop materials freely available - First seen at the BigPicture Workshop.
+
+Workshops with good D&I sections:
+- KnowFM: Towards Knowledgeable Foundation Models
+
 #### Description of Workshop Organizers' Experience
 
 The description of each workshop organizer should seek to answer two questions: 1) How does the organizer's research experience relate to the workshop (e.g., listing areas of research) and 2) what organizational experience does an organizer have (e.g., academic service, organizing academic events, public events such as NLP meetups, etc.).
