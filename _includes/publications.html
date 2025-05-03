@@ -20,7 +20,7 @@
       <ul>
       {% for pub in pubs %}
       <p>
-          <b>{{ pub.name }}</b><br> 
+          <b>{{ pub.name }}</b><br>
           <i>{{ pub.authors }}</i> {{pub.date}}. {{pub.publication}} {{pub.publisher}} <br />
         {% if pub.type %}
           [<b>{{ pub.type }}</b>]
