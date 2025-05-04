@@ -147,7 +147,7 @@ index:
      type: "Conference Paper",
      date: "2024",
      url: "https://aclanthology.org/2024.emnlp-main.1207/",
-     doi: "10.18653/v1/2024.emnlp-main.1207",
+     doi: "https://doi.org/10.18653/v1/2024.emnlp-main.1207",
      bibtex: "@inproceedings{delobelle-etal-2024-metrics,\n    title = 'Metrics for What, Metrics for Whom: Assessing Actionability of Bias Evaluation Metrics in {NLP}',\n    author = 'Delobelle, Pieter  and\n      Attanasio, Giuseppe  and\n      Nozza, Debora  and\n      Blodgett, Su Lin  and\n      Talat, Zeerak',\n    editor = 'Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung',\n    booktitle = 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing',\n    month = nov,\n    year = '2024',\n    address = 'Miami, Florida, USA',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.emnlp-main.1207/',\n    doi = '10.18653/v1/2024.emnlp-main.1207',\n    pages = '21669--21691'\n}",
   }
   - {name: "Understanding 'Democratization' in NLP and ML Research",
