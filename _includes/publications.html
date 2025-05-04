@@ -17,64 +17,59 @@
 
 <div class="row g-5 mb-5">
   <div>
-    <!-- <center> -->
-    <!-- <h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Publications</h3> -->
-    <!-- </center> -->
-
     {% if page.title == "Home" %}
-    <h3 class="fw-bold">Recent Publications</h3>
-    {% for item in site.data.publications.featured %}
-    <p>{{ item.name }} <i>{{item.authors}}</i> ({{item.date}}). {{item.shortvenue}} </p>
-    {% endfor %}
+      <h3 class="fw-bold">Recent Publications</h3>
+      {% for item in site.data.publications.featured %}
+        <p>{{ item.name }} <i>{{item.authors}}</i> ({{item.date}}). {{item.shortvenue}} </p>
+      {% endfor %}
     {% else %}
+      {% assign pubs = site.data.publications.forthcoming | where: "date", "0" %}
+      {% assign year = 0 %}
+      {% if pubs.size > 0 %}
+        <div class="year-block" data-year="{{ year }}">
+        <center><h4 class="pub-type">Forthcoming</h4></center>
+        <hr>
+        {% endif%}
+        <ul>
+          {% for pub in pubs %}
+            {% assign pub_color = "#999" %}
+            {% for entry in pub_types %}
+              {% assign pair = entry | split: ":" %}
+              {% if pair[0] == pub.type %}
+                {% assign pub_color = pair[1] %}
+              {% endif %}
+            {% endfor %}
 
-    {% assign pubs = site.data.publications.forthcoming | where: "date", "0" %}
-    {% assign year = 0 %}
-    {% if pubs.size > 0 %}
-    <div class="year-block" data-year="{{ year }}">
-      <center><h4 class="pub-type">Forthcoming</h4></center>
-      <hr>
-      {% endif%}
-      <ul>
-        {% for pub in pubs %}
-          {% assign pub_color = "#999" %}
-          {% for entry in pub_types %}
-          {% assign pair = entry | split: ":" %}
-            {% if pair[0] == pub.type %}
-            {% assign pub_color = pair[1] %}
+          <li class="pub-item" data-type="{{ pub.type | escape }}" style="margin-bottom: 20px;">
+            <span style="display: inline-block; width: 12px; height: 12px; background: {{ pub_color }}; margin-right: 5px;"></span>
+            <strong style="font-weight: 1000;">{{ pub.name }}. </strong> <br>
+            {{ pub.authors }}. <br />
+            {% if pub.type == "Book Chapter" %}
+              <strong style="font-weight: 400;"><i>{{ pub.publication }}</i></strong>.
+              {% if pub.editors %}
+                <i>{{ pub.editors }}.</i> <br />
+              {% endif %}
             {% endif %}
-          {% endfor %}
-
-        <li class="pub-item" data-type="{{ pub.type | escape }}" style="margin-bottom: 20px;">
-          <span style="display: inline-block; width: 12px; height: 12px; background: {{ pub_color }}; margin-right: 5px;"></span>
-          <strong style="font-weight: 1000;">{{ pub.name }}. </strong> <br>
-          {{ pub.authors }}. <br />
-          {% if pub.type == "Book Chapter" %}
-          <strong style="font-weight: 400;"><i>{{ pub.publication }}</i></strong>.
-          {% if pub.editors %}
-          <i>{{ pub.editors }}.</i> <br />
-          {% endif %}
-          {% endif %}
-          {% if pub.preprint %}
-          <i class="fas fa-file-pdf"></i> <a href="{{ pub.preprint }}" target="_blank"><button class='styled_button' type='button'>Preprint</button></a>&nbsp;&nbsp;
-          {% endif %}
-          {% if pub.github %}
-          <a href="{{ pub.github }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/github.png" style="width:20px;height:20px"> Code</button></a>&nbsp;&nbsp;
-          {% endif %}
-          {% if pub.zenodo %}
-          <i class="fa-solid fa-database"></i><a href="{{ pub.zenodo }}" target="_blank"><button class='styled_button' type='button'>&nbsp;&nbsp;
-              <!-- <img src="/assets/img/zenodo.jpg" style="width:50px;height:20px"> -->
-              Data
-            </button></a>
+            {% if pub.preprint %}
+              <i class="fas fa-file-pdf"></i> <a href="{{ pub.preprint }}" target="_blank"><button class='styled_button' type='button'>Preprint</button></a>&nbsp;&nbsp;
+            {% endif %}
+            {% if pub.github %}
+              <a href="{{ pub.github }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/github.png" style="width:20px;height:20px"> Code</button></a>&nbsp;&nbsp;
+            {% endif %}
+            {% if pub.zenodo %}
+              <i class="fa-solid fa-database"></i><a href="{{ pub.zenodo }}" target="_blank"><button class='styled_button' type='button'>&nbsp;&nbsp;
+                  <!-- <img src="/assets/img/zenodo.jpg" style="width:50px;height:20px"> -->
+                  Data
+                </button></a>
             {% endif %}
             {% if pub.bibtex %}
-            <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
-            <span class="bibtex-box" >{{pub.bibtex}}</span>
+              <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+              <span class="bibtex-box" >{{pub.bibtex}}</span>
             {% endif %}
-        </li>
+          </li>
 
-        {% endfor %}
-      </ul>
+          {% endfor %}
+        </ul>
     </div>
 
     {% for year in (2016..2025) reversed %}
@@ -83,15 +78,15 @@
     <div class="year-block" data-year="{{ year }}">
       <center><h4 class="pub-type">{{ year }}</h4></center>
       <hr>
-      {% endif %}
-      <ul>
-        {% for pub in pubs %}
+    {% endif %}
+    <ul>
+      {% for pub in pubs %}
         {% assign pub_color = "#999" %}
         {% for entry in pub_types %}
-        {% assign pair = entry | split: ":" %}
-        {% if pair[0] == pub.type %}
-        {% assign pub_color = pair[1] %}
-        {% endif %}
+          {% assign pair = entry | split: ":" %}
+          {% if pair[0] == pub.type %}
+            {% assign pub_color = pair[1] %}
+          {% endif %}
         {% endfor %}
 
         <li class="pub-item" data-type="{{ pub.type | escape }}" style="margin-bottom: 20px;">
@@ -141,6 +136,7 @@
       </ul>
     </div>
     {% endfor %}
+  {% endif %}
   </div>
 </div>
 
