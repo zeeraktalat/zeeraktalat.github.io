@@ -121,17 +121,16 @@
           {% endif %}
           {% if pub.zenodo %}
           <i class="fa-solid fa-database"></i><a href="{{ pub.zenodo }}" target="_blank"><button class='styled_button' type='button'>&nbsp;&nbsp;
-              <!-- <img src="/assets/img/zenodo.jpg" style="width:50px;height:20px"> -->
               Data
-            </button></a>
-            {% endif %}
-            {% if pub.bibtex %}
-            <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
-            <span class="bibtex-box" >{{pub.bibtex}}
-            </span>
+            </button></a>&nbsp;&nbsp;
             {% endif %}
             {% if pub.video%}
             <i class="fa-solid fa-video"></i><a href="{{ pub.video }}" target="_blank"><button class='styled_button' type='button'>&nbsp; Video</button></a>&nbsp;&nbsp;
+            {% endif %}
+            {% if pub.bibtex %}
+            <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+            <span class="bibtex-box" > {{pub.bibtex}}
+            </span>
             {% endif %}
         </li>
         {% endfor %}
