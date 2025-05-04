@@ -1,7 +1,8 @@
 {% assign pub_types =
-"Conference Paper:#4caf50,Journal Paper:#2196f3,Workshop Paper:#ff9800,Book Chapter:#9c27b0,Proceedings:#009688" | split: "," %}
+"Book Chapter:#9c27b0,Journal Paper:#008000,Conference Paper:#4caf50,Workshop Paper:#ffbf00,Permaprint:#efcc00,Abstract:#f0e68c,Proceedings:#009688" | split: "," %}
 
 <div id="pub-type-legend" style="margin-bottom: 20px;">
+  <center>
   {% for entry in pub_types %}
   {% assign parts = entry | split: ":" %}
   {% assign pubtype = parts[0] %}
@@ -11,7 +12,8 @@
     {{ pubtype }}
   </a>
   {% endfor %}
-  <a href="?filter=all" class="legend-item" style="font-weight: bold;">Show All</a>
+  </center>
+  <center><a href="?filter=all" class="legend-item" style="font-weight: bold;">Show All</a></center>
 </div>
 
 
