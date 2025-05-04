@@ -159,7 +159,7 @@ index:
      shortvenue: "EMNLP",
      preprint: "https://arxiv.org/abs/2406.11598",
      url: "https://aclanthology.org/2024.emnlp-main.184/",
-     doi: "10.18653/v1/2024.emnlp-main.184",
+     doi: "https://doi.org/10.18653/v1/2024.emnlp-main.184",
      bibtex: "@inproceedings{subramonian-etal-2024-understanding,\n    title = 'Understanding {\textquotedblleft}Democratization{\textquotedblright} in {NLP} and {ML} Research',\n    author = 'Subramonian, Arjun  and\n      Gautam, Vagrant  and\n      Klakow, Dietrich  and\n      Talat, Zeerak',\n    editor = 'Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung',\n    booktitle = 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing',\n    month = nov,\n    year = '2024',\n    address = 'Miami, Florida, USA',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.emnlp-main.184/',\n    doi = '10.18653/v1/2024.emnlp-main.184',\n    pages = '3151--3166'\n}",
   }
   - {name: "Classist Tools: Social Class Correlates with Performance in NLP",
