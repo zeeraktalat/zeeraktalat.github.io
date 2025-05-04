@@ -46,8 +46,8 @@ index:
      type: "Conference",
      date: "2025",
      preprint: false,
-     doi: false,
-     bibtex: false,
+     doi: "https://doi.org/10.1145/3706598.3714010",
+     bibtex: "@inproceedings{10.1145/3706598.3714010,\nauthor = {Abdelkadir, Nuredin Ali and Yang, Tianling and Kapania, Shivani and Estefanos, Meron and Gebrekidan, Fasica Berhane and Zelalem, Zecharias and Ali, Messai and Berhe, Rishan and Baker, Dylan and Talat, Zeerak and Miceli, Milagros and Hanna, Alex and Gebru, Timnit},\ntitle = {The Role of Expertise in Effectively Moderating Harmful Social Media Content},\nyear = {2025},\nisbn = {9798400713941},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3706598.3714010},\ndoi = {10.1145/3706598.3714010},\nabstract = {Social media platforms played a significant role in spreading genocidal content in the 2020-2022 Tigray war, where the deadliest genocide of the 21st century was committed. While linguistic expertise is clearly needed to adequately moderate such content, we ask: What additional expertise is needed? Why and to what extent do experts disagree on what constitutes harmful content, and what is the best way to resolve these disagreements? What do social media platforms do instead? We examine these questions through a 4-month study with 7 experts labeling 340 X (formerly Twitter) posts, and by interviewing 15 commercial content moderators. We find in-depth cultural knowledge and dialects to be most important for accurate hate speech annotation – knowledge which social media platforms do not prioritize. Even amongst experts, disagreements are high (71\%), dropping to 40\% after deliberation meetings. Based on these results, we present 7 recommendations to improve hate speech annotation and moderation practices.},\nbooktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},\narticleno = {227},\nnumpages = {21},\nkeywords = {Expertise, Content Moderation, Data Annotation, Expert Disagreement, Harmful Content, Social Media Platforms},\nlocation = {\n},\nseries = {CHI '25}\n}",
      }
   - {name: "SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models",
      authors: "Margaret Mitchell, Giuseppe Attanasio, Ioana Baldini, Miruna Clinciu, Jordan Clive, Pieter Delobelle, Manan Dey, Sil Hamilton, Timm Dill, Jad Doughman, Ritam Dutt, Avijit Ghosh, Jessica Zosa Forde, Carolin Holtermann, Lucie-Aimée Kaffee, Tanmay Laud, Anne Lauscher, Roberto L Lopez-Davila, Maraim Masoud, Nikita Nangia, Anaelia Ovalle, Giada Pistilli, Dragomir Radev, Beatrice Savoldi, Vipul Raheja, Jeremy Qin, Esther Ploeger, Arjun Subramonian, Kaustubh Dhole, Kaiser Sun, Amirbek Djanibekov, Jonibek Mansurov, Kayo Yin, Emilio Villa Cueva, Sagnik Mukherjee, Jerry Huang, Xudong Shen, Jay Gala, Hamdan Al-Ali, Tair Djanibekov, Nurdaulet Mukhituly, Shangrui Nie, Shanya Sharma, Karolina Stanczak, Eliza Szczechla, Tiago Timponi Torrent, Deepak Tunuguntla, Marcelo Viridiano, Oskar van der Wal, Adina Yakefu, Aurélie Névéol, Mike Zhang, Sydney Zink, <b>Zeerak Talat</b>",
@@ -59,7 +59,8 @@ index:
      preprint: false,
      url: "https://aclanthology.org/2025.naacl-long.600/",
      doi: false,
-     bibtex: false,
+     bibtex: "@inproceedings{mitchell-etal-2025-shades,\n    title = '{SHADES}: Towards a Multilingual Assessment of Stereotypes in Large Language Models',\n    author = 'Mitchell, Margaret  and\n      Attanasio, Giuseppe  and\n      Baldini, Ioana  and\n      Clinciu, Miruna  and\n      Clive, Jordan  and\n      Delobelle, Pieter  and\n      Dey, Manan  and\n      Hamilton, Sil  and\n      Dill, Timm  and\n      Doughman, Jad  and\n      Dutt, Ritam  and\n      Ghosh, Avijit  and\n      Forde, Jessica Zosa  and\n      Holtermann, Carolin  and\n      Kaffee, Lucie-Aim{\'e}e  and\n      Laud, Tanmay  and\n      Lauscher, Anne  and\n      Lopez-Davila, Roberto L  and\n      Masoud, Maraim  and\n      Nangia, Nikita  and\n      Ovalle, Anaelia  and\n      Pistilli, Giada  and\n      Radev, Dragomir  and\n      Savoldi, Beatrice  and\n      Raheja, Vipul  and\n      Qin, Jeremy  and\n      Ploeger, Esther  and\n      Subramonian, Arjun  and\n      Dhole, Kaustubh  and\n      Sun, Kaiser  and\n      Djanibekov, Amirbek  and\n      Mansurov, Jonibek  and\n      Yin, Kayo  and\n      Cueva, Emilio Villa  and\n      Mukherjee, Sagnik  and\n      Huang, Jerry  and\n      Shen, Xudong  and\n      Gala, Jay  and\n      Al-Ali, Hamdan  and\n      Tair Djanibekov  and\n      Mukhituly, Nurdaulet  and\n      Nie, Shangrui  and\n      Sharma, Shanya  and\n      Stanczak, Karolina  and\n      Szczechla, Eliza  and\n      Timponi Torrent, Tiago  and\n      Tunuguntla, Deepak  and\n      Viridiano, Marcelo  and\n      Van Der Wal, Oskar  and\n      Yakefu, Adina  and\n      N{\'e}v{\'e}ol, Aur{\'e}lie  and\n      Zhang, Mike  and\n      Zink, Sydney  and\n      Talat, Zeerak',\n    editor = 'Chiruzzo, Luis  and\n      Ritter, Alan  and\n      Wang, Lu',\n    booktitle = 'Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)',\n    month = apr,\n    year = '2025',\n    address = 'Albuquerque, New Mexico',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2025.naacl-long.600/',\n    pages = '11995--12041',\n    ISBN = '979-8-89176-189-6'\n}
+",
   }
   - {name: "Exploring the Limitations of Detecting Machine-Generated Text",
      authors: "Jad Doughman, Osama Mohammed Afsal, Hawau Olamine Toyin, Shady Shehata, Preslav Nakov, <b>Zeerak Talat</b>",
@@ -71,7 +72,8 @@ index:
      preprint: "https://arxiv.org/abs/2406.11073",
      url: "https://aclanthology.org/2025.coling-main.288/",
      doi: false,
-     bibtex: false,
+     bibtex: "@inproceedings{doughman-etal-2025-exploring,\n    title = 'Exploring the Limitations of Detecting Machine-Generated Text',\n    author = 'Doughman, Jad  and\n      Mohammed Afzal, Osama  and\n      Toyin, Hawau Olamide  and\n      Shehata, Shady  and\n      Nakov, Preslav  and\n      Talat, Zeerak',\n    editor = 'Rambow, Owen  and\n      Wanner, Leo  and\n      Apidianaki, Marianna  and\n      Al-Khalifa, Hend  and\n      Eugenio, Barbara Di  and\n      Schockaert, Steven',\n    booktitle = 'Proceedings of the 31st International Conference on Computational Linguistics',\n    month = jan,\n    year = '2025',\n    address = 'Abu Dhabi, UAE',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2025.coling-main.288/',\n    pages = '4274--4281'\n}
+",
   }
   - {name: "The Only Way is Ethics: A Guide to Ethical Research with Large Language Models",
      authors: "Eddie Ungless, Nikolas Vitsakis, <b>Zeerak Talat</b>, James Garforth, Björn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
@@ -83,7 +85,8 @@ index:
      preprint: "https://arxiv.org/abs/2412.16022",
      url: "https://aclanthology.org/2025.coling-main.603/",
      doi: false,
-     bibtex: false,
+     bibtex: "@inproceedings{ungless-etal-2025-way,\n    title = 'The Only Way is Ethics: A Guide to Ethical Research with Large Language Models',\n    author = 'Ungless, Eddie L.  and\n      Vitsakis, Nikolas  and\n      Talat, Zeerak  and\n      Garforth, James  and\n      Ross, Bjorn  and\n      Onken, Arno  and\n      Kasirzadeh, Atoosa  and\n      Birch, Alexandra',\n    editor = 'Rambow, Owen  and\n      Wanner, Leo  and\n      Apidianaki, Marianna  and\n      Al-Khalifa, Hend  and\n      Eugenio, Barbara Di  and\n      Schockaert, Steven',\n    booktitle = 'Proceedings of the 31st International Conference on Computational Linguistics',\n    month = jan,\n    year = '2025',\n    address = 'Abu Dhabi, UAE',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2025.coling-main.603/',\n    pages = '8992--9005'\n}
+",
   }
   - {name: "A Capabilities Approach to Studying Bias and Harm in Language Technologies",
      authors: "Hellina Hailu Nigatu, <b>Zeerak Talat</b>",
@@ -92,9 +95,9 @@ index:
      shortvenue: "WAI Amsterdam",
      type: "Extended Abstract",
      date: "2024",
-     preprint: false,
+     preprint: "https://arxiv.org/abs/2411.04298",
      doi: false,
-     bibtex: false,
+     bibtex: "@misc{nigatu2024capabilitiesapproachstudyingbias,\n      title={A Capabilities Approach to Studying Bias and Harm in Language Technologies}, \n      author={Hellina Hailu Nigatu and Zeerak Talat},\n      year={2024},\n      eprint={2411.04298},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2411.04298}, \n}",
   }
   - {name: "Exploitation All the Way Down: Calling out the Root Cause of Bad Online Experiences for Users of the Majority World",
      authors: "Hellina Hailu Nigatu, <b>Zeerak Talat</b>",
@@ -103,9 +106,9 @@ index:
      shortvenue: "DAIG @ IGF",
      type: "Extended Abstract",
      date: "2024",
-     preprint: false,
+     preprint: "https://arxiv.org/abs/2501.14748",
      doi: false,
-     bibtex: false,
+     bibtex: "@misc{nigatu2024exploitationwaydowncalling,\n      title={Exploitation All the Way Down: Calling out the Root Cause of Bad Online Experiences for Users of the 'Majority World'},\n      author={Hellina Hailu Nigatu and Zeerak Talat},\n      year={2024},\n      eprint={2501.14748},\n      archivePrefix={arXiv},\n      primaryClass={cs.CY},\n      url={https://arxiv.org/abs/2501.14748},\n}",
   }
   - {name: "Ethics Whitepaper: Whitepaper on Ethical Research into Large Language Models",
      authors: "Eddie L. Ungless, Nikolas Vitsakis, <b>Zeerak Talat</b>, James Garforth, Björn Ross, Arno Onken, Atoosa Kasirzadeh, Alexandra Birch",
@@ -113,7 +116,8 @@ index:
      date: "2024",
      preprint: "https://arxiv.org/abs/2410.19812",
      bibtex: false,
-     doi: false,
+     doi: "@misc{Ungless_Ethics_2024,\n	title = {Ethics {Whitepaper}: {Whitepaper} on {Ethical} {Research} into {Large} {Language} {Models}},\n	shorttitle = {Ethics {Whitepaper}},\n	url = {http://arxiv.org/abs/2410.19812},\n	abstract = {This whitepaper offers an overview of the ethical considerations surrounding research into or with large language models (LLMs). As LLMs become more integrated into widely used applications, their societal impact increases, bringing important ethical questions to the forefront. With a growing body of work examining the ethical development, deployment, and use of LLMs, this whitepaper provides a comprehensive and practical guide to best practices, designed to help those in research and in industry to uphold the highest ethical standards in their work.},\n	urldate = {2024-11-05},\n	publisher = {arXiv},\n	author = {Ungless, Eddie L. and Vitsakis, Nikolas and Talat, Zeerak and Garforth, James and Ross, Björn and Onken, Arno and Kasirzadeh, Atoosa and Birch, Alexandra},\n	month = oct,\n	year = {2024},\n	note = {arXiv:2410.19812 [cs]},\n	keywords = {Computer Science - Computation and Language, Computer Science - Computers and Society},\n	annote = {Comment: 47 pages},\n}
+",
   }
   - {name: "Proceedings of the 8th Workshop on Online Abuse and Harms (WOAH 2024)",
      editors: "Yi-ling Chung, <b>Zeerak Talat</b>, Debora Nozza, Flor Miriam Plaza-del-Arco, Paul Röttger, Aida Mostafazadeh Davani",
@@ -124,7 +128,8 @@ index:
      date: "2024",
      url: "https://aclanthology.org/volumes/2024.woah-1/",
      doi: false,
-     bibtex: false,
+     bibtex: "@proceedings{woah-2024-online,\n    title = 'Proceedings of the 8th Workshop on Online Abuse and Harms (WOAH 2024)',\n    editor = {Chung, Yi-Ling  and\n      Talat, Zeerak  and\n      Nozza, Debora  and\n      Plaza-del-Arco, Flor Miriam  and\n      R{\"o}ttger, Paul  and\n      Mostafazadeh Davani, Aida  and\n      Calabrese, Agostina},\n    month = jun,\n    year = '2024',\n    address = 'Mexico City, Mexico',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.woah-1.0/'\n}
+",
   }
   - {name: "LLMs produce racist output when prompted in African American English",
      authors: "Su Lin Blodgett, <b>Zeerak Talat</b>",
@@ -134,8 +139,10 @@ index:
      type: "Public Dissemination",
      date: "2024",
      preprint: false,
+     url: "{https://www.nature.com/articles/d41586-024-02527-x}",
      doi: "https://doi.org/10.1038/d41586-024-02527-x",
-     bibtex: false,
+     bibtex: "@article{Blodgett_LLMs_2024,\n	title = {{LLMs} produce racist output when prompted in {African} {American} {English}},\n	volume = {633},\n	copyright = {https://www.springernature.com/gp/researchers/text-and-data-mining},\n	issn = {0028-0836, 1476-4687},\n	url = {https://www.nature.com/articles/d41586-024-02527-x},\n	doi = {10.1038/d41586-024-02527-x},\n	language = {en},\n	number = {8028},\n	urldate = {2025-05-04},\n	journal = {Nature},\n	author = {Blodgett, Su Lin and Talat, Zeerak},\n	month = sep,\n	year = {2024},\n	pages = {40--41},\n}
+",
   }
   - {name: "Metrics for What, Metrics for Whom: Assessing Actionability of Bias Evaluation Metrics in NLP",
      authors: "Pieter Delebolle, Giuseppe Attanasio, Debora Nozza, Su Lin Blodgett, <b>Zeerak Talat</b>",
@@ -145,8 +152,9 @@ index:
      type: "Conference",
      date: "2024",
      url: "https://aclanthology.org/2024.emnlp-main.1207/",
-     doi: false,
-     bibtex: false,
+     doi: "10.18653/v1/2024.emnlp-main.1207",
+     bibtex: "@inproceedings{delobelle-etal-2024-metrics,\n    title = 'Metrics for What, Metrics for Whom: Assessing Actionability of Bias Evaluation Metrics in {NLP}',\n    author = 'Delobelle, Pieter  and\n      Attanasio, Giuseppe  and\n      Nozza, Debora  and\n      Blodgett, Su Lin  and\n      Talat, Zeerak',\n    editor = 'Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung',\n    booktitle = 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing',\n    month = nov,\n    year = '2024',\n    address = 'Miami, Florida, USA',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.emnlp-main.1207/',\n    doi = '10.18653/v1/2024.emnlp-main.1207',\n    pages = '21669--21691'\n}
+",
   }
   - {name: "Understanding 'Democratization' in NLP and ML Research",
      authors: "Arjun Subramonian, Vagrant Gautam, Dietrich Klakow, <b>Zeerak Talat</b>",
@@ -156,8 +164,10 @@ index:
      publisher: "Association of Computational Linguistics",
      shortvenue: "EMNLP",
      preprint: "https://arxiv.org/abs/2406.11598",
-     doi: false,
-     bibtex: false,
+     url: "https://aclanthology.org/2024.emnlp-main.184/",
+     doi: "10.18653/v1/2024.emnlp-main.184",
+     bibtex: "@inproceedings{subramonian-etal-2024-understanding,\n    title = 'Understanding {\textquotedblleft}Democratization{\textquotedblright} in {NLP} and {ML} Research',\n    author = 'Subramonian, Arjun  and\n      Gautam, Vagrant  and\n      Klakow, Dietrich  and\n      Talat, Zeerak',\n    editor = 'Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung',\n    booktitle = 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing',\n    month = nov,\n    year = '2024',\n    address = 'Miami, Florida, USA',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.emnlp-main.184/',\n    doi = '10.18653/v1/2024.emnlp-main.184',\n    pages = '3151--3166'\n}
+",
   }
   - {name: "Classist Tools: Social Class Correlates with Performance in NLP",
      authors: "Amanda Cercas Curry, Giuseppe Attanasio, <b>Zeerak Talat</b>, Dirk Hovy",
@@ -167,8 +177,10 @@ index:
      type: "Conference",
      date: "2024",
      preprint: "https://arxiv.org/abs/2403.04445v1",
-     doi: "10.18653/v1/2024.acl-long.682",
-     bibtex: false,
+     url: 'https://aclanthology.org/2024.acl-long.682/',
+     doi: '10.18653/v1/2024.acl-long.682',
+     bibtex: "@inproceedings{curry-etal-2024-classist,\n    title = 'Classist Tools: Social Class Correlates with Performance in {NLP}',\n    author = 'Cercas Curry, Amanda  and\n      Attanasio, Giuseppe  and\n      Talat, Zeerak  and\n      Hovy, Dirk',\n    editor = 'Ku, Lun-Wei  and\n      Martins, Andre  and\n      Srikumar, Vivek',\n    booktitle = 'Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)',\n    month = aug,\n    year = '2024',\n    address = 'Bangkok, Thailand',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.acl-long.682/',\n    doi = '10.18653/v1/2024.acl-long.682',\n    pages = '12643--12655'\n}
+",
   }
   - {name: "Documenting Geographically and Contextually Diverse Language Data Sources",
      authors: "Angelina McMillan-Major, Francesco De Toni, Zaid Alyafeai, Stella Biderman, Kimbo Chen, Gérard Dupont, Hady Elsahar, Chris Emezue, Alham Fikri Aji, Suzana Ilić, Nurulaqilla Khamis, Colin Leong, Maraim Masoud, Aitor Soroa, Pedro Ortiz Suarez, Daniel van Strien, <b>Zeerak Talat</b>, Yacine Jernite",
@@ -180,7 +192,8 @@ index:
      date: "2024",
      preprint: false,
      doi: "https://doi.org/10.3384/nejlt.2000-1533.2024.5217",
-     bibtex: false,
+     bibtex: "@article{mcmillan-majorDocumentingGeographicallyContextually2022,\n	title = {Documenting {Geographically} and {Contextually} {Diverse} {Data} {Sources}: {The} {BigScience} {Catalogue} of {Language} {Data} and {Resources}},\n	copyright = {All rights reserved},\n	shorttitle = {Documenting {Geographically} and {Contextually} {Diverse} {Data} {Sources}},\n	url = {http://arxiv.org/abs/2201.10066},\n	abstract = {In recent years, large-scale data collection efforts have prioritized the amount of data collected in order to improve the modeling capabilities of large language models. This prioritization, however, has resulted in concerns with respect to the rights of data subjects represented in data collections, particularly when considering the difficulty in interrogating these collections due to insufficient documentation and tools for analysis. Mindful of these pitfalls, we present our methodology for a documentation-first, human-centered data collection project as part of the BigScience initiative. We identified a geographically diverse set of target language groups (Arabic, Basque, Chinese, Catalan, English, French, Indic languages, Indonesian, Niger-Congo languages, Portuguese, Spanish, and Vietnamese, as well as programming languages) for which to collect metadata on potential data sources. To structure this effort, we developed our online catalogue as a supporting tool for gathering metadata through organized public hackathons. We present our development process; analyses of the resulting resource metadata, including distributions over languages, regions, and resource types; and our lessons learned in this endeavor.},\n	urldate = {2022-03-07},\n	journal = {arXiv:2201.10066 [cs]},\n	author = {McMillan-Major, Angelina and Alyafeai, Zaid and Biderman, Stella and Chen, Kimbo and De Toni, Francesco and Dupont, Gérard and Elsahar, Hady and Emezue, Chris and Aji, Alham Fikri and Ilić, Suzana and Khamis, Nurulaqilla and Leong, Colin and Masoud, Maraim and Soroa, Aitor and Suarez, Pedro Ortiz and Talat, Zeerak and van Strien, Daniel and Jernite, Yacine},\n	month = jan,\n	year = {2022},\n	note = {arXiv: 2201.10066},\n	annote = {Comment: 8 pages plus appendix and references},\n	file = {arXiv Fulltext PDF:/Users/zeeraktalat/Zotero/storage/DBPUWMKR/McMillan-Major et al. - 2022 - Documenting Geographically and Contextually Divers.pdf:application/pdf;arXiv.org Snapshot:/Users/zeeraktalat/Zotero/storage/SVLMNX4X/2201.html:text/html},\n}
+",
   }
   - {name: "ARAOFFENSE: Detecting Offensive Speech Across Dialects in Arabic Media",
      authors: "Youssef Nafea, Shady Shehata, <b>Zeerak Talat</b>, Ahmed Aboeitta, Ahmed Sharshar, Preslav Nakov",
@@ -191,23 +204,8 @@ index:
      date: "2024",
      preprint(: false,
      doi: "https://doi.org/10.21437/Interspeech.2024-2077",
-     bibtex: false,
+     bibtex: "@inproceedings{nafea24_interspeech,\n  title     = {AraOffence: Detecting Offensive Speech Across Dialects in Arabic Media},\n  author    = {Youssef Nafea and Shady Shehata and Zeerak Talat and Ahmed Aboeitta and Ahmed Sharshar and Preslav Nakov},\n  year      = {2024},\n  booktitle = {Interspeech 2024},\n  pages     = {4303--4307},\n  doi       = {10.21437/Interspeech.2024-2077},\n  issn      = {2958-1796},\n}",
   }
-# template:
-# - {name:
-#    authors:
-#    editors:
-#    publication:
-#    publisher:
-#    shortvenue:
-#    volume:
-#    issue:
-#    type:
-#    date:
-#    preprint:
-#    doi:
-#    bibtex:
-# }
   - {name: "The Perspectivist Paradigm Shift: Assumptions and Challenges of Capturing Human Labels",
      authors: "Eve Fleisig, Su Lin Blodgett, Dan Klein, <b>Zeerak Talat</b>",
      date: "2024",
@@ -217,7 +215,8 @@ index:
      shortvenue: "NAACL",
      preprint: "https://arxiv.org/abs/2405.05860",
      doi: "https://doi.org/10.18653/v1/2024.naacl-long.126",
-     bibtex: false,
+     bibtex: "@inproceedings{fleisig-etal-2024-perspectivist,\n    title = 'The Perspectivist Paradigm Shift: Assumptions and Challenges of Capturing Human Labels',\n    author = 'Fleisig, Eve  and\n      Blodgett, Su Lin  and\n      Klein, Dan  and\n      Talat, Zeerak',\n    editor = 'Duh, Kevin  and\n      Gomez, Helena  and\n      Bethard, Steven',\n    booktitle = 'Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)',\n    month = jun,\n    year = '2024',\n    address = 'Mexico City, Mexico',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.naacl-long.126/',\n    doi = '10.18653/v1/2024.naacl-long.126',\n    pages = '2279--2292'\n}
+",
   }
   - {name: "Impoverished Language Technology: The Lack of (Social) Class in NLP",
      authors: "Amanda Cercas Curry, <b>Zeerak Talat</b>, Dirk Hovy",
@@ -228,7 +227,8 @@ index:
      shortvenue: "LREC-COLING",
      preprint: "https://arxiv.org/abs/2403.03874",
      bibtex: false,
-     doi: false,
+     doi: "@inproceedings{cercas-curry-etal-2024-impoverished,\n    title = 'Impoverished Language Technology: The Lack of (Social) Class in {NLP}',\n    author = 'Cercas Curry, Amanda  and\n      Talat, Zeerak  and\n      Hovy, Dirk',\n    editor = 'Calzolari, Nicoletta  and\n      Kan, Min-Yen  and\n      Hoste, Veronique  and\n      Lenci, Alessandro  and\n      Sakti, Sakriani  and\n      Xue, Nianwen',\n    booktitle = 'Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)',\n    month = may,\n    year = '2024',\n    address = 'Torino, Italia',\n    publisher = 'ELRA and ICCL',\n    url = 'https://aclanthology.org/2024.lrec-main.761/',\n    pages = '8675--8682'\n}
+",
   }
   - {name: "Subjective <i>Isms</i>? On the Danger of Conflating Hate and Offence in Abusive Language Detection",
      authors: "Amanda Cercas Curry, Gavin Abercrombie, <b>Zeerak Talat</b>",
@@ -240,7 +240,8 @@ index:
      type: "Conference",
      preprint: "https://arxiv.org/abs/2403.02268",
      doi: "https://doi.org/10.18653/v1/2024.woah-1.22",
-     bibtex: false,
+     bibtex: "@inproceedings{cercas-curry-etal-2024-subjective,\n    title = 'Subjective Isms? On the Danger of Conflating Hate and Offence in Abusive Language Detection',\n    author = 'Cercas Curry, Amanda  and\n      Abercrombie, Gavin  and\n      Talat, Zeerak',\n    editor = {Chung, Yi-Ling  and\n      Talat, Zeerak  and\n      Nozza, Debora  and\n      Plaza-del-Arco, Flor Miriam  and\n      R{\"o}ttger, Paul  and\n      Mostafazadeh Davani, Aida  and\n      Calabrese, Agostina},\n    booktitle = 'Proceedings of the 8th Workshop on Online Abuse and Harms (WOAH 2024)',\n    month = jun,\n    year = '2024',\n    address = 'Mexico City, Mexico',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.woah-1.22/',\n    doi = '10.18653/v1/2024.woah-1.22',\n    pages = '275--282'\n}
+",
   }
   - {name: "Zero-shot Sentiment Analysis in Low-Resource Languages Using a Multilingual Sentiment Lexicon",
      authors: "Fajri Koto, Tilman Beck, Zeerak Talat, Iryna Gurevych, Timothy Baldwin",
@@ -249,20 +250,23 @@ index:
      shortvenue: "EACL",
      date: "2024",
      type: "Conference",
+     url: "https://aclanthology.org/2024.eacl-long.18/",
      preprint: "https://arxiv.org/abs/2402.02113",
      github: "https://github.com/fajri91/ZeroShotMultilingualSentiment",
      doi: false,
-     bibtex: false,
+     bibtex: "@inproceedings{koto-etal-2024-zero,\n    title = 'Zero-shot Sentiment Analysis in Low-Resource Languages Using a Multilingual Sentiment Lexicon',\n    author = 'Koto, Fajri  and\n      Beck, Tilman  and\n      Talat, Zeerak  and\n      Gurevych, Iryna  and\n      Baldwin, Timothy',\n    editor = 'Graham, Yvette  and\n      Purver, Matthew',\n    booktitle = 'Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)',\n    month = mar,\n    year = '2024',\n    address = 'St. Julian{'}s, Malta',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.eacl-long.18/',\n    pages = '298--320'\n}
+",
   }
   - {name: "Back to the Future: On Potential Histories in NLP",
      authors: "<b>Zeerak Talat</b>, Anne Lauscher",
      publisher: "ArXiv",
      shortvenue: "",
-     date: "2023",
+     date: "2022",
      type: "Permaprint",
      preprint: "https://arxiv.org/abs/2210.06245",
      url: "https://arxiv.org/abs/2211.05100",
-     bibtex: false,
+     bibtex: "@misc{talatBackFuturePotential2022,\n	title = {Back to the {Future}: {On} {Potential} {Histories} in {NLP}},\n	copyright = {All rights reserved},\n	shorttitle = {Back to the {Future}},\n	url = {http://arxiv.org/abs/2210.06245},\n	abstract = {Machine learning and NLP require the construction of datasets to train and fine-tune models. In this context, previous work has demonstrated the sensitivity of these data sets. For instance, potential societal biases in this data are likely to be encoded and to be amplified in the models we deploy. In this work, we draw from developments in the field of history and take a novel perspective on these problems: considering datasets and models through the lens of historical fiction surfaces their political nature, and affords re-configuring how we view the past, such that marginalized discourses are surfaced. Building on such insights, we argue that contemporary methods for machine learning are prejudiced towards dominant and hegemonic histories. Employing the example of neopronouns, we show that by surfacing marginalized histories within contemporary conditions, we can create models that better represent the lived realities of traditionally marginalized and excluded communities.},\n	urldate = {2023-01-18},\n	publisher = {arXiv},\n	author = {Talat, Zeerak and Lauscher, Anne},\n	month = oct,\n	year = {2022},\n	note = {arXiv:2210.06245 [cs]},\n}
+",
   }
   - {name: "Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing",
      authors: "Lucie-Aimée Kaffee, Arnav Arora, <b>Zeerak Talat</b>, Isabelle Augenstein",
@@ -274,7 +278,8 @@ index:
      type: "Conference",
      preprint: "https://arxiv.org/abs/2304.08315",
      doi: "https://doi.org/10.18653/v1/2023.findings-emnlp.932",
-     bibtex: false,
+     bibtex: "@inproceedings{kaffee-etal-2023-thorny,\n    title = 'Thorny Roses: Investigating the Dual Use Dilemma in Natural Language Processing',\n    author = 'Kaffee, Lucie-Aim{\'e}e  and\n      Arora, Arnav  and\n      Talat, Zeerak  and\n      Augenstein, Isabelle',\n    editor = 'Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika',\n    booktitle = 'Findings of the Association for Computational Linguistics: EMNLP 2023',\n    month = dec,\n    year = '2023',\n    address = 'Singapore',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2023.findings-emnlp.932/',\n    doi = '10.18653/v1/2023.findings-emnlp.932',\n    pages = '13977--13998'\n}
+",
   }
   - {name: "Mirages. On Anthropomorphism in Dialogue Systems",
      authors: "Gavin Abercrombie, Amanda Cercas Curry, Tanvi Dinkar, Verena Rieser, <b>Zeerak Talat</b>",
@@ -285,7 +290,8 @@ index:
      publication: "The Proceedings of the 2023 Conference on Empircal Methods in Natural Language Processing",
      publisher: "Association of Computational Linguistics",
      shortvenue: "EMNLP",
-     bibtex: false,
+     bibtex: "@inproceedings{abercrombie-etal-2023-mirages,\n    title = 'Mirages. On Anthropomorphism in Dialogue Systems',\n    author = 'Abercrombie, Gavin  and\n      Cercas Curry, Amanda  and\n      Dinkar, Tanvi  and\n      Rieser, Verena  and\n      Talat, Zeerak',\n    editor = 'Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika',\n    booktitle = 'Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing',\n    month = dec,\n    year = '2023',\n    address = 'Singapore',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2023.emnlp-main.290/',\n    doi = '10.18653/v1/2023.emnlp-main.290',\n    pages = '4776--4790'\n}
+",
   }
   - {name: "Bound by the Bounty: Collaboratively Shaping Evaluation Processes for Queer AI Harms",
      authors: "Organizers of Queer in AI, Nathan Dennler, Anaelia Ovalle, Ashwin Singh, Luca Soldaini, Arjun Subramonian, Huy Tu, William Agnew, Avijit Ghosh, Kyra Yee, Irene Font Peradejordi, <b>Zeerak Talat</b>, Mayra Russo, Jess de Jesus de Pinho Pinhal",
@@ -294,7 +300,8 @@ index:
      type: "Conference",
      doi: "https://doi.org/10.1145/3600211.3604682",
      preprint: "https://arxiv.org/abs/2307.10223",
-     bibtex: false,
+     bibtex: "@inproceedings{dennlerBoundBountyCollaboratively2023,\n	address = {Montr{\textbackslash}'\{e\}al QC Canada},\n	title = {Bound by the {Bounty}: {Collaboratively} {Shaping} {Evaluation} {Processes} for {Queer} {AI} {Harms}},\n	copyright = {All rights reserved},\n	isbn = {979-8-4007-0231-0},\n	shorttitle = {Bound by the {Bounty}},\n	url = {https://dl.acm.org/doi/10.1145/3600211.3604682},\n	doi = {10.1145/3600211.3604682},\n	language = {en},\n	urldate = {2024-03-13},\n	booktitle = {Proceedings of the 2023 {AAAI}/{ACM} {Conference} on {AI}, {Ethics}, and {Society}},\n	publisher = {ACM},\n	author = {Dennler, Nathan and Ovalle, Anaelia and Singh, Ashwin and Soldaini, Luca and Subramonian, Arjun and Tu, Huy and Agnew, William and Ghosh, Avijit and Yee, Kyra and Peradejordi, Irene Font and Talat, Zeerak and Russo, Mayra and Pinhal, Jess De Jesus De Pinho},\n	month = aug,\n	year = {2023},\n	pages = {375--386},\n}
+",
   }
   - {name: "It's Incomprehensible: On Machine Learning and Decoloniality",
      authors: "Abeba Birhane, <b>Zeerak Talat</b>",
@@ -305,7 +312,8 @@ index:
      date: "2023",
      type: "Book Chapter",
      doi: "https://doi.org/10.4337/9781803928562.00016",
-     bibtex: false,
+     bibtex: "@incollection{birhaneItIncomprehensibleMachine2023,\n	title = {It’s incomprehensible: on machine learning and decoloniality},\n	copyright = {All rights reserved},\n	isbn = {978-1-80392-856-2 978-1-80392-855-5},\n	shorttitle = {It’s incomprehensible},\n	url = {https://www.elgaronline.com/view/book/9781803928562/book-part-9781803928562-16.xml},\n	urldate = {2023-11-23},\n	booktitle = {Handbook of {Critical} {Studies} of {Artificial} {Intelligence}},\n	publisher = {Edward Elgar Publishing},\n	author = {Birhane, Abeba and Talat, Zeerak},\n	editor = {Lindgren, Simon},\n	month = nov,\n	year = {2023},\n	doi = {10.4337/9781803928562.00016},\n	pages = {128--140},\n}
+",
   }
   - {name: "Proceedings of the 7th Workshop on Online Abuse and Harms (WOAH 2023)",
      editors: "Yi-ling Chung, Paul Röttger, Debora Nozza, <b>Zeerak Talat</b>, Aida Mostafazadeh Davani",
@@ -315,7 +323,7 @@ index:
      date: "2023",
      type: "Proceedings",
      url: "https://aclanthology.org/volumes/2023.woah-1/",
-     bibtex: false,
+     bibtex: '@proceedings{woah-2022-online,\n    title = "Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH)",\n    editor = "Chung, Yi-ling and R\"{o}ttger, Paul and Nozza, Debora and Talat, Zeerak and Davani, Aida Mostafazadeh"\n    month = jul,\n    year = "2022",\n    address = "Seattle, Washington (Hybrid)",\n    publisher = "Association for Computational Linguistics",\n    url = "https://aclanthology.org/2022.woah-1.0/"\n}'
   }
   - {name: "Futures for Research on Hate Speech in Online Social Media Platforms",
      authors: "Jaime Lee Kirtz, <b>Zeerak Talat</b>",
@@ -327,7 +335,8 @@ index:
      url: "https://www.ssoar.info/ssoar/handle/document/86419",
      doi: "https://doi.org/10.48541/dcr.v12.27",
      type: "Book Chapter",
-     bibtex: false,
+     bibtex: "@article{kirtzFuturesResearchHate2023,\n	title = {Futures for {Research} on {Hate} {Speech} in {Online} {Social} {Media} {Platforms}},\n	copyright = {Creative Commons Attribution 4.0 International},\n	issn = {2198-7610},\n	url = {https://www.ssoar.info/ssoar/handle/document/86419},\n	doi = {10.48541/DCR.V12.27},\n	abstract = {This chapter provides an overview of the various themes and points of connections between the various chapters in this section and outlines the current limitations as well as the major social and technical issues that still need to be addressed in hate speech detection. In particular, Kirtz and Talat discuss the ways in contexts—from legal contexts such as laws determining data collection methods to sociocultural contexts like annotator knowledge—affect the possibilities for the machine learning pipelines. Along with identifying current issues and limitations, Kirtz and Talat delineate future avenues for hate speech detection research.},\n	language = {en},\n	urldate = {2023-04-27},\n	author = {Kirtz, Jaimie Lee and Talat, Zeerak},\n	editor = {Strippel, Christian and Paasch-Colberg, Sünje and Emmer, Martin and Trebbe, Joachim},\n	year = {2023},\n	note = {ISBN: 9783945681121\nPublisher: Freie Universität Berlin},\n}
+",
   }
   - {name: "Federated Learning for Hate Speech Detection",
      authors: "Jay Gala, Jash Mehta, Deep Gandhi, <b>Zeerak Talat</b>",
@@ -339,7 +348,8 @@ index:
      preprint: "https://arxiv.org/abs/2302.09243",
      doi: "https://doi.org/10.18653/v1/2023.eacl-main.237",
      github: "https://github.com/jaygala24/fed-hate-speech",
-     bibtex: false,
+     bibtex: "@inproceedings{gala-etal-2023-federated,\n    title = 'A Federated Approach for Hate Speech Detection',\n    author = 'Gala, Jay  and\n      Gandhi, Deep  and\n      Mehta, Jash  and\n      Talat, Zeerak',\n    editor = 'Vlachos, Andreas  and\n      Augenstein, Isabelle',\n    booktitle = 'Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics',\n    month = may,\n    year = '2023',\n    address = 'Dubrovnik, Croatia',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2023.eacl-main.237/',\n    doi = '10.18653/v1/2023.eacl-main.237',\n    pages = '3248--3259'\n}
+",
   }
   - {name: "<b>[Best Paper Award]</b> Queer In AI: A Case Study in Community-Led Participatory AI",
      authors: "Organisers of Queer in AI",
@@ -350,7 +360,8 @@ index:
      type: "Conference",
      doi: "https://dl.acm.org/doi/abs/10.1145/3593013.3594134",
      preprint: "https://arxiv.org/abs/2303.16972",
-     bibtex: false,
+     bibtex: "@inproceedings{queerinaiQueerAICase2023,\n	address = {Chicago IL USA},\n	title = {Queer {In} {AI}: {A} {Case} {Study} in {Community}-{Led} {Participatory} {AI}},\n	copyright = {All rights reserved},\n	isbn = {979-8-4007-0192-4},\n	shorttitle = {Queer {In} {AI}},\n	url = {https://dl.acm.org/doi/10.1145/3593013.3594134},\n	doi = {10.1145/3593013.3594134},\n	language = {en},\n	urldate = {2023-07-03},\n	booktitle = {2023 {ACM} {Conference} on {Fairness}, {Accountability}, and {Transparency}},\n	publisher = {ACM},\n	author = {Queerinai, Organizers Of and Ovalle, Anaelia and Subramonian, Arjun and Singh, Ashwin and Voelcker, Claas and Sutherland, Danica J. and Locatelli, Davide and Breznik, Eva and Klubicka, Filip and Yuan, Hang and J, Hetvi and Zhang, Huan and Shriram, Jaidev and Lehman, Kruno and Soldaini, Luca and Sap, Maarten and Deisenroth, Marc Peter and Pacheco, Maria Leonor and Ryskina, Maria and Mundt, Martin and Agarwal, Milind and Mclean, Nyx and Xu, Pan and Pranav, A and Korpan, Raj and Ray, Ruchira and Mathew, Sarah and Arora, Sarthak and John, St and Anand, Tanvi and Agrawal, Vishakha and Agnew, William and Long, Yanan and Wang, Zijie J. and Talat, Zeerak and Ghosh, Avijit and Dennler, Nathaniel and Noseworthy, Michael and Jha, Sharvani and Baylor, Emi and Joshi, Aditya and Bilenko, Natalia Y. and Mcnamara, Andrew and Gontijo-Lopes, Raphael and Markham, Alex and Dong, Evyn and Kay, Jackie and Saraswat, Manu and Vytla, Nikhil and Stark, Luke},\n	month = jun,\n	year = {2023},\n	keywords = {Machine Learning, Science and Technology Studies, Social media, 1925-1995, 1926-1984, 1983, cite, Computer Vision, Computers and Society, Content Moderation, Deviance, Digital Rhetoric, Feminism, Gender, Programming languages, Social Representations, User-generated Content},\n	pages = {1882--1895},\n}
+",
   }
   - {name: "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
      authors: "Teven Le Scao, et al.",
@@ -358,7 +369,8 @@ index:
      date: "2022",
      preprint: "https://arxiv.org/abs/2211.05100",
      url: "https://arxiv.org/abs/2211.05100",
-     bibtex: false,
+     bibtex: "@misc{Scao_BLOOM_2023,\n	title = {{BLOOM}: {A} {176B}-{Parameter} {Open}-{Access} {Multilingual} {Language} {Model}},\n	copyright = {All rights reserved},\n	shorttitle = {{BLOOM}},\n	url = {http://arxiv.org/abs/2211.05100},\n	abstract = {Large language models (LLMs) have been shown to be able to perform new tasks based on a few demonstrations or natural language instructions. While these capabilities have led to widespread adoption, most LLMs are developed by resource-rich organizations and are frequently kept from the public. As a step towards democratizing this powerful technology, we present BLOOM, a 176B-parameter open-access language model designed and built thanks to a collaboration of hundreds of researchers. BLOOM is a decoder-only Transformer language model that was trained on the ROOTS corpus, a dataset comprising hundreds of sources in 46 natural and 13 programming languages (59 in total). We find that BLOOM achieves competitive performance on a wide variety of benchmarks, with stronger results after undergoing multitask prompted finetuning. To facilitate future research and applications using LLMs, we publicly release our models and code under the Responsible AI License.},\n	urldate = {2023-07-03},\n	publisher = {arXiv},\n	author = {Scao, Teven Le and Fan, Angela and Akiki, Christopher and Pavlick, Ellie and Ilić, Suzana and Hesslow, Daniel and Castagné, Roman and Luccioni, Alexandra Sasha and Yvon, François and Gallé, Matthias and Tow, Jonathan and Rush, Alexander M. and Biderman, Stella and Webson, Albert and Ammanamanchi, Pawan Sasanka and Wang, Thomas and Sagot, Benoît and Muennighoff, Niklas and del Moral, Albert Villanova and Ruwase, Olatunji and Bawden, Rachel and Bekman, Stas and McMillan-Major, Angelina and Beltagy, Iz and Nguyen, Huu and Saulnier, Lucile and Tan, Samson and Suarez, Pedro Ortiz and Sanh, Victor and Laurençon, Hugo and Jernite, Yacine and Launay, Julien and Mitchell, Margaret and Raffel, Colin and Gokaslan, Aaron and Simhi, Adi and Soroa, Aitor and Aji, Alham Fikri and Alfassy, Amit and Rogers, Anna and Nitzav, Ariel Kreisberg and Xu, Canwen and Mou, Chenghao and Emezue, Chris and Klamm, Christopher and Leong, Colin and van Strien, Daniel and Adelani, David Ifeoluwa and Radev, Dragomir and Ponferrada, Eduardo González and Levkovizh, Efrat and Kim, Ethan and Natan, Eyal Bar and De Toni, Francesco and Dupont, Gérard and Kruszewski, Germán and Pistilli, Giada and Elsahar, Hady and Benyamina, Hamza and Tran, Hieu and Yu, Ian and Abdulmumin, Idris and Johnson, Isaac and Gonzalez-Dios, Itziar and de la Rosa, Javier and Chim, Jenny and Dodge, Jesse and Zhu, Jian and Chang, Jonathan and Frohberg, Jörg and Tobing, Joseph and Bhattacharjee, Joydeep and Almubarak, Khalid and Chen, Kimbo and Lo, Kyle and Von Werra, Leandro and Weber, Leon and Phan, Long and allal, Loubna Ben and Tanguy, Ludovic and Dey, Manan and Muñoz, Manuel Romero and Masoud, Maraim and Grandury, María and Šaško, Mario and Huang, Max and Coavoux, Maximin and Singh, Mayank and Jiang, Mike Tian-Jian and Vu, Minh Chien and Jauhar, Mohammad A. and Ghaleb, Mustafa and Subramani, Nishant and Kassner, Nora and Khamis, Nurulaqilla and Nguyen, Olivier and Espejel, Omar and de Gibert, Ona and Villegas, Paulo and Henderson, Peter and Colombo, Pierre and Amuok, Priscilla and Lhoest, Quentin and Harliman, Rheza and Bommasani, Rishi and López, Roberto Luis and Ribeiro, Rui and Osei, Salomey and Pyysalo, Sampo and Nagel, Sebastian and Bose, Shamik and Muhammad, Shamsuddeen Hassan and Sharma, Shanya and Longpre, Shayne and Nikpoor, Somaieh and Silberberg, Stanislav and Pai, Suhas and Zink, Sydney and Torrent, Tiago Timponi and Schick, Timo and Thrush, Tristan and Danchev, Valentin and Nikoulina, Vassilina and Laippala, Veronika and Lepercq, Violette and Prabhu, Vrinda and Alyafeai, Zaid and Talat, Zeerak and Raja, Arun and Heinzerling, Benjamin and Si, Chenglei and Taşar, Davut Emre and Salesky, Elizabeth and Mielke, Sabrina J. and Lee, Wilson Y. and Sharma, Abheesht and Santilli, Andrea and Chaffin, Antoine and Stiegler, Arnaud and Datta, Debajyoti and Szczechla, Eliza and Chhablani, Gunjan and Wang, Han and Pandey, Harshit and Strobelt, Hendrik and Fries, Jason Alan and Rozen, Jos and Gao, Leo and Sutawika, Lintang and Bari, M. Saiful and Al-shaibani, Maged S. and Manica, Matteo and Nayak, Nihal and Teehan, Ryan and Albanie, Samuel and Shen, Sheng and Ben-David, Srulik and Bach, Stephen H. and Kim, Taewoon and Bers, Tali and Fevry, Thibault and Neeraj, Trishala and Thakker, Urmish and Raunak, Vikas and Tang, Xiangru and Yong, Zheng-Xin and Sun, Zhiqing and Brody, Shaked and Uri, Yallow and Tojarieh, Hadar and Roberts, Adam and Chung, Hyung Won and Tae, Jaesung and Phang, Jason and Press, Ofir and Li, Conglong and Narayanan, Deepak and Bourfoune, Hatim and Casper, Jared and Rasley, Jeff and Ryabinin, Max and Mishra, Mayank and Zhang, Minjia and Shoeybi, Mohammad and Peyrounette, Myriam and Patry, Nicolas and Tazi, Nouamane and Sanseviero, Omar and von Platen, Patrick and Cornette, Pierre and Lavallée, Pierre François and Lacroix, Rémi and Rajbhandari, Samyam and Gandhi, Sanchit and Smith, Shaden and Requena, Stéphane and Patil, Suraj and Dettmers, Tim and Baruwa, Ahmed and Singh, Amanpreet and Cheveleva, Anastasia and Ligozat, Anne-Laure and Subramonian, Arjun and Névéol, Aurélie and Lovering, Charles and Garrette, Dan and Tunuguntla, Deepak and Reiter, Ehud and Taktasheva, Ekaterina and Voloshina, Ekaterina and Bogdanov, Eli and Winata, Genta Indra and Schoelkopf, Hailey and Kalo, Jan-Christoph and Novikova, Jekaterina and Forde, Jessica Zosa and Clive, Jordan and Kasai, Jungo and Kawamura, Ken and Hazan, Liam and Carpuat, Marine and Clinciu, Miruna and Kim, Najoung and Cheng, Newton and Serikov, Oleg and Antverg, Omer and van der Wal, Oskar and Zhang, Rui and Zhang, Ruochen and Gehrmann, Sebastian and Mirkin, Shachar and Pais, Shani and Shavrina, Tatiana and Scialom, Thomas and Yun, Tian and Limisiewicz, Tomasz and Rieser, Verena and Protasov, Vitaly and Mikhailov, Vladislav and Pruksachatkun, Yada and Belinkov, Yonatan and Bamberger, Zachary and Kasner, Zdeněk and Rueda, Alice and Pestana, Amanda and Feizpour, Amir and Khan, Ammar and Faranak, Amy and Santos, Ana and Hevia, Anthony and Unldreaj, Antigona and Aghagol, Arash and Abdollahi, Arezoo and Tammour, Aycha and HajiHosseini, Azadeh and Behroozi, Bahareh and Ajibade, Benjamin and Saxena, Bharat and Ferrandis, Carlos Muñoz and McDuff, Daniel and Contractor, Danish and Lansky, David and David, Davis and Kiela, Douwe and Nguyen, Duong A. and Tan, Edward and Baylor, Emi and Ozoani, Ezinwanne and Mirza, Fatima and Ononiwu, Frankline and Rezanejad, Habib and Jones, Hessie and Bhattacharya, Indrani and Solaiman, Irene and Sedenko, Irina and Nejadgholi, Isar and Passmore, Jesse and Seltzer, Josh and Sanz, Julio Bonis and Dutra, Livia and Samagaio, Mairon and Elbadri, Maraim and Mieskes, Margot and Gerchick, Marissa and Akinlolu, Martha and McKenna, Michael and Qiu, Mike and Ghauri, Muhammed and Burynok, Mykola and Abrar, Nafis and Rajani, Nazneen and Elkott, Nour and Fahmy, Nour and Samuel, Olanrewaju and An, Ran and Kromann, Rasmus and Hao, Ryan and Alizadeh, Samira and Shubber, Sarmad and Wang, Silas and Roy, Sourav and Viguier, Sylvain and Le, Thanh and Oyebade, Tobi and Le, Trieu and Yang, Yoyo and Nguyen, Zach and Kashyap, Abhinav Ramesh and Palasciano, Alfredo and Callahan, Alison and Shukla, Anima and Miranda-Escalada, Antonio and Singh, Ayush and Beilharz, Benjamin and Wang, Bo and Brito, Caio and Zhou, Chenxi and Jain, Chirag and Xu, Chuxin and Fourrier, Clémentine and Periñán, Daniel León and Molano, Daniel and Yu, Dian and Manjavacas, Enrique and Barth, Fabio and Fuhrimann, Florian and Altay, Gabriel and Bayrak, Giyaseddin and Burns, Gully and Vrabec, Helena U. and Bello, Imane and Dash, Ishani and Kang, Jihyun and Giorgi, John and Golde, Jonas and Posada, Jose David and Sivaraman, Karthik Rangasai and Bulchandani, Lokesh and Liu, Lu and Shinzato, Luisa and de Bykhovetz, Madeleine Hahn and Takeuchi, Maiko and Pàmies, Marc and Castillo, Maria A. and Nezhurina, Marianna and Sänger, Mario and Samwald, Matthias and Cullan, Michael and Weinberg, Michael and De Wolf, Michiel and Mihaljcic, Mina and Liu, Minna and Freidank, Moritz and Kang, Myungsun and Seelam, Natasha and Dahlberg, Nathan and Broad, Nicholas Michio and Muellner, Nikolaus and Fung, Pascale and Haller, Patrick and Chandrasekhar, Ramya and Eisenberg, Renata and Martin, Robert and Canalli, Rodrigo and Su, Rosaline and Su, Ruisi and Cahyawijaya, Samuel and Garda, Samuele and Deshmukh, Shlok S. and Mishra, Shubhanshu and Kiblawi, Sid and Ott, Simon and Sang-aroonsiri, Sinee and Kumar, Srishti and Schweter, Stefan and Bharati, Sushil and Laud, Tanmay and Gigant, Théo and Kainuma, Tomoya and Kusa, Wojciech and Labrak, Yanis and Bajaj, Yash Shailesh and Venkatraman, Yash and Xu, Yifan and Xu, Yingxin and Xu, Yu and Tan, Zhe and Xie, Zhongli and Ye, Zifan and Bras, Mathilde and Belkada, Younes and Wolf, Thomas},\n	month = jun,\n	year = {2023},\n	note = {arXiv:2211.05100 [cs]},\n	keywords = {Natural Language Processing},\n}
+",
   }
   - {name: "A Federated Approach to Predicting Emojis in Hindi Tweets",
      authors: "Deep Gandhi, Jash Mehta, Nirali Parekh, Karan Waghela, Lynette D'Mello, <b>Zeerak Talat</b>",
@@ -372,7 +384,8 @@ index:
      github: "https://github.com/deep1401/fedmoji",
      doi: "https://doi.org/10.18653/v1/2022.emnlp-main.819",
      zenodo: "https://zenodo.org/record/5559434#.ZAEaB-zP1ZI",
-     bibtex: false,
+     bibtex: "@inproceedings{gandhi-etal-2022-federated,\n    title = 'A Federated Approach to Predicting Emojis in {H}indi Tweets',\n    author = 'Gandhi, Deep  and\n      Mehta, Jash  and\n      Parekh, Nirali  and\n      Waghela, Karan  and\n      D{'}Mello, Lynette  and\n      Talat, Zeerak',\n    editor = 'Goldberg, Yoav  and\n      Kozareva, Zornitsa  and\n      Zhang, Yue',\n    booktitle = 'Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing',\n    month = dec,\n    year = '2022',\n    address = 'Abu Dhabi, United Arab Emirates',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2022.emnlp-main.819/',\n    doi = '10.18653/v1/2022.emnlp-main.819',\n    pages = '11951--11961'\n}
+",
   }
   - {name: "Directions for NLP Practices Applied to Online Hate Speech Detection",
      authors: "Paula Fortuna, Monica Dominguez, Leo Wanner, <b>Zeerak Talat</b>",
@@ -383,7 +396,8 @@ index:
      type: "Conference",
      url: "https://aclanthology.org/2022.emnlp-main.809/",
      doi: "https://doi.org/10.18653/v1/2022.emnlp-main.809",
-     bibtex: false,
+     bibtex: "@inproceedings{fortuna-etal-2022-directions,\n    title = 'Directions for {NLP} Practices Applied to Online Hate Speech Detection',\n    author = 'Fortuna, Paula  and\n      Dominguez, Monica  and\n      Wanner, Leo  and\n      Talat, Zeerak',\n    editor = 'Goldberg, Yoav  and\n      Kozareva, Zornitsa  and\n      Zhang, Yue',\n    booktitle = 'Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing',\n    month = dec,\n    year = '2022',\n    address = 'Abu Dhabi, United Arab Emirates',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2022.emnlp-main.809/',\n    doi = '10.18653/v1/2022.emnlp-main.809',\n    pages = '11794--11805'\n}
+",
   }
   - {name: "Multilingual HateCheck: Functional Tests for Multilingual Hate Speech Detection Models",
      authors: "Paul Röttger, Haitham Seelawi, Debora Nozza, <b>Zeerak Talat</b>, Bertie Vidgen",
@@ -397,7 +411,7 @@ index:
      preprint: "https://arxiv.org/abs/2206.09917",
      github: "https://github.com/rewire-online/multilingual-hatecheck",
      video: "https://aclanthology.org/2022.woah-1.15.mp4",
-     bibtex: false,
+     bibtex: '@inproceedings{rottger-etal-2022-multilingual,\n    title = "Multilingual {H}ate{C}heck: Functional Tests for Multilingual Hate Speech Detection Models",\n    author = {R{\"o}ttger, Paul  and\n      Seelawi, Haitham  and\n      Nozza, Debora  and\n      Talat, Zeerak  and\n      Vidgen, Bertie},\n    editor = "Narang, Kanika  and\n      Mostafazadeh Davani, Aida  and\n      Mathias, Lambert  and\n      Vidgen, Bertie  and\n      Talat, Zeerak",\n    booktitle = "Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH)",\n    month = jul,\n    year = "2022",\n    address = "Seattle, Washington (Hybrid)",\n    publisher = "Association for Computational Linguistics",\n    url = "https://aclanthology.org/2022.woah-1.15/",\n    doi = "10.18653/v1/2022.woah-1.15",\n    pages = "154--169"\n}',
   }
   - {name: "Data Governance in the Age of Large-Scale Data-Driven Language Technology",
      authors: "Yacine Jernite, Huu Nguyen, Stella Biderman, Anna Rogers, Maraim Masoud, Valentin Danchev, Samson Tan, Alexandra Sasha Luccioni, Nishant Subramani, Isaac Johnson, Gérard Dupont, Jesse Dodge, Kyle Lo, <b>Zeerak Talat</b>, Dragomir Radev, Aaron Gokaslan, Somaieh Nikpoor, Peter Henderson, Rishi Bommasani and Margaret Mitchell",
@@ -409,7 +423,7 @@ index:
      doi: "https://doi.org/10.1145/3531146.3534637",
      url: "https://dl.acm.org/doi/abs/10.1145/3531146.3534637",
      preprint: "https://arxiv.org/abs/2206.03216",
-     bibtex: false,
+     bibtex: "@inproceedings{10.1145/3531146.3534637,\nauthor = {Jernite, Yacine and Nguyen, Huu and Biderman, Stella and Rogers, Anna and Masoud, Maraim and Danchev, Valentin and Tan, Samson and Luccioni, Alexandra Sasha and Subramani, Nishant and Johnson, Isaac and Dupont, Gerard and Dodge, Jesse and Lo, Kyle and Talat, Zeerak and Radev, Dragomir and Gokaslan, Aaron and Nikpoor, Somaieh and Henderson, Peter and Bommasani, Rishi and Mitchell, Margaret},\ntitle = {Data Governance in the Age of Large-Scale Data-Driven Language Technology},\nyear = {2022},\nisbn = {9781450393522},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3531146.3534637},\ndoi = {10.1145/3531146.3534637},\nabstract = {The recent emergence and adoption of Machine Learning technology, and specifically of Large Language Models, has drawn attention to the need for systematic and transparent management of language data. This work proposes an approach to global language data governance that attempts to organize data management amongst stakeholders, values, and rights. Our proposal is informed by prior work on distributed governance that accounts for human values and grounded by an international research collaboration that brings together researchers and practitioners from 60 countries. The framework we present is a multi-party international governance structure focused on language data, and incorporating technical and organizational tools needed to support its work.},\nbooktitle = {Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency},\npages = {2206–2222},\nnumpages = {17},\nkeywords = {data rights, datasets, language data, technology governance},\nlocation = {Seoul, Republic of Korea},\nseries = {FAccT '22}\n}",
   }
   - {name: "On the Machine Learning of Ethical Judgments from Natural Language",
      authors: "<b>Zeerak Talat</b>, Hagen Blix, Josef Valvoda, Maya Indira Ganesh, Ryan Cotterell, Adina Williams",
@@ -422,7 +436,8 @@ index:
      url: "https://aclanthology.org/2022.naacl-main.56/",
      preprint: "https://arxiv.org/abs/2111.04158",
      video: "https://aclanthology.org/2022.naacl-main.56.mp4",
-     bibtex: false,
+     bibtex: "@inproceedings{talat-etal-2022-machine,\n    title = 'On the Machine Learning of Ethical Judgments from Natural Language',\n    author = 'Talat, Zeerak  and\n      Blix, Hagen  and\n      Valvoda, Josef  and\n      Ganesh, Maya Indira  and\n      Cotterell, Ryan  and\n      Williams, Adina',\n    editor = 'Carpuat, Marine  and\n      de Marneffe, Marie-Catherine  and\n      Meza Ruiz, Ivan Vladimir',\n    booktitle = 'Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies',\n    month = jul,\n    year = '2022',\n    address = 'Seattle, United States',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2022.naacl-main.56/',\n    doi = '10.18653/v1/2022.naacl-main.56',\n    pages = '769--779'\n}
+",
   }
   - {name: "You Reap What You Sow: On the Challenges of Bias Evaluation Under Multilingual Settings",
      authors: "<b>Zeerak Talat</b>, Aurélie Névéol, Stella Biderman, Miruna~Clinciu, Manan Dey, Shayne Longpre, Alexandra Sasha Luccioni, Maraim Masoud, Margaret Mitchell, Dragomir Radev, Shanya Sharma, Arjun Subramonian, Jaesung Tae, Samson Tan, Deepak Tunuguntla, Oskar van der Wal",
@@ -435,7 +450,8 @@ index:
      url: "https://aclanthology.org/2022.bigscience-1.3/",
      preprint: "https://arxiv.org/abs/2206.09917",
      video: "https://aclanthology.org/2022.bigscience-1.3.mp4",
-     bibtex: false,
+     bibtex: "@inproceedings{talat-etal-2022-reap,\n    title = 'You reap what you sow: On the Challenges of Bias Evaluation Under Multilingual Settings',\n    author = 'Talat, Zeerak  and\n      N{\'e}v{\'e}ol, Aur{\'e}lie  and\n      Biderman, Stella  and\n      Clinciu, Miruna  and\n      Dey, Manan  and\n      Longpre, Shayne  and\n      Luccioni, Sasha  and\n      Masoud, Maraim  and\n      Mitchell, Margaret  and\n      Radev, Dragomir  and\n      Sharma, Shanya  and\n      Subramonian, Arjun  and\n      Tae, Jaesung  and\n      Tan, Samson  and\n      Tunuguntla, Deepak  and\n      Van Der Wal, Oskar',\n    editor = 'Fan, Angela  and\n      Ilic, Suzana  and\n      Wolf, Thomas  and\n      Gall{\'e}, Matthias',\n    booktitle = 'Proceedings of BigScience Episode {\#}5 -- Workshop on Challenges {\&} Perspectives in Creating Large Language Models',\n    month = may,\n    year = '2022',\n    address = 'virtual+Dublin',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2022.bigscience-1.3/',\n    doi = '10.18653/v1/2022.bigscience-1.3',\n    pages = '26--41'\n}
+",
   }
   - {name: "Proceedings of the 6th Workshop on Online Abuse and Harms (WOAH 2022)",
      editors: "Kanika Narang, Aida Mostafazadeh Davani, Mathias Lambert, Bertie Vidgen, <b>Zeerak Talat</b>",
@@ -445,7 +461,8 @@ index:
      date: "2022",
      type: "Proceedings",
      url: "https://aclanthology.org/volumes/2022.woah-1/",
-     bibtex: false,
+     bibtex: "@proceedings{woah-2022-online,\n    title = 'Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH)',\n    editor = 'Narang, Kanika  and\n      Mostafazadeh Davani, Aida  and\n      Mathias, Lambert  and\n      Vidgen, Bertie  and\n      Talat, Zeerak',\n    month = jul,\n    year = '2022',\n    address = 'Seattle, Washington (Hybrid)',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2022.woah-1.0/'\n}
+",
   }
   - {name: "Disembodied Machine Learning: On the Illusion of Objectivity in NLP",
      authors: "<b>Zeerak Talat</b>, Dilan Lulz, Joachim Bingel, Isabelle Augenstein",
@@ -454,10 +471,12 @@ index:
      date: "2021",
      type: "Permaprint",
      preprint: "http://arxiv.org/abs/2101.11974",
-     bibtex: false,
+     bibtex: "
+@unpublished{talatDisembodiedMachineLearning2021,\n	title = {Disembodied {Machine} {Learning}: {On} the {Illusion} of {Objectivity} in {NLP}},\n	copyright = {All rights reserved},\n	shorttitle = {Disembodied {Machine} {Learning}},\n	url = {http://arxiv.org/abs/2101.11974},\n	abstract = {Machine Learning seeks to identify and encode bodies of knowledge within provided datasets. However, data encodes subjective content, which determines the possible outcomes of the models trained on it. Because such subjectivity enables marginalisation of parts of society, it is termed (social) `bias' and sought to be removed. In this paper, we contextualise this discourse of bias in the ML community against the subjective choices in the development process. Through a consideration of how choices in data and model development construct subjectivity, or biases that are represented in a model, we argue that addressing and mitigating biases is near-impossible. This is because both data and ML models are objects for which meaning is made in each step of the development pipeline, from data selection over annotation to model training and analysis. Accordingly, we find the prevalent discourse of bias limiting in its ability to address social marginalisation. We recommend to be conscientious of this, and to accept that de-biasing methods only correct for a fraction of biases.},\n	urldate = {2021-12-26},\n	author = {Talat, Zeerak and Lulz, Smarika and Bingel, Joachim and Augenstein, Isabelle},\n	month = jan,\n	year = {2021},\n	note = {arXiv: 2101.11974},\n	keywords = {Computers and Society, Artificial intelligence},\n}
+",
   }
   - {name: "A Survey of Race, Racism, and Anti-Racism in NLP",
-     authors: "Anjalie Field, Su Lin Blodgett, <b>Zeerak Waseem</b>,  Yulia Tsvetkov",
+     authors: "Anjalie Field, Su Lin Blodgett, <b>Zeerak Talat</b>,  Yulia Tsvetkov",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
      publisher: "Association of Computational Linguistics",
      shortvenue: "ACL",
@@ -466,10 +485,10 @@ index:
      doi: "https://doi.org/10.18653/v1/2021.acl-long.149",
      url: "https://aclanthology.org/2021.acl-long.149",
      video: "https://aclanthology.org/2021.acl-long.149.mp4",
-     bibtex: false,
+     bibtex: "@inproceedings{field-etal-2021-survey,\n    title = 'A Survey of Race, Racism, and Anti-Racism in {NLP}',\n    author = 'Field, Anjalie  and\n      Blodgett, Su Lin  and\n      Waseem, Zeerak  and\n      Tsvetkov, Yulia',\n    editor = 'Zong, Chengqing  and\n      Xia, Fei  and\n      Li, Wenjie  and\n      Navigli, Roberto',\n    booktitle = 'Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)',\n    month = aug,\n    year = '2021',\n    address = 'Online',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2021.acl-long.149/',\n    doi = '10.18653/v1/2021.acl-long.149',\n    pages = '1905--1925',\n    abstract = 'Despite inextricable ties between race and language, little work has considered race in NLP research and development. In this work, we survey 79 papers from the ACL anthology that mention race. These papers reveal various types of race-related bias in all stages of NLP model development, highlighting the need for proactive consideration of how NLP systems can uphold racial hierarchies. However, persistent gaps in research on race and NLP remain: race has been siloed as a niche topic and remains ignored in many NLP tasks; most work operationalizes race as a fixed single-dimensional variable with a ground-truth label, which risks reinforcing differences produced by historical racism; and the voices of historically marginalized people are nearly absent in NLP literature. By identifying where and how NLP literature has and has not considered race, especially in comparison to related fields, our work calls for inclusion and racial justice in NLP research practices.'\n}",
   }
   - {name: "HateCheck: Functional Tests for Hate Speech Detection Models",
-     authors: "Paul Röttger, Bertie Vidgen, Dong Nguyen, <b>Zeerak Waseem</b>, Helen Margetts, Janet Pierrehumbert",
+     authors: "Paul Röttger, Bertie Vidgen, Dong Nguyen, <b>Zeerak Talat</b>, Helen Margetts, Janet Pierrehumbert",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
      publisher: "Association of Computational Linguistics",
      shortvenue: "ACL",
@@ -479,10 +498,10 @@ index:
      url: "https://aclanthology.org/2021.acl-long.4",
      video: "https://aclanthology.org/2021.acl-long.4.mp4",
      github: "https://github.com/paul-rottger/hatecheck-data",
-     bibtex: false,
+     bibtex: '@inproceedings{rottger-etal-2021-hatecheck,\n    title = "{H}ate{C}heck: Functional Tests for Hate Speech Detection Models",\n    author = {R{\"o}ttger, Paul  and\n      Vidgen, Bertie  and\n      Nguyen, Dong  and\n      Talat, Zeerak  and\n      Margetts, Helen  and\n      Pierrehumbert, Janet},\n    editor = "Zong, Chengqing  and\n      Xia, Fei  and\n      Li, Wenjie  and\n      Navigli, Roberto",\n    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",\n    month = aug,\n    year = "2021",\n    address = "Online",\n    publisher = "Association for Computational Linguistics",\n    url = "https://aclanthology.org/2021.acl-long.4/",\n    doi = "10.18653/v1/2021.acl-long.4",\n    pages = "41--58",\n    abstract = "Detecting online hate is a difficult task that even state-of-the-art models struggle with. Typically, hate speech detection models are evaluated by measuring their performance on held-out test data using metrics such as accuracy and F1 score. However, this approach makes it difficult to identify specific model weak points. It also risks overestimating generalisable model performance due to increasingly well-evidenced systematic gaps and biases in hate speech datasets. To enable more targeted diagnostic insights, we introduce HateCheck, a suite of functional tests for hate speech detection models. We specify 29 model functionalities motivated by a review of previous research and a series of interviews with civil society stakeholders. We craft test cases for each functionality and validate their quality through a structured annotation process. To illustrate HateCheck`s utility, we test near-state-of-the-art transformer models as well as two popular commercial models, revealing critical model weaknesses."\n}',
   }
   - {name: "Learning from the Worst: Dynamically Generated Datasets to Improve Online Hate Detection",
-     authors: "Bertie Vidgen, Tristan Thrush, <b>Zeerak Waseem</b>, Douwe Kiela",
+     authors: "Bertie Vidgen, Tristan Thrush, <b>Zeerak Talat</b>, Douwe Kiela",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
      publisher: "Association of Computational Linguistics",
      shortvenue: "ACL",
@@ -492,10 +511,10 @@ index:
      url: "https://aclanthology.org/2021.acl-long.132/",
      video: "https://aclanthology.org/2021.acl-long.132.mp4",
      github: "https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset",
-     bibtex: false,
+     bibtex: "@inproceedings{vidgen-etal-2021-learning,\n    title = 'Learning from the Worst: Dynamically Generated Datasets to Improve Online Hate Detection',\n    author = 'Vidgen, Bertie  and\n      Thrush, Tristan  and\n      Talat, Zeerak  and\n      Kiela, Douwe',\n    editor = 'Zong, Chengqing  and\n      Xia, Fei  and\n      Li, Wenjie  and\n      Navigli, Roberto',\n    booktitle = 'Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)',\n    month = aug,\n    year = '2021',\n    address = 'Online',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2021.acl-long.132/',\n    doi = '10.18653/v1/2021.acl-long.132',\n    pages = '1667--1682',\n    abstract = 'We present a human-and-model-in-the-loop process for dynamically generating datasets and training better performing and more robust hate detection models. We provide a new dataset of 40,000 entries, generated and labelled by trained annotators over four rounds of dynamic data creation. It includes 15,000 challenging perturbations and each hateful entry has fine-grained labels for the type and target of hate. Hateful entries make up 54{\%} of the dataset, which is substantially higher than comparable datasets. We show that model performance is substantially improved using this approach. Models trained on later rounds of data collection perform better on test sets and are harder for annotators to trick. They also have better performance on HateCheck, a suite of functional tests for online hate detection. We provide the code, dataset and annotation guidelines for other researchers to use.'\n}",
   }
   - {name: "Dynabench: Rethinking Benchmarking in NLP",
-     authors: "Douwe Kiela, Max Bartolo, Yixin Nie, Divyansh Kaushik, Atticus Geiger, Zhengxuan Wu, Bertie Vidgen, Grusha Prasad, Amanpreet Singh, Pratik Ringshia, Zhiyi Ma, Tristan Thrush, Sebastian Riedel, <b>Zeerak Waseem</b>, Pontus Stenetorp, Robin Jia, Mohit Bansal, Christopher Potts, Adina Williams",
+     authors: "Douwe Kiela, Max Bartolo, Yixin Nie, Divyansh Kaushik, Atticus Geiger, Zhengxuan Wu, Bertie Vidgen, Grusha Prasad, Amanpreet Singh, Pratik Ringshia, Zhiyi Ma, Tristan Thrush, Sebastian Riedel, <b>Zeerak Talat</b>, Pontus Stenetorp, Robin Jia, Mohit Bansal, Christopher Potts, Adina Williams",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
      publisher: "Association of Computational Linguistics",
      shortvenue: "ACL",
@@ -504,7 +523,7 @@ index:
      doi: "https://doi.org/10.18653/v1/2021.naacl-main.324",
      url: "https://aclanthology.org/2021.naacl-main.324",
      video: "https://aclanthology.org/2021.naacl-main.324.mp4",
-     bibtex: false,
+     bibtex: "@inproceedings{kiela-etal-2021-dynabench,\n    title = 'Dynabench: Rethinking Benchmarking in {NLP}',\n    author = 'Kiela, Douwe  and\n      Bartolo, Max  and\n      Nie, Yixin  and\n      Kaushik, Divyansh  and\n      Geiger, Atticus  and\n      Wu, Zhengxuan  and\n      Vidgen, Bertie  and\n      Prasad, Grusha  and\n      Singh, Amanpreet  and\n      Ringshia, Pratik  and\n      Ma, Zhiyi  and\n      Thrush, Tristan  and\n      Riedel, Sebastian  and\n      Talat, Zeerak  and\n      Stenetorp, Pontus  and\n      Jia, Robin  and\n      Bansal, Mohit  and\n      Potts, Christopher  and\n      Williams, Adina',\n    editor = 'Toutanova, Kristina  and\n      Rumshisky, Anna  and\n      Zettlemoyer, Luke  and\n      Hakkani-Tur, Dilek  and\n      Beltagy, Iz  and\n      Bethard, Steven  and\n      Cotterell, Ryan  and\n      Chakraborty, Tanmoy  and\n      Zhou, Yichao',\n    booktitle = 'Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies',\n    month = jun,\n    year = '2021',\n    address = 'Online',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2021.naacl-main.324/',\n    doi = '10.18653/v1/2021.naacl-main.324',\n    pages = '4110--4124',\n    abstract = 'We introduce Dynabench, an open-source platform for dynamic dataset creation and model benchmarking. Dynabench runs in a web browser and supports human-and-model-in-the-loop dataset creation: annotators seek to create examples that a target model will misclassify, but that another person will not. In this paper, we argue that Dynabench addresses a critical need in our community: contemporary models quickly achieve outstanding performance on benchmark tasks but nonetheless fail on simple challenge examples and falter in real-world scenarios. With Dynabench, dataset creation, model development, and model assessment can directly inform each other, leading to more robust and informative benchmarks. We report on four initial NLP tasks, illustrating these concepts and highlighting the promise of the platform, and address potential objections to dynamic benchmarking as a new standard for the field.'\n}",
   }
   - {name: "Findings of the WOAH 5 Shared Task on Fine Grained Hateful Memes Detection",
      authors: "Lambert Mathias, Shaoliang Nie, Aida Mostafazadeh Davani, Douwe Kiela, Vinodkumar Prabhakaran, Bertie Vidgen, <b>Zeerak Wsaeem</b>",
@@ -515,10 +534,10 @@ index:
      type: "Workshop",
      doi: "https://doi.org/10.18653/v1/2021.woah-1.21",
      url: "https://aclanthology.org/2021.woah-1.21",
-     bibtex: false,
+     bibtex: "@inproceedings{mathias-etal-2021-findings,\n    title = 'Findings of the {WOAH} 5 Shared Task on Fine Grained Hateful Memes Detection',\n    author = 'Mathias, Lambert  and\n      Nie, Shaoliang  and\n      Mostafazadeh Davani, Aida  and\n      Kiela, Douwe  and\n      Prabhakaran, Vinodkumar  and\n      Vidgen, Bertie  and\n      Talat, Zeerak',\n    editor = 'Mostafazadeh Davani, Aida  and\n      Kiela, Douwe  and\n      Lambert, Mathias  and\n      Vidgen, Bertie  and\n      Prabhakaran, Vinodkumar  and\n      Talat, Zeerak',\n    booktitle = 'Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 2021)',\n    month = aug,\n    year = '2021',\n    address = 'Online',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2021.woah-1.21/',\n    doi = '10.18653/v1/2021.woah-1.21',\n    pages = '201--206',\n    abstract = 'We present the results and main findings of the shared task at WOAH 5 on hateful memes detection. The task include two subtasks relating to distinct challenges in the fine-grained detection of hateful memes: (1) the protected category attacked by the meme and (2) the attack type. 3 teams submitted system description papers. This shared task builds on the hateful memes detection task created by Facebook AI Research in 2020.'\n}",
   }
   - {name: "'Hold on honey, men at work': A semi-supervised approach to detecting sexism in sitcoms",
-     authors: "Smriti Singh, Tanvi Anand, Arijit Ghosh Chowdhury, <b>Zeerak Waseem</b>",
+     authors: "Smriti Singh, Tanvi Anand, Arijit Ghosh Chowdhury, <b>Zeerak Talat</b>",
      publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop",
      publisher: "Association of Computational Linguistics",
      shortvenue: "ACL SRW",
@@ -526,31 +545,31 @@ index:
      type: "Workshop",
      doi: "https://doi.org/10.18653/v1/2021.acl-srw.19",
      url: "https://aclanthology.org/2021.acl-srw.19/",
-     bibtex: false,
+     bibtex: "@inproceedings{singh-etal-2021-hold,\n    title = '{\textquotedblleft}Hold on honey, men at work{\textquotedblright}: A semi-supervised approach to detecting sexism in sitcoms',\n    author = 'Singh, Smriti  and\n      Anand, Tanvi  and\n      Ghosh Chowdhury, Arijit  and\n      Talat, Zeerak',\n    editor = 'Kabbara, Jad  and\n      Lin, Haitao  and\n      Paullada, Amandalynne  and\n      Vamvas, Jannis',\n    booktitle = 'Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop',\n    month = aug,\n    year = '2021',\n    address = 'Online',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2021.acl-srw.19/',\n    doi = '10.18653/v1/2021.acl-srw.19',\n    pages = '180--185',\n    abstract = 'Television shows play an important role inpropagating societal norms. Owing to the popularity of the situational comedy (sitcom) genre, it contributes significantly to the over-all development of society. In an effort to analyze the content of television shows belong-ing to this genre, we present a dataset of dialogue turns from popular sitcoms annotated for the presence of sexist remarks. We train a text classification model to detect sexism using domain adaptive learning. We apply the model to our dataset to analyze the evolution of sexist content over the years. We propose a domain-specific semi-supervised architecture for the aforementioned detection of sexism. Through extensive experiments, we show that our model often yields better classification performance over generic deep learn-ing based sentence classification that does not employ domain-specific training. We find that while sexism decreases over time on average,the proportion of sexist dialogue for the most sexist sitcom actually increases. A quantitative analysis along with a detailed error analysis presents the case for our proposed methodology'\n}",
   }
   - {name: "Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 2021)",
-     authors: "Aida Mostafazadeh Davani, Douwe Kiela, Mathias Lambert, Bertie Vidgen, Vinodkumar Prabhakaran, <b>Zeerak Waseem</b>",
+     authors: "Aida Mostafazadeh Davani, Douwe Kiela, Mathias Lambert, Bertie Vidgen, Vinodkumar Prabhakaran, <b>Zeerak Talat</b>",
      publication: "Proceedings of the 5th Workshop on Online Abuse and Harms",
      publisher: "Association of Computational Linguistics",
      shortvenue:"WOAH",
      date: "2021",
      type: "Proceedings",
      url: "https://aclanthology.org/2021.woah-1.0",
-     bibtex: false,
+     bibtex: "@proceedings{woah-2021-online,\n    title = 'Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 2021)',\n    editor = 'Mostafazadeh Davani, Aida  and\n      Kiela, Douwe  and\n      Lambert, Mathias  and\n      Vidgen, Bertie  and\n      Prabhakaran, Vinodkumar  and\n      Talat, Zeerak',\n    month = aug,\n    year = '2021',\n    address = 'Online',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2021.woah-1.0/'\n}",
   }
   - {name: "Leaky academia: digital intimacy and open secrets in times of COVID-19",
-     authors: "Nanna Thylstrup, <b>Zeerak Waseem</b>, Daniela Agostinho",
+     authors: "Nanna Thylstrup, <b>Zeerak Talat</b>, Daniela Agostinho",
      publication: "Identities - Global Studies in Culture and Power",
      publisher: "Taylor and Francis",
      shortvenue: "Identities",
      date: "2020",
-     type: "Workshop",
-     doi: "https://doi.org/10.18653/v1/2021.acl-srw.19",
+     type: "Public",
      url: "https://www.identitiesjournal.com/the-viral-condition-virtual-symposium/leaky-academia-digital-intimacy-and-open-secrets-in-times-of-covid-19",
-     bibtex: false,
+     bibtex: "@misc{Thylstrup_Leaky_2020a,\n	title = {Leaky academia: digital intimacy and open secrets in times of {COVID}-19},\n	shorttitle = {Leaky academia},\n	url = {http://www.identitiesjournal.com/4/post/2020/09/leaky-academia-digital-intimacy-and-open-secrets-in-times-of-covid-19.html},\n	abstract = {Explore short essays, think pieces, reflections and field notes from the state of the COVID-19 lockdown that help think through the  profound social-political effects of this twenty-first century...},\n	language = {en},\n	urldate = {2025-05-04},\n	journal = {Identities Journal Blog},\n	author = {Thylstrup, Nanna and Talat, Zeerak and Agostinho, Daniela},\n	year = {2020},\n}
+",
   }
   - {name: "Detecting East Asian Prejudice on Social Media",
-     authors: "Bertie Vidgen, Austin Botelho, David Broniatowski, Ella Guest, Matthew Hall, Helen Margetts, Rebekah Tromble, <b>Zeerak Waseem</b>, Scott Hale",
+     authors: "Bertie Vidgen, Austin Botelho, David Broniatowski, Ella Guest, Matthew Hall, Helen Margetts, Rebekah Tromble, <b>Zeerak Talat</b>, Scott Hale",
      publication: "Proceedings of the 4th Workshop on Online Abuse and Harms",
      publisher: "Association of Computational Linguistics",
      shortvenue: "WOAH",
@@ -560,10 +579,10 @@ index:
      url: "https://aclanthology.org/2020.alw-1.19",
      video: "https://slideslive.com/38939526",
      zenodo: "https://zenodo.org/record/3816667#.Y_-INezP3yI",
-     bibtex: false,
+     bibtex: "@inproceedings{vidgen-etal-2020-detecting,\n    title = 'Detecting {E}ast {A}sian Prejudice on Social Media',\n    author = 'Vidgen, Bertie  and\n      Hale, Scott A.  and\n      Guest, Ella  and\n      Margetts, Helen  and\n      Broniatowski, David  and\n      Talat, Zeerak  and\n      Botelho, Austin  and\n      Hall, Matthew  and\n      Tromble, Rebekah',\n    editor = 'Akiwowo, Seyi  and\n      Vidgen, Bertie  and\n      Prabhakaran, Vinodkumar  and\n      Talat, Zeerak',\n    booktitle = 'Proceedings of the Fourth Workshop on Online Abuse and Harms',\n    month = nov,\n    year = '2020',\n    address = 'Online',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2020.alw-1.19/',\n    doi = '10.18653/v1/2020.alw-1.19',\n    pages = '162--172',\n    abstract = 'During COVID-19 concerns have heightened about the spread of aggressive and hateful language online, especially hostility directed against East Asia and East Asian people. We report on a new dataset and the creation of a machine learning classifier that categorizes social media posts from Twitter into four classes: Hostility against East Asia, Criticism of East Asia, Meta-discussions of East Asian prejudice, and a neutral class. The classifier achieves a macro-F1 score of 0.83. We then conduct an in-depth ground-up error analysis and show that the model struggles with edge cases and ambiguous content. We provide the 20,000 tweet training dataset (annotated by experienced analysts), which also contains several secondary categories and additional flags. We also provide the 40,000 original annotations (before adjudication), the full codebook, annotations for COVID-19 relevance and East Asian relevance and stance for 1,000 hashtags, and the final model.'\n}",
   }
   - {name: "Online Abuse and Human Rights: WOAH Satellite Session at RightsCon 2020",
-     authors: "Vinodkumar Prabhakaran, <b>Zeerak Waseem</b>, Seyi Akiwowo, Bertie Vidgen",
+     authors: "Vinodkumar Prabhakaran, <b>Zeerak Talat</b>, Seyi Akiwowo, Bertie Vidgen",
      publication: "Proceedings of the 4th Workshop on Online Abuse and Harms",
      publisher: "Association of Computational Linguistics",
      shortvenue: "WOAH",
@@ -571,7 +590,7 @@ index:
      type: "Workshop",
      doi: "https://doi.org/10.18653/v1/2020.alw-1.1",
      url: "https://aclanthology.org/2020.alw-1.1",
-     bibtex: false,
+     bibtex: "@inproceedings{prabhakaran-etal-2020-online,\n    title = 'Online Abuse and Human Rights: {WOAH} Satellite Session at {R}ights{C}on 2020',\n    author = 'Prabhakaran, Vinodkumar  and\n      Talat, Zeerak  and\n      Akiwowo, Seyi  and\n      Vidgen, Bertie',\n    editor = 'Akiwowo, Seyi  and\n      Vidgen, Bertie  and\n      Prabhakaran, Vinodkumar  and\n      Talat, Zeerak',\n    booktitle = 'Proceedings of the Fourth Workshop on Online Abuse and Harms',\n    month = nov,\n    year = '2020',\n    address = 'Online',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2020.alw-1.1/',\n    doi = '10.18653/v1/2020.alw-1.1',\n    pages = '1--6',\n    abstract = 'In 2020 The Workshop on Online Abuse and Harms (WOAH) held a satellite panel at RightsCons 2020, an international human rights conference. Our aim was to bridge the gap between human rights scholarship and Natural Language Processing (NLP) research communities in tackling online abuse. We report on the discussions that took place, and present an analysis of four key issues which emerged: Problems in tackling online abuse, Solutions, Meta concerns and the Ecosystem of content moderation and research. We argue there is a pressing need for NLP research communities to engage with human rights perspectives, and identify four key ways in which NLP research into online abuse could immediately be enhanced to create better and more ethical solutions.'\n}",
   }
   - {name: "Proceedings of the 4th Workshop on Online Abuse and Harms (WOAH 2020)",
      authors: "Seyi Akiwowo, Bertie Vidgen, Vinodkumar Prabhakaran, <b>Zeerak Talat</b>",
@@ -581,7 +600,7 @@ index:
      date: "2020",
      type: "Proceedings",
      url: "https://aclanthology.org/2020.alw-1.0",
-     bibtex: false,
+     bibtex: "@proceedings{alw-2020-online,\n    title = 'Proceedings of the Fourth Workshop on Online Abuse and Harms',\n    editor = 'Akiwowo, Seyi  and\n      Vidgen, Bertie  and\n      Prabhakaran, Vinodkumar  and\n      Talat, Zeerak',\n    month = nov,\n    year = '2020',\n    address = 'Online',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2020.alw-1.0/'\n}",
   }
   - {name: "Detecting 'Dirt' and 'Toxicity': Rethinking Content Moderation as Pollution Behaviour",
      authors: "Nanna Bonde Thylstrup, <b>Zeerak Talat</b>",
@@ -589,7 +608,8 @@ index:
      type: "Permaprint",
      preprint: "https://Papers.ssrn.com/sol3/Papers.cfm?abstract_id=3709719",
      url: "https://Papers.ssrn.com/sol3/Papers.cfm?abstract_id=3709719",
-     bibtex: false,
+     bibtex: "@article{thylstrupDetectingDirtToxicity2020,\n	title = {Detecting ‘{Dirt}’ and ‘{Toxicity}’: {Rethinking} {Content} {Moderation} as {Pollution} {Behaviour}},\n	copyright = {All rights reserved},\n	issn = {1556-5068},\n	shorttitle = {Detecting ‘{Dirt}’ and ‘{Toxicity}’},\n	url = {https://www.ssrn.com/abstract=3709719},\n	doi = {10.2139/ssrn.3709719},\n	language = {en},\n	urldate = {2021-12-26},\n	journal = {SSRN Electronic Journal},\n	author = {Thylstrup, Nanna and Talat, Zeerak},\n	year = {2020},\n}
+",
   }
   - {name: "Proceedings of the 2019 Workshop on Widening NLP",
      authors: "Amittai Axelrod, Diyi Yang, Rossana Cunha, Samira Shaikh, <b>Zeerak Talat</b>",
@@ -599,7 +619,7 @@ index:
      date: "2019",
      type: "Proceedings",
      url: "https://aclanthology.org/W19-3600/",
-     bibtex: false,
+     bibtex: "@proceedings{winlp-2019-36,\n    title = 'Proceedings of the 2019 Workshop on Widening NLP',\n    editor = 'Axelrod, Amittai  and\n      Yang, Diyi  and\n      Cunha, Rossana  and\n      Shaikh, Samira  and\n      Talat, Zeerak',\n    month = aug,\n    year = '2019',\n    address = 'Florence, Italy',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/W19-3600/'\n}",
   }
   - {name: "Proceedings of the 3rd Workshop on Abusive Language Online",
      authors: "Sarah T. Roberts, Joel Tetreault, Vinodkumar Prabhakaran, <b>Zeerak Talat</b>",
@@ -609,17 +629,17 @@ index:
      date: "2019",
      type: "Proceedings",
      url: "https://aclanthology.org/W19-3500",
-     bibtex: false,
+     bibtex: "@proceedings{ws-2019-abusive,\n    title = 'Proceedings of the Third Workshop on Abusive Language Online',\n    editor = 'Roberts, Sarah T.  and\n      Tetreault, Joel  and\n      Prabhakaran, Vinodkumar  and\n      Talat, Zeerak',\n    month = aug,\n    year = '2019',\n    address = 'Florence, Italy',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/W19-3500/'\n}",
   }
   - {name: "Proceedings of the 2nd Workshop on Abusive Language Online",
-     authors: "*Darja Fišer, Ruihong Huang, Vinodkumar Prabhakaran, Rob Voigt, <b>Zeerak Talat</b>, Jacqueline Wernimont",
+     authors: "Darja Fišer, Ruihong Huang, Vinodkumar Prabhakaran, Rob Voigt, <b>Zeerak Talat</b>, Jacqueline Wernimont",
      publication: "Proceedings of the 2nd Workshop on Abusive Language Online",
      publisher: "Association of Computational Linguistics",
      shortvenue: "WOAH",
      date: "2018",
      type: "Proceedings",
      url: "https://aclanthology.org/W18-5100/",
-     bibtex: false,
+     bibtex: "@proceedings{ws-2018-abusive,\n    title = 'Proceedings of the 2nd Workshop on Abusive Language Online ({ALW}2)',\n    editor = 'Fi{\v{s}}er, Darja  and\n      Huang, Ruihong  and\n      Prabhakaran, Vinodkumar  and\n      Voigt, Rob  and\n      Talat, Zeerak  and\n      Wernimont, Jacqueline',\n    month = oct,\n    year = '2018',\n    address = 'Brussels, Belgium',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/W18-5100/'\n}",
   }
   - {name: "Bridging the Gaps: Multi Task Learning for Domain Transfer of Hate Speech Detection",
      authors: "<b>Zeerak Talat</b>, James Thorne, Joachim Bingel",
