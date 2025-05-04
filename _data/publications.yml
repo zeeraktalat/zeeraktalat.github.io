@@ -117,7 +117,7 @@ index:
      bibtex: "@misc{Ungless_Ethics_2024,\n	title = {Ethics {Whitepaper}: {Whitepaper} on {Ethical} {Research} into {Large} {Language} {Models}},\n	shorttitle = {Ethics {Whitepaper}},\n	url = {http://arxiv.org/abs/2410.19812},\n	abstract = {This whitepaper offers an overview of the ethical considerations surrounding research into or with large language models (LLMs). As LLMs become more integrated into widely used applications, their societal impact increases, bringing important ethical questions to the forefront. With a growing body of work examining the ethical development, deployment, and use of LLMs, this whitepaper provides a comprehensive and practical guide to best practices, designed to help those in research and in industry to uphold the highest ethical standards in their work.},\n	urldate = {2024-11-05},\n	publisher = {arXiv},\n	author = {Ungless, Eddie L. and Vitsakis, Nikolas and Talat, Zeerak and Garforth, James and Ross, Björn and Onken, Arno and Kasirzadeh, Atoosa and Birch, Alexandra},\n	month = oct,\n	year = {2024},\n	note = {arXiv:2410.19812 [cs]},\n	keywords = {Computer Science - Computation and Language, Computer Science - Computers and Society},\n	annote = {Comment: 47 pages},\n}",
   }
   - {name: "Proceedings of the 8th Workshop on Online Abuse and Harms (WOAH 2024)",
-     editors: "Yi-ling Chung, <b>Zeerak Talat</b>, Debora Nozza, Flor Miriam Plaza-del-Arco, Paul Röttger, Aida Mostafazadeh Davani",
+     authors: "Yi-ling Chung, <b>Zeerak Talat</b>, Debora Nozza, Flor Miriam Plaza-del-Arco, Paul Röttger, Aida Mostafazadeh Davani",
      publication: "Proceedings of the 8th Workshop on Online Abuse and Harms",
      publisher: "Association of Computational Linguistics",
      shortvenue: "WOAH",
