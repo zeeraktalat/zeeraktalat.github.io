@@ -1,18 +1,18 @@
 {% assign pub_types =
-  "Conference Paper:#4caf50,Journal Paper:#2196f3,Workshop Paper:#ff9800,Book Chapter:#9c27b0,Proceedings:#009688" | split: "," %}
+"Conference Paper:#4caf50,Journal Paper:#2196f3,Workshop Paper:#ff9800,Book Chapter:#9c27b0,Proceedings:#009688" | split: "," %}
 
-  <div id="pub-type-legend" style="margin-bottom: 20px;">
-    {% for entry in pub_types %}
-      {% assign parts = entry | split: ":" %}
-      {% assign pubtype = parts[0] %}
-      {% assign color = parts[1] %}
-      <a href="?filter={{ pubtype | url_encode }}" class="legend-item" style="margin-right: 15px;">
-        <span style="display: inline-block; width: 12px; height: 12px; background: {{ color }}; margin-right: 5px;"></span>
-        {{ pubtype }}
-      </a>
-    {% endfor %}
-    <a href="?filter=all" class="legend-item" style="font-weight: bold;">Show All</a>
-  </div>
+<div id="pub-type-legend" style="margin-bottom: 20px;">
+  {% for entry in pub_types %}
+  {% assign parts = entry | split: ":" %}
+  {% assign pubtype = parts[0] %}
+  {% assign color = parts[1] %}
+  <a href="?filter={{ pubtype | url_encode }}" class="legend-item" style="margin-right: 15px;">
+    <span style="display: inline-block; width: 12px; height: 12px; background: {{ color }}; margin-right: 5px;"></span>
+    {{ pubtype }}
+  </a>
+  {% endfor %}
+  <a href="?filter=all" class="legend-item" style="font-weight: bold;">Show All</a>
+</div>
 
 
 <div class="row g-5 mb-5">
@@ -20,86 +20,103 @@
     <!-- <center> -->
     <!-- <h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Publications</h3> -->
     <!-- </center> -->
-  
+
     {% if page.title == "Home" %}
-      <h3 class="fw-bold">Recent Publications</h3>
-      {% for item in site.data.publications.featured %}
-        <p>{{ item.name }} <i>{{item.authors}}</i> ({{item.date}}). {{item.shortvenue}} </p>
-      {% endfor %}
+    <h3 class="fw-bold">Recent Publications</h3>
+    {% for item in site.data.publications.featured %}
+    <p>{{ item.name }} <i>{{item.authors}}</i> ({{item.date}}). {{item.shortvenue}} </p>
+    {% endfor %}
     {% else %}
 
-      {% assign pubs = site.data.publications.forthcoming | where: "date", "0" %}
-      {% assign year = 0 %}
-      {% if pubs.size > 0 %}
-      <div class="year-block" data-year="{{ year }}">
-        <center><h4 class="pub-type">Forthcoming</h4></center>
-        <hr>
+    {% assign pubs = site.data.publications.forthcoming | where: "date", "0" %}
+    {% assign year = 0 %}
+    {% if pubs.size > 0 %}
+    <div class="year-block" data-year="{{ year }}">
+      <center><h4 class="pub-type">Forthcoming</h4></center>
+      <hr>
       {% endif%}
       <ul>
-      {% for pub in pubs %}
-        {% assign pub_color = "#999" %}
-        {% for entry in pub_types %}
+        {% for pub in pubs %}
+          {% assign pub_color = "#999" %}
+          {% for entry in pub_types %}
           {% assign pair = entry | split: ":" %}
-          {% if pair[0] == pub.type %}
+            {% if pair[0] == pub.type %}
             {% assign pub_color = pair[1] %}
-          {% endif %}
-        {% endfor %}
-      <li class="pub-item" data-type="{{ pub.type | escape }}" style="margin-bottom: 20px;">
+            {% endif %}
+          {% endfor %}
+
+        <li class="pub-item" data-type="{{ pub.type | escape }}" style="margin-bottom: 20px;">
           <span style="display: inline-block; width: 12px; height: 12px; background: {{ pub_color }}; margin-right: 5px;"></span>
-          <strong style="font-weight: 1000;">{{ pub.name }} </strong> <br>
-          {{ pub.authors }}. <br /><strong style="font-weight: 500;"><i>{{ pub.publication }}</i></strong>.
+          <strong style="font-weight: 1000;">{{ pub.name }}. </strong> <br>
+          {{ pub.authors }}. <br />
           {% if pub.type == "Book Chapter" %}
-            <strong style="font-weight: 500;"><i>{{ pub.publication }}</i></strong>.
-            <i>{{ pub.editors }}.</i> <br />
+          <strong style="font-weight: 400;"><i>{{ pub.publication }}</i></strong>.
+          {% if pub.editors %}
+          <i>{{ pub.editors }}.</i> <br />
           {% endif %}
-      </li>
+          {% endif %}
+          {% if pub.preprint %}
+          <i class="fas fa-file-pdf"></i> <a href="{{ pub.preprint }}" target="_blank"><button class='styled_button' type='button'>Preprint</button></a>&nbsp;&nbsp;
+          {% endif %}
+          {% if pub.github %}
+          <a href="{{ pub.github }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/github.png" style="width:20px;height:20px"> Code</button></a>&nbsp;&nbsp;
+          {% endif %}
+          {% if pub.zenodo %}
+          <i class="fa-solid fa-database"></i><a href="{{ pub.zenodo }}" target="_blank"><button class='styled_button' type='button'>&nbsp;&nbsp;
+              <!-- <img src="/assets/img/zenodo.jpg" style="width:50px;height:20px"> -->
+              Data
+            </button></a>
+            {% endif %}
+            {% if pub.bibtex %}
+            <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+            <span class="bibtex-box" >{{pub.bibtex}}</span>
+            {% endif %}
+        </li>
 
-      {% endfor %}
+        {% endfor %}
       </ul>
-      </div>
-
+    </div>
 
     {% for year in (2016..2025) reversed %}
-      {% assign pubs = site.data.publications.index | where: "date", year  %}
-      {% if pubs.size > 0 %}
-      <div class="year-block" data-year="{{ year }}">
-        <center><h4 class="pub-type">{{ year }}</h4></center>
-        <hr>
+    {% assign pubs = site.data.publications.index | where: "date", year  %}
+    {% if pubs.size > 0 %}
+    <div class="year-block" data-year="{{ year }}">
+      <center><h4 class="pub-type">{{ year }}</h4></center>
+      <hr>
       {% endif %}
       <ul>
-      {% for pub in pubs %}
-      {% assign pub_color = "#999" %}
-      {% for entry in pub_types %}
+        {% for pub in pubs %}
+        {% assign pub_color = "#999" %}
+        {% for entry in pub_types %}
         {% assign pair = entry | split: ":" %}
         {% if pair[0] == pub.type %}
-          {% assign pub_color = pair[1] %}
+        {% assign pub_color = pair[1] %}
         {% endif %}
-      {% endfor %}
+        {% endfor %}
 
-      <li class="pub-item" data-type="{{ pub.type | escape }}" style="margin-bottom: 20px;">
+        <li class="pub-item" data-type="{{ pub.type | escape }}" style="margin-bottom: 20px;">
           <span style="display: inline-block; width: 12px; height: 12px; background: {{ pub_color }}; margin-right: 5px;"></span>
           <strong style="font-weight: 1000;">{{ pub.name }} </strong> <br>
           {{ pub.authors }}. <br>
           {% if pub.shortvenue %}
-            <strong style="font-weight: 500;"><i>{{ pub.shortvenue }} {{ pub.date }}</i></strong>.<br>
+          <strong style="font-weight: 500;"><i>{{ pub.shortvenue }} {{ pub.date }}</i></strong>.<br>
           {% else %}
-            <strong style="font-weight: 500;"><i>{{ pub.publication }}</i></strong>.<br>
+          <strong style="font-weight: 500;"><i>{{ pub.publication }}</i></strong>.<br>
           {% endif %}
           {% if pub.type == "Book Chapter" %}
-            <i>{{ pub.editors }}.</i> <br />
+          <i>{{ pub.editors }}.</i> <br />
           {% endif %}
-          
           {% if pub.doi %}
           <a href="{{ pub.doi }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/doi.png" style="width:20px;height:20px;"> Paper</button></a>&nbsp;&nbsp;
           {% endif %}
           {% if pub.url %}
-            {% unless pub.doi %}
-            <i class="fas fa-file-pdf"></i> <a href="{{ pub.url }}" target="_blank"><button class='styled_button' type='button'>Paper</button></a>&nbsp;&nbsp;
-            {% endunless %}
+          {% unless pub.doi %}
+          <i class="fas fa-file-pdf"></i> <a href="{{ pub.url }}" target="_blank"><button class='styled_button' type='button'>Paper</button></a>&nbsp;&nbsp;
+          {% endunless %}
           {% endif %}
           {% if pub.preprint %}
-            {% unless pub.url %}
-            <i class="fas fa-file-pdf"></i> <a href="{{ pub.preprint }}" target="_blank"><button class='styled_button' type='button'>Preprint</button></a>&nbsp;&nbsp;
+          {% unless pub.url %}
+          <i class="fas fa-file-pdf"></i> <a href="{{ pub.preprint }}" target="_blank"><button class='styled_button' type='button'>Preprint</button></a>&nbsp;&nbsp;
           {% endunless %}
           {% endif %}
           {% if pub.github %}
@@ -108,35 +125,22 @@
           {% if pub.zenodo %}
           <i class="fa-solid fa-database"></i><a href="{{ pub.zenodo }}" target="_blank"><button class='styled_button' type='button'>&nbsp;&nbsp;
               <!-- <img src="/assets/img/zenodo.jpg" style="width:50px;height:20px"> -->
-               Data
+              Data
             </button></a>
-          {% endif %}
-          {% if pub.bibtex %}
-          <a href="{{ pub.bibtex }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/bibtex.png" style="width:48px;height:14px"></button></a>&nbsp;&nbsp;
-
-          {% endif %}
-          {% if pub.bibtex %}
-          <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
-          <span class="bibtex-box" >{{pub.bibtex}}
-          </span>
-
-          {% endif %}
-          {% if pub.video%}
-          <i class="fa-solid fa-video"></i><a href="{{ pub.video }}" target="_blank"><button class='styled_button' type='button'>&nbsp; Video</button></a>&nbsp;&nbsp;
-          {% endif %}
-      </li>
-      {% endfor %}
+            {% endif %}
+            {% if pub.bibtex %}
+            <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+            <span class="bibtex-box" >{{pub.bibtex}}
+            </span>
+            {% endif %}
+            {% if pub.video%}
+            <i class="fa-solid fa-video"></i><a href="{{ pub.video }}" target="_blank"><button class='styled_button' type='button'>&nbsp; Video</button></a>&nbsp;&nbsp;
+            {% endif %}
+        </li>
+        {% endfor %}
       </ul>
-      </div>
-      {% endfor %}
-
-      <!-- {% for item in site.data.publications.index %} -->
-      <!-- <p> -->
-      <!--   {{ item.name }} <i>{{ item.authors }}</i> {{item.date}}. {{item.publication}} {{item.publisher}} <br /> -->
-      <!--   <a href="{{ item.url }}"> [Published]</a> <a href="{{ item.preprint }}">[Preprint]</a> -->
-      <!-- </p> -->
-      <!-- {% endfor %} -->
-    {% endif %}
+    </div>
+    {% endfor %}
   </div>
 </div>
 
@@ -144,7 +148,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     const params = new URLSearchParams(window.location.search);
     const selectedType = params.get("filter")?.toLowerCase().trim();
-  
+
     document.querySelectorAll(".pub-item").forEach(item => {
       const type = item.getAttribute("data-type")?.toLowerCase().trim();
       if (!selectedType || selectedType === "all" || type === selectedType) {
