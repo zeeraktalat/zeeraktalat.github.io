@@ -170,8 +170,8 @@ index:
      type: "Conference Paper",
      date: "2024",
      preprint: "https://arxiv.org/abs/2403.04445v1",
-     url: 'https://aclanthology.org/2024.acl-long.682/',
-     doi: '10.18653/v1/2024.acl-long.682',
+     url: "https://aclanthology.org/2024.acl-long.682/",
+     doi: "https://doi.org/10.18653/v1/2024.acl-long.682",
      bibtex: "@inproceedings{curry-etal-2024-classist,\n    title = 'Classist Tools: Social Class Correlates with Performance in {NLP}',\n    author = 'Cercas Curry, Amanda  and\n      Attanasio, Giuseppe  and\n      Talat, Zeerak  and\n      Hovy, Dirk',\n    editor = 'Ku, Lun-Wei  and\n      Martins, Andre  and\n      Srikumar, Vivek',\n    booktitle = 'Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)',\n    month = aug,\n    year = '2024',\n    address = 'Bangkok, Thailand',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2024.acl-long.682/',\n    doi = '10.18653/v1/2024.acl-long.682',\n    pages = '12643--12655'\n}",
   }
   - {name: "Documenting Geographically and Contextually Diverse Language Data Sources",
@@ -309,7 +309,7 @@ index:
      date: "2023",
      type: "Proceedings",
      url: "https://aclanthology.org/volumes/2023.woah-1/",
-     bibtex: '@proceedings{woah-2022-online,\n    title = "Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH)",\n    editor = "Chung, Yi-ling and R\"{o}ttger, Paul and Nozza, Debora and Talat, Zeerak and Davani, Aida Mostafazadeh"\n    month = jul,\n    year = "2022",\n    address = "Seattle, Washington (Hybrid)",\n    publisher = "Association for Computational Linguistics",\n    url = "https://aclanthology.org/2022.woah-1.0/"\n}'
+     bibtex: '@proceedings{woah-2023-online,\n    title = "Proceedings of the Seventh Workshop on Online Abuse and Harms (WOAH)",\n    editor = "Chung, Yi-ling and R\"{o}ttger, Paul and Nozza, Debora and Talat, Zeerak and Davani, Aida Mostafazadeh"\n    month = jul,\n    year = "2022",\n    address = "Seattle, Washington (Hybrid)",\n    publisher = "Association for Computational Linguistics",\n    url = "https://aclanthology.org/2022.woah-1.0/"\n}'
   }
   - {name: "Futures for Research on Hate Speech in Online Social Media Platforms",
      authors: "Jaime Lee Kirtz, <b>Zeerak Talat</b>",
