@@ -23,6 +23,7 @@ forthcoming:
      type: "Book Chapter",
      date: "0",
      doi: false,
+     preprint: '/papers/Evaluating_the_Social_Impact_of_Generative_AI_Systems_in_Systems_and_Society__preprint_.pdf',
      bibtex: false,
      }
   - {name: "Content Moderation",
