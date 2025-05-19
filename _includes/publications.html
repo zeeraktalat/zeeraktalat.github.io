@@ -49,7 +49,9 @@
             {% if pub.type == "Book Chapter" %}
               <strong style="font-weight: 400;"><i>{{ pub.publication }}</i></strong>.
               {% if pub.editors %}
-                <i>{{ pub.editors }}.</i> <br />
+                <i>{{ pub.editors }}.</i> {{pub.publisher}}. <br />
+              {% else %}
+                {{pub.publisher}}. <br />
               {% endif %}
             {% endif %}
             {% if pub.preprint %}
@@ -101,7 +103,7 @@
           <strong style="font-weight: 500;"><i>{{ pub.publication }}</i></strong>.<br>
           {% endif %}
           {% if pub.type == "Book Chapter" %}
-          <i>{{ pub.editors }}.</i> <br />
+          <i>{{ pub.editors }}.</i> {{pub.publisher}}. <br />
           {% endif %}
           {% if pub.doi %}
           <a href="{{ pub.doi }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/doi.png" style="width:20px;height:20px;"> Paper</button></a>&nbsp;&nbsp;

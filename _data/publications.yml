@@ -28,12 +28,13 @@ forthcoming:
      }
   - {name: "Content Moderation",
      authors: "<b>Zeerak Talat</b>",
+     editors: "Eds. Kathrin Maurer, Rikke Munck Petersen, Dominique Routhier, Kassandra Wellendorf, and Kristin Veel",
      publication: "The Aesthetics of Machine Vision: Critical Terms and Ideas",
      publisher: "MIT Press",
      shortvenue: "",
      type: "Book Chapter",
      date: "0",
-     preprint: false,
+     preprint: "/papers/Content_moderation_preprint.pdf",
      doi: false,
      bibtex: false,
      }
