@@ -254,7 +254,7 @@ All files will be included in the proceedings.tex file, so there is no need for 
 
 #### Automatically populating files
 
-1. Create webservices on softconf for reviewer and submission information (softconf output should be CSV files).
+1. Create webservices (Manager dropdown -> Other Tools -> Webservices) on softconf for reviewer and submission information (softconf output should be CSV files).
 2. Copy the `softconf` directory over to the workshop repository.
 3. Edit the config.json files with the appropriate information.
 4. Run `softconf2aclpub.py`.
