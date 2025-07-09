@@ -12,5 +12,3 @@ You can find me raising issues with machine learning on [Twitter](https://twitte
 I'm always looking for interesting people to work with, so do send me an e-mail at z[at]zeerak[dot]org.
 
 Google scholar hates name changes so looking for my publications page is not gonna be helpful. This is a large issue that particular affects trans scholars. You can [sign a petition here](https://scholar.hasfailed.us/). If you want to find citation counts and so on, you can find them on my [Semantic Scholar Page](https://www.semanticscholar.org/author/Zeerak-Talat/2138053020).
-
-<em><strong><font color="red">Announcement:</font></strong></em> <b>I am recruiting students to start in 2025 on topics surrounding hate speech, ethical machine learning, and/or privacy preservation.</b>
