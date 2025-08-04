@@ -40,6 +40,17 @@ forthcoming:
      }
 
 index:
+  - {name: "Pathways to Radicalisation: On Research for Online Radicalisation in Natural Language Processing and Machine Learning",
+     authors: "<b>Zeerak Talat</b>, Michael Sejr Schlichtkrull, Pranava Madhyastha, Christine De Kock",
+     editors: "Agostina Calabrese, Christine de Kock, Debora Nozza, Flor Miriam Plaza-del-Arco, Zeerak Talat, Francielle Vargas",
+     publication: "Proceedings of the The 9th Workshop on Online Abuse and Harms (WOAH)",
+     publisher: "Association for Computational Linguistics",
+     shortvenue: "WOAH",
+     type: "Workshop Paper",
+     date: "2025",
+     doi: false,
+     bibtex: "@inproceedings{talat-etal-2025-pathways,\n    title = "Pathways to Radicalisation: On Research for Online Radicalisation in Natural Language Processing and Machine Learning",\n    author = "Talat, Zeerak  and\n      Schlichtkrull, Michael Sejr  and\n      Madhyastha, Pranava  and\n      De Kock, Christine",\n    editor = "Calabrese, Agostina  and\n      de Kock, Christine  and\n      Nozza, Debora  and\n      Plaza-del-Arco, Flor Miriam  and\n      Talat, Zeerak  and\n      Vargas, Francielle",\n    booktitle = "Proceedings of the The 9th Workshop on Online Abuse and Harms (WOAH)",\n    month = aug,\n    year = "2025",\n    address = "Vienna, Austria",\n    publisher = "Association for Computational Linguistics",\n    url = "https://aclanthology.org/2025.woah-1.25/",\n    pages = "276--283",\n    ISBN = "979-8-89176-105-6",\n    abstract = "Online communities play an integral part in communication for communication across the globe. Online communities that are known for extremist content. As a field of surveillance technologies, NLP and other ML fields hold particular promise for monitoring extremist communities that may turn violent.Such communities make use of a wide variety of modalities of communication, including textual posts on specialised fora, memes, videos, and podcasts. Furthermore, such communities undergo rapid linguistic evolution, thus presenting a challenge to machine learning technologies that quickly diverge from the data that are used. In this position, we argue that radicalisation is a nascent area for which machine learning is particularly apt. However, in addressing radicalisation research it is important that avoids falling into the temptation of focusing on prediction. We argue that such communities present a particular avenue for addressing key concerns with machine learning technologies: (1) temporal misalignment of models and (2) aligning and linking content across modalities."\n}"
+  }
   - {name: "The Role of Expertise in Effectively Moderating Harmful Social Media Content",
      authors: "Nuredin Ali Abdelkadir, Tianling Yang, Shivani Kapania, Meron Estefanos, Fasica Berhane Gebrekidan, Zecharias Zelalem, Messai Ali, Rishan Berhe, Dylan Baker, <b>Zeerak Talat</b>, Milagros Miceli, Alex Hanna, Timnit Gebru",
      publication: "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
@@ -60,7 +71,7 @@ index:
      date: "2025",
      preprint: false,
      url: "https://aclanthology.org/2025.naacl-long.600/",
-     doi: false,
+     doi: "https://doi.org/10.18653/v1/2025.naacl-long.600",
      bibtex: "@inproceedings{mitchell-etal-2025-shades,\n    title = {{SHADES}: Towards a Multilingual Assessment of Stereotypes in Large Language Models},\n    author = {Mitchell, Margaret  and Attanasio, Giuseppe  and Baldini, Ioana  and Clinciu, Miruna  and Clive, Jordan  and Delobelle, Pieter  and Dey, Manan  and Hamilton, Sil  and Dill, Timm  and Doughman, Jad  and Dutt, Ritam  and Ghosh, Avijit  and Forde, Jessica Zosa  and Holtermann, Carolin  and Kaffee, Lucie-Aim{\\'e}e  and Laud, Tanmay  and Lauscher, Anne  and Lopez-Davila, Roberto L  and Masoud, Maraim  and Nangia, Nikita  and Ovalle, Anaelia  and Pistilli, Giada  and Radev, Dragomir  and Savoldi, Beatrice  and Raheja, Vipul  and Qin, Jeremy  and Ploeger, Esther  and Subramonian, Arjun  and Dhole, Kaustubh  and Sun, Kaiser  and Djanibekov, Amirbek  and Mansurov, Jonibek  and Yin, Kayo  and Cueva, Emilio Villa  and Mukherjee, Sagnik  and Huang, Jerry  and Shen, Xudong  and Gala, Jay  and Al-Ali, Hamdan  and Tair Djanibekov  and Mukhituly, Nurdaulet  and Nie, Shangrui  and Sharma, Shanya  and Stanczak, Karolina  and Szczechla, Eliza  and Timponi Torrent, Tiago  and Tunuguntla, Deepak  and Viridiano, Marcelo  and Van Der Wal, Oskar  and Yakefu, Adina  and N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and Zhang, Mike  and Zink, Sydney  and Talat, Zeerak},\n    editor = {Chiruzzo, Luis  and      Ritter, Alan  and      Wang, Lu},\n    booktitle = {Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},\n    month = {apr},\n    year = {2025},\n    address = {Albuquerque, New Mexico},\n    publisher = {Association for Computational Linguistics},\n    url = {https://aclanthology.org/2025.naacl-long.600/},\n    pages = {11995--12041},\n    ISBN = {979-8-89176-189-6}\n}",
   }
   - {name: "Exploring the Limitations of Detecting Machine-Generated Text",
@@ -230,7 +241,7 @@ index:
      publication: "Proceedings of the 8th Workshop on Online Abuse and Harms",
      publisher: "Association of Computational Linguistics",
      shortvenue: "WOAH",
-     type: "Conference Paper",
+     type: "Workshop Paper",
      preprint: "https://arxiv.org/abs/2403.02268",
      doi: "https://doi.org/10.18653/v1/2024.woah-1.22",
      bibtex: "@inproceedings{cercas-curry-etal-2024-subjective,\n    title = {Subjective Isms? On the Danger of Conflating Hate and Offence in Abusive Language Detection},\n    author = {Cercas Curry, Amanda  and\n      Abercrombie, Gavin  and\n      Talat, Zeerak},\n    editor = {Chung, Yi-Ling  and\n      Talat, Zeerak  and\n      Nozza, Debora  and\n      Plaza-del-Arco, Flor Miriam  and\n      R{\"o}ttger, Paul  and\n      Mostafazadeh Davani, Aida  and\n      Calabrese, Agostina},\n    booktitle = {Proceedings of the 8th Workshop on Online Abuse and Harms (WOAH 2024)},\n    month = jun,\n    year = {2024},\n    address = {Mexico City, Mexico},\n    publisher = {Association for Computational Linguistics},\n    url = {https://aclanthology.org/2024.woah-1.22/},\n    doi = {10.18653/v1/2024.woah-1.22},\n    pages = {275--282}\n}
