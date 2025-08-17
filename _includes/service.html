@@ -37,14 +37,14 @@
     <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Events Organised</h3></center>
 
     {% assign event_types =
-    "Conference:#9c27b0,Workshop:#008000,Panel:#009688,CRAFT Session:#4caf50,Roundtable:#ffbf00,Special Session:#efcc00,Tutorial:#f0e68c" | split: "," %}
+    "Conference:#9c27b0,Workshop:#008000,CRAFT Session:#4caf50,Panel:#009688,Roundtable:#0093af,Special Session:#006994,Tutorial:#062a78" | split: "," %}
   <div id="pub-type-legend" style="margin-bottom: 20px;">
     <center>
     {% for entry in event_types %}
     {% assign parts = entry | split: ":" %}
     {% assign event_type = parts[0] %}
     {% assign color = parts[1] %}
-      <span style="display: inline-block; width: 12px; height: 12px; background: {{ color }}; margin-right: 2px;"></span>
+      <span style="display: inline-block; width: 12px; height: 12px; background: {{ color }}; margin-left: 10px; margin-right: 5px"></span>
       {{ event_type }}
     </a>
     {% endfor %}
