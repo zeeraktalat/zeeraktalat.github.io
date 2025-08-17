@@ -5,7 +5,7 @@
         <ul>
           {% assign positions = site.data.service.elected | where: "type", "AC"  %}
           {% for position in positions %}
-          <li>
+          <li style="list-style-type: none; margin:0; margin-bottom: 5px;">
             {% if position.area %}
               <b>{{ position.position }} ({{ position.area }}) </b> |
             {% else %}
@@ -23,7 +23,7 @@
         <ul>
           {% assign positions = site.data.service.elected | where: "type", "Board" %}
           {% for position in positions %}
-          <li>
+          <li style="list-style-type: none; margin:0; margin-bottom: 5px;">
             <b>{{ position.position }} | <i>{{ position.venue }}</i> </b>| {{ position.year }} <br />
             {% if event.webpage %}
               <a href=" {{event.website }}">{{ event.abbrev }}</a>
@@ -35,10 +35,37 @@
   </div>
   <div>
     <center><h3 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Events Organised</h3></center>
+
+    {% assign event_types =
+    "Conference:#9c27b0,Workshop:#008000,Panel:#009688,CRAFT Session:#4caf50,Roundtable:#ffbf00,Special Session:#efcc00,Tutorial:#f0e68c" | split: "," %}
+  <div id="pub-type-legend" style="margin-bottom: 20px;">
+    <center>
+    {% for entry in event_types %}
+    {% assign parts = entry | split: ":" %}
+    {% assign event_type = parts[0] %}
+    {% assign color = parts[1] %}
+      <span style="display: inline-block; width: 12px; height: 12px; background: {{ color }}; margin-right: 2px;"></span>
+      {{ event_type }}
+    </a>
+    {% endfor %}
+    </center>
+  </div>
+
     <p>
       <ul>
-        {% for event in  site.data.service.organisation %}
-        <li>[<b>{{ event.type }}</b>] {{ event.title }} ({{ event.year }}) | {{ event.venue }}
+        {% assign events = site.data.service.organisation %}
+        {% for event in events %}
+          {% assign event_color = "#999" %}
+          {% for entry in event_types %}
+            {% assign pair = entry | split: ":" %}
+            {% if pair[0] == event.type %}
+              {% assign event_color = pair[1] %}
+            {% endif %}
+          {% endfor %}
+
+        <li style="list-style-type: none; margin:0; margin-bottom: 10px;">
+          <span style="display: inline-block; width: 12px; height: 12px; background: {{ event_color }}; margin-right: 5px;"></span>
+          <b>{{ event.title }}</b> | {{ event.year }} | {{ event.venue }} | <i>{{event.collabs }}</i>
         {% if event.webpage %}
         | <a href=" {{event.webpage }}">{{ event.abbrev }}</a>
         {% endif %}
