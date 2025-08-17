@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Zeerak Talat
-email: zeerak_talat@sfu.ca
+email: z@zeerak.org
 #description: >- # this means to ignore newlines until "baseurl:"
 #  Zeerak Talat's personal website.
 twitter_username: zeeraktalat
