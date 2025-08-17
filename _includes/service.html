@@ -11,7 +11,7 @@
             {% else %}
               <b>{{ position.position }}</b> |
             {% endif %}
-             {{ position.venue }} | {{ position.year }}  <br />
+            <b><i>{{ position.venue }}</i></b> | {{ position.year }}  <br />
           </li>
         {% endfor %}
         </ul>
@@ -24,7 +24,7 @@
           {% assign positions = site.data.service.elected | where: "type", "Board" %}
           {% for position in positions %}
           <li>
-            <b>{{ position.position }}</b> | {{ position.venue }} | {{ position.year }} <br />
+            <b>{{ position.position }} | <i>{{ position.venue }}</i> </b>| {{ position.year }} <br />
             {% if event.webpage %}
               <a href=" {{event.website }}">{{ event.abbrev }}</a>
             {% endif %}
