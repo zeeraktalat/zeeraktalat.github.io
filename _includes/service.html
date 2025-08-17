@@ -3,15 +3,15 @@
       <center><h4 class="fw&#45;bold border&#45;bottom pb&#45;3 mb&#45;5">Conferences</h3></center>
       <p>
         <ul>
-          {% assign positions = site.data.service.elected | where: "type", "AC" %}
+          {% assign positions = site.data.service.elected | where: "type", "AC"  %}
           {% for position in positions %}
           <li>
             {% if position.area %}
-              {{ position.position }} ({{ position.area }}) |
+              <b>{{ position.position }} ({{ position.area }}) </b> |
             {% else %}
-              {{ position.position }} |
+              <b>{{ position.position }}</b> |
             {% endif %}
-             <i>{{ position.venue }}</i> ({{ position.year }}) <br />
+             {{ position.venue }} | {{ position.year }}  <br />
           </li>
         {% endfor %}
         </ul>
@@ -24,7 +24,7 @@
           {% assign positions = site.data.service.elected | where: "type", "Board" %}
           {% for position in positions %}
           <li>
-            {{ position.position }}, <i>{{ position.venue }}</i> ({{ position.year }}) <br />
+            <b>{{ position.position }}</b> | {{ position.venue }} | {{ position.year }} <br />
             {% if event.webpage %}
               <a href=" {{event.website }}">{{ event.abbrev }}</a>
             {% endif %}
