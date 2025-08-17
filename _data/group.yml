@@ -1,0 +1,28 @@
+index:
+  - {
+    name: 'Bengü Gülay',
+    type: 'PhD',
+    web: false,
+    photo: false,
+    topic: 'Privacy-Preserving ML,Fairness in ML',
+    primary: 'me',
+    secondary: false
+    }
+  - {
+    name: 'Vasilisa Rudykh',
+    type: 'PhD',
+    web: false,
+    photo: false,
+    topic: 'Bias and Fairness',
+    primary: 'me',
+    secondary: false
+    }
+  - {
+    name: 'Sam Green',
+    type: 'PhD',
+    web: false,
+    photo: false,
+    topic: 'Education, Human-Machine interaction,',
+    primary: 'me',
+    secondary: 'Susan Lechelt'
+    }

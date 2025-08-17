@@ -1,4 +1,5 @@
 menu:
+  - {name: 'Group', url: '/group'}
   - {name: 'Publications', url: '/publications'}
   - {name: 'Service', url: '/service'}
   - {name: 'Talks', url: '/talks'}

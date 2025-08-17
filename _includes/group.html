@@ -1,0 +1,33 @@
+<div class="row g-5 mb-5">
+  <center>
+    <h3 class="fw-bold">Advi-Zees</h3>
+  </center>
+  <div>
+    {% assign types = "Postdoc,PhD,MSc,Alumna" | split: "," %}
+    {% for type in types %}
+      {% assign advizees = site.data.group.index | where: "type", type %}
+      <div class="advizee-block">
+      {% if advizees.size > 0 %}
+        {% if type == "Postdoc" %}
+          <center><h3 class="pub-type">Post-Docs</h4></center>
+        {% elsif type == "PhD" %}
+          <center><h3 class="pub-type">Ph.D. Students</h4></center>
+        {% elsif type == "M.Sc." %}
+          <center><h3 class="pub-type">M.Sc. Students</h4></center>
+        {% endif %}
+        <hr>
+      {% endif
+      # ends title block %}
+      {% for zee in advizees %}
+      <div class="student-block">
+        <ul>
+          <li style="list-style-type: none"><h5>{{ zee.name }}</h5> | {{ zee.type }}</li>
+        </ul>
+      </div>
+      {% endfor
+      # ends zee for advizees loop %}
+      </div>
+      {% endfor
+      # ends type loop %}
+  </div>
+</div>
