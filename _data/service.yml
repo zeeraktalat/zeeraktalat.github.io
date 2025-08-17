@@ -255,6 +255,11 @@ organisation:
      collabs: "Joris van Hoboken"
      }
 elected:
+  - {venue: "ACM conference on Fairness, Accountability, and Transparency (FAccT)",
+     year: "2026",
+     position: "Co-General Chair",
+     type: "Conference"
+  }
   - {venue: "Edinburgh University Information Services Group Ethics Board",
      year: "2025--",
      position: "Board member",
