@@ -40,6 +40,17 @@ forthcoming:
      }
 
 index:
+  - {name: "Proceedings of the 9th Workshop on Online Abuse and Harms (WOAH 2024)",
+     authors: "Agostina Calabrese, Christine de Kock, Debora Nozza, Flor Miriam Plaza-del-Arco, <b>Zeerak Talat</b>, Francielle Vargas",
+     publication: "Proceedings of the 9th Workshop on Online Abuse and Harms",
+     publisher: "Association of Computational Linguistics",
+     shortvenue: "WOAH",
+     type: "Proceedings",
+     date: "2025",
+     url: "https://aclanthology.org/volumes/2025.woah-1/",
+     doi: false,
+     bibtex: "@proceedings{woah-ws-2025-1,\n    title = 'Proceedings of the The 9th Workshop on Online Abuse and Harms (WOAH)',\n    editor = 'Calabrese, Agostina  and\n      de Kock, Christine  and\n      Nozza, Debora  and\n      Plaza-del-Arco, Flor Miriam  and\n      Talat, Zeerak  and\n      Vargas, Francielle',\n    month = aug,\n    year = '2025',\n    address = 'Vienna, Austria',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2025.woah-1.0/',\n    ISBN = '979-8-89176-105-6'\n}",
+  }
   - {name: "Pathways to Radicalisation: On Research for Online Radicalisation in Natural Language Processing and Machine Learning",
      authors: "<b>Zeerak Talat</b>, Michael Sejr Schlichtkrull, Pranava Madhyastha, Christine De Kock",
      editors: "Agostina Calabrese, Christine de Kock, Debora Nozza, Flor Miriam Plaza-del-Arco, Zeerak Talat, Francielle Vargas",
@@ -49,6 +60,7 @@ index:
      type: "Workshop Paper",
      date: "2025",
      doi: false,
+     url: "https://aclanthology.org/2025.woah-1.25/",
      bibtex: "@inproceedings{talat-etal-2025-pathways,\n    title = 'Pathways to Radicalisation: On Research for Online Radicalisation in Natural Language Processing and Machine Learning',\n    author = 'Talat, Zeerak  and\n      Schlichtkrull, Michael Sejr  and\n      Madhyastha, Pranava  and\n      De Kock, Christine',\n    editor = 'Calabrese, Agostina  and\n      de Kock, Christine  and\n      Nozza, Debora  and\n      Plaza-del-Arco, Flor Miriam  and\n      Talat, Zeerak  and\n      Vargas, Francielle',\n    booktitle = 'Proceedings of the The 9th Workshop on Online Abuse and Harms (WOAH)',\n    month = aug,\n    year = '2025',\n    address = 'Vienna, Austria',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2025.woah-1.25/',\n    pages = '276--283',\n    ISBN = '979-8-89176-105-6',\n    abstract = 'Online communities play an integral part in communication for communication across the globe. Online communities that are known for extremist content. As a field of surveillance technologies, NLP and other ML fields hold particular promise for monitoring extremist communities that may turn violent.Such communities make use of a wide variety of modalities of communication, including textual posts on specialised fora, memes, videos, and podcasts. Furthermore, such communities undergo rapid linguistic evolution, thus presenting a challenge to machine learning technologies that quickly diverge from the data that are used. In this position, we argue that radicalisation is a nascent area for which machine learning is particularly apt. However, in addressing radicalisation research it is important that avoids falling into the temptation of focusing on prediction. We argue that such communities present a particular avenue for addressing key concerns with machine learning technologies: (1) temporal misalignment of models and (2) aligning and linking content across modalities.'\n}"
   }
   - {name: "The Role of Expertise in Effectively Moderating Harmful Social Media Content",

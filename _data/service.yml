@@ -255,22 +255,22 @@ organisation:
      collabs: "Joris van Hoboken"
      }
 elected:
-  - {venue: "ACM conference on Fairness, Accountability, and Transparency (FAccT)",
+  - {venue: "ACM FAccT",
      year: "2026",
      position: "Co-General Chair",
-     type: "Conference"
+     type: "AC"
   }
   - {venue: "Edinburgh University Information Services Group Ethics Board",
      year: "2025--",
      position: "Board member",
      type: "Board"
   }
-  - {venue: "Equity in ACL (EquiCL)",
+  - {venue: "EquiCL",
      year: "2024--2026",
      position: "President",
      type: "Board"
   }
-  - {venue: "Association for Computational Linguistics",
+  - {venue: "ACL",
      year: "2024--2027",
      position: "Workshop Officer",
      type: "Board"
@@ -281,7 +281,7 @@ elected:
      type: "AC"
   }
   - {venue: "EACL",
-     year: "2023 & 2024",
+     year: "2023, 2024",
      position: "Workshop Chair",
      type: "AC"
   }
@@ -324,12 +324,12 @@ elected:
      website: "https://www.winlp.org/organization/",
      type: "Board"
   }
-  - {venue: "Equity, Diversity, and Inclusion Board, Department of Computer Science, University of Sheffield",
+  - {venue: "Equity, Diversity, and Inclusion Board | Department of Computer Science, University of Sheffield",
      year: "2019-2020",
      position: "Board Member",
      type: "Board"
   }
-  - {venue: "University Research Ethics Committee, University of Sheffield",
+  - {venue: "University Research Ethics Committee | University of Sheffield",
      year: "2018-2020",
      position: "Committee Member",
      type: "Board"
