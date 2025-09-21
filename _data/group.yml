@@ -5,8 +5,10 @@ index:
     web: false,
     photo: false,
     topic: 'Privacy-Preserving ML,Fairness in ML',
-    primary: 'me',
-    secondary: false
+    primary: 'Zeerak Talat',
+    primary_url: false,
+    secondary: false,
+    secondary_url: false
     }
   - {
     name: 'Vasilisa Rudykh',
@@ -14,8 +16,10 @@ index:
     web: false,
     photo: false,
     topic: 'Bias and Fairness',
-    primary: 'me',
-    secondary: false
+    primary: 'Zeerak Talat',
+    primary_url: false,
+    secondary: false,
+    secondary_url: false
     }
   - {
     name: 'Sam Green',
@@ -23,6 +27,19 @@ index:
     web: false,
     photo: false,
     topic: 'Education, Human-Machine interaction,',
-    primary: 'me',
-    secondary: 'Susan Lechelt'
+    primary: 'Zeerak Talat',
+    primary_url: false
+    secondary: 'Susan Lechelt',
+    secondary_url: 'https://www.research.ed.ac.uk/en/persons/susan-lechelt'
     }
+  - {
+    name: 'Mugdha Pandya',
+    type: 'PhD',
+    web: false,
+    photo: false,
+    topic: 'Content moderation, hate speech, decoloniality',
+    primary: 'Björn Ross',
+    primary_url: 'https://sweb.inf.ed.ac.uk/bross3/',
+    secondary: 'yes',
+    secondary_url: false
+}
