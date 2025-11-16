@@ -25,7 +25,7 @@ forthcoming:
      doi: false,
      preprint: '/papers/Evaluating_the_Social_Impact_of_Generative_AI_Systems_in_Systems_and_Society__preprint_.pdf',
      bibtex: false,
-     }
+  }
   - {name: "Content Moderation",
      authors: "<b>Zeerak Talat</b>",
      editors: "Eds. Kathrin Maurer, Rikke Munck Petersen, Dominique Routhier, Kassandra Wellendorf, and Kristin Veel",
@@ -37,9 +37,48 @@ forthcoming:
      preprint: "/papers/Content_moderation_preprint.pdf",
      doi: false,
      bibtex: false,
-     }
+  }
+  - {name: "Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization",
+     authors: "Masahiro Kaneko, <b>Zeerak Talat</b>, Timothy Baldwin"
+     editors: "Sakriani Sakti, Haofen Wang, Derek F. Wong",
+     publication: "Proceedings of the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics, 2025",
+     publisher: "Association of Computational Linguistics",
+     shortvenue: "IJCNLP-AACL",
+     type: "Conference Paper",
+     date: "2025",
+     preprint: "https://arxiv.org/abs/2510.17006",
+     doi: false,
+     bibtex: "@misc{kaneko2025onlinelearningdefenseiterative,\n      title={Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization},\n      author={Masahiro Kaneko and Zeerak Talat and Timothy Baldwin},\n      year={2025},\n      eprint={2510.17006},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2510.17006},\n}",
+  }
 
 index:
+  - {name: "Personal Attribute Leakage in Federated Speech Models",
+     authors: "Hamdan Al-Ali, Ali Reza Ghavamipour, Tommaso Caselli, Fatih Turkmen, <b>Zeerak Talat</b>, Hanan Aldarmaki",
+     shortvenue: "",
+     type: "Permaprint",
+     date: "2025",
+     preprint: "Personal Attribute Leakage in Federated Speech Models",
+     doi: false,
+     bibtex: "@misc{alali2025personalattributeleakagefederated,\n      title={Personal Attribute Leakage in Federated Speech Models}, \n      author={Hamdan Al-Ali and Ali Reza Ghavamipour and Tommaso Caselli and Fatih Turkmen and Zeerak Talat and Hanan Aldarmaki},\n      year={2025},\n      eprint={2510.13357},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2510.13357}, \n}" ,
+  }
+  - {name: "Code-Switching in End-to-End Automatic Speech Recognition: A Systematic Literature Review",
+     authors: "Maha Tufail Agro, Atharva Kulkarni, Karima Kadaoui, <b>Zeerak Talat</b>, Hanan Aldarmaki",
+     shortvenue: "",
+     type: "Permaprint",
+     date: "2025",
+     preprint: "https://arxiv.org/abs/2507.07741",
+     doi: false,
+     bibtex: "@misc{agro2025codeswitchingendtoendautomaticspeech,\n      title={Code-Switching in End-to-End Automatic Speech Recognition: A Systematic Literature Review}, \n      author={Maha Tufail Agro and Atharva Kulkarni and Karima Kadaoui and Zeerak Talat and Hanan Aldarmaki},\n      year={2025},\n      eprint={2507.07741},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2507.07741},}",
+  }
+  - {name: "IYKYK: Using language models to decode extremist cryptolects",
+     authors: "Christine de Kock, Arij Riabi, <b>Zeerak Talat</b>, Michael Sejr Schlichtkrull, Pranava Madhyastha, Ed Hovy",
+     shortvenue: "",
+     type: "Permaprint",
+     date: "2025",
+     preprint: "https://arxiv.org/abs/2506.05635",
+     doi: false,
+     bibtex: "@misc{dekock2025iykykusinglanguagemodels,\n      title={IYKYK: Using language models to decode extremist cryptolects}, \n      author={Christine de Kock and Arij Riabi and Zeerak Talat and Michael Sejr Schlichtkrull and Pranava Madhyastha and Ed Hovy},\n      year={2025},\n      eprint={2506.05635},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2506.05635},\n}" ,
+  }
   - {name: "Proceedings of the 9th Workshop on Online Abuse and Harms (WOAH 2024)",
      authors: "Agostina Calabrese, Christine de Kock, Debora Nozza, Flor Miriam Plaza-del-Arco, <b>Zeerak Talat</b>, Francielle Vargas",
      publication: "Proceedings of the 9th Workshop on Online Abuse and Harms",
