@@ -38,20 +38,6 @@ forthcoming:
      doi: false,
      bibtex: false,
   }
-  - {name: "Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization",
-     authors: "Masahiro Kaneko, <b>Zeerak Talat</b>, Timothy Baldwin"
-     editors: "Sakriani Sakti, Haofen Wang, Derek F. Wong",
-     publication: "Proceedings of the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics, 2025",
-     publisher: "Association of Computational Linguistics",
-     shortvenue: "IJCNLP-AACL",
-     type: "Conference Paper",
-     date: "2025",
-     preprint: "https://arxiv.org/abs/2510.17006",
-     doi: false,
-     bibtex: "@misc{kaneko2025onlinelearningdefenseiterative,\n      title={Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization},\n      author={Masahiro Kaneko and Zeerak Talat and Timothy Baldwin},\n      year={2025},\n      eprint={2510.17006},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2510.17006},\n}",
-  }
-
-index:
   - {name: "Personal Attribute Leakage in Federated Speech Models",
      authors: "Hamdan Al-Ali, Ali Reza Ghavamipour, Tommaso Caselli, Fatih Turkmen, <b>Zeerak Talat</b>, Hanan Aldarmaki",
      shortvenue: "",
@@ -78,6 +64,20 @@ index:
      preprint: "https://arxiv.org/abs/2506.05635",
      doi: false,
      bibtex: "@misc{dekock2025iykykusinglanguagemodels,\n      title={IYKYK: Using language models to decode extremist cryptolects}, \n      author={Christine de Kock and Arij Riabi and Zeerak Talat and Michael Sejr Schlichtkrull and Pranava Madhyastha and Ed Hovy},\n      year={2025},\n      eprint={2506.05635},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2506.05635},\n}" ,
+  }
+
+index:
+  - {name: "Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization",
+     authors: "Masahiro Kaneko, <b>Zeerak Talat</b>, Timothy Baldwin",
+     editors: "Sakriani Sakti, Haofen Wang, Derek F. Wong",
+     publication: "Proceedings of the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics, 2025",
+     publisher: "Association of Computational Linguistics",
+     shortvenue: "IJCNLP-AACL",
+     type: "Conference Paper",
+     date: "2025",
+     preprint: "https://arxiv.org/abs/2510.17006",
+     doi: false,
+     bibtex: "@misc{kaneko2025onlinelearningdefenseiterative,\n      title={Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization},\n      author={Masahiro Kaneko and Zeerak Talat and Timothy Baldwin},\n      year={2025},\n      eprint={2510.17006},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2510.17006},\n}",
   }
   - {name: "Proceedings of the 9th Workshop on Online Abuse and Harms (WOAH 2024)",
      authors: "Agostina Calabrese, Christine de Kock, Debora Nozza, Flor Miriam Plaza-del-Arco, <b>Zeerak Talat</b>, Francielle Vargas",
