@@ -65,6 +65,15 @@ forthcoming:
      doi: false,
      bibtex: "@misc{dekock2025iykykusinglanguagemodels,\n      title={IYKYK: Using language models to decode extremist cryptolects}, \n      author={Christine de Kock and Arij Riabi and Zeerak Talat and Michael Sejr Schlichtkrull and Pranava Madhyastha and Ed Hovy},\n      year={2025},\n      eprint={2506.05635},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2506.05635},\n}" ,
   }
+  - {name: "Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations",
+     authors: "Anka Reuel, Avijit Ghosh, Jenny Chim, Andrew Tran, Yanan Long, Jennifer Mickel, Usman Gohar, Srishti Yadav, Pawan Sasanka Ammanamanchi, Mowafak Allaham, Hossein A. Rahmani, Mubashara Akhtar, Felix Friedrich, Robert Scholz, Michael Alexander Riegler, Jan Batzner, Eliya Habba, Arushi Saxena, Anastassia Kornilova, Kevin Wei, Prajna Soni, Yohan Mathew, Kevin Klyman, Jeba Sania, Subramanyam Sahoo, Olivia Beyer Bruvik, Pouya Sadeghi, Sujata Goswami, Angelina Wang, Yacine Jernite, <b>Zeerak Talat</b>, Stella Biderman, Mykel Kochenderfer, Sanmi Koyejo, Irene Solaiman",
+     shortvenue: "",
+     type: "Conference Paper",
+     date: "0",
+     preprint: "https://arxiv.org/abs/2511.05613",
+     doi: false,
+     bibtex: "@misc{reuel2025evaluatesaissocialimpacts,\n      title={Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations}, \n      author={Anka Reuel and Avijit Ghosh and Jenny Chim and Andrew Tran and Yanan Long and Jennifer Mickel and Usman Gohar and Srishti Yadav and Pawan Sasanka Ammanamanchi and Mowafak Allaham and Hossein A. Rahmani and Mubashara Akhtar and Felix Friedrich and Robert Scholz and Michael Alexander Riegler and Jan Batzner and Eliya Habba and Arushi Saxena and Anastassia Kornilova and Kevin Wei and Prajna Soni and Yohan Mathew and Kevin Klyman and Jeba Sania and Subramanyam Sahoo and Olivia Beyer Bruvik and Pouya Sadeghi and Sujata Goswami and Angelina Wang and Yacine Jernite and Zeerak Talat and Stella Biderman and Mykel Kochenderfer and Sanmi Koyejo and Irene Solaiman},\n      year={2025},\n      eprint={2511.05613},\n      archivePrefix={arXiv},\n      primaryClass={cs.CY},\n      url={https://arxiv.org/abs/2511.05613}, \n}",
+  }
 
 index:
   - {name: "Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization",
