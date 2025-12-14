@@ -1,12 +1,35 @@
 index:
-  - {name: "On the Promise of Equitable Machine Learning Technologies",
-     host: "New Perspectives on Bias and Discrimination in Language Technology",
-     day: "05",
+  - {name: "NLP for the People or the People for NLP?",
+     host: "Heidelberg Future of NLP Symposium",
+     day: "25",
      month: "Nov",
-     year: "2024",
-     slides: "/slides/talks/wai_2024.pdf",
-     type: "keynote"
+     year: "2025",
+     slides: "/slides/talks/heidelberg_2025.pdf",
+     type: "Invited Talk"
   }
+  - {name: "On the Futility of Evaluation",
+     host: "MacArthur Foundation",
+     day: "17",
+     month: "Nov",
+     year: "2025",
+     slides: "/slides/talks/macarthur_2025.pdf",
+     type: "Invited Talk"
+  }
+  - {name: "Is machine learning a Neutral, Woke, or Fascist Technic?",
+     host: "Interdisciplinary Institute for Societal Computing (I2SC)",
+     day: "27",
+     month: "Jul",
+     year: "2025",
+     slides: "/slides/talks/ic2s_2025.pdf",
+     type: "Invited Talk"
+  }
+  - {name: "Opportunities and challenges in large language models for health research: A multidisciplinary perspective on surfacing social inequalities, bias detection, and mitigation with Aliya Amirova, Fiona Strachan, and Julia Ive, moderated by Paulina Bondaronek",
+     host: "Healtech",
+     day: "17",
+     month: "Jun",
+     year: "2025",
+     type: "Panel"
+    }
   - {name: "Fireside Chat with Abeba Birhane an Roel Dobbe on What Accountability Means in the Current AI Climate.",
      host: "AI Accountability Lab",
      day: "28",
