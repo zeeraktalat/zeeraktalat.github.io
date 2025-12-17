@@ -373,6 +373,7 @@ index:
      date: "2023",
      type: "Book Chapter",
      doi: "https://doi.org/10.4337/9781803928562.00016",
+     preprint: "/papers/It_is_incomprehensible_On_machine_learning_and_Decoloniality.pdf",
      bibtex: "@incollection{birhaneItIncomprehensibleMachine2023,\n	title = {It’s incomprehensible: on machine learning and decoloniality},\n	copyright = {All rights reserved},\n	isbn = {978-1-80392-856-2 978-1-80392-855-5},\n	shorttitle = {It’s incomprehensible},\n	url = {https://www.elgaronline.com/view/book/9781803928562/book-part-9781803928562-16.xml},\n	urldate = {2023-11-23},\n	booktitle = {Handbook of {Critical} {Studies} of {Artificial} {Intelligence}},\n	publisher = {Edward Elgar Publishing},\n	author = {Birhane, Abeba and Talat, Zeerak},\n	editor = {Lindgren, Simon},\n	month = nov,\n	year = {2023},\n	doi = {10.4337/9781803928562.00016},\n	pages = {128--140},\n}
 ",
   }
