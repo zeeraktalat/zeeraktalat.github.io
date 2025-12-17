@@ -1,4 +1,18 @@
 index:
+  - {type: "Course",
+     institution: "University of Edinburgh",
+     course: "Algorithmic Bias, Fairness, and Justice",
+     year: "2024/2025, 2025/2026",
+     sem: "Semester 2"
+     }
+  - {type: "Lecture",
+     institution: "University of Edinburgh",
+     course: "Case Studies in AI",
+     month: "Mar",
+     year: "2024/2025",
+     title: "Evaluating and Mitigating Biases in Machine Learning",
+     slides: "/slides/teaching/guest/csai_2024_2025.pdf"
+     }
   - {type: "Lecture",
      institution: "Mohamed Bin Zayed University of Artificial Intelligence",
      course: "Research Training",
