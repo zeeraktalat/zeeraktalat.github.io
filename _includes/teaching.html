@@ -1,9 +1,9 @@
 <div class="row g-5 mb-5">
   <div>
-    {% assign types = "Lecture,Teaching Assistant,Practicals" | split: "," %}
+    {% assign types = "Course,Lecture,Teaching Assistant,Practicals" | split: "," %}
     {% for type in types  %}
-      {% if type == "Lecture" %}
-        <center><h4 class="pub-type">Lectures</h4></center>
+      {% if type == "Course" %}
+        <center><h4 class="pub-type">Course</h4></center>
       {% else %}
         <center><h4 class="pub-type">{{ type }}</h4></center>
       {% endif %}
@@ -11,8 +11,11 @@
       {% assign courses = site.data.teaching.index | where: "type", type %}
       {% for course in courses %}
       <p>
-        <li> {{ course.title }} | <i>{{ course.course }}, {{ course.institution }}</i> | {{ course.month }}, {{ course.year }} <br>
-          [<b>{{ course.type }}</b>]
+        {% if type != "Course" %}
+          <li> {{ course.title }} | <i>{{ course.course }}, {{ course.institution }}</i> | {{ course.month }}, {{ course.year }} <br>
+        {% else %}
+        <li> {{ course.course }} | {{ course.institution }}</i> | {{ course.sem}} | {{ course.year }} <br>
+        {% endif %}
           {% if course.slides %}
             <a href=" {{course.slides }} ">[Slides]</a>
           {% endif %}
