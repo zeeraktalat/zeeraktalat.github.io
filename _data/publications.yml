@@ -64,6 +64,16 @@ forthcoming:
   }
 
 index:
+  - {name: "Ethics and Bias in Natural Language Processing",
+     authors: "<b>Zeerak Talat</b> and Su Lin Blodgett",
+     shortvenue: "",
+     type: "Book Chapter",
+     date: "2025",
+     doi: "10.1016/B978-0-323-95504-1.01226-6",
+     publication: "Reference Module in Social Sciences",
+     publisher: "Elsevier",
+     bibtex: "@incollection{talat_ethics_2025,\n	title = {Ethics and {Bias} in {Natural} {Language} {Processing}},\n	copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},\n	isbn = {978-0-443-15785-1},\n	url = {https://linkinghub.elsevier.com/retrieve/pii/B9780323955041012266},\n	language = {en},\n	urldate = {2025-12-05},\n	booktitle = {Reference {Module} in {Social} {Sciences}},\n	publisher = {Elsevier},\n	author = {Talat, Zeerak and Blodgett, Su Lin},\n	year = {2025},\n	doi = {10.1016/B978-0-323-95504-1.01226-6},\n	pages = {B9780323955041012266},\n}",
+  }
   - {name: "Evaluating the Social Impact of Generative AI Systems in Systems and Society",
      authors: "Irene Solaiman*, <b>Zeerak Talat</b>*, William Agnew, Lama Ahmad, Dylan Baker, Su Lin Blodgett, Canyu Chen, Hal Daumé III, Jesse Dodge, Isabella Duan, Felix Friedrich, Avijit Ghosh, Usman Gohar, Sara Hooker, Yacine Jernite, Ria Kalluri, Alberto Lusoli, Alina Leidinger, Michelle Lin, Xiuzhu Lin, Sasha Luccioni, Jennifer Mickel, Margaret Mitchell, Jessica Newman, Anaelia Ovalle, Marie-Therese Png, Shubham Singh, Andrew Strait, Lukas Struppek, Arjun Subramonian",
      editors: "Eds. Philip Hacker, Andreas Engel, Sarah Hammer, Brent Mittelstadt",
@@ -74,7 +84,7 @@ index:
      date: "2025",
      doi: "https://doi.org/10.1093/oxfordhb/9780198940272.013.0025",
      preprint: '/papers/Evaluating_the_Social_Impact_of_Generative_AI_Systems_in_Systems_and_Society__preprint_.pdf',
-     bibtex: false,
+     bibtex: "@incollection{hacker_evaluating_2025,\n	edition = {1},\n	title = {Evaluating the {Social} {Impact} of {Generative} {AI} {Systems}},\n	isbn = {978-0-19-894027-2 978-0-19-894030-2},\n	url = {https://academic.oup.com/edited-volume/59908/chapter/544536706},\n	language = {en},\n	urldate = {2025-12-27},\n	booktitle = {The {Oxford} {Handbook} of the {Foundations} and {Regulation} of {Generative} {AI}},\n	publisher = {Oxford University Press},\n	author = {Solaiman, Irene and Talat, Zeerak and Agnew, William and Ahmad, Lama and Baker, Dylan K. and Blodgett, Su Lin and Chen, Canyu and Daumé, Hal and Dodge, Jesse and Duan, Isabella and Evans, Ellie and Friedrich, Felix and Ghosh, Avijit and Gohar, Usman and Hooker, Sara and Jernite, Yacine and Kalluri, Pratyusha Ria and Leidinger, Alina and Lusoli, Alberto and Lin, Michelle and Lin, Xiuzhu and Luccioni, Sasha and Mickel, Jennifer and Mitchell, Margaret and Newman, Jessica and Ovalle, Anaelia and Png, Marie-Therese and Singh, Shubham and Strait, Andrew and Struppek, Lukas and Subramonian, Arjun and Vassilev, Apostol},\n	editor = {Hacker, Philipp and Engel, Andreas and Hammer, Sarah and Mittelstadt, Brent},\n	month = dec,\n	year = {2025},\n	doi = {10.1093/oxfordhb/9780198940272.013.0025},\n}",
   }
   - {name: "Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization",
      authors: "Masahiro Kaneko, <b>Zeerak Talat</b>, Timothy Baldwin",
