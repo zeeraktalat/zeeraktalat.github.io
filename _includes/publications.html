@@ -47,11 +47,11 @@
             <strong style="font-weight: 1000;">{{ pub.name }}. </strong> <br>
             {{ pub.authors }}. <br />
             {% if pub.type == "Book Chapter" %}
-              <strong style="font-weight: 400;"><i>{{ pub.publication }}</i></strong>.
+              <strong style="font-weight: 400;"><i>{{ pub.publication }}</i></strong>
               {% if pub.editors %}
-                <i>{{ pub.editors }}.</i> {{pub.publisher}}. <br />
+                <i> {{ pub.editors }}.</i> {{pub.publisher}}. <br />
               {% else %}
-                {{pub.publisher}}. <br />
+                 {{pub.publisher}}. <br />
               {% endif %}
             {% endif %}
             {% if pub.preprint %}
@@ -98,41 +98,45 @@
           <strong style="font-weight: 1000;">{{ pub.name }} </strong> <br>
           {{ pub.authors }}. <br>
           {% if pub.shortvenue %}
-          <strong style="font-weight: 500;"><i>{{ pub.shortvenue }} {{ pub.date }}</i></strong>.<br>
+            <strong style="font-weight: 500;"><i>{{ pub.shortvenue }} {{ pub.date }}</i></strong>.<br>
           {% else %}
-          <strong style="font-weight: 500;"><i>{{ pub.publication }}</i></strong>.<br>
-          {% endif %}
-          {% if pub.type == "Book Chapter" %}
-          <i>{{ pub.editors }}.</i> {{pub.publisher}}. <br />
-          {% endif %}
-          {% if pub.doi %}
-          <a href="{{ pub.doi }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/doi.png" style="width:20px;height:20px;"> Paper</button></a>&nbsp;&nbsp;
-          {% endif %}
-          {% if pub.url %}
-          {% unless pub.doi %}
-          <i class="fas fa-file-pdf"></i> <a href="{{ pub.url }}" target="_blank"><button class='styled_button' type='button'>Paper</button></a>&nbsp;&nbsp;
-          {% endunless %}
-          {% endif %}
-          {% if pub.preprint %}
-          {% unless pub.url %}
-          <i class="fas fa-file-pdf"></i> <a href="{{ pub.preprint }}" target="_blank"><button class='styled_button' type='button'>Preprint</button></a>&nbsp;&nbsp;
-          {% endunless %}
-          {% endif %}
-          {% if pub.github %}
-          <a href="{{ pub.github }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/github.png" style="width:20px;height:20px"> Code</button></a>&nbsp;&nbsp;
-          {% endif %}
-          {% if pub.zenodo %}
-          <i class="fa-solid fa-database"></i><a href="{{ pub.zenodo }}" target="_blank"><button class='styled_button' type='button'>&nbsp;&nbsp;
-              Data
-            </button></a>&nbsp;&nbsp;
+            <strong style="font-weight: 500;"><i>{{ pub.publication }}</i></strong>.<br>
             {% endif %}
-            {% if pub.video%}
-            <i class="fa-solid fa-video"></i><a href="{{ pub.video }}" target="_blank"><button class='styled_button' type='button'>&nbsp; Video</button></a>&nbsp;&nbsp;
+            {% if pub.type == "Book Chapter" %}
+              {% if pub.editors %}
+                <i>{{ pub.editors }}.</i> {{pub.publisher}}. <br /
+              {% else %}
+                {{pub.publisher}}. <br /
+              {% endif %}
             {% endif %}
-            {% if pub.bibtex %}
-            <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
-            <span class="bibtex-box" > {{pub.bibtex}}
-            </span>
+            {% if pub.doi %}
+              <a href="{{ pub.doi }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/doi.png" style="width:20px;height:20px;"> Paper</button></a>&nbsp;&nbsp;
+            {% endif %}
+            {% if pub.url %}
+              {% unless pub.doi %}
+                <i class="fas fa-file-pdf"></i> <a href="{{ pub.url }}" target="_blank"><button class='styled_button' type='button'>Paper</button></a>&nbsp;&nbsp;
+              {% endunless %}
+            {% endif %}
+            {% if pub.preprint %}
+              {% unless pub.url %}
+              <i class="fas fa-file-pdf"></i> <a href="{{ pub.preprint }}" target="_blank"><button class='styled_button' type='button'>Preprint</button></a>&nbsp;&nbsp;
+              {% endunless %}
+            {% endif %}
+            {% if pub.github %}
+              <a href="{{ pub.github }}" target="_blank"><button class='styled_button' type='button'><img src="/assets/img/github.png" style="width:20px;height:20px"> Code</button></a>&nbsp;&nbsp;
+            {% endif %}
+            {% if pub.zenodo %}
+              <i class="fa-solid fa-database"></i><a href="{{ pub.zenodo }}" target="_blank"><button class='styled_button' type='button'>&nbsp;&nbsp;
+                Data
+              </button></a>&nbsp;&nbsp;
+              {% endif %}
+              {% if pub.video%}
+                <i class="fa-solid fa-video"></i><a href="{{ pub.video }}" target="_blank"><button class='styled_button' type='button'>&nbsp; Video</button></a>&nbsp;&nbsp;
+              {% endif %}
+              {% if pub.bibtex %}
+                <i class="fas fa-quote-right"></i> <span class="bibtex-toggle" onclick="this.nextElementSibling.style.display = (this.nextElementSibling.style.display === 'block') ? 'none' : 'block';">BibTeX</span>
+                <span class="bibtex-box" > {{pub.bibtex}}
+                </span>
             {% endif %}
         </li>
         {% endfor %}
