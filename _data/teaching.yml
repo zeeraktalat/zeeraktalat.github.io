@@ -1,4 +1,22 @@
 index:
+  - {type: "Lecture",
+     institution: "University of Edinburgh",
+     course: "Advanced Topics in Machine Learning",
+     month: "Mar",
+     year: "2025/2026",
+     sem: "sem 2",
+     title: "Evaluating Generative AI",
+     slides: "/slides/teaching/guest/atml_2024_2025.pdf"
+     }
+  - {type: "Lecture",
+     institution: "University of Edinburgh",
+     course: "Advanced Topics in Natural Language Processing",
+     month: "Mar",
+     year: "2025/2026",
+     sem: "sem 2",
+     title: "Bias in Natural Language Processing",
+     slides: "/slides/teaching/guest/atml_2024_2025.pdf"
+     }
   - {type: "Course",
      institution: "University of Edinburgh",
      course: "Algorithmic Bias, Fairness, and Justice",
@@ -18,6 +36,7 @@ index:
      course: "Research Training",
      year: "2023",
      month: "Oct",
+     sem: "sem 1",
      title: "Ethics, Fairness, and Bias in Machine Learning",
      slides: "/slides/teaching/guest/mbzuai.pdf"
   }
