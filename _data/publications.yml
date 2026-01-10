@@ -44,15 +44,6 @@ forthcoming:
      doi: false,
      bibtex: "@misc{agro2025codeswitchingendtoendautomaticspeech,\n      title={Code-Switching in End-to-End Automatic Speech Recognition: A Systematic Literature Review}, \n      author={Maha Tufail Agro and Atharva Kulkarni and Karima Kadaoui and Zeerak Talat and Hanan Aldarmaki},\n      year={2025},\n      eprint={2507.07741},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2507.07741},}",
   }
-  - {name: "IYKYK: Using language models to decode extremist cryptolects",
-     authors: "Christine de Kock, Arij Riabi, <b>Zeerak Talat</b>, Michael Sejr Schlichtkrull, Pranava Madhyastha, Ed Hovy",
-     shortvenue: "",
-     type: "Conference Paper",
-     date: "0",
-     preprint: "https://arxiv.org/abs/2506.05635",
-     doi: false,
-     bibtex: "@misc{dekock2025iykykusinglanguagemodels,\n      title={IYKYK: Using language models to decode extremist cryptolects}, \n      author={Christine de Kock and Arij Riabi and Zeerak Talat and Michael Sejr Schlichtkrull and Pranava Madhyastha and Ed Hovy},\n      year={2025},\n      eprint={2506.05635},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2506.05635},\n}" ,
-  }
   - {name: "Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations",
      authors: "Anka Reuel, Avijit Ghosh, Jenny Chim, Andrew Tran, Yanan Long, Jennifer Mickel, Usman Gohar, Srishti Yadav, Pawan Sasanka Ammanamanchi, Mowafak Allaham, Hossein A. Rahmani, Mubashara Akhtar, Felix Friedrich, Robert Scholz, Michael Alexander Riegler, Jan Batzner, Eliya Habba, Arushi Saxena, Anastassia Kornilova, Kevin Wei, Prajna Soni, Yohan Mathew, Kevin Klyman, Jeba Sania, Subramanyam Sahoo, Olivia Beyer Bruvik, Pouya Sadeghi, Sujata Goswami, Angelina Wang, Yacine Jernite, <b>Zeerak Talat</b>, Stella Biderman, Mykel Kochenderfer, Sanmi Koyejo, Irene Solaiman",
      shortvenue: "",
@@ -64,11 +55,22 @@ forthcoming:
   }
 
 index:
+  - {name: "IYKYK: Using language models to decode extremist cryptolects",
+     authors: "Christine de Kock, Arij Riabi, <b>Zeerak Talat</b>, Michael Sejr Schlichtkrull, Pranava Madhyastha, Ed Hovy",
+     shortvenue: "EACL",
+     publication: "The Proceedings of the 20th Conference of the European Chapter of the Association of Computational Linguistics",
+     publisher: "Association of Computational Linguistics",
+     type: "Conference Paper",
+     date: "2026",
+     preprint: "https://arxiv.org/abs/2506.05635",
+     doi: false,
+     bibtex: false,
+  }
   - {name: "Ethics and Bias in Natural Language Processing",
      authors: "<b>Zeerak Talat</b> and Su Lin Blodgett",
      type: "Book Chapter",
      date: "2025",
-     doi: "10.1016/B978-0-323-95504-1.01226-6",
+     doi: "https://doi.org/10.1016/B978-0-323-95504-1.01226-6",
      shortvenue: "Reference Collection in Social Sciences",
      publication: "Reference Collection in Social Sciences",
      publisher: "Elsevier",
@@ -327,7 +329,7 @@ index:
      url: "https://aclanthology.org/2024.eacl-long.18/",
      preprint: "https://arxiv.org/abs/2402.02113",
      github: "https://github.com/fajri91/ZeroShotMultilingualSentiment",
-     doi: false,
+     doi: "10.18653/v1/2024.eacl-long.18",
      bibtex: "@inproceedings{koto-etal-2024-zero,\n    title = {Zero-shot Sentiment Analysis in Low-Resource Languages Using a Multilingual Sentiment Lexicon},\n    author = {Koto, Fajri  and\n      Beck, Tilman  and\n      Talat, Zeerak  and\n      Gurevych, Iryna  and\n      Baldwin, Timothy},\n    editor = {Graham, Yvette  and\n      Purver, Matthew},\n    booktitle = {Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)},\n    month = mar,\n    year = {2024},\n    address = {St. Julian{'}s, Malta},\n    publisher = {Association for Computational Linguistics},\n    url = {https://aclanthology.org/2024.eacl-long.18/},\n    pages = {298--320}\n}
 ",
   }
