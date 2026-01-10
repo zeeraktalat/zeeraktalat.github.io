@@ -76,7 +76,7 @@
         </ul>
     </div>
 
-    {% for year in (2016..2025) reversed %}
+    {% for year in (2016..2026) reversed %}
     {% assign pubs = site.data.publications.index | where: "date", year  %}
     {% if pubs.size > 0 %}
     <div class="year-block" data-year="{{ year }}">
