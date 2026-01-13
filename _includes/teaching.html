@@ -1,9 +1,9 @@
 <div class="row g-5 mb-5">
   <div>
-    {% assign types = "Course,Lecture,Teaching Assistant,Practicals" | split: "," %}
+    {% assign types = "Courses,Lecture,Teaching Assistant,Practicals" | split: "," %}
     {% for type in types  %}
       {% if type == "Course" %}
-        <center><h4 class="pub-type">Course</h4></center>
+        <center><h4 class="pub-type">Courses</h4></center>
       {% else %}
         <center><h4 class="pub-type">{{ type }}</h4></center>
       {% endif %}

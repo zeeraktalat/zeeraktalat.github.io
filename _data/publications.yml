@@ -14,6 +14,12 @@
 #    bibtex:
 # }
 forthcoming:
+  - {name: "A Capabilities Approach to Fairness and Inclusion in Language Technologies",
+     authors: "Hellina Hailu Nigatu, <b>Zeerak Talat</b>",
+     type: "Conference Paper",
+     date: "0",
+     preprint: "/papers/Capabilities_Approach",
+  }
   - {name: "Content Moderation",
      authors: "<b>Zeerak Talat</b>",
      editors: "Eds. Kathrin Maurer, Rikke Munck Petersen, Dominique Routhier, Kassandra Wellendorf, and Kristin Veel",
