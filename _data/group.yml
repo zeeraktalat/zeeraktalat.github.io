@@ -8,7 +8,9 @@ index:
     primary: 'Zeerak Talat',
     primary_url: false,
     secondary: false,
-    secondary_url: false
+    secondary_url: false,
+    thesis_url: false,
+    graduated: false
     }
   - {
     name: 'Vasilisa Rudykh',
@@ -19,7 +21,9 @@ index:
     primary: 'Zeerak Talat',
     primary_url: false,
     secondary: false,
-    secondary_url: false
+    secondary_url: false,
+    thesis_url: false,
+    graduated: false
     }
   - {
     name: 'Sam Green',
@@ -28,9 +32,11 @@ index:
     photo: false,
     topic: 'Education, Human-Machine interaction,',
     primary: 'Zeerak Talat',
-    primary_url: false
-    secondary: 'Susan Lechelt',
-    secondary_url: 'https://www.research.ed.ac.uk/en/persons/susan-lechelt'
+    primary_url: false,
+    secondary: false,
+    secondary_url: false,
+    thesis_url: false,
+    graduated: false
     }
   - {
     name: 'Mugdha Pandya',
@@ -41,5 +47,40 @@ index:
     primary: 'Björn Ross',
     primary_url: 'https://sweb.inf.ed.ac.uk/bross3/',
     secondary: 'yes',
-    secondary_url: false
-}
+    secondary_url: false,
+    thesis_url: false,
+    graduated: false
+   }
+  - {
+    name: 'Campbell Lund',
+    type: 'Masters',
+    web: false,
+    photo: false,
+    topic: 'Infrastructures of NLP',
+    primary: 'Zeerak Talat',
+    graduated: true,
+    thesis_url: false,
+    affiliation: 'Cohere'
+  }
+  - {
+    name: 'Edward Minnet',
+    type: 'Masters',
+    web: false,
+    photo: false,
+    topic: 'Trustworthiness, Alignment, Foundations',
+    primary: 'Zeerak Talat',
+    thesis_url: false,
+    graduated: true,
+    affiliation: false,
+  }
+  - {
+    name: 'Mamta Melwani',
+    type: 'Masters',
+    web: false,
+    photo: false,
+    topic: 'Content Moderation, Child Safety',
+    primary: 'Zeerak Talat',
+    thesis_url: false,
+    graduated: true,
+    affiliation: 'TikTok',
+  }
