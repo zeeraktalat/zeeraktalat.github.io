@@ -25,7 +25,7 @@ forthcoming:
      shortvenue: "",
      type: "Conference Paper",
      date: "0",
-     preprint: "Personal Attribute Leakage in Federated Speech Models",
+     preprint: "https://arxiv.org/abs/2510.13357",
      doi: false,
      bibtex: "@misc{alali2025personalattributeleakagefederated,\n      title={Personal Attribute Leakage in Federated Speech Models}, \n      author={Hamdan Al-Ali and Ali Reza Ghavamipour and Tommaso Caselli and Fatih Turkmen and Zeerak Talat and Hanan Aldarmaki},\n      year={2025},\n      eprint={2510.13357},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2510.13357}, \n}" ,
   }
@@ -46,6 +46,24 @@ forthcoming:
      preprint: "https://arxiv.org/abs/2602.16763",
      doi: false,
      bibtex: "@misc{akhtar2026aibenchmarksplateausystematic,\n      title={When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation}, \n      author={Mubashara Akhtar and Anka Reuel and Prajna Soni and Sanchit Ahuja and Pawan Sasanka Ammanamanchi and Ruchit Rawal and Vilém Zouhar and Srishti Yadav and Chenxi Whitehouse and Dayeon Ki and Jennifer Mickel and Leshem Choshen and Marek Šuppa and Jan Batzner and Jenny Chim and Jeba Sania and Yanan Long and Hossein A. Rahmani and Christina Knight and Yiyang Nan and Jyoutir Raj and Yu Fan and Shubham Singh and Subramanyam Sahoo and Eliya Habba and Usman Gohar and Siddhesh Pawar and Robert Scholz and Arjun Subramonian and Jingwei Ni and Mykel Kochenderfer and Sanmi Koyejo and Mrinmaya Sachan and Stella Biderman and Zeerak Talat and Avijit Ghosh and Irene Solaiman},\n      year={2026},\n      eprint={2602.16763},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2602.16763}, \n}",
+  }
+  - {name: "FedMental: Federated Learning For Mental Health Detection",
+     authors: "Nuredin Ali Abdelkadir, Anjali Ratnam, <b>Zeerak Talat</b>, Stevie Chancellor",
+     shortvenue: "",
+     type: "Conference Paper",
+     date: "0",
+     preprint: false,
+     doi: false,
+     bibtex: false,
+  }
+  - {name: "Who Gets Heard? Rethinking Fairness in AI for Music Systems",
+     authors: "Atharva Mehta, Shivam Chauhan, Megha Sharma, Gus Xia, Kaustuv Kanti Ganguli, Nishanth Chandran, <b>Zeerak Talat</b>, Monojit Choudhury",
+     shortvenue: "",
+     type: "Conference Paper",
+     date: "0",
+     preprint: "https://arxiv.org/abs/2511.05953",
+     doi: false,
+     bibtex: false,
   }
 
 index:
