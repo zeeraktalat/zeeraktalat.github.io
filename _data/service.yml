@@ -198,12 +198,12 @@ organisation:
   - {title: "Assessing Social Impact of General Purpose AI Systems",
      year: "2022",
      type: "Roundtable",
-     venue: "Independent",
-     collabs: "Irene Solaiman"
+     collabs: "Irene Solaiman",
+     webpage: "https://evalevalai.com"
      }
   - {title: "The Workshop on Online Abuse and Harms",
      abbrev: "WOAH",
-     year: "2017-2025",
+     year: "2017-2026",
      type: "Workshop",
      venue: "Co-located with ACL conferences",
      webpage: "https://www.workshopononlineabuse.com/",
@@ -265,7 +265,7 @@ elected:
      position: "Co-General Chair",
      type: "AC"
   }
-  - {venue: "Edinburgh University Information Services Group Ethics Board",
+  - {venue: "Edinburgh University IT and AI Ethics Board",
      year: "2025--",
      position: "Board member",
      type: "Board"
