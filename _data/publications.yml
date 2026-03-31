@@ -98,6 +98,17 @@ index:
      doi: false,
      bibtex: false,
   }
+  - {name: "Unrequited Emotions: Investigating the Gaps in Motivation and Practice in Speech Emotion Recognition Research",
+     authors: "Taryn Wong, <b>Zeerak Talat</b>, Hanan Aldarmaki, Anjalie Field",
+     shortvenue: "CAS",
+     publication: "Proceedings of the First Workshop on Computational Affective Science",
+     publisher: "Association of Computational Linguistics",
+     type: "Workshop Paper",
+     date: "2026",
+     preprint: false,
+     doi: false,
+     bibtex: false,
+  }
   - {name: "IYKYK: Using language models to decode extremist cryptolects",
      authors: "Christine de Kock, Arij Riabi, <b>Zeerak Talat</b>, Michael Sejr Schlichtkrull, Pranava Madhyastha, Ed Hovy",
      shortvenue: "EACL",
@@ -107,7 +118,7 @@ index:
      date: "2026",
      preprint: "https://arxiv.org/abs/2506.05635",
      doi: "https://doi.org/10.18653/v1/2026.eacl-long.393",
-     bibtex: "@inproceedings{de-kock-etal-2026-iykyk,\n    title = '{IYKYK}: Using language models to decode extremist cryptolects',\n    author = 'de Kock, Christine  and\n      Riabi, Arij  and\n      Talat, Zeerak  and\n      Schlichtkrull, Michael Sejr  and\n      Madhyastha, Pranava  and\n      Hovy, Eduard',\n    editor = 'Demberg, Vera  and\n      Inui, Kentaro  and\n      Marquez, Llu{\'i}s',\n    booktitle = 'Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)',\n    month = mar,\n    year = '2026',\n    address = 'Rabat, Morocco',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2026.eacl-long.393/',\n    doi = '10.18653/v1/2026.eacl-long.393',\n    pages = '8393--8409',\n    ISBN = '979-8-89176-380-7',\n    abstract = 'Extremist groups develop complex in-group language, also referred to as cryptolects, to exclude or mislead outsiders. We investigate the ability of current language technologies to detect and interpret the cryptolects of two online extremist platforms. Evaluating eight models across six tasks, our results indicate that general purpose LLMs cannot consistently detect or decode extremist language. However, performance can be significantly improved by domain adaptation and specialised prompting techniques. These results provide important insights to inform the development and deployment of automated moderation technologies. We further develop and release novel labelled and unlabelled datasets, including 19.4M posts from extremist platforms and lexicons validated by human experts.'\n}",
+     bibtex: "@inproceedings{de-kock-etal-2026-iykyk,\n    title = '{IYKYK}: Using language models to decode extremist cryptolects',\n    author = 'de Kock, Christine  and\n      Riabi, Arij  and\n      Talat, Zeerak  and\n      Schlichtkrull, Michael Sejr  and\n      Madhyastha, Pranava  and\n      Hovy, Eduard',\n    editor = 'Demberg, Vera  and\n      Inui, Kentaro  and\n      Marquez, Lluís',\n    booktitle = 'Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)',\n    month = mar,\n    year = '2026',\n    address = 'Rabat, Morocco',\n    publisher = 'Association for Computational Linguistics',\n    url = 'https://aclanthology.org/2026.eacl-long.393/',\n    doi = '10.18653/v1/2026.eacl-long.393',\n    pages = '8393--8409',\n    ISBN = '979-8-89176-380-7',\n    abstract = 'Extremist groups develop complex in-group language, also referred to as cryptolects, to exclude or mislead outsiders. We investigate the ability of current language technologies to detect and interpret the cryptolects of two online extremist platforms. Evaluating eight models across six tasks, our results indicate that general purpose LLMs cannot consistently detect or decode extremist language. However, performance can be significantly improved by domain adaptation and specialised prompting techniques. These results provide important insights to inform the development and deployment of automated moderation technologies. We further develop and release novel labelled and unlabelled datasets, including 19.4M posts from extremist platforms and lexicons validated by human experts.'\n}",
   }
   - {name: "Ethics and Bias in Natural Language Processing",
      authors: "<b>Zeerak Talat</b> and Su Lin Blodgett",
