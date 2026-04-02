@@ -105,7 +105,7 @@ index:
      publisher: "Association of Computational Linguistics",
      type: "Workshop Paper",
      date: "2026",
-     preprint: false,
+     preprint: "/papers/Emotions_in_Speech.pdf",
      doi: false,
      bibtex: false,
   }
@@ -151,7 +151,7 @@ index:
      type: "Conference Paper",
      date: "2025",
      preprint: "https://arxiv.org/abs/2510.17006",
-     doi: false,
+     doi: "10.18653/v1/2025.ijcnlp-long.140",
      bibtex: "@misc{kaneko2025onlinelearningdefenseiterative,\n      title={Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization},\n      author={Masahiro Kaneko and Zeerak Talat and Timothy Baldwin},\n      year={2025},\n      eprint={2510.17006},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2510.17006},\n}",
   }
   - {name: "Proceedings of the 9th Workshop on Online Abuse and Harms (WOAH 2024)",
