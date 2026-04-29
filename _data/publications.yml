@@ -65,9 +65,9 @@ index:
      publisher: "Association of Computational Linguistics",
      type: "Conference Paper",
      date: "2026",
-     preprint: false,
+     preprint: "/papers/fedment.pdf",
      doi: false,
-     bibtex: false,
+     bibtex: "@inproceedings{abdelkadir-etal-2026-fedmental,\n    title = {FedMental: Federated Learning For Mental Health Detection},\n    author = {Abdelkadir, Nuredin Ali and\n      Ratnam, Anjali and\n      Talat, Zeerak  and\n      Chancellor, Stevie},\n    booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},\n    month = jul,\n    year = {2026},\n    address = {San Diego, United States of America},\n    publisher = {Association for Computational Linguistics}}",
   }
   - {name: "Content Moderation",
      authors: "<b>Zeerak Talat</b>",
@@ -87,9 +87,9 @@ index:
      publication: "Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency",
      type: "Conference Paper",
      date: "2026",
-     preprint: false,
+     preprint: "/papers/Corporate_capture.pdf",
      doi: false,
-     bibtex: false,
+     bibtex: "@inproceedings{Birhane2023,\n	address = {Montreal, Quebec, Canada},\n	title = {Big AI’s Regulatory Capture: Mapping Industry Interference and Government Complicity},\n	copyright = {All rights reserved},\n	shorttitle = {Big AI's Regulatory Capture},\n	language = {en},\n	booktitle = {2026 {ACM} {Conference} on {Fairness}, {Accountability}, and {Transparency}},\n	publisher = {ACM},\n	author = {Birhane, Abeba and Angius, Riccardo and Agnew, William and Pandit, Harshvardhan J. and Mitra, Bhaskar and Dobbe, Roel and Talat, Zeerak},\n	month = jun,\n	year = {2026},\n}
   }
   - {name: "Code-Switching in End-to-End Automatic Speech Recognition: A Systematic Literature Review",
      authors: "Maha Tufail Agro, Atharva Kulkarni, Karima Kadaoui, <b>Zeerak Talat</b>, Hanan Aldarmaki",
