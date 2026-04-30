@@ -91,7 +91,7 @@ index:
      date: "2026",
      preprint: "/papers/Corporate_capture.pdf",
      doi: false,
-     bibtex: "@inproceedings{Birhane2023,\n	address = {Montreal, Quebec, Canada},\n	title = {Big AI’s Regulatory Capture: Mapping Industry Interference and Government Complicity},\n	copyright = {All rights reserved},\n	shorttitle = {Big AI's Regulatory Capture},\n	language = {en},\n	booktitle = {2026 {ACM} {Conference} on {Fairness}, {Accountability}, and {Transparency}},\n	publisher = {ACM},\n	author = {Birhane, Abeba and Angius, Riccardo and Agnew, William and Pandit, Harshvardhan J. and Mitra, Bhaskar and Dobbe, Roel and Talat, Zeerak},\n	month = jun,\n	year = {2026},\n}
+     bibtex: "@inproceedings{Birhane2023,\n	address = {Montreal, Quebec, Canada},\n	title = {Big AI’s Regulatory Capture: Mapping Industry Interference and Government Complicity},\n	copyright = {All rights reserved},\n	shorttitle = {Big AI's Regulatory Capture},\n	language = {en},\n	booktitle = {2026 {ACM} {Conference} on {Fairness}, {Accountability}, and {Transparency}},\n	publisher = {ACM},\n	author = {Birhane, Abeba and Angius, Riccardo and Agnew, William and Pandit, Harshvardhan J. and Mitra, Bhaskar and Dobbe, Roel and Talat, Zeerak},\n	month = jun,\n	year = {2026},\n}",
   }
   - {name: "Code-Switching in End-to-End Automatic Speech Recognition: A Systematic Literature Review",
      authors: "Maha Tufail Agro, Atharva Kulkarni, Karima Kadaoui, <b>Zeerak Talat</b>, Hanan Aldarmaki",
