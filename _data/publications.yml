@@ -40,6 +40,16 @@ forthcoming:
   }
 
 index:
+  - {name: "Incentives Of EdTech: A Systematic Review Of EduNLP Research",
+     authors: "Gabrielle Gaudeau, Aoife O'Driscoll, Jasper Degraeuwe, Andrew Caines, Donya Rooein, <b>Zeerak Talat</b>",
+     shortvenue: "BEA",
+     venue: "Workshop on Innovative Use of NLP for Building Educational Applications",
+     type: "Workshop Paper",
+     date: "2026",
+     preprint: "/papers/Incentives_of_EdTech.pdf",
+     doi: false,
+     bibtex: false,
+  }
   - {name: "Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations",
      authors: "Anka Reuel, Avijit Ghosh, Jenny Chim, Andrew Tran, Yanan Long, Jennifer Mickel, Usman Gohar, Srishti Yadav, Pawan Sasanka Ammanamanchi, Mowafak Allaham, Hossein A. Rahmani, Mubashara Akhtar, Felix Friedrich, Robert Scholz, Michael Alexander Riegler, Jan Batzner, Eliya Habba, Arushi Saxena, Anastassia Kornilova, Kevin Wei, Prajna Soni, Yohan Mathew, Kevin Klyman, Jeba Sania, Subramanyam Sahoo, Olivia Beyer Bruvik, Pouya Sadeghi, Sujata Goswami, Angelina Wang, Yacine Jernite, <b>Zeerak Talat</b>, Stella Biderman, Mykel Kochenderfer, Sanmi Koyejo, Irene Solaiman",
      shortvenue: "ICML",
