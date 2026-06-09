@@ -20,15 +20,6 @@ forthcoming:
      date: "0",
      preprint: "/papers/Capabilities_Approach",
   }
-  - {name: "Personal Attribute Leakage in Federated Speech Models",
-     authors: "Hamdan Al-Ali, Ali Reza Ghavamipour, Tommaso Caselli, Fatih Turkmen, <b>Zeerak Talat</b>, Hanan Aldarmaki",
-     shortvenue: "",
-     type: "Conference Paper",
-     date: "0",
-     preprint: "https://arxiv.org/abs/2510.13357",
-     doi: false,
-     bibtex: "@misc{alali2025personalattributeleakagefederated,\n      title={Personal Attribute Leakage in Federated Speech Models}, \n      author={Hamdan Al-Ali and Ali Reza Ghavamipour and Tommaso Caselli and Fatih Turkmen and Zeerak Talat and Hanan Aldarmaki},\n      year={2025},\n      eprint={2510.13357},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2510.13357}, \n}" ,
-  }
   - {name: "Who Gets Heard? Rethinking Fairness in AI for Music Systems",
      authors: "Atharva Mehta, Shivam Chauhan, Megha Sharma, Gus Xia, Kaustuv Kanti Ganguli, Nishanth Chandran, <b>Zeerak Talat</b>, Monojit Choudhury",
      shortvenue: "",
@@ -40,6 +31,24 @@ forthcoming:
   }
 
 index:
+  - {name: "Personal Attribute Leakage in Federated Speech Models",
+     authors: "Hamdan Al-Ali, Ali Reza Ghavamipour, Tommaso Caselli, Fatih Turkmen, <b>Zeerak Talat</b>, Hanan Aldarmaki",
+     shortvenue: "Interspeech",
+     type: "Conference Paper",
+     date: "2026",
+     preprint: "https://arxiv.org/abs/2510.13357",
+     doi: false,
+     bibtex: "@inproceedings{alali2025personalattributeleakagefederated,\n      title={Personal Attribute Leakage in Federated Speech Models}, \n      author={Hamdan Al-Ali and Ali Reza Ghavamipour and Tommaso Caselli and Fatih Turkmen and Zeerak Talat and Hanan Aldarmaki},\n      year={2026},\n      booktitle = {Interspeech 2026}, \n pages = {TBC}, \n doi = {TBC}, \n issn = {2958-1796} \n}",
+  }
+  - {name: "Aligning Stuttered-Speech Research with End-User Needs: Scoping Review, Survey, and Guidelines",
+     authors: "Hawau Olamide Toyin, Mutiah Apampa, Toluwani Aremu, Humaid Alblooshi, Ana Rita Valente, Gonçalo Leal, Zhengjun Yue, <b>Zeerak Talat</b>, Hanan Aldarmaki",
+     shortvenue: "Interspeech",
+     type: "Conference Paper",
+     date: "2026",
+     preprint: "https://arxiv.org/abs/2604.20535",
+     doi: false,
+     bibtex: "@inproceedings{olamide26_interspeech,\n      title={Aligning Stuttered-Speech Research with End-User Needs: Scoping Review, Survey, and Guidelines}, \n      author={Aligning Stuttered-Speech Research with End-User Needs: Scoping Review, Survey, and Guidelines},\n      year={2026},\n      booktitle = {Interspeech 2026}, \n pages = {TBC}, \n doi = {TBC}, \n issn = {2958-1796} \n}",
+  }
   - {name: "Incentives Of EdTech: A Systematic Review Of EduNLP Research",
      authors: "Gabrielle Gaudeau, Aoife O'Driscoll, Jasper Degraeuwe, Andrew Caines, Donya Rooein, <b>Zeerak Talat</b>",
      shortvenue: "BEA",
