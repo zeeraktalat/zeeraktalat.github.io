@@ -18,7 +18,7 @@ forthcoming:
      authors: "Vasilisa Rudykh, Peter Bell, <b>Zeerak Talat</b>",
      type: "Conference Paper",
      date: "0",
-     preprint: "/papers/Speech_Pandaudikon.pdf",
+     preprint: "/papers/Speech_Panaudikon.pdf",
   }
   - {name: "A Capabilities Approach to Fairness and Inclusion in Language Technologies",
      authors: "Hellina Hailu Nigatu, <b>Zeerak Talat</b>",
