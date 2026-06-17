@@ -4,7 +4,7 @@ title: CL Special issue
 permalink: /special_issue
 ---
 
-# Call for Papers for Special Issue on Ethics in NLP in Computational Linguistics
+# Call for Papers for Special Issue on Ethics in NLP
 * TOC
 {:toc}
 

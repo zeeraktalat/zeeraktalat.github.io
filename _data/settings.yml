@@ -1,4 +1,5 @@
 menu:
+  - {name: 'CL Special Issue', url: 'special_issue'}
   - {name: 'Publications', url: '/publications'}
   - {name: 'Service', url: '/service'}
   - {name: 'Talks', url: '/talks'}
