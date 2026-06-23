@@ -1,5 +1,5 @@
 menu:
-  - {name: 'CL Special Issue', url: 'special_issue'}
+  - {name: 'CL Special Issue', url: 'https://www.aclweb.org/portal/content/special-issue-ethics-nlp-and-cl-computational-linguistics-journal'}
   - {name: 'Publications', url: '/publications'}
   - {name: 'Service', url: '/service'}
   - {name: 'Talks', url: '/talks'}
