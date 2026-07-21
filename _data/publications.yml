@@ -14,12 +14,6 @@
 #    bibtex:
 # }
 forthcoming:
-  - {name: "Speech in the Panaudikon: On the Relationship between Speech Processing Research and Surveillance",
-     authors: "Vasilisa Rudykh, Peter Bell, <b>Zeerak Talat</b>",
-     type: "Conference Paper",
-     date: "0",
-     preprint: "/papers/Speech_Panaudikon.pdf",
-  }
   - {name: "A Capabilities Approach to Fairness and Inclusion in Language Technologies",
      authors: "Hellina Hailu Nigatu, <b>Zeerak Talat</b>",
      type: "Conference Paper",
@@ -37,6 +31,14 @@ forthcoming:
   }
 
 index:
+  - {name: "Speech in the Panaudikon: On the Relationship between Speech Processing Research and Surveillance",
+     authors: "Vasilisa Rudykh, Peter Bell, <b>Zeerak Talat</b>",
+     type: "Conference Paper",
+     shortvenue: "AIES",
+     date: "2026",
+     preprint: "/papers/Speech_Panaudikon.pdf",
+     bibtex: "@inproceedings{rudykh2026speech,\n      title={Speech in the Panaudikon: On the Relationship Between Speech Processing Research and Surveillance}, \n      author={Vasilisa Rudykh, Peter Bell, Zeerak Talat},\n      year={2026},\n      booktitle = {AIES 2026}, \n pages = {TBC}, \n doi = {TBC}, \n}",
+  }
   - {name: "Personal Attribute Leakage in Federated Speech Models",
      authors: "Hamdan Al-Ali, Ali Reza Ghavamipour, Tommaso Caselli, Fatih Turkmen, <b>Zeerak Talat</b>, Hanan Aldarmaki",
      shortvenue: "Interspeech",
