@@ -115,7 +115,7 @@ index:
      date: "2026",
      preprint: "/papers/fedment.pdf",
      doi: false,
-     bibtex: "@inproceedings{abdelkadir-etal-2026-fedmental,\n    title = {FedMental: Federated Learning For Mental Health Detection},\n    author = {Abdelkadir, Nuredin Ali and\n      Ratnam, Anjali and\n      Talat, Zeerak  and\n      Chancellor, Stevie},\n    booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},\n    month = jul,\n    year = {2026},\n    address = {San Diego, United States of America},\n    publisher = {Association for Computational Linguistics}}",
+     bibtex: "@inproceedings{abdelkadir-etal-2026-fedmental,\n    title = {FedMental: Federated Learning For Mental Health Detection},\n    author = {Abdelkadir, Nuredin Ali and\n      Ratnam, Anjali and\n      Talat, Zeerak  and\n      Chancellor, Stevie},\n    booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},\n    month = jul,\n    year = {2026},\n    address = {San Diego, United States of America},\n    publisher = {Association for Computational Linguistics}\n}",
   }
   - {name: "Content Moderation",
      authors: "<b>Zeerak Talat</b>",
@@ -137,7 +137,7 @@ index:
      date: "2026",
      preprint: "/papers/Corporate_capture.pdf",
      doi: "https://doi.org/10.1145/3805689.3806740",
-     bibtex: "@inproceedings{Birhane_etal_Corporate_2026,\n	author = {Birhane, Abeba and Angius, Riccardo and Agnew, William and Pandit, Harshvardhan J and Mitra, Bhaskar and Dobbe, Roel and Talat, Zeerak}, \n	title = {Big AI's Regulatory Capture: Mapping Industry Interference and Government Complicity},\n	year = {2026},\n	isbn = {9798400725968},\n	publisher = {Association for Computing Machinery},\n	address = {New York, NY, USA},\n	url = {https://doi.org/10.1145/3805689.3806740},\n	doi = {10.1145/3805689.3806740},\n	booktitle = {Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency},\n	pages = {2586–2607},\n	numpages = {22},\n	location = {Montr{\\'e}al, Qu{\\'e}bec, Canada},\n	series = {FAccT '26}\n	}",
+     bibtex: "@inproceedings{Birhane_etal_Corporate_2026,\n	author = {Birhane, Abeba and Angius, Riccardo and Agnew, William and Pandit, Harshvardhan J and Mitra, Bhaskar and Dobbe, Roel and Talat, Zeerak}, \n	title = {Big AI's Regulatory Capture: Mapping Industry Interference and Government Complicity},\n	year = {2026},\n	isbn = {9798400725968},\n	publisher = {Association for Computing Machinery},\n	address = {New York, NY, USA},\n	url = {https://doi.org/10.1145/3805689.3806740},\n	doi = {10.1145/3805689.3806740},\n	booktitle = {Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency},\n	pages = {2586–2607},\n	numpages = {22},\n	location = {Montr{\\'e}al, Qu{\\'e}bec, Canada},\n	series = {FAccT '26}\n}",
   }
   - {name: "Code-Switching in End-to-End Automatic Speech Recognition: A Systematic Literature Review",
      authors: "Maha Tufail Agro, Atharva Kulkarni, Karima Kadaoui, <b>Zeerak Talat</b>, Hanan Aldarmaki",
