@@ -12,6 +12,7 @@
 #    preprint:
 #    doi:
 #    bibtex:
+#    awards:
 # }
 forthcoming:
   - {name: "A Capabilities Approach to Fairness and Inclusion in Language Technologies",
@@ -28,6 +29,24 @@ forthcoming:
      preprint: "https://arxiv.org/abs/2511.05953",
      doi: false,
      bibtex: false,
+  }
+  - {name: "Every Eval Ever: A Unifying Schema and Community Repository for AI Evaluation Results",
+     authors: "Jan Batzner, Sree Harsha Nelaturu, Damian Stachura, Anastassia Kornilova, Jon Crall, Tommaso Cerruti, Yanan Long, Yifan Mai, Sanchit Ahuja, Asaf Yehudai, Marek Šuppa, John P. Lalor, Oluwagbemike Olowe, Jatin Ganhotra, Brian H. Hu, Eliya Habba, Andrew M. Bean, Chang Liu, Sander Land, Steven Dillmann, Aniketh Garikaparthi, Elron Bandel, Saki Imai, James Edgell, Wm. Matthew Kennedy, Jenny Chim, Patrick Meusling, Asteria Kaeberlein, Venkata Ramachandra Karthik Chundi, Manasi Patwardhan, Martin Ku, Austin Meek, Leon Knauer, Brian Wingenroth, Srishti Yadav, Usman Gohar, Felix Friedrich, Michelle Lin, Jennifer Mickel, Arman Cohan, Stella Biderman, Irene Solaiman, <b>Zeerak Talat</b>, Anka Reuel, Mubashara Akhtar, Gjergji Kasneci, Avijit Ghosh, Leshem Choshen",
+     shortvenue: "",
+     type: "Conference Paper",
+     date: "0",
+     preprint: "https://arxiv.org/abs/2606.14516",
+     doi: false,
+     bibtex: "@misc{batzner2026evaleverunifyingschema,\n      title={Every Eval Ever: A Unifying Schema and Community Repository for AI Evaluation Results}, \n      author={Jan Batzner and Sree Harsha Nelaturu and Damian Stachura and Anastassia Kornilova and Jon Crall and Tommaso Cerruti and Yanan Long and Yifan Mai and Sanchit Ahuja and Asaf Yehudai and Marek Šuppa and John P. Lalor and Oluwagbemike Olowe and Jatin Ganhotra and Brian H. Hu and Eliya Habba and Andrew M. Bean and Chang Liu and Sander Land and Steven Dillmann and Aniketh Garikaparthi and Elron Bandel and Saki Imai and James Edgell and Wm. Matthew Kennedy and Jenny Chim and Patrick Meusling and Asteria Kaeberlein and Venkata Ramachandra Karthik Chundi and Manasi Patwardhan and Martin Ku and Austin Meek and Leon Knauer and Brian Wingenroth and Srishti Yadav and Usman Gohar and Felix Friedrich and Michelle Lin and Jennifer Mickel and Arman Cohan and Stella Biderman and Irene Solaiman and Zeerak Talat and Anka Reuel and Mubashara Akhtar and Gjergji Kasneci and Avijit Ghosh and Leshem Choshen},\n      year={2026},\n      eprint={2606.14516},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2606.14516},\n}",
+  }
+  - {name: "Evaluation Cards: An Interpretive Layer for AI Evaluation Reporting",
+     authors: "Avijit Ghosh, Anka Reuel, Jenny Chim, Wm. Matthew Kennedy, Srishti Yadav, Jennifer Mickel, Yanan Long, Andrew Tran, Anastassia Kornilova, Damian Stachura, Kevin Klyman, Felix Friedrich, Jeba Sania, Jan Batzner, Anoop Mishra, Eliya Habba, Yixiong Hao, Nathan Heath, Shalaleh Rismani, Usman Gohar, Andrea Loehr, David Manheim, Ruchira Dhar, Sree Harsha Nelaturu, Aarush Sinha, Leshem Choshen, Drishti Sharma, Ishan Khire, Amit Saha, Subramanyam Sahoo, Michael Hardy, Michael Alexander Riegler, Kabir Manghnani, Michelle Lin, Yanan Jiang, Yilin Huang, Asaf Yehudai, Jessica Ji, Aris Hofmann, Mubashara Akhtar, Max Lamparth, Nuno Moniz, Yacine Jernite, Stella Biderman, <b>Zeerak Talat</b>, Sanmi Koyejo, Mykel Kochenderfer, Irene Solaiman",
+     shortvenue: "",
+     type: "Conference Paper",
+     date: "0",
+     preprint: "https://arxiv.org/abs/2606.09809",
+     doi: false,
+     bibtex: "@misc{ghosh2026evaluationcardsinterpretivelayer,\n      title={Evaluation Cards: An Interpretive Layer for AI Evaluation Reporting}, \n      author={Avijit Ghosh and Anka Reuel and Jenny Chim and Wm. Matthew Kennedy and Srishti Yadav and Jennifer Mickel and Yanan Long and Andrew Tran and Anastassia Kornilova and Damian Stachura and Kevin Klyman and Felix Friedrich and Jeba Sania and Jan Batzner and Anoop Mishra and Eliya Habba and Yixiong Hao and Nathan Heath and Shalaleh Rismani and Usman Gohar and Andrea Loehr and David Manheim and Ruchira Dhar and Sree Harsha Nelaturu and Aarush Sinha and Leshem Choshen and Drishti Sharma and Ishan Khire and Amit Saha and Subramanyam Sahoo and Michael Hardy and Michael Alexander Riegler and Kabir Manghnani and Michelle Lin and Yanan Jiang and Yilin Huang and Asaf Yehudai and Jessica Ji and Aris Hofmann and Mubashara Akhtar and Max Lamparth and Nuno Moniz and Yacine Jernite and Stella Biderman and Zeerak Talat and Sanmi Koyejo and Mykel Kochenderfer and Irene Solaiman},\n      year={2026},\n      eprint={2606.09809},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2606.09809},\n}",
   }
 
 index:
@@ -509,7 +528,7 @@ index:
      bibtex: "@inproceedings{gala-etal-2023-federated,\n    title = {A Federated Approach for Hate Speech Detection},\n    author = {Gala, Jay  and\n      Gandhi, Deep  and\n      Mehta, Jash  and\n      Talat, Zeerak},\n    editor = {Vlachos, Andreas  and\n      Augenstein, Isabelle},\n    booktitle = {Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics},\n    month = may,\n    year = {2023},\n    address = {Dubrovnik, Croatia},\n    publisher = {Association for Computational Linguistics},\n    url = {https://aclanthology.org/2023.eacl-main.237/},\n    doi = {10.18653/v1/2023.eacl-main.237},\n    pages = {3248--3259}\n}
 ",
   }
-  - {name: "<b>[Best Paper Award]</b> Queer In AI: A Case Study in Community-Led Participatory AI",
+  - {name: "Queer In AI: A Case Study in Community-Led Participatory AI",
      authors: "Organisers of Queer in AI",
      publication: "FAccT '23: 2023 ACM Conference on Fairness, Accountability, and Transparency",
      publisher: "Association of Computing Machinery",
@@ -520,6 +539,8 @@ index:
      preprint: "https://arxiv.org/abs/2303.16972",
      bibtex: "@inproceedings{queerinaiQueerAICase2023,\n	address = {Chicago IL USA},\n	title = {Queer {In} {AI}: {A} {Case} {Study} in {Community}-{Led} {Participatory} {AI}},\n	copyright = {All rights reserved},\n	isbn = {979-8-4007-0192-4},\n	shorttitle = {Queer {In} {AI}},\n	url = {https://dl.acm.org/doi/10.1145/3593013.3594134},\n	doi = {10.1145/3593013.3594134},\n	language = {en},\n	urldate = {2023-07-03},\n	booktitle = {2023 {ACM} {Conference} on {Fairness}, {Accountability}, and {Transparency}},\n	publisher = {ACM},\n	author = {Queerinai, Organizers Of and Ovalle, Anaelia and Subramonian, Arjun and Singh, Ashwin and Voelcker, Claas and Sutherland, Danica J. and Locatelli, Davide and Breznik, Eva and Klubicka, Filip and Yuan, Hang and J, Hetvi and Zhang, Huan and Shriram, Jaidev and Lehman, Kruno and Soldaini, Luca and Sap, Maarten and Deisenroth, Marc Peter and Pacheco, Maria Leonor and Ryskina, Maria and Mundt, Martin and Agarwal, Milind and Mclean, Nyx and Xu, Pan and Pranav, A and Korpan, Raj and Ray, Ruchira and Mathew, Sarah and Arora, Sarthak and John, St and Anand, Tanvi and Agrawal, Vishakha and Agnew, William and Long, Yanan and Wang, Zijie J. and Talat, Zeerak and Ghosh, Avijit and Dennler, Nathaniel and Noseworthy, Michael and Jha, Sharvani and Baylor, Emi and Joshi, Aditya and Bilenko, Natalia Y. and Mcnamara, Andrew and Gontijo-Lopes, Raphael and Markham, Alex and Dong, Evyn and Kay, Jackie and Saraswat, Manu and Vytla, Nikhil and Stark, Luke},\n	month = jun,\n	year = {2023},\n	pages = {1882--1895},\n}
 ",
+     awards: "Best Paper",
+     awardcert: false,
   }
   - {name: "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
      authors: "Teven Le Scao, et al.",
@@ -853,7 +874,9 @@ index:
      type: "Workshop Paper",
      doi: "https://doi.org/10.18653/v1/N16-2013",
      url: "https://aclanthology.org/N16-2013",
-     bibtex: "@inproceedings{talat-hovy-2016-hateful,\n    title = {Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on {T}witter},\n    author = {Talat, Zeerak  and\n      Hovy, Dirk},\n    editor = {Andreas, Jacob  and\n      Choi, Eunsol  and\n      Lazaridou, Angeliki},\n    booktitle = {Proceedings of the {NAACL} Student Research Workshop},\n    month = jun,\n    year = {2016},\n    address = {San Diego, California},\n    publisher = {Association for Computational Linguistics},\n    url = {https://aclanthology.org/N16-2013/},\n    doi = {10.18653/v1/N16-2013},\n    pages = {88--93}\n}"
+     bibtex: "@inproceedings{talat-hovy-2016-hateful,\n    title = {Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on {T}witter},\n    author = {Talat, Zeerak  and\n      Hovy, Dirk},\n    editor = {Andreas, Jacob  and\n      Choi, Eunsol  and\n      Lazaridou, Angeliki},\n    booktitle = {Proceedings of the {NAACL} Student Research Workshop},\n    month = jun,\n    year = {2016},\n    address = {San Diego, California},\n    publisher = {Association for Computational Linguistics},\n    url = {https://aclanthology.org/N16-2013/},\n    doi = {10.18653/v1/N16-2013},\n    pages = {88--93}\n}",
+     awards: "ACL 2016 Test-of-Time Award",
+     awardcert: false,
   }
 
 ongoing:
