@@ -854,64 +854,8 @@ index:
      bibtex: "@inproceedings{talat-hovy-2016-hateful,\n    title = {Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on {T}witter},\n    author = {Talat, Zeerak  and\n      Hovy, Dirk},\n    editor = {Andreas, Jacob  and\n      Choi, Eunsol  and\n      Lazaridou, Angeliki},\n    booktitle = {Proceedings of the {NAACL} Student Research Workshop},\n    month = jun,\n    year = {2016},\n    address = {San Diego, California},\n    publisher = {Association for Computational Linguistics},\n    url = {https://aclanthology.org/N16-2013/},\n    doi = {10.18653/v1/N16-2013},\n    pages = {88--93}\n}"
   }
 
-ongoing:
-  - {name: "Multi-Modal Emotion Recognition and Humour Classification",
-    authors: "Anuj Sood, Giuseppe Attanasio, <b>Zeerak Talat</b>",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "Experimenting"}
   - {name: "Drs. Frankenstein and Our Monster: On the Harms of the Distributional Hypothesis",
     authors: "<b>Zeerak Talat</b>",
     publication: "Ongoing",
     type: "Conference",
     status: "Researching"}
-  - {name: "Agreeing to Disagree: On Paradoxical Annotation Agreements",
-    authors: "Gavin Abercrombie, <b>Zeerak Talat</b>, Reuben Binns",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "Researching"}
-  - {name: "AI and Democratic Publics",
-    authors: "Arjun Subramonian, Skyler Wang, <b>Zeerak Talat</b>",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "Researching"}
-  - {name: "Constructing the Panopticon: On the Social Web, Content Moderation, and Surveillance",
-    authors: "<b>Zeerak Talat</b>",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "Researching"}
-  - {name: "Invariably Invariant: On the assumption of Invariance in Fairness Literature",
-    authors: "Su Lin Blodgett, <b>Zeerak Talat</b>, Hal Daumé, Solon Borocas, Hanna Wallach",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "Researching"}
-  - {name: "Participatory Exclusion: On the State of Participation in NLP",
-    authors: "Michael Madaio, Su Lin Blodgett, <b>Zeerak Talat</b>, Christina Harrington, Solon Borocas",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "Researching"}
-  - {name: "Moral Values in Conversational Agents",
-    authors: "Amanda Cercas Curry, Federico Bianco, <b>Zeerak Talat</b>",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "Writing"}
-  - {name: "Subjectivity and Morality in NLP systems",
-    authors: "Amanda Cercas Curry, Federico Bianco, <b>Zeerak Talat</b>",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "Writing"}
-  - {name: "“Can we Write a Script for it?”: A Critical Position on Addressing AI-driven Community Harms",
-    authors: "Anaelia Ovalle, <b>Zeerak Talat</b>",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "On Hold"}
-  - {name: "Machine Learning and the Conservatism of Past Data",
-    authors: "<b>Zeerak Talat</b>, Anne Lauscher",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "On hold"}
-  - {name: "Collective Desire for Possibility: Desire Lines and Content Moderation AI",
-    authors: "Prem Sylvester, Gillian Russel, <b>Zeerak Talat</b>",
-    publication: "Ongoing",
-    type: "Conference",
-    status: "On hold"}
