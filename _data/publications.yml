@@ -83,8 +83,8 @@ index:
      type: "Workshop Paper",
      date: "2026",
      preprint: "/papers/Incentives_of_EdTech.pdf",
-     doi: false,
-     bibtex: false,
+     doi: "10.18653/v1/2026.bea-1.50",
+     bibtex: "@inproceedings{gaudeau_incentives_2026,\n	address = {San Diego, California, USA},\n	title = {Incentives {Of} {EdTech}: {A} {Systematic} {Review} {Of} {EduNLP} {Research}},\n	copyright = {All rights reserved},\n	shorttitle = {Incentives {Of} {EdTech}},\n	url = {https://aclanthology.org/2026.bea-1.50},\n	doi = {10.18653/v1/2026.bea-1.50},\n	language = {en},\n	urldate = {2026-08-27},\n	booktitle = {Proceedings of the 21st {Workshop} on {Innovative} {Use} of {NLP} for {Building} {Educational} {Applications} ({BEA} 2026)},\n	publisher = {Association for Computational Linguistics},\n	author = {Gaudeau, Gabrielle and O’Driscoll, Aoife and Degraeuwe, Jasper and Caines, Andrew and Rooein, Donya and Talat, Zeerak},\n	year = {2026},\n	pages = {715--750},\n}",
   }
   - {name: "Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations",
      authors: "Anka Reuel, Avijit Ghosh, Jenny Chim, Andrew Tran, Yanan Long, Jennifer Mickel, Usman Gohar, Srishti Yadav, Pawan Sasanka Ammanamanchi, Mowafak Allaham, Hossein A. Rahmani, Mubashara Akhtar, Felix Friedrich, Robert Scholz, Michael Alexander Riegler, Jan Batzner, Eliya Habba, Arushi Saxena, Anastassia Kornilova, Kevin Wei, Prajna Soni, Yohan Mathew, Kevin Klyman, Jeba Sania, Subramanyam Sahoo, Olivia Beyer Bruvik, Pouya Sadeghi, Sujata Goswami, Angelina Wang, Yacine Jernite, <b>Zeerak Talat</b>, Stella Biderman, Mykel Kochenderfer, Sanmi Koyejo, Irene Solaiman",
@@ -93,8 +93,7 @@ index:
      type: "Conference Paper",
      date: "2026",
      preprint: "https://arxiv.org/abs/2511.05613",
-     doi: false,
-     bibtex: false,
+     bibtex: "@inproceedings{reuel_who_2026,\n	title = {Who {Evaluates} {AI}'s {Social} {Impacts}? {Mapping} {Coverage} and {Gaps} in {First} and {Third} {Party} {Evaluations}},\n	url = {https://openreview.net/forum?id=dvAH9a1uqU},\n	booktitle = {Forty-third {International} {Conference} on {Machine} {Learning}},\n	author = {Reuel, Anka and Ghosh, Avijit and Chim, Jenny and Tran, Andrew and Long, Yanan and Mickel, Jennifer and Gohar, Usman and Yadav, Srishti and Ammanamanchi, Pawan Sasanka and Allaham, Mowafak and Rahmani, Hossein A. and Akhtar, Mubashara and Friedrich, Felix and Scholz, Robert and Riegler, Michael Alexander and Batzner, Jan and Habba, Eliya and Saxena, Arushi and Kornilova, Anastassia and Wei, Kevin and Soni, Prajna and Mathew, Yohan and Klyman, Kevin and Sania, Jeba and Sahoo, Subramanyam and Bruvik, Olivia Beyer and Sadeghi, Pouya and Goswami, Sujata and Wang, Angelina and Jernite, Yacine and Talat, Zeerak and Biderman, Stella and Kochenderfer, Mykel and Koyejo, Sanmi and Solaiman, Irene},\n	year = {2026},\n}",
   }
   - {name: "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
      authors: "Mubashara Akhtar, Anka Reuel, Prajna Soni, Sanchit Ahuja, Pawan Sasanka Ammanamanchi, Ruchit Rawal, Vilém Zouhar, Srishti Yadav, Chenxi Whitehouse, Dayeon Ki, Jennifer Mickel, Leshem Choshen, Marek Šuppa, Jan Batzner, Jenny Chim, Jeba Sania, Yanan Long, Hossein A Rahmani, Christina Knight, Yiyang Nan, Jyoutir Raj, Yu Fan, Shubham Singh, Subramanyam Sahoo, Eliya Habba, Usman Gohar, Siddhesh Pawar, Robert Scholz, Arjun Subramonian, Jingwei Ni, Mykel Kochenderfer, Sanmi Koyejo, Mrinmaya Sachan, Stella Biderman, <b>Zeerak Talat</b>, Avijit Ghosh, Irene Solaiman",
@@ -103,8 +102,7 @@ index:
      type: "Conference Paper",
      date: "2026",
      preprint: "https://arxiv.org/abs/2602.16763",
-     doi: false,
-     bibtex: false,
+     bibtex: "@inproceedings{akhtar_when_2026,\n	title = {When {AI} {Benchmarks} {Plateau}: {A} {Systematic} {Study} of {Benchmark} {Saturation}},\n	url = {https://openreview.net/forum?id=YC1Otscjbs},\n	booktitle = {Forty-third {International} {Conference} on {Machine} {Learning}},\n	author = {Akhtar, Mubashara and Reuel, Anka and Soni, Prajna and Ahuja, Sanchit and Ammanamanchi, Pawan Sasanka and Rawal, Ruchit and Zouhar, Vilém and Yadav, Srishti and Whitehouse, Chenxi and Ki, Dayeon and Mickel, Jennifer and Choshen, Leshem and Suppa, Marek and Batzner, Jan and Chim, Jenny and Sania, Jeba and Long, Yanan and Rahmani, Hossein A. and Knight, Christina Q. and Nan, Yiyang and Raj, Jyoutir and Fan, Yu and Singh, Shubham and Sahoo, Subramanyam and Habba, Eliya and Gohar, Usman and Pawar, Siddhesh Milind and Scholz, Robert and Subramonian, Arjun and Ni, Jingwei and Kochenderfer, Mykel and Koyejo, Sanmi and Sachan, Mrinmaya and Biderman, Stella and Talat, Zeerak and Ghosh, Avijit and Solaiman, Irene},\n	year = {2026},\n}",
   }
   - {name: "FedMental: Federated Learning For Mental Health Detection",
      authors: "Nuredin Ali Abdelkadir, Anjali Ratnam, <b>Zeerak Talat</b>, Stevie Chancellor",
@@ -114,8 +112,8 @@ index:
      type: "Conference Paper",
      date: "2026",
      preprint: "/papers/fedment.pdf",
-     doi: false,
-     bibtex: "@inproceedings{abdelkadir-etal-2026-fedmental,\n    title = {FedMental: Federated Learning For Mental Health Detection},\n    author = {Abdelkadir, Nuredin Ali and\n      Ratnam, Anjali and\n      Talat, Zeerak  and\n      Chancellor, Stevie},\n    booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},\n    month = jul,\n    year = {2026},\n    address = {San Diego, United States of America},\n    publisher = {Association for Computational Linguistics}\n}",
+     doi: "10.18653/v1/2026.acl-long.1899",
+     bibtex: "@inproceedings{abdelkadir_fedmental_2026,\n	address = {San Diego, California, United States},\n	title = {{FedMental}: {Evaluating} {Federated} {Learning} for {Mental} {Health} {Detection} from {Social} {Media} {Data}},\n	copyright = {All rights reserved},\n	shorttitle = {{FedMental}},\n	url = {https://aclanthology.org/2026.acl-long.1899},\n	doi = {10.18653/v1/2026.acl-long.1899},\n	language = {en},\n	urldate = {2026-08-27},\n	booktitle = {Proceedings of the 64th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics} ({Volume} 1: {Long} {Papers})},\n	publisher = {Association for Computational Linguistics},\n	author = {Abdelkadir, Nuredin Ali and Ratnam, Anjali and Talat, Zeerak and Chancellor, Stevie},\n	year = {2026},\n	pages = {40929--40944},\n}",
   }
   - {name: "Content Moderation",
      authors: "<b>Zeerak Talat</b>",
@@ -145,8 +143,8 @@ index:
      type: "Conference Paper",
      date: "2026",
      preprint: "https://arxiv.org/abs/2507.07741",
-     doi: false,
-     bibtex: false,
+     doi: "https://doi.org/10.63317/477upr9ikf9n",
+     bibtex: "@inproceedings{agro_code-switching_2026,\n	address = {Palma, Mallorca, Spain},\n	title = {Code-{Switching} in {End}-to-{End} {Automatic} {Speech} {Recognition}: {A} {Systematic} {Literature} {Review}},\n	copyright = {All rights reserved},\n	shorttitle = {Code-{Switching} in {End}-to-{End} {Automatic} {Speech} {Recognition}},\n	url = {https://lrec.elra.info/lrec2026-main-768},\n	doi = {10.63317/477upr9ikf9n},\n	urldate = {2026-08-27},\n	booktitle = {Proceedings of the {Fifteenth} {Language} {Resources} and {Evaluation} {Conference} ({LREC} 2026)},\n	author = {Agro, Maha Tufail and Kulkarni, Atharva A. and Kadaoui, Karima and Talat, Zeerak and Aldarmaki, Hanan},\n	month = may,\n	year = {2026},\n	pages = {9790--9812},\n}",
   }
   - {name: "Unrequited Emotions: Investigating the Gaps in Motivation and Practice in Speech Emotion Recognition Research",
      authors: "Taryn Wong, <b>Zeerak Talat</b>, Hanan Aldarmaki, Anjalie Field",
@@ -156,8 +154,8 @@ index:
      type: "Workshop Paper",
      date: "2026",
      preprint: "/papers/Emotions_in_Speech.pdf",
-     doi: false,
-     bibtex: false,
+     doi: "https://doi.org/10.63317/42e4sre4izeu",
+     bibtex: "@inproceedings{wong_unrequited_2026,\n	address = {Palma, Mallorca, Spain},\n	title = {Unrequited {Emotions}: {Investigating} the {Gaps} in {Motivation} and {Practice} in {Speech} {Emotion} {Recognition} {Research}},\n	shorttitle = {Unrequited {Emotions}},\n	url = {https://lrec.elra.info/lrec2026-ws-cas-06},\n	doi = {10.63317/42e4sre4izeu},\n	urldate = {2026-08-27},\n	booktitle = {Proceedings of {Computational} {Affective} {Science} ({CAS}) @ {LREC} 2026},\n	author = {Wong, Taryn and Talat, Zeerak and Aldarmaki, Hanan and Field, Anjalie},\n	month = may,\n	year = {2026},\n	pages = {57--73},\n}",
   }
   - {name: "IYKYK: Using language models to decode extremist cryptolects",
      authors: "Christine de Kock, Arij Riabi, <b>Zeerak Talat</b>, Michael Sejr Schlichtkrull, Pranava Madhyastha, Ed Hovy",
@@ -374,7 +372,7 @@ index:
      date: "2024",
      preprint: false,
      doi: "https://doi.org/10.3384/nejlt.2000-1533.2024.5217",
-     bibtex: "@article{mcmillan-majorDocumentingGeographicallyContextually2022,\n	title = {Documenting {Geographically} and {Contextually} {Diverse} {Data} {Sources}: {The} {BigScience} {Catalogue} of {Language} {Data} and {Resources}},\n	copyright = {All rights reserved},\n	shorttitle = {Documenting {Geographically} and {Contextually} {Diverse} {Data} {Sources}},\n	url = {http://arxiv.org/abs/2201.10066},\n	abstract = {In recent years, large-scale data collection efforts have prioritized the amount of data collected in order to improve the modeling capabilities of large language models. This prioritization, however, has resulted in concerns with respect to the rights of data subjects represented in data collections, particularly when considering the difficulty in interrogating these collections due to insufficient documentation and tools for analysis. Mindful of these pitfalls, we present our methodology for a documentation-first, human-centered data collection project as part of the BigScience initiative. We identified a geographically diverse set of target language groups (Arabic, Basque, Chinese, Catalan, English, French, Indic languages, Indonesian, Niger-Congo languages, Portuguese, Spanish, and Vietnamese, as well as programming languages) for which to collect metadata on potential data sources. To structure this effort, we developed our online catalogue as a supporting tool for gathering metadata through organized public hackathons. We present our development process; analyses of the resulting resource metadata, including distributions over languages, regions, and resource types; and our lessons learned in this endeavor.},\n	urldate = {2022-03-07},\n	journal = {arXiv:2201.10066 [cs]},\n	author = {McMillan-Major, Angelina and Alyafeai, Zaid and Biderman, Stella and Chen, Kimbo and De Toni, Francesco and Dupont, Gérard and Elsahar, Hady and Emezue, Chris and Aji, Alham Fikri and Ilić, Suzana and Khamis, Nurulaqilla and Leong, Colin and Masoud, Maraim and Soroa, Aitor and Suarez, Pedro Ortiz and Talat, Zeerak and van Strien, Daniel and Jernite, Yacine},\n	month = jan,\n	year = {2022},\n	note = {arXiv: 2201.10066},\n	annote = {Comment: 8 pages plus appendix and references},\n	file = {arXiv Fulltext PDF:/Users/zeeraktalat/Zotero/storage/DBPUWMKR/McMillan-Major et al. - 2022 - Documenting Geographically and Contextually Divers.pdf:application/pdf;arXiv.org Snapshot:/Users/zeeraktalat/Zotero/storage/SVLMNX4X/2201.html:text/html},\n}",
+     bibtex: "@article{mcmillan-majorDocumentingGeographicallyContextually2022,\n	title = {Documenting {Geographically} and {Contextually} {Diverse} {Data} {Sources}: {The} {BigScience} {Catalogue} of {Language} {Data} and {Resources}},\n	copyright = {All rights reserved},\n	shorttitle = {Documenting {Geographically} and {Contextually} {Diverse} {Data} {Sources}},\n	url = {http://arxiv.org/abs/2201.10066},\n	abstract = {In recent years, large-scale data collection efforts have prioritized the amount of data collected in order to improve the modeling capabilities of large language models. This prioritization, however, has resulted in concerns with respect to the rights of data subjects represented in data collections, particularly when considering the difficulty in interrogating these collections due to insufficient documentation and tools for analysis. Mindful of these pitfalls, we present our methodology for a documentation-first, human-centered data collection project as part of the BigScience initiative. We identified a geographically diverse set of target language groups (Arabic, Basque, Chinese, Catalan, English, French, Indic languages, Indonesian, Niger-Congo languages, Portuguese, Spanish, and Vietnamese, as well as programming languages) for which to collect metadata on potential data sources. To structure this effort, we developed our online catalogue as a supporting tool for gathering metadata through organized public hackathons. We present our development process; analyses of the resulting resource metadata, including distributions over languages, regions, and resource types; and our lessons learned in this endeavor.},\n	urldate = {2022-03-07},\n	journal = {arXiv:2201.10066 [cs]},\n	author = {McMillan-Major, Angelina and Alyafeai, Zaid and Biderman, Stella and Chen, Kimbo and De Toni, Francesco and Dupont, Gérard and Elsahar, Hady and Emezue, Chris and Aji, Alham Fikri and Ilić, Suzana and Khamis, Nurulaqilla and Leong, Colin and Masoud, Maraim and Soroa, Aitor and Suarez, Pedro Ortiz and Talat, Zeerak and van Strien, Daniel and Jernite, Yacine},\n	month = jan,\n	year = {2022},\n	note = {arXiv: 2201.10066},\n	annote = {Comment: 8 pages plus appendix and references},\n}",
   }
   - {name: "ARAOFFENSE: Detecting Offensive Speech Across Dialects in Arabic Media",
      authors: "Youssef Nafea, Shady Shehata, <b>Zeerak Talat</b>, Ahmed Aboeitta, Ahmed Sharshar, Preslav Nakov",
