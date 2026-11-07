@@ -1,10 +1,10 @@
 menu:
-  - {name: 'CL Special Issue', url: 'https://www.aclweb.org/portal/content/special-issue-ethics-nlp-and-cl-computational-linguistics-journal'}
   - {name: 'Publications', url: '/publications'}
   - {name: 'Service', url: '/service'}
   - {name: 'Talks', url: '/talks'}
   - {name: 'Teaching', url: '/teaching'}
   - {name: 'CV', url: '/cv'}
+  - {name: 'Contact', url: '/contact'}
 
 # people:
 # - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
@@ -25,11 +25,11 @@ social:
 - {icon: 'fa-brands fa-mastodon fa-3x', link: 'https://mastodon.social/@zeerak'}
 
 contacts:
-- {name: 'Dr. Zeerak Talat',
-  title: 'Independent Scholar',
-  department: 'Physics & Astronomy',
-  institution: 'Independent Scholar',
-  institution_address: '1 Main Street, Canada',
-  email: 'zeerak_talat@sfu.ca',
-  office: 'Informatics Forum 3.47A',
+- {name: 'Zeerak Talat',
+  title: "Chancellor's Fellow in Responsible Machine Learning and Artificial Intelligence",
+  department: 'Centre for Technomoral Futures & School of Informatics',
+  institution: 'University of Edinburgh',
+  institution_address: '10 Crichton Street, Edinburgh',
+  email: 'z[at]zeerak[dot]org',
+  office: 'Informatics Forum, 3.47A',
   image: 'assets/img/contact.jpg'}
