@@ -8,7 +8,6 @@ Hi! I'm Zee (They/them), or Zeerak Talat! I'm a Chancellor's Fellow (~Assistant 
 I work on the intersection between machine learning, science and technology studies, and media studies.
 My research centres decolonial and anti-capitalist critiques of ML and providing evidence that current ML methods (i.e., the mathematics of it all) are constructed in a way that naturally afford authoritarianism, colonialism, and forms of hegemony (i.e., white supremacy, patriarchy, ableism, and so on) and thinking about and developing ML methods that rethink the ways in which ML is applied to offer resistance to such notions.
 I did my undergrad in Computer Science and my master's in IT & Cognition at the University of Copenhagen, and my Ph.D. at the University of Sheffield, and have done two post-docs at the [Digital Democracies Institute](https://digitaldemocracies.org), and [Mohamed bin Zayed University of Artificial Intelligence](mbzuai.ac.ae).
-You can find me online on [BlueSky](https://bsky.app/profile/zeerak.bsky.social) and [Mastodon](https://mastodon.social/@zeerak).
-I'm always looking for interesting people to work with, so do get in touch.
+You can find me online on [BlueSky](https://bsky.app/profile/zeerak.bsky.social) and [Mastodon](https://mastodon.social/@zeerak). If you want to get in touch, please see my [contact](https://zeerak.org/contact) page.
 
 Google scholar hates name changes so looking for my publications page is not gonna be helpful. This is a large issue that particular affects trans scholars. You can [sign a petition here](https://scholar.hasfailed.us/). If you want to find citation counts and so on, you can find them on my [Semantic Scholar Page](https://www.semanticscholar.org/author/Zeerak-Talat/2138053020).
